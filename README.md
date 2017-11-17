@@ -32,7 +32,7 @@ In diesem Repo liegen Adressdaten österreichischer Behörden, staatsnaher Unter
 * Datenquellen:
 
  1. http://www.eps-ueberweisung.at
- 2.
+ 2. Adressdaten: Eigenrecherche
 
 ## Lizenz
 [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)
