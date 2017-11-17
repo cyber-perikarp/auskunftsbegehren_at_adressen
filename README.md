@@ -1,4 +1,4 @@
-# Auskunftsbegehren.at Adressdaten
+# auskunftsbegehren.at Adressdaten
 In diesem Repo liegen Adressdaten österreichischer Behörden, staatsnaher Unternehmen, öffentlich-rechtlichen Körperschaften, Banken, Versicherungen, etc. die als Datenquelle für auskunftsbegehren.at dienen. Pull requests sind willkommen :smile:
 
 ## Anmerkungen und Datenquellen
@@ -26,6 +26,13 @@ In diesem Repo liegen Adressdaten österreichischer Behörden, staatsnaher Unter
  2. https://de.wikipedia.org/wiki/Sozialversicherung_(Österreich)
  3. https://de.wikipedia.org/wiki/Krankenfürsorgeanstalt
  4. Adressdaten: Eigenrecherche
+
+### banken.csv
+* An EPS teilnehmende Banken
+* Datenquellen:
+
+ 1. http://www.eps-ueberweisung.at
+ 2.
 
 ## Lizenz
 [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)
