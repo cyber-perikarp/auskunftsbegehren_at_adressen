@@ -1,0 +1,1 @@
+In diesem Repo liegen Adressdaten österreichischer Behörden, staatsnaher Unternehmen, öffentlich-rechtlichen Körperschaften, Banken, Versicherungen, etc. die als Datenquelle für auskunftsbegehren.at dienen.
