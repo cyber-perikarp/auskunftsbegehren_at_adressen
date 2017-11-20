@@ -1,25 +1,25 @@
-"Firmenname ","Branche","Adresse","PLZ","Stadt","Land","E-Mail","Tel","Fax","E-Mail2","Tel2","Fax2"
-"Alevitische Glaubensgemeinschaft in Österreich",,"Schererstraße 4",1210,"Wien","Österreich","info@evang.at",,,,,
-"Altkatholische Kirche Österreich",,"Schottenring 17/1/3/12",1010,"Wien","Österreich","kirchenleitung@altkatholiken.at","+4313178394",,,,
-"Armenisch-apostolische Kirche in Österreich ",,"Kolonitzgasse 11",1030,"Wien","Österreich",,"+4317180965","+4318906886",,,
-"Evangelische Kirche A.B. und H.B.",,"Ungargasse 9/10",1030,"Wien","Österreich","info@evang.at ","+43171254610","+431712546150",,,
-"Evangelisch-methodistische Kirche in Österreich",,"Sechshauser Straße 56/1/9",1150,"Wien","Österreich","superintendent@emk.at","+4316045347",,,,
-"Freikirchen in Österreich",,"Krummgasse 7/4",1030,"Wien","Österreich","office@freikirchen.at","+4367761904715",,,,
-"Griechisch-orientalische Kirche",,"Fleischmarkt 13",1010,"Wien","Österreich","office@orthodoxe-kirche.at","+4315333889","+4315333889",,,
-"Islamische Glaubensgemeinschaft in Österreich",,"Bernardgasse 5",1070,"Wien","Österreich","office@derislam.at","+4315263122","+43152631224",,,
-"Israelitische Religionsgesellschaft",,"Seitenstettengasse 4",1010,"Wien","Österreich","office@ikg-wien.at","+431531040","+43153104108",,,
-"Jehovas Zeugen in Österreich",,"Kaiserstrasse 36/25",1070,"Wien","Österreich",,"+4318045345",,,,
-"Katholische Kirche",,"Rotenturmstraße 2",1010,"Wien","Österreich","sekretariat@bischofskonferenz.at","+431516110","+431516113436",,,
-"Kirche Jesu Christi der Heiligen der letzten Tage (Mormonen) in Österreich",,"Böcklinstraße 55",1020,"Wien","Österreich","info@hlt.at","+436641351715","+431890629315",,,
-"Koptisch-orthodoxe Kirche in Österreich",,"Quadenstrasse 4",1220,"Wien","Österreich","info@kopten.at","+4312827443","+4312827443",,,
-"Neuapostolische Kirche in Österreich",,"Mittersteig 10, Postfach 49",1050,"Wien","Österreich","info@nak.at","+4315860521","+431586052130",,,
-"Österreichische Buddhistische Religionsgesellschaft ",,"Fleischmarkt 16",1010,"Wien","Österreich","office@buddhismus-austria.at ","+4315123719","+431512371913",,,
-"Syrisch-orthodoxe Kirche in Österreich",,"Speisinger Straße 107",1130,"Wien","Österreich","aydin@suryoye.at","+4318040916",,,,
-"Alt-Alevitische Glaubensgemeinschaft in Österreich",,"Kennergasse 10/R1",1100,"Wien","Österreich",,,,,,
-"Bahá´í-Religionsgemeinschaft in Österreich ",,"Maroltingergasse 2",1140,"Wien","Österreich","ngr@at.bahai.org","+4314791153","+431479115319",,,
-"Die Christengemeinschaft-Bewegung für Religiöse Erneuerungen in Österreich ",,"Mariahilferstraße 49/2/30",1060,"Wien","Österreich","cg.wien@christengemeinschaft.at ","+4315871287",,,,
-"Hinduistische Religionsgesellschaft in Österreich ",,"Lammgasse 1",1080,"Wien","Österreich","info@hroe.at",,,,,
-"Islamisch-Schiitische Glaubensgemeinschaft in Österreich",,"Pezzlgasse 58",1170,"Wien","Österreich","office@schia.at","+43699111979350",,,,
-"Kirche der Siebenten-Tags-Adventisten in Österreich ",,"Prager Straße 287",1210,"Wien","Österreich",,"+4313199301","+4313199301199",,,
-"Pfingstkirche Gemeinde Gottes in Österreich",,"Maculangasse 9",1220,"Wien","Österreich","office@gemeindegottes.at",,,,,
-"Vereinigungskirche in Österreich",,"Seidengasse 28/4",1070,"Wien","Österreich","info@vereinigungskirche.at","+436645238794",,,,
+"Name","Branche","Adresse","PLZ","Stadt","Land","E-Mail","Tel","Fax"
+"Alevitische Glaubensgemeinschaft in Österreich","Religionsgemeinschaft","Schererstraße 4",1210,"Wien","Österreich","info@evang.at",,
+"Altkatholische Kirche Österreich","Religionsgemeinschaft","Schottenring 17/1/3/12",1010,"Wien","Österreich","kirchenleitung@altkatholiken.at","+4313178394",
+"Armenisch-apostolische Kirche in Österreich ","Religionsgemeinschaft","Kolonitzgasse 11",1030,"Wien","Österreich",,"+4317180965","+4318906886"
+"Evangelische Kirche A.B. und H.B.","Religionsgemeinschaft","Ungargasse 9/10",1030,"Wien","Österreich","info@evang.at ","+43171254610","+431712546150"
+"Evangelisch-methodistische Kirche in Österreich","Religionsgemeinschaft","Sechshauser Straße 56/1/9",1150,"Wien","Österreich","superintendent@emk.at","+4316045347",
+"Freikirchen in Österreich","Religionsgemeinschaft","Krummgasse 7/4",1030,"Wien","Österreich","office@freikirchen.at","+4367761904715",
+"Griechisch-orientalische Kirche","Religionsgemeinschaft","Fleischmarkt 13",1010,"Wien","Österreich","office@orthodoxe-kirche.at","+4315333889","+4315333889"
+"Islamische Glaubensgemeinschaft in Österreich","Religionsgemeinschaft","Bernardgasse 5",1070,"Wien","Österreich","office@derislam.at","+4315263122","+43152631224"
+"Israelitische Religionsgesellschaft","Religionsgemeinschaft","Seitenstettengasse 4",1010,"Wien","Österreich","office@ikg-wien.at","+431531040","+43153104108"
+"Jehovas Zeugen in Österreich","Religionsgemeinschaft","Kaiserstrasse 36/25",1070,"Wien","Österreich",,"+4318045345",
+"Katholische Kirche","Religionsgemeinschaft","Rotenturmstraße 2",1010,"Wien","Österreich","sekretariat@bischofskonferenz.at","+431516110","+431516113436"
+"Kirche Jesu Christi der Heiligen der letzten Tage (Mormonen) in Österreich","Religionsgemeinschaft","Böcklinstraße 55",1020,"Wien","Österreich","info@hlt.at","+436641351715","+431890629315"
+"Koptisch-orthodoxe Kirche in Österreich","Religionsgemeinschaft","Quadenstrasse 4",1220,"Wien","Österreich","info@kopten.at","+4312827443","+4312827443"
+"Neuapostolische Kirche in Österreich","Religionsgemeinschaft","Mittersteig 10, Postfach 49",1050,"Wien","Österreich","info@nak.at","+4315860521","+431586052130"
+"Österreichische Buddhistische Religionsgesellschaft ","Religionsgemeinschaft","Fleischmarkt 16",1010,"Wien","Österreich","office@buddhismus-austria.at ","+4315123719","+431512371913"
+"Syrisch-orthodoxe Kirche in Österreich","Religionsgemeinschaft","Speisinger Straße 107",1130,"Wien","Österreich","aydin@suryoye.at","+4318040916",
+"Alt-Alevitische Glaubensgemeinschaft in Österreich","Religionsgemeinschaft","Kennergasse 10/R1",1100,"Wien","Österreich",,,
+"Bahá´í-Religionsgemeinschaft in Österreich ","Religionsgemeinschaft","Maroltingergasse 2",1140,"Wien","Österreich","ngr@at.bahai.org","+4314791153","+431479115319"
+"Die Christengemeinschaft-Bewegung für Religiöse Erneuerungen in Österreich ","Religionsgemeinschaft","Mariahilferstraße 49/2/30",1060,"Wien","Österreich","cg.wien@christengemeinschaft.at ","+4315871287",
+"Hinduistische Religionsgesellschaft in Österreich ","Religionsgemeinschaft","Lammgasse 1",1080,"Wien","Österreich","info@hroe.at",,
+"Islamisch-Schiitische Glaubensgemeinschaft in Österreich","Religionsgemeinschaft","Pezzlgasse 58",1170,"Wien","Österreich","office@schia.at","+43699111979350",
+"Kirche der Siebenten-Tags-Adventisten in Österreich ","Religionsgemeinschaft","Prager Straße 287",1210,"Wien","Österreich",,"+4313199301","+4313199301199"
+"Pfingstkirche Gemeinde Gottes in Österreich","Religionsgemeinschaft","Maculangasse 9",1220,"Wien","Österreich","office@gemeindegottes.at",,
+"Vereinigungskirche in Österreich","Religionsgemeinschaft","Seidengasse 28/4",1070,"Wien","Österreich","info@vereinigungskirche.at","+436645238794",
