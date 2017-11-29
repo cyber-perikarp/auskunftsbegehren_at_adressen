@@ -142,7 +142,9 @@ for name in os.listdir(workDir):
                                 record["Fax"] = ""
                             
                             # Alle leerzeichen, bindestriche, klammern etc aus telefon und faxnummer entfernen
-
+                            record["Tel"] = sanitizePhoneNumber(record["Tel"])
+                            record["Fax"] = sanitizePhoneNumber(record["Fax"])
+                            
                             # Die ID ist das Sourcefile + die ID
                             record["Id"] = record["Id"] + os.path.splitext(csvFile)[0].split("/")[-1]
                             insertRecord(record, name)
