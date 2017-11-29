@@ -103,6 +103,14 @@ def insertRecord(record, table):
     else:
         logger.info(".. OK")
 
+def sanitizePhoneNumber(number):
+    number = number.replace(" ", "")
+    number = number.replace("-", "")
+    number = number.replace("/", "")
+    number = number.replace("(", "")
+    number = number.replace(")", "")
+    return number
+
 # Alle Unterordner die nicht mit . beginnen enthalten die csvs
 for name in os.listdir(workDir):
     if (os.path.isdir(name) and name[0] != "."):
@@ -133,6 +141,8 @@ for name in os.listdir(workDir):
                             elif not record["Fax"]:
                                 record["Fax"] = ""
                             
+                            # Alle leerzeichen, bindestriche, klammern etc aus telefon und faxnummer entfernen
+
                             # Die ID ist das Sourcefile + die ID
                             record["Id"] = record["Id"] + os.path.splitext(csvFile)[0].split("/")[-1]
                             insertRecord(record, name)
