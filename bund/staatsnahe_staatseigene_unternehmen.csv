@@ -1,22 +1,22 @@
 "Id","Name","Branche","Adresse","PLZ","Stadt","Land","E-Mail","Tel","Fax"
-1,"ASFINAG",,"Rotenturmstraße 5-9, Postfach 983",1011,,,"office@asfinag.at","+435010810000","+435010810020"
-2,"Bundes-Immobiliengesellschaft GmbH ",,"Trabrennstraße 2c",1020,,,"office@big.at","+43502440","+43502442211"
-3,"Österreichische Bundesforste AG",,"Pummergasse 10-12 ",3002,"Purkersdorf",,"bundesforste@bundesforste.at","+4322316000",
-4,"Österreichische Industrieholding AG",,"Himmelpfortgasse 13",1010,,,"kommunikation@oebib.gv.at","+431711140","+43171114245"
-5,"GIS Gebühren Info Service GmbH",,"Operngasse 20 B",1040,"Wien",,"kundenservice@gis.at","+4350200","+4350200300"
-6,"Arbeitsmarktservice",,"Treustraße 35-43",1200,"Wien",,"ams.oesterreich@ams.at","+431331780","+431331780121"
-7,"Nationalfonds der Republik Österreich für Opfer des Nationalsozialismus",,"Dr.-Karl-Renner-Ring 3",1017,,,"sekretariat@nationalfonds.org","+4314081263","+4314081263 500"
-8,"Bundesbeschaffung Gesmbh ",,"Lassallestraße 9b",1020,,,"office@bbg.gv.at","+431245700","+4312457099"
-9,"Bundesrechenzentrum GmbH",,"Hintere Zollamtsstraße 4",1030,"Wien",,"Kundenservice@brz.gv.at","+431711230",
-10,"Bundesstelle Sektenfrage",,"Wollzeile 12/2/19",1010,,,"bundesstelle@sektenfragen.at","+431 513 04 60","+431 513 04 6030"
-11,"Österreichische Nationalbibliothek",,"Josefsplatz 1, Postfach 25",1015,,,"onb@onb.ac.at ","+43 (1) 534 10","+43 (1) 534 10-280"
-13,"Volksoper Wien",,"Währinger Straße 78 ",1090,,,"office@volksoper.at","+43/1/514 44-0","+43 1/51444-3215"
-14,"Bundestheater",,"Goethegasse 1",1010,,,,"+4315 1444-1101",
-15,"Burgtheater",,"Universitätsring 2",1010,,,"info@burgtheater.at","+43 1 51444-4140",
-16,"Kunsthistorisches Museum",,"Burgring 5",1010,,,"info@khm.at","+43 1 525 24- 0","+43 1 525 24- 4099"
-17,"Naturhistorisches Museum Wien",,"Burgring 7",1010,,,"info@nhm-wien.ac.at","+ 43 1 52177-0","+ 43 1 52177-578"
-18,"Technisches Museum Wien",,"Mariahilfer Straße 212",1140,,,"museumsbox@tmw.at  ","+43 1-89998-0 ",
-19,"Agentur für Passagier- und Fahrgastrechte",,"Linke Wienzeile 4/1/6",1060,,,"office@schienencontrol.gv.at","+43 1 5050 707 ","+43 1 5050 707 180"
-20,"Austria Wirtschaftsservice Gesellschaft",,"Walcherstraße 11A",1020,,,"post@aws.at","+43 1 501 75 - 0","+43 1 501 75 - 900"
-21,"Allgemeiner Entschädigungsfonds für Opfer des Nationalsozialismus",,"Dr.-Karl-Renner-Ring 3",1017,,,"gsf-sekretariat@nationalfonds.org","+4314081263","‘+4314081263400"
-22,"Wiener Staatsoper GmbH",,"Opernring 2",1010,,,"information@wiener-staatsoper.at","(+43/1) 514 44/2250","(+43/1) 514 44/2259"
+1,"ASFINAG","Infrastruktur","Rotenturmstraße 5-9, Postfach 983",1011,"Wien","Österreich","office@asfinag.at","+435010810000","+435010810020"
+2,"Bundes-Immobiliengesellschaft GmbH ","Infrastruktur","Trabrennstraße 2c",1020,"Wien","Österreich","office@big.at","+43502440","+43502442211"
+3,"Österreichische Bundesforste AG","Infrastruktur","Pummergasse 10-12 ",3002,"Purkersdorf","Österreich","bundesforste@bundesforste.at","+4322316000",
+4,"Österreichische Industrieholding AG","Infrastruktur","Himmelpfortgasse 13",1010,"Wien","Österreich","kommunikation@oebib.gv.at","+431711140","+43171114245"
+5,"GIS Gebühren Info Service GmbH","Infrastruktur","Operngasse 20 B",1040,"Wien","Österreich","kundenservice@gis.at","+4350200","+4350200300"
+6,"Arbeitsmarktservice","Sozialleistungen","Treustraße 35-43",1200,"Wien","Österreich","ams.oesterreich@ams.at","+431331780","+431331780121"
+7,"Nationalfonds der Republik Österreich für Opfer des Nationalsozialismus","Sozialleistungen","Dr.-Karl-Renner-Ring 3",1017,"Wien","Österreich","sekretariat@nationalfonds.org","+4314081263","+4314081263 500"
+8,"Bundesbeschaffung Gesmbh ","Infrastruktur","Lassallestraße 9b",1020,"Wien","Österreich","office@bbg.gv.at","+431245700","+4312457099"
+9,"Bundesrechenzentrum GmbH","Infrastruktur","Hintere Zollamtsstraße 4",1030,"Wien","Österreich","Kundenservice@brz.gv.at","+431711230",
+10,"Bundesstelle Sektenfrage","Infrastruktur","Wollzeile 12/2/19",1010,"Wien","Österreich","bundesstelle@sektenfragen.at","+431 513 04 60","+431 513 04 6030"
+11,"Österreichische Nationalbibliothek","Kultur","Josefsplatz 1, Postfach 25",1015,"Wien","Österreich","onb@onb.ac.at ","+43 (1) 534 10","+43 (1) 534 10-280"
+13,"Volksoper Wien","Kultur","Währinger Straße 78 ",1090,"Wien","Österreich","office@volksoper.at","+43/1/514 44-0","+43 1/51444-3215"
+14,"Bundestheater","Kultur","Goethegasse 1",1010,"Wien","Österreich",,"+4315 1444-1101",
+15,"Burgtheater","Kultur","Universitätsring 2",1010,"Wien","Österreich","info@burgtheater.at","+43 1 51444-4140",
+16,"Kunsthistorisches Museum","Kultur","Burgring 5",1010,"Wien","Österreich","info@khm.at","+43 1 525 24- 0","+43 1 525 24- 4099"
+17,"Naturhistorisches Museum Wien","Kultur","Burgring 7",1010,"Wien","Österreich","info@nhm-wien.ac.at","+ 43 1 52177-0","+ 43 1 52177-578"
+18,"Technisches Museum Wien","Kultur","Mariahilfer Straße 212",1140,"Wien","Österreich","museumsbox@tmw.at  ","+43 1-89998-0 ",
+19,"Agentur für Passagier- und Fahrgastrechte","Sozialleistungen","Linke Wienzeile 4/1/6",1060,"Wien","Österreich","office@schienencontrol.gv.at","+43 1 5050 707 ","+43 1 5050 707 180"
+20,"Austria Wirtschaftsservice Gesellschaft","Wirtschaftsförderung","Walcherstraße 11A",1020,"Wien","Österreich","post@aws.at","+43 1 501 75 - 0","+43 1 501 75 - 900"
+21,"Allgemeiner Entschädigungsfonds für Opfer des Nationalsozialismus","Sozialleistungen","Dr.-Karl-Renner-Ring 3",1017,"Wien","Österreich","gsf-sekretariat@nationalfonds.org","+4314081263","‘+4314081263400"
+22,"Wiener Staatsoper GmbH","Kultur","Opernring 2",1010,"Wien","Österreich","information@wiener-staatsoper.at","(+43/1) 514 44/2250","(+43/1) 514 44/2259"
