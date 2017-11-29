@@ -86,16 +86,16 @@ def insertRecord(record, table):
             );
             """ % (
                 table,
-                record["Id"].strip(),
-                record["Name"].strip(),
-                record["Branche"].strip(),
-                record["Adresse"].strip(),
-                record["PLZ"].strip(),
-                record["Stadt"].strip(),
-                record["Land"].strip(),
-                record["E-Mail"].strip(),
-                record["Tel"].strip(),
-                record["Fax"].strip(),
+                sanitizeInput(record["Id"].strip()),
+                sanitizeInput(record["Name"].strip()),
+                sanitizeInput(record["Branche"].strip()),
+                sanitizeInput(record["Adresse"].strip()),
+                sanitizeInput(record["PLZ"].strip()),
+                sanitizeInput(record["Stadt"].strip()),
+                sanitizeInput(record["Land"].strip()),
+                sanitizeInput(record["E-Mail"].strip()),
+                sanitizeInput(record["Tel"].strip()),
+                sanitizeInput(record["Fax"].strip()),
             )
         cursor.execute(insertString)
     except Exception as e:
@@ -107,10 +107,14 @@ def sanitizePhoneNumber(number):
     number = number.replace(" ", "")
     number = number.replace("-", "")
     number = number.replace("/", "")
-    number = number.replace("(", "")
-    number = number.replace(")", "")
     number = number.replace("'", "") # Wegen LibreOffice
     return number
+
+def sanitizeInput(input):
+    input = input.replace("(", "")
+    input = input.replace(")", "")
+    input = input.replace("\"", "'")  # !@?!&$!
+    return input
 
 # Alle Unterordner die nicht mit . beginnen enthalten die csvs
 for name in os.listdir(workDir):
