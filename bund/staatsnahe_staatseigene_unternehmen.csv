@@ -1,13 +1,13 @@
 "Id","Name","Branche","Adresse","PLZ","Stadt","Land","E-Mail","Tel","Fax"
-1,"ASFINAG",,"Rotenturmstraße 5-9, Postfach 983",1011,,,,,
-2,"Bundes-Immobiliengesellschaft GmbH ",,,,,,,,
-3,"Österreichische Bundesforste",,,,,,,,
-4,"Österreichische Industrieholding AG",,,,,,,,
+1,"ASFINAG",,"Rotenturmstraße 5-9, Postfach 983",1011,,,"office@asfinag.at","+435010810000","+435010810020"
+2,"Bundes-Immobiliengesellschaft GmbH ",,"Trabrennstraße 2c",1020,,,"office@big.at","+43502440","+43502442211"
+3,"Österreichische Bundesforste AG",,"Pummergasse 10-12 ",3002,"Purkersdorf",,"bundesforste@bundesforste.at","+4322316000",
+4,"Österreichische Industrieholding AG",,"Himmelpfortgasse 13",1010,,,"kommunikation@oebib.gv.at","+431711140","+43171114245"
 5,"GIS Gebühren Info Service GmbH",,"Operngasse 20 B",1040,"Wien",,"kundenservice@gis.at","+4350200","+4350200300"
 6,"Arbeitsmarktservice",,"Treustraße 35-43",1200,"Wien",,"ams.oesterreich@ams.at","+431331780","+431331780121"
-7,"Allgemeiner Entschädigungsfonds für Opfer des Nationalsozialismus",,,,,,,,
-8,"Bundesbeschaffung Gesmbh ",,,,,,,,
-9,"Bundesrechenzentrum GmbH ",,,,,,,,
+7,"Nationalfonds der Republik Österreich für Opfer des Nationalsozialismus",,"Dr.-Karl-Renner-Ring 3",1017,,,"sekretariat@nationalfonds.org","+4314081263","‘+4314081263500"
+8,"Bundesbeschaffung Gesmbh ",,"Lassallestraße 9b",1020,,,"office@bbg.gv.at","+431245700","+4312457099"
+9,"Bundesrechenzentrum GmbH",,"Hintere Zollamtsstraße 4",1030,"Wien",,,,
 10,"Bundesstelle Sektenfrage",,,,,,,,
 11,"Österreichische Nationalbibliothek",,,,,,,,
 12,"Landesfonds für die Opfer des Krieges und Faschismus",,,,,,,,
@@ -18,5 +18,5 @@
 17,"Naturhistorisches Museum Wien",,,,,,,,
 18,"Technisches Museum Wien",,,,,,,,
 19,"Agentur für Passagier- und Fahrgastrechte",,,,,,,,
-20,"Austria Wirtschaftsservice Gesellschaft
-",,,,,,,,
+20,"Austria Wirtschaftsservice Gesellschaft",,,,,,,,
+21,"Allgemeiner Entschädigungsfonds für Opfer des Nationalsozialismus",,"Dr.-Karl-Renner-Ring 3",1017,,,"gsf-sekretariat@nationalfonds.org","+4314081263","‘+4314081263400"

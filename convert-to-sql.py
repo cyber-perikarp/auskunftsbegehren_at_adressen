@@ -58,7 +58,7 @@ def createOrUpdate(table):
         createOrUpdate(table)
 
 def insertRecord(record, table):
-    logger.info("Inserting Record: ".rstrip('\n') + record["E-Mail"])
+    logger.info("Inserting Record: ".rstrip('\n') + record["Name"])
     try:
         insertString = """
             INSERT INTO %s (
@@ -86,16 +86,16 @@ def insertRecord(record, table):
             );
             """ % (
                 table,
-                record["Id"],
-                record["Name"],
-                record["Branche"],
-                record["Adresse"],
-                record["PLZ"],
-                record["Stadt"],
-                record["Land"],
-                record["E-Mail"],
-                record["Tel"],
-                record["Fax"],
+                record["Id"].strip(),
+                record["Name"].strip(),
+                record["Branche"].strip(),
+                record["Adresse"].strip(),
+                record["PLZ"].strip(),
+                record["Stadt"].strip(),
+                record["Land"].strip(),
+                record["E-Mail"].strip(),
+                record["Tel"].strip(),
+                record["Fax"].strip(),
             )
         cursor.execute(insertString)
     except Exception as e:
