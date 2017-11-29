@@ -109,6 +109,7 @@ def sanitizePhoneNumber(number):
     number = number.replace("/", "")
     number = number.replace("(", "")
     number = number.replace(")", "")
+    number = number.replace("'", "") # Wegen LibreOffice
     return number
 
 # Alle Unterordner die nicht mit . beginnen enthalten die csvs
@@ -144,7 +145,7 @@ for name in os.listdir(workDir):
                             # Alle leerzeichen, bindestriche, klammern etc aus telefon und faxnummer entfernen
                             record["Tel"] = sanitizePhoneNumber(record["Tel"])
                             record["Fax"] = sanitizePhoneNumber(record["Fax"])
-                            
+
                             # Die ID ist das Sourcefile + die ID
                             record["Id"] = record["Id"] + os.path.splitext(csvFile)[0].split("/")[-1]
                             insertRecord(record, name)
