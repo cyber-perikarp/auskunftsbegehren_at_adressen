@@ -1,22 +1,22 @@
-"Name","Branche","Adresse","PLZ","Stadt","Land","E-Mail","Tel","Fax"
-"ASFINAG",,,,,,,,
-"Bundes-Immobiliengesellschaft GmbH ",,,,,,,,
-"Österreichische Bundesforste",,,,,,,,
-"Österreichische Industrieholding AG",,,,,,,,
-"GIS Gebühren Info Service GmbH",,"Operngasse 20 B",1040,"Wien",,"kundenservice@gis.at","+4350200","+4350200300"
-"Arbeitsmarktservice",,"Treustraße 35-43",1200,"Wien",,"ams.oesterreich@ams.at","+431331780","+431331780121"
-"Allgemeiner Entschädigungsfonds für Opfer des Nationalsozialismus",,,,,,,,
-"Bundesbeschaffung Gesmbh ",,,,,,,,
-"Bundesrechenzentrum GmbH ",,,,,,,,
-"Bundesstelle Sektenfrage",,,,,,,,
-"Österreichische Nationalbibliothek",,,,,,,,
-"Landesfonds für die Opfer des Krieges und Faschismus",,,,,,,,
-"Volksoper Wien",,,,,,,,
-"Bundestheater",,,,,,,,
-"Burgtheater",,,,,,,,
-"Kunsthistorisches Museum",,,,,,,,
-"Naturhistorisches Museum Wien",,,,,,,,
-"Technisches Museum Wien",,,,,,,,
-"Agentur für Passagier- und Fahrgastrechte",,,,,,,,
-"Austria Wirtschaftsservice Gesellschaft
+"Id","Name","Branche","Adresse","PLZ","Stadt","Land","E-Mail","Tel","Fax"
+1,"ASFINAG",,,,,,,,
+2,"Bundes-Immobiliengesellschaft GmbH ",,,,,,,,
+3,"Österreichische Bundesforste",,,,,,,,
+4,"Österreichische Industrieholding AG",,,,,,,,
+5,"GIS Gebühren Info Service GmbH",,"Operngasse 20 B",1040,"Wien",,"kundenservice@gis.at","+4350200","+4350200300"
+6,"Arbeitsmarktservice",,"Treustraße 35-43",1200,"Wien",,"ams.oesterreich@ams.at","+431331780","+431331780121"
+7,"Allgemeiner Entschädigungsfonds für Opfer des Nationalsozialismus",,,,,,,,
+8,"Bundesbeschaffung Gesmbh ",,,,,,,,
+9,"Bundesrechenzentrum GmbH ",,,,,,,,
+10,"Bundesstelle Sektenfrage",,,,,,,,
+11,"Österreichische Nationalbibliothek",,,,,,,,
+12,"Landesfonds für die Opfer des Krieges und Faschismus",,,,,,,,
+13,"Volksoper Wien",,,,,,,,
+14,"Bundestheater",,,,,,,,
+15,"Burgtheater",,,,,,,,
+16,"Kunsthistorisches Museum",,,,,,,,
+17,"Naturhistorisches Museum Wien",,,,,,,,
+18,"Technisches Museum Wien",,,,,,,,
+19,"Agentur für Passagier- und Fahrgastrechte",,,,,,,,
+20,"Austria Wirtschaftsservice Gesellschaft
 ",,,,,,,,
