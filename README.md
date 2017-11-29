@@ -1,6 +1,8 @@
 # auskunftsbegehren.at Adressdaten
 In diesem Repo liegen Adressdaten österreichischer Behörden, staatsnaher Unternehmen, öffentlich-rechtlichen Körperschaften, Banken, Versicherungen, etc. die als Datenquelle für auskunftsbegehren.at dienen. Pull requests sind willkommen :smile:
 
+:bangbang: *Die ID ist jedem Datensatz fix zugeordnet und nicht zwangsweise Forlaufend!*
+
 ## Anmerkungen und Datenquellen
 ### unis.csv
 * Österreichsiche Universitäten, Fachhochschulen und Pädagogische Hochschulen
