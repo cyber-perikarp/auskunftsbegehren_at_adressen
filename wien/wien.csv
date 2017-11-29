@@ -1,27 +1,34 @@
 "Id","Name","Branche","Adresse","PLZ","Stadt","Land","E-Mail","Tel","Fax"
-1,"""wieder wohnen"" - Betreute Unterkünfte für wohnungslose Menschen gemeinnützige GmbH",,,,,,,,
-2,"AWZ Soziales Wien GmbH",,,,,,,,
-3,"Fonds ""Soziales Wien""",,,,,,,,
-4,"FSW - Wiener Pflege- und Betreuungsdienste GmbH",,,,,,,,
-5,"Sucht- und Drogenkoordination Wien gemeinnützige GmbH",,,,,,,,
-6,"Suchthilfe Wien gemeinnützige GmbH",,,,,,,,
-7,"Vereinigte Bühnen Wien Ges.m.b.H.",,,,,,,,
-8,"Wiener Gesundheitsfonds",,,,,,,,
-9,"Wiener Gesundheitsförderung gemeinnützige GmbH",,,,,,,,
-10,"Wiener Krankenanstaltenverbund",,,,,,,,
-11,"Wirtschaftsagentur Wien",,,,,,,,
-12,"BESTATTUNG WIEN GmbH",,,,,,,,
-13,"FRIEDHÖFE WIEN GmbH",,,,,,,,
-14,"Stadt Wien - Wiener Wohnen",,,,,,,,
-15,"Stadt Wien - Wiener Wohnen Kundenservice GmbH",,,,,,,,
-16,"Unternehmung ""Wien Kanal""",,,,,,,,
-17,"W24 Programm GmbH",,,,,,,,
-18,"WIEN ENERGIE GmbH",,,,,,,,
-19,"Wien Holding GmbH",,,,,,,,
-20,"Wien House GmbH",,,,,,,,
-21,"Wien Kanal Beteiligungs GmbH",,,,,,,,
-22,"WIENER STADTWERKE Holding AG",,,,,,,,
-23,"Wiener Wohnen Haus- & Außenbetreuung GmbH",,,,,,,,
-24,"WienIT EDV Dienstleistungsgesellschaft mbH & Co KG",,,,,,,,
-25,"WIPARK Garagen GmbH",,,,,,,,
+1,"""wieder wohnen"" - Betreute Unterkünfte für wohnungslose Menschen gemeinnützige GmbH","Sozialleistungen","Guglgasse 7-9",1030,"Wien","Österreich","post@fsw.at ","+435 05 379","+435 05 379-999 "
+2,"AWZ Soziales Wien GmbH","Sozialleistungen","Guglgasse 7-8",1030,"Wien","Österreich","post@fsw.at ","+435 05 380","+435 05 379-999 "
+3,"Fonds ""Soziales Wien""","Sozialleistungen","Guglgasse 7-7",1030,"Wien","Österreich","post@fsw.at ","+435 05 381","+435 05 379-999 "
+4,"FSW - Wiener Pflege- und Betreuungsdienste GmbH","Sozialleistungen","Laudongasse 29-31",1080,"Wien","Österreich","kontinenz@fsw.at","+431-4000-66 503","+431-4000-66 509"
+5,"Sucht- und Drogenkoordination Wien gemeinnützige GmbH","Sozialleistungen","Modecenterstraße 14/A/2",1030,"Wien","Österreich","office@sd-wien.at","+43 1 4000-87375","+43 1 4000-87340"
+6,"Suchthilfe Wien gemeinnützige GmbH","Sozialleistungen","Gumpendorfer Gürtel 8",1080,"Wien","Österreich","office@suchthilfe.at","+431 4000-53600","+431 4000-53699"
+7,"Vereinigte Bühnen Wien Ges.m.b.H.","Kultur","Linke Wienzeile 6",1060,"Wien","Österreich","info@vbw.at","+43/1/588 30 - 1010","+43/1/588 30 - 991010"
+8,"Wiener Gesundheitsfonds","Gesundheit","Brigittenauer Lände 50-54",1200,"Wien","Österreich","wiener.gesundheitsfonds@wien.gv.at","+43 1 4000 84200","+43 1 4000 9984200"
+9,"Wiener Gesundheitsförderung gemeinnützige GmbH","Gesundheit","Treustraße 35 – 43",1200,"Wien","Österreich","office@wig.or.at","+4314000 - 7 6905","+43 4000-99-76905"
+10,"Wiener Krankenanstaltenverbund","Gesundheit","Thomas-Klestil-Platz 7/1",1030,"Wien","Österreich","post.internet@wienkav.at ","+43 1 40409 - 0 ","+43 1 40409 - 9970380"
+11,"Wirtschaftsagentur Wien","Wirtschaftsförderung","Mariahilfer Straße 20",1070,"Wien","Österreich","info@wirtschaftsagentur.at","+43 1 4000 86 70","+43 1 4000 86 720"
+12,"BESTATTUNG WIEN GmbH","Infrastruktur","Simmeringer Hauptstrasse 339",1110,"Wien","Österreich","office@bestattungwien.at","+431501 95 / 0","+4315019528509"
+13,"FRIEDHÖFE WIEN GmbH","Infrastruktur","Simmeringer Hauptstrasse 339",1110,"Wien","Österreich","post@friedhoefewien.at","+43 1 534 69-0",
+14,"Stadt Wien - Wiener Wohnen","Sozialleistungen","Rosa-Fischer-Gasse 2",1030,"Wien","Österreich","post@wrw.wien.gv.at","+435 75 75 75",
+16,"Unternehmung ""Wien Kanal""","Infrastruktur","Modecenterstraße 14, Block C",1030,"Wien","Österreich","post@wkn.wien.gv.at","+43 1 4000 8030",
+17,"W24 Programm GmbH","Infrastruktur","Missindorfstraße 21/7/3",1140,"Wien","Österreich","office@w24.at","+43 1-367 83 70 450",
+18,"WIEN ENERGIE GmbH","Infrastruktur","Thomas-Klestil-Platz 14",1030,"Wien","Österreich","office@wienenergie.at","+43 1 4004-0",
+19,"Wien Holding GmbH","Infrastruktur","Universitätsstraße 11",1010,"Wien","Österreich","office@wienholding.at","+43 1 408 25 69 - 0","+43 1 408 25 69 - 37"
+22,"WIENER STADTWERKE Holding AG","Infrastruktur","Thomas-Klestil-Platz 14",1030,"Wien","Österreich","contact@wienerstadtwerke.at ","+431 53 123-0",
+24,"WienIT EDV Dienstleistungsgesellschaft mbH & Co KG","Infrastruktur","Thomas-Klestil-Platz 6",1030,"Wien","Österreich","office@wienit.at ","+43 1 90405 0 ",
+25,"WIPARK Garagen GmbH","Infrastruktur","Thomas-Klestil-Platz 13",1030,"Wien","Österreich","office@wipark.at","+43 1 600 30 22","+43 1 600 30 22-48199"
 26,"Stadtschulrat für Wien","Aufsichtsbehörde","Wipplingerstraße 28",1010,"Wien","Österreich","office@ssr-wien.gv.at","+431525250","+431525259977999"
+27,"Landespolizeidirektion Wien","Polizei","Schottenring 7-9",1010,"Wien","Österreich","LPD-W@polizei.gv.at","+431 31310-0","+431 31310 72119"
+28,"Allgemeines Krankenhaus der Stadt Wien","Gesundheit","Währinger Gürtel 18-20",1090,"Wien","Österreich","postakhint@akhwien.at","+43 1 40400 - 0 ","+43 140409 - 12120"
+29,"Krankenanstalt Rudolfstiftung","Gesundheit","Juchgasse 25",1030,"Wien","Österreich","kar.post@wienkav.at","+43 1 711 65 - 0","+43 1 711 65 - 1009"
+30,"Krankenhaus Hietzing","Gesundheit","Wolkersbergenstraße 1",1130,"Wien","Österreich","khr@wienkav.at","+43 1 801 10 - 11","+43 1 801 10 - 210"
+31,"Orthopädisches Krankenhaus Gersthof","Gesundheit","Wielemansgasse 28",1180,"Wien","Österreich","ger@wienkav.at","+43 1 476 11 - 0","+43 1 476 11 - 1009"
+32,"Sozialmedizinisches Zentrum Baumgartner Höhe","Gesundheit","Baumgartner Höhe 1",1140,"Wien","Österreich","ows@wienkav.at","+43 1 910 60 - 0","+43 1 910 60 - 11309"
+33,"Sozialmedizinisches Zentrum Floridsdorf","Gesundheit","Hinaysgasse 1",1210,"Wien","Österreich","post.flo@wienkav.at","+43 1 275 22 - 0","+43 1 275 22 - 1009"
+34,"Sozialmedizinisches Zentrum Ost – Donauspital","Gesundheit","Langobardenstraße 122",1220,"Wien","Österreich","dsp.kzl@wienkav.at","+43 1 288 02 - 0","+43 1 288 02 - 2050"
+35,"Sozialmedizinisches Zentrum Süd","Gesundheit","Kundratstraße 3",1100,"Wien","Österreich","kfj.post@wienkav.at","+43 1 601 91 - 0","+43 1 601 91 - 1929"
+36,"Therapiezentrum Ybbs","Gesundheit","Persenbeugerstraße 1-3",3370,"Ybbs/Donau","Österreich","posttzy@wienkav.at","+43 7412 55 100 - 0","+43 7412 55 100 - 119"
+37,"Wilhelminenspital","Gesundheit","Montleartstraße 37",1160,"Wien","Österreich","wil@wienkav.at","+43 1 491 50 - 0","+43 1 491 50 - 1009"
