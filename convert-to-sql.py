@@ -38,8 +38,7 @@ def createOrUpdate(table):
     except:
         cursor.execute(
             """CREATE TABLE %s (
-                id INT(6) UNSIGNED NOT NULL,
-                sourcefile VARCHAR(64) NOT NULL,
+                id VARCHAR(64) NOT NULL UNIQUE,
                 name VARCHAR(128) NOT NULL,
                 branche VARCHAR(32) NOT NULL,
                 adresse VARCHAR(64) NOT NULL,
@@ -49,7 +48,7 @@ def createOrUpdate(table):
                 email VARCHAR(64),
                 tel VARCHAR(32),
                 fax VARCHAR(32),
-                CONSTRAINT PK_Record PRIMARY KEY (id,sourcefile)
+                PRIMARY KEY (id)
             ) CHARACTER SET utf8 COLLATE utf8_general_ci;"""
             % (table,))
         logger.debug("Created.")
@@ -64,7 +63,6 @@ def insertRecord(record, table):
         insertString = """
             INSERT INTO %s (
                 id,
-                sourcefile,
                 name,
                 branche,
                 adresse,
@@ -75,8 +73,7 @@ def insertRecord(record, table):
                 tel,
                 fax
             ) VALUES (
-                %s, /* Id */
-                "%s", /* Source File */
+                "%s", /* Id */
                 "%s", /* Name */
                 "%s", /* Branche */
                 "%s", /* Adresse */
@@ -90,7 +87,6 @@ def insertRecord(record, table):
             """ % (
                 table,
                 record["Id"],
-                record["SoureFile"],
                 record["Name"],
                 record["Branche"],
                 record["Adresse"],
@@ -137,8 +133,8 @@ for name in os.listdir(workDir):
                             elif not record["Fax"]:
                                 record["Fax"] = ""
                             
-                            # Setze das Sourcefile
-                            record["SoureFile"] = os.path.splitext(csvFile)[0].split("/")[-1]
+                            # Die ID ist das Sourcefile + die ID
+                            record["Id"] = record["Id"] + os.path.splitext(csvFile)[0].split("/")[-1]
                             insertRecord(record, name)
             else:
                 logger.warning("Not using File: " + csvFile)
