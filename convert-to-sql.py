@@ -125,51 +125,46 @@ def sanitizeInput(input):
     input = input.replace("\"", "'")  # !@?!&$!
     return input
 
+def checkIfFullRecord (record):
+    if (not record["Id"]
+        or not record["Branche"]
+        or not record["Typ"]
+        or not record["Adresse"]
+        or not record["PLZ"]
+        or not record["Stadt"]
+        or not record["Land"]):
+            logger.error("Not inserting: " + record["Name"])
+            return False
+    return True
+
+def populateGeneratedFields(record):
+    # Alle leerzeichen, bindestriche, klammern etc aus telefon und faxnummer entfernen
+    record["Tel"] = sanitizePhoneNumber(record["Tel"])
+    record["Fax"] = sanitizePhoneNumber(record["Fax"])
+    record["quelldatei"] = os.path.splitext(csvFile)[0].split("/")[-1]
+
+    return record
+
+
 # Alle Unterordner die nicht mit . beginnen enthalten die csvs
-for table in os.listdir(workDir):
-    if (os.path.isdir(table) and table[0] != "."):
-        logger.info("Creating Table %s: " % (table,))
-        createOrUpdate(table)
+for table in [x for x in os.listdir(workDir) if (os.path.isdir(x) and x[0] != ".")]:
+    logger.info("Creating Table %s: " % (table,))
+    createOrUpdate(table)
 
-        csvFiles = os.listdir(workDir + "/" + table)
-        # Hier werden schon die csvs geladen
-        for csvFile in csvFiles:
-            # Pfad zur csv
-            csvFile = workDir + "/" + table + "/" + csvFile
-            # Nur die csvs!
-            if (os.path.splitext(csvFile)[1] == ".csv"):
-                logger.info("Using File: " + csvFile)
-                # csv lesen und parsen
-                with open(csvFile, newline='') as csvFileReader:
-                    readFile = csv.DictReader(csvFileReader)
-                    for record in readFile:
-                        # Unvollständige Datensätze werden nicht eingefügt
-                        if (not record["Id"]
-                            or not record["Branche"]
-                            or not record["Typ"]
-                            or not record["Adresse"]
-                            or not record["PLZ"]
-                            or not record["Stadt"]
-                            or not record["Land"]):
-                                logger.error("Not inserting: " + record["Name"])
-                        else:
-                            # Email, Fax und Telefon sind keine Pflichtfelder
-                            if not record["E-Mail"]:
-                                record["E-Mail"] = ""
-                            elif not record["Tel"]:
-                                record["Tel"] = ""
-                            elif not record["Fax"]:
-                                record["Fax"] = ""
-                            
-                            # Alle leerzeichen, bindestriche, klammern etc aus telefon und faxnummer entfernen
-                            record["Tel"] = sanitizePhoneNumber(record["Tel"])
-                            record["Fax"] = sanitizePhoneNumber(record["Fax"])
+    # Hier werden schon die csvs geladen
+    for csvFile in [x for x in os.listdir(workDir + "/" + table) if os.path.splitext(x)[1] == ".csv"]:
+        # Pfad zur csv
+        csvFile = workDir + "/" + table + "/" + csvFile
+        logger.info("Using File: " + csvFile)
 
-                            # Die ID ist das Sourcefile + die ID
-                            record["quelldatei"] = os.path.splitext(csvFile)[0].split("/")[-1]
-                            insertRecord(record, table)
-            else:
-                logger.warning("Not using File: " + csvFile)
+        # csv lesen und parsen
+        with open(csvFile, newline='') as csvFileReader:
+            readFile = csv.DictReader(csvFileReader)
+            for record in readFile:
+                # Unvollständige Datensätze werden nicht eingefügt
+                if (checkIfFullRecord(record)):
+                    record = populateGeneratedFields(record)
+                    insertRecord(record, table)
 
 cursor.close()
 connection.close()
