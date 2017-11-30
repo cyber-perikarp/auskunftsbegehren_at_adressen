@@ -107,19 +107,19 @@ def insertRecord(record, table):
             );
             """ % (
                 table,
-                sanitizeInput(record["Id"].strip()), # Das heißt zwar ID, ist aber IDFile
-                sanitizeInput(record["quelldatei"].strip()),
-                sanitizeInput(record["Name"].strip()),
-                sanitizeInput(record["Branche"].strip()),
-                sanitizeInput(record["Typ"].strip()),
-                sanitizeInput(record["Adresse"].strip()),
-                sanitizeInput(record["PLZ"].strip()),
-                sanitizeInput(record["Stadt"].strip()),
-                sanitizeInput(record["Bundesland"].strip()),
-                sanitizeInput(record["Land"].strip()),
-                sanitizeInput(record["E-Mail"].strip()),
-                sanitizeInput(record["Tel"].strip()),
-                sanitizeInput(record["Fax"].strip()),
+                sanitizeInput(record["Id"]), # Das heißt zwar ID, ist aber IDFile
+                sanitizeInput(record["quelldatei"]),
+                sanitizeInput(record["Name"]),
+                sanitizeInput(record["Branche"]),
+                sanitizeInput(record["Typ"]),
+                sanitizeInput(record["Adresse"]),
+                sanitizeInput(record["PLZ"]),
+                sanitizeInput(record["Stadt"]),
+                sanitizeInput(record["Bundesland"]),
+                sanitizeInput(record["Land"]),
+                sanitizeInput(record["E-Mail"]),
+                sanitizeInput(record["Tel"]),
+                sanitizeInput(record["Fax"]),
             )
         logger.debug(insertString)
         result = cursor.execute(insertString)
@@ -140,7 +140,7 @@ def sanitizeInput(input):
     input = input.replace("(", "")
     input = input.replace(")", "")
     input = input.replace("\"", "'")  # !@?!&$!
-    return input
+    return input.strip()
 
 def checkIfFullRecord (record):
     if (not record["Id"]
