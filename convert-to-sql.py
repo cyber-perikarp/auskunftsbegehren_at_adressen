@@ -77,6 +77,7 @@ def insertRecord(record, table):
                 adresse,
                 plz,
                 stadt,
+                bundesland,
                 land,
                 email,
                 tel,
@@ -90,6 +91,7 @@ def insertRecord(record, table):
                 "%s", /* Adresse */
                 %s, /* PLZ */
                 "%s", /* Stadt */
+                "%s", /* Bundesland */
                 "%s", /* Land */
                 "%s", /* E-Mail */
                 "%s", /* Tel */
@@ -105,6 +107,7 @@ def insertRecord(record, table):
                 sanitizeInput(record["Adresse"].strip()),
                 sanitizeInput(record["PLZ"].strip()),
                 sanitizeInput(record["Stadt"].strip()),
+                sanitizeInput(record["Bundesland"].strip()),
                 sanitizeInput(record["Land"].strip()),
                 sanitizeInput(record["E-Mail"].strip()),
                 sanitizeInput(record["Tel"].strip()),
