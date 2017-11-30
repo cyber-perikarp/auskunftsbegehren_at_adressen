@@ -7,13 +7,8 @@ import argparse
 import logging
 import chromalog
 import csv
+import sys
 import MySQLdb as db
-
-chromalog.basicConfig(format="%(message)s", level=logging.DEBUG)
-logger = logging.getLogger()
-
-# In diesem Ordner sind wir
-workDir = os.getcwd()
 
 # CLI Parameter
 parser = argparse.ArgumentParser("convert-to-sql.py")
@@ -21,12 +16,24 @@ parser.add_argument("host", help="Datenbankserver")
 parser.add_argument("username", help="Datenbankbenutzer")
 parser.add_argument("password", help="Datenbankpasswort")
 parser.add_argument("database", help="Datenbank")
+parser.add_argument("--loglevel", help="DEBUG, INFO, ERROR, CRITICAL")
 
 args = vars(parser.parse_args())
 
+loglevel = getattr(sys.modules["logging"], args["loglevel"].upper() if args["loglevel"] else "INFO")
+
+chromalog.basicConfig(format="%(message)s", level=loglevel)
+logger = logging.getLogger()
+
+# In diesem Ordner sind wir
+workDir = os.getcwd()
+
 # Postleitzahlendatenbank einlesen
 plzDatei = open('plz_verzeichnis.csv', newline='')
-plz = csv.DictReader(plzDatei)
+plzDict = csv.DictReader(plzDatei)
+plz = {}
+for row in plzDict:
+    plz[row["PLZ"]] = (row["Ort"], row["Bundesland"])
 
 # Verbinde zum MySQL Server
 try:
@@ -51,6 +58,7 @@ def createOrUpdate(table):
                 adresse VARCHAR(64) NOT NULL,
                 plz INT(4) UNSIGNED NOT NULL,
                 stadt VARCHAR(64) NOT NULL,
+                bundesland VARCHAR(64) NOT NULL,
                 land VARCHAR(16) NOT NULL,
                 email VARCHAR(64),
                 tel VARCHAR(32),
@@ -58,10 +66,10 @@ def createOrUpdate(table):
                 CONSTRAINT PK_table PRIMARY KEY (id,idfile,quelldatei)
             ) CHARACTER SET utf8 COLLATE utf8_general_ci;"""
             % (table,))
-        logger.debug("Created.")
+        logger.info("Created.")
     else:
         cursor.execute("DROP TABLE %s;" % (table,))
-        logger.debug("Deleted.")
+        logger.info("Deleted.")
         createOrUpdate(table)
 
 def insertRecord(record, table):
@@ -113,6 +121,7 @@ def insertRecord(record, table):
                 sanitizeInput(record["Tel"].strip()),
                 sanitizeInput(record["Fax"].strip()),
             )
+        logger.debug(insertString)
         cursor.execute(insertString)
     except Exception as e:
         logger.critical(".. ERROR")
@@ -150,9 +159,8 @@ def populateGeneratedFields(record):
     record["quelldatei"] = os.path.splitext(csvFile)[0].split("/")[-1]
 
     # Postleitzahl und Bundesland aus Postleitzahlendatenbank
-    PLZEintrag = [x for x in plz if x["PLZ"] == record["PLZ"]][0]
-    record["Stadt"] = PLZEintrag["Ort"]
-    record["Bundesland"] = PLZEintrag["Bundesland"]
+    record["Stadt"] = plz[record["PLZ"]][0]
+    record["Bundesland"] = plz[record["PLZ"]][1]
 
     return record
 
