@@ -63,7 +63,7 @@ def createOrUpdate(table):
                 email VARCHAR(64),
                 tel VARCHAR(32),
                 fax VARCHAR(32),
-                CONSTRAINT PK_table PRIMARY KEY (id,idfile,quelldatei)
+                PRIMARY KEY (id)
             ) CHARACTER SET utf8 COLLATE utf8_general_ci;"""
             % (table,))
         logger.info("Created.")
