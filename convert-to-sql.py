@@ -24,6 +24,10 @@ parser.add_argument("database", help="Datenbank")
 
 args = vars(parser.parse_args())
 
+# Postleitzahlendatenbank einlesen
+plzDatei = open('plz_verzeichnis.csv', newline='')
+plz = csv.DictReader(plzDatei)
+
 # Verbinde zum MySQL Server
 try:
     connection = db.Connection(host=args["host"], port=3306, user=args["username"], passwd=args["password"], db=args["database"], charset='UTF8')
@@ -142,6 +146,11 @@ def populateGeneratedFields(record):
     record["Tel"] = sanitizePhoneNumber(record["Tel"])
     record["Fax"] = sanitizePhoneNumber(record["Fax"])
     record["quelldatei"] = os.path.splitext(csvFile)[0].split("/")[-1]
+
+    # Postleitzahl und Bundesland aus Postleitzahlendatenbank
+    PLZEintrag = [x for x in plz if x["PLZ"] == record["PLZ"]][0]
+    record["Stadt"] = PLZEintrag["Ort"]
+    record["Bundesland"] = PLZEintrag["Bundesland"]
 
     return record
 
