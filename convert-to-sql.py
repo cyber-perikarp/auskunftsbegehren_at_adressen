@@ -122,7 +122,8 @@ def insertRecord(record, table):
                 sanitizeInput(record["Fax"].strip()),
             )
         logger.debug(insertString)
-        cursor.execute(insertString)
+        result = cursor.execute(insertString)
+        logger.debug(result)
     except Exception as e:
         logger.critical(".. ERROR")
     else:
@@ -166,7 +167,7 @@ def populateGeneratedFields(record):
 
 
 # Alle Unterordner die nicht mit . beginnen enthalten die csvs
-for table in [x for x in os.listdir(workDir) if (os.path.isdir(x) and x[0] != ".")]:
+for table in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x[0] != ".")]:
     logger.info("Creating Table %s: " % (table,))
     createOrUpdate(table)
 
@@ -186,4 +187,5 @@ for table in [x for x in os.listdir(workDir) if (os.path.isdir(x) and x[0] != ".
                     insertRecord(record, table)
 
 cursor.close()
+connection.commit()
 connection.close()
