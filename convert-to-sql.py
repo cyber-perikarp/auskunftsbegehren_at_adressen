@@ -138,7 +138,6 @@ def checkIfFullRecord (record):
         or not record["Typ"]
         or not record["Adresse"]
         or not record["PLZ"]
-        or not record["Stadt"]
         or not record["Land"]):
             logger.error("Not inserting: " + record["Name"])
             return False
