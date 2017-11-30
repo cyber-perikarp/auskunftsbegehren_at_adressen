@@ -38,9 +38,12 @@ def createOrUpdate(table):
     except:
         cursor.execute(
             """CREATE TABLE %s (
-                id VARCHAR(64) NOT NULL UNIQUE,
+                id INT(5) NOT NULL UNIQUE AUTO_INCREMENT,
+                idfile INT(5) NOT NULL,
+                quelldatei VARCHAR(64) NOT NULL,
                 name VARCHAR(128) NOT NULL,
                 branche VARCHAR(32) NOT NULL,
+                typ VARCHAR(32) NOT NULL,
                 adresse VARCHAR(64) NOT NULL,
                 plz INT(4) UNSIGNED NOT NULL,
                 stadt VARCHAR(64) NOT NULL,
@@ -48,7 +51,7 @@ def createOrUpdate(table):
                 email VARCHAR(64),
                 tel VARCHAR(32),
                 fax VARCHAR(32),
-                PRIMARY KEY (id)
+                CONSTRAINT PK_table PRIMARY KEY (id,idfile,quelldatei)
             ) CHARACTER SET utf8 COLLATE utf8_general_ci;"""
             % (table,))
         logger.debug("Created.")
@@ -62,9 +65,11 @@ def insertRecord(record, table):
     try:
         insertString = """
             INSERT INTO %s (
-                id,
+                idfile,
+                quelldatei,
                 name,
                 branche,
+                typ,
                 adresse,
                 plz,
                 stadt,
@@ -73,9 +78,11 @@ def insertRecord(record, table):
                 tel,
                 fax
             ) VALUES (
-                "%s", /* Id */
+                "%s", /* Id aus der Datei */
+                "%s", /* Dateiname */
                 "%s", /* Name */
                 "%s", /* Branche */
+                "%s", /* Typ */
                 "%s", /* Adresse */
                 %s, /* PLZ */
                 "%s", /* Stadt */
@@ -86,9 +93,11 @@ def insertRecord(record, table):
             );
             """ % (
                 table,
-                sanitizeInput(record["Id"].strip()),
+                sanitizeInput(record["Id"].strip()), # Das heißt zwar ID, ist aber IDFile
+                sanitizeInput(record["quelldatei"].strip()),
                 sanitizeInput(record["Name"].strip()),
                 sanitizeInput(record["Branche"].strip()),
+                sanitizeInput(record["Typ"].strip()),
                 sanitizeInput(record["Adresse"].strip()),
                 sanitizeInput(record["PLZ"].strip()),
                 sanitizeInput(record["Stadt"].strip()),
@@ -117,16 +126,16 @@ def sanitizeInput(input):
     return input
 
 # Alle Unterordner die nicht mit . beginnen enthalten die csvs
-for name in os.listdir(workDir):
-    if (os.path.isdir(name) and name[0] != "."):
-        logger.info("Creating Table %s: " % (name,))
-        createOrUpdate(name)
+for table in os.listdir(workDir):
+    if (os.path.isdir(table) and table[0] != "."):
+        logger.info("Creating Table %s: " % (table,))
+        createOrUpdate(table)
 
-        csvFiles = os.listdir(workDir + "/" + name)
+        csvFiles = os.listdir(workDir + "/" + table)
         # Hier werden schon die csvs geladen
         for csvFile in csvFiles:
             # Pfad zur csv
-            csvFile = workDir + "/" + name + "/" + csvFile
+            csvFile = workDir + "/" + table + "/" + csvFile
             # Nur die csvs!
             if (os.path.splitext(csvFile)[1] == ".csv"):
                 logger.info("Using File: " + csvFile)
@@ -135,8 +144,14 @@ for name in os.listdir(workDir):
                     readFile = csv.DictReader(csvFileReader)
                     for record in readFile:
                         # Unvollständige Datensätze werden nicht eingefügt
-                        if not record["Id"] or not record["Branche"] or not record["Adresse"] or not record["PLZ"] or not record["Stadt"] or not record["Land"]:
-                            logger.error("Not inserting: " + record["Name"])
+                        if (not record["Id"]
+                            or not record["Branche"]
+                            or not record["Typ"]
+                            or not record["Adresse"]
+                            or not record["PLZ"]
+                            or not record["Stadt"]
+                            or not record["Land"]):
+                                logger.error("Not inserting: " + record["Name"])
                         else:
                             # Email, Fax und Telefon sind keine Pflichtfelder
                             if not record["E-Mail"]:
@@ -151,7 +166,10 @@ for name in os.listdir(workDir):
                             record["Fax"] = sanitizePhoneNumber(record["Fax"])
 
                             # Die ID ist das Sourcefile + die ID
-                            record["Id"] = record["Id"] + os.path.splitext(csvFile)[0].split("/")[-1]
-                            insertRecord(record, name)
+                            record["quelldatei"] = os.path.splitext(csvFile)[0].split("/")[-1]
+                            insertRecord(record, table)
             else:
                 logger.warning("Not using File: " + csvFile)
+
+cursor.close()
+connection.close()

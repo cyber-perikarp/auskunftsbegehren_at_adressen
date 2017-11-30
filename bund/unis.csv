@@ -1,74 +1,74 @@
-"Id","Name","Branche","Adresse","PLZ","Stadt","Land","E-Mail","Tel","Fax"
-1,"Ferdinand Porsche Fern-Fachhochschule","Fachhochschul-Einrichtung","Zulingergasse 4",2700,"Wiener Neustadt","Österreich","office@fernfh.ac.at","+43262232600",
-2,"FH Gesundheit Tirol","Fachhochschul-Einrichtung","Innrain 98",6020,"Innsbruck","Österreich","info@fhg-tirol.ac.at","+4351253220","+43512532275200"
-3,"FH Gesundheitsberufe Oberösterreich","Fachhochschul-Einrichtung","Semmelweisstraße 34/D3",4020,"Linz","Österreich","office@fhgooe.ac.at","+435034420000","+435034420099"
-4,"Lauder Business School","Fachhochschul-Einrichtung","Hofzeile 18-20",1190,"Wien","Österreich","office@lbs.ac.at","+434313691818","+434313691817"
-5,"Management Center Innsbruck","Fachhochschul-Einrichtung","Universitätsstraße 15",6020,"Innsbruck","Österreich","office@mci.edu","+4351220700","+4351220701099"
-6,"Theresianische Militärakademie","Fachhochschul-Einrichtung","Burgplatz 1",2700,"Wiener Neustadt","Österreich","karl.pichlkastner@bmlvs.gv.at","+430502012029100",
-7,"Campus02","Fachhochschule","Körblergasse 126",8010,"Graz","Österreich","info@campus02.at","+433166002177","+4331660021207"
-8,"Fachhochschule Burgenland","Fachhochschule","Campus 1",7000,"Eisenstadt","Österreich","office@fh-burgenland.at","+4357705",
-9,"Fachhochschule des bfi Wien","Fachhochschule","Wohlmutstraße 22",1020,"Wien","Österreich","info@fh-vie.ac.at","+4317201286","+431720128619"
-10,"Fachhochschule Kärnten","Fachhochschule","Villacher Straße 1",9800,"Spittal an der Drau","Österreich","info@fh-kaernten.at","+435905000","+435905009910"
-11,"Fachhochschule Salzburg","Fachhochschule","Urstein Süd 1",5412,"Puch bei Hallein","Österreich","medien@fh-salzburg.ac.at","+4305022110","+4305022111099"
-12,"Fachhochschule St. Pölten","Fachhochschule","Matthias Corvinus – Straße 15",3100,"St. Pölten","Österreich","csc@fhstp.ac.at","+432742313228333","+432742313228339"
-13,"Fachhochschule Technikum Wien","Fachhochschule","Mariahilfer Straße 37-39 ",1060,"Wien","Österreich","info@technikum-wien.at","+431588390","+4315883949"
-14,"Fachhochschule Vorarlberg","Fachhochschule","Hochschulstraße 1",6850,"Dornbirn","Österreich","info@fhv.at","+435572792","+4355727929500"
-15,"Fachhochschule Wiener Neustadt","Fachhochschule","Johannes Gutenberg-Straße 3",2700,"Wiener Neustadt","Österreich","office@fhwn.ac.at","+4302622890840","+43026228908499"
-16,"FH Campus Wien","Fachhochschule","Favoritenstraße 226",1100,"Wien","Österreich","office@fh-campuswien.ac.at","+43160668776600","+43160668776609"
-17,"FH Joanneum","Fachhochschule","Alte Poststraße 149",8020,"Graz","Österreich","info@fh-joanneum.at","+4331654530",
-18,"FH Kufstein","Fachhochschule","Andreas Hofer-Straße 7",6330,"Kufstein","Österreich","info@fh-kufstein.ac.at","+43537271819","+43537271819104"
-19,"FH Oberösterreich","Fachhochschule","Franz-Fritsch-Str. 11/Top 3",4600,"Wels","Österreich","info@fh-ooe.at","+435080410","+435080411900"
-20,"FHWien","Fachhochschule","Währinger Gürtel 97",1180,"Wien","Österreich","studienzentrum@fh-wien.ac.at ","+431476775744","+431476775745"
-21,"IMC Fachhochschule Krems","Fachhochschule","Piaristengasse 1",3500,"Krems","Österreich","office@fh-krems.ac.at","+432732802",
-22,"Hochschule für Agrar- und Umweltpädagogik","Pädagogische Hochschule","Angermayergasse 1",1030,"Wien","Österreich","info@agrarumweltpaedagogik.ac.at","+43187722660","+4318772361"
-23,"Jüdische Pädagogische Akademie","Pädagogische Hochschule","Rabbiner Schneerson Platz 1",1020,"Wien","Österreich",,"+4313341818",
-24,"Kirchliche Pädagogische Hochschule – Edith Stein","Pädagogische Hochschule","Riedgasse 11",6020,"Innsbruck","Österreich","info@kph-es.at",,
-25,"Kirchliche Pädagogische Hochschule Graz","Pädagogische Hochschule","Lange Gasse 2",8010,"Graz","Österreich","office@kphgraz.at","+433165816700","+4331658167011"
-26,"Kirchliche Pädagogische Hochschule Wien/Krems","Pädagogische Hochschule","Mayerweckstraße 1",1210,"Wien","Österreich",,"+431291080","+43129108402"
-27,"Pädagogische Hochschule Kärnten","Pädagogische Hochschule","Hubertusstraße 1",9020,"Klagenfurt","Österreich","office@ph-kaernten.ac.at","+43463508508",
-28,"Pädagogische Hochschule Niederösterreich","Pädagogische Hochschule","Mühlgasse 67",2500,"Baden","Österreich","office@ph-noe.ac.at","+43225288570108",
-29,"Pädagogische Hochschule Oberösterreich","Pädagogische Hochschule","Kaplanhofstraße 40",4020,"Linz","Österreich","ice@ph-ooe.at","+4373274700",
-30,"Pädagogische Hochschule Salzburg","Pädagogische Hochschule","Akademiestraße 23",5020,"Salzburg","Österreich","office@phsalzburg.at","+436626388",
-31,"Pädagogische Hochschule Steiermark","Pädagogische Hochschule","Hasnerplatz 12",8010,"Graz","Österreich","oeffentlichkeit@phst.at ","+4331680670","+4331680673199"
-32,"Pädagogische Hochschule Tirol","Pädagogische Hochschule","Pastorstraße 7",6010,"Innsbruck","Österreich","office@ph-tirol.ac.at","+4351259923","+43512599231099"
-33,"Pädagogische Hochschule Vorarlberg","Pädagogische Hochschule","Liechtensteinerstraße 33 - 37",6800,"Feldkirch","Österreich","office@ph-vorarlberg.ac.at","+43552231199500","+43552231199550"
-34,"Pädagogische Hochschule Wien","Pädagogische Hochschule","Grenzackerstraße 18",1100,"Wien","Österreich","office@phwien.ac.at","+43160118",
-35,"Private Pädagogische Hochschule Burgenland","Pädagogische Hochschule","Thomas Alva Edison-Straße 1",7000,"Eisenstadt","Österreich","office@ph-burgenland.at","+4359010300",
-36,"Private Pädagogische Hochschule der Diözese Linz","Pädagogische Hochschule","Salesianumweg 3",4020,"Linz","Österreich","office@ph-linz.at","+43732772666","+437327726661010"
-37,"Anton Bruckner Privatuniversität Linz","Privatuniversität","Hagenstraße 57",4040,"Linz","Österreich","information@bruckneruni.at","+43732701000","+43732701000299"
-38,"Danube Private University Krems","Privatuniversität","Steiner Landstraße 124",3500,"Krems","Österreich","info@DP-Uni.ac.at","+43676842419305","+432732704787060"
-39,"Karl Landsteiner Privatuniversität für Gesundheitswissenschaften","Privatuniversität","Dr.-Karl-Dorrek-Straße 30",3500,"Krems","Österreich","office@kl.ac.at","+432732720900","+43273272090500"
-40,"Katholisch-Theologische Privatuniversität Linz","Privatuniversität","Bethlehemstraße 20",4020,"Linz","Österreich","rektorat@ku-linz.at","+43732784293","+437327842934155"
-41,"Modul University Vienna","Privatuniversität","Am Kahlenberg 1",1190,"Wien","Österreich","office@modul.ac.at","+4313203555101","+4313203555901"
-42,"Musik und Kunst Privatuniversität der Stadt Wien","Privatuniversität","Johannesgasse 4a",1010,"Wien","Österreich","office@muk.ac.at","+4315127747","+43151277477913"
-43,"Paracelsus Medizinische Privatuniversität","Privatuniversität","Strubergasse 21",5020,"Salzburg","Österreich",,"+4366224200","+43662242080009"
-44,"Private Universität für Gesundheitswissenschaften, Medizinische Informatik und Technik","Privatuniversität","Eduard-Wallnöfer-Zentrum 1",6060,"Hall in Tirol","Österreich","rektorat@umit.at","+435086483000","+43508648673001"
-45,"Privatuniversität der Kreativwirtschaft","Privatuniversität","Mariazeller Straße 97a",3100,"St. Pölten","Österreich","office@ndu.ac.at","+4327428902411","+4327428902413"
-46,"Privatuniversität Schloss Seeburg","Privatuniversität","Seeburgstrasse 8",5201,"Seekirchen am Wallersee","Österreich","info@uni-seeburg.at","+43621226260","+436212262639"
-47,"Sigmund Freud PrivatUniversität Wien","Privatuniversität","Freudplatz 1",1020,"Wien","Österreich","rektorat@sfu.ac.at","+4317984098",
-48,"Webster University Vienna","Privatuniversität","Praterstrasse 23",1020,"Wien","Österreich","info@webster.ac.at","+43126992930",
-49,"Akademie der bildenden Künste Wien","Universität","Schillerplatz 3",1010,"Wien","Österreich",,"+431588161818","+431588161898"
-50,"Alpen-Adria Universität Klagenfurt","Universität","Universitätsstraße 65-67",9020,"Klagenfurt am Wörthersee","Österreich","uni@aau.at","+434632700",
-51,"Johannes Kepler Universität Linz","Universität","Altenberger Straße 69",4040,"Linz","Österreich","rektor@jku.at","+4373224680","+4373224688822"
-52,"Karl-Franzens-Universität Graz","Universität","Universitätsplatz 3",8010,"Graz","Österreich","info@uni-graz.at","+433163800","+433163809030"
-53,"Leopold-Franzens-Universität Innsbruck","Universität","Innrain 52",6020,"Innsbruck","Österreich",,"+435125070",
-54,"Medizinische Universität Graz","Universität","Auenbruggerplatz 2",8036,"Graz","Österreich","rektor@medunigraz.at","+433163850",
-55,"Medizinische Universität Innsbruck","Universität","Innrain 52",6020,"Innsbruck","Österreich",,"+4351290030",
-56,"Medizinische Universität Wien","Universität","Spitalgasse 23",1090,"Wien","Österreich","buero-universitaetsleitung@meduniwien.ac.at","+431401600","+43140160910000"
-57,"Montanuniversität Leoben","Universität","Franz-Josef-Straße 18",8700,"Leoben","Österreich","office@unileoben.ac.at","+4338424027001","+4338424027012"
-58,"Paris-Lodron-Universität Salzburg","Universität","Kapitelgasse 4",5020,"Salzburg","Österreich","studium@sbg.ac.at","+4366280440","+436628044145"
-59,"Technische Universität Graz","Universität","Rechbauerstraße 12",8010,"Graz","Österreich","info@tugraz.at","+433168730","+433168736009"
-60,"Technische Universität Wien","Universität","Karlsplatz 13",1040,"Wien","Österreich",,"+431588010","+4315880141099"
-61,"Universität für angewandte Kunst Wien","Universität","Oskar-Kokoschka-Platz 2",1010,"Wien","Österreich","info@uni-ak.ac.at",,
-62,"Universität für Bodenkultur Wien","Universität","Gregor-Mendel-Straße 33",1180,"Wien","Österreich",,"+431476540",
-63,"Universität für künstlerische und industrielle Gestaltung Linz","Universität","Hauptplatz 8, Postfach 6",4010,"Linz","Österreich","studien.office@ufg.at ","+437327898","+43732783508"
-64,"Universität für Musik und darstellende Kunst Graz","Universität","Leonhardstraße 15",8010,"Graz","Österreich","info@kug.ac.at","+433163890",
-65,"Universität für Musik und darstellende Kunst Wien","Universität","Anton-von-Webern-Platz 1",1030,"Wien","Österreich",,"+43171155",
-66,"Universität für Weiterbildung Krems","Universität","Dr.-Karl-Dorrek-Straße 30",3500,"Krems","Österreich","info@donau-uni.ac.at ","+4327328936000","+4327328934000"
-67,"Universität Mozarteum Salzburg","Universität","Mirabellplatz 1",5020,"Salzburg","Österreich","info@moz.ac.at","+4366261980","+4366261983033"
-68,"Universität Wien","Universität","Universitätsring 1",1010,"Wien","Österreich",,"+43142770",
-69,"Veterinärmedizinische Universität Wien","Universität","Veterinärplatz 1",1210,"Wien","Österreich",,"+431250770","+431250771090"
-70,"Wirtschaftsuniversität Wien","Universität","Welthandelsplatz 1, AD",1020,"Wien","Österreich",,,
-71,"Studienbeihilfenbehörde","Sonstige Behörde","Gudrunstraße 179",1100,"Wien","Österreich",,"+431601730","+43160173200"
-72,"Bundesinstitut für Bildungsforschung, Innovation und Entwicklung des österr. Schulwesens","Sonstige Behörde","Alpenstraße 121",5020,"Salzburg","Österreich","office.zms@bifie.at","+43662620088","+436626200881900"
-73,"Österreichisches Sprachen-Kompetenz-Zentrum (ÖSZ)","Sonstige Behörde","Hans-Sachs-Gasse 3/I",8010,"Graz","Österreich","office@oesz.at","+43316824150","+433168241506"
+"Id","Name","Branche","Typ","Adresse","PLZ","Stadt","Land","E-Mail","Tel","Fax"
+1,"Ferdinand Porsche Fern-Fachhochschule","Bildung","Fachhochschul-Einrichtung","Zulingergasse 4",2700,"Wiener Neustadt","Österreich","office@fernfh.ac.at","+43262232600",
+2,"FH Gesundheit Tirol","Bildung","Fachhochschul-Einrichtung","Innrain 98",6020,"Innsbruck","Österreich","info@fhg-tirol.ac.at","+4351253220","+43512532275200"
+3,"FH Gesundheitsberufe Oberösterreich","Bildung","Fachhochschul-Einrichtung","Semmelweisstraße 34/D3",4020,"Linz","Österreich","office@fhgooe.ac.at","+435034420000","+435034420099"
+4,"Lauder Business School","Bildung","Fachhochschul-Einrichtung","Hofzeile 18-20",1190,"Wien","Österreich","office@lbs.ac.at","+434313691818","+434313691817"
+5,"Management Center Innsbruck","Bildung","Fachhochschul-Einrichtung","Universitätsstraße 15",6020,"Innsbruck","Österreich","office@mci.edu","+4351220700","+4351220701099"
+6,"Theresianische Militärakademie","Bildung","Fachhochschul-Einrichtung","Burgplatz 1",2700,"Wiener Neustadt","Österreich","karl.pichlkastner@bmlvs.gv.at","+430502012029100",
+7,"Campus02","Bildung","Fachhochschule","Körblergasse 126",8010,"Graz","Österreich","info@campus02.at","+433166002177","+4331660021207"
+8,"Fachhochschule Burgenland","Bildung","Fachhochschule","Campus 1",7000,"Eisenstadt","Österreich","office@fh-burgenland.at","+4357705",
+9,"Fachhochschule des bfi Wien","Bildung","Fachhochschule","Wohlmutstraße 22",1020,"Wien","Österreich","info@fh-vie.ac.at","+4317201286","+431720128619"
+10,"Fachhochschule Kärnten","Bildung","Fachhochschule","Villacher Straße 1",9800,"Spittal an der Drau","Österreich","info@fh-kaernten.at","+435905000","+435905009910"
+11,"Fachhochschule Salzburg","Bildung","Fachhochschule","Urstein Süd 1",5412,"Puch bei Hallein","Österreich","medien@fh-salzburg.ac.at","+4305022110","+4305022111099"
+12,"Fachhochschule St. Pölten","Bildung","Fachhochschule","Matthias Corvinus – Straße 15",3100,"St. Pölten","Österreich","csc@fhstp.ac.at","+432742313228333","+432742313228339"
+13,"Fachhochschule Technikum Wien","Bildung","Fachhochschule","Mariahilfer Straße 37-39 ",1060,"Wien","Österreich","info@technikum-wien.at","+431588390","+4315883949"
+14,"Fachhochschule Vorarlberg","Bildung","Fachhochschule","Hochschulstraße 1",6850,"Dornbirn","Österreich","info@fhv.at","+435572792","+4355727929500"
+15,"Fachhochschule Wiener Neustadt","Bildung","Fachhochschule","Johannes Gutenberg-Straße 3",2700,"Wiener Neustadt","Österreich","office@fhwn.ac.at","+4302622890840","+43026228908499"
+16,"FH Campus Wien","Bildung","Fachhochschule","Favoritenstraße 226",1100,"Wien","Österreich","office@fh-campuswien.ac.at","+43160668776600","+43160668776609"
+17,"FH Joanneum","Bildung","Fachhochschule","Alte Poststraße 149",8020,"Graz","Österreich","info@fh-joanneum.at","+4331654530",
+18,"FH Kufstein","Bildung","Fachhochschule","Andreas Hofer-Straße 7",6330,"Kufstein","Österreich","info@fh-kufstein.ac.at","+43537271819","+43537271819104"
+19,"FH Oberösterreich","Bildung","Fachhochschule","Franz-Fritsch-Str. 11/Top 3",4600,"Wels","Österreich","info@fh-ooe.at","+435080410","+435080411900"
+20,"FHWien","Bildung","Fachhochschule","Währinger Gürtel 97",1180,"Wien","Österreich","studienzentrum@fh-wien.ac.at ","+431476775744","+431476775745"
+21,"IMC Fachhochschule Krems","Bildung","Fachhochschule","Piaristengasse 1",3500,"Krems","Österreich","office@fh-krems.ac.at","+432732802",
+22,"Hochschule für Agrar- und Umweltpädagogik","Bildung","Pädagogische Hochschule","Angermayergasse 1",1030,"Wien","Österreich","info@agrarumweltpaedagogik.ac.at","+43187722660","+4318772361"
+23,"Jüdische Pädagogische Akademie","Bildung","Pädagogische Hochschule","Rabbiner Schneerson Platz 1",1020,"Wien","Österreich",,"+4313341818",
+24,"Kirchliche Pädagogische Hochschule – Edith Stein","Bildung","Pädagogische Hochschule","Riedgasse 11",6020,"Innsbruck","Österreich","info@kph-es.at",,
+25,"Kirchliche Pädagogische Hochschule Graz","Bildung","Pädagogische Hochschule","Lange Gasse 2",8010,"Graz","Österreich","office@kphgraz.at","+433165816700","+4331658167011"
+26,"Kirchliche Pädagogische Hochschule Wien/Krems","Bildung","Pädagogische Hochschule","Mayerweckstraße 1",1210,"Wien","Österreich",,"+431291080","+43129108402"
+27,"Pädagogische Hochschule Kärnten","Bildung","Pädagogische Hochschule","Hubertusstraße 1",9020,"Klagenfurt","Österreich","office@ph-kaernten.ac.at","+43463508508",
+28,"Pädagogische Hochschule Niederösterreich","Bildung","Pädagogische Hochschule","Mühlgasse 67",2500,"Baden","Österreich","office@ph-noe.ac.at","+43225288570108",
+29,"Pädagogische Hochschule Oberösterreich","Bildung","Pädagogische Hochschule","Kaplanhofstraße 40",4020,"Linz","Österreich","ice@ph-ooe.at","+4373274700",
+30,"Pädagogische Hochschule Salzburg","Bildung","Pädagogische Hochschule","Akademiestraße 23",5020,"Salzburg","Österreich","office@phsalzburg.at","+436626388",
+31,"Pädagogische Hochschule Steiermark","Bildung","Pädagogische Hochschule","Hasnerplatz 12",8010,"Graz","Österreich","oeffentlichkeit@phst.at ","+4331680670","+4331680673199"
+32,"Pädagogische Hochschule Tirol","Bildung","Pädagogische Hochschule","Pastorstraße 7",6010,"Innsbruck","Österreich","office@ph-tirol.ac.at","+4351259923","+43512599231099"
+33,"Pädagogische Hochschule Vorarlberg","Bildung","Pädagogische Hochschule","Liechtensteinerstraße 33 - 37",6800,"Feldkirch","Österreich","office@ph-vorarlberg.ac.at","+43552231199500","+43552231199550"
+34,"Pädagogische Hochschule Wien","Bildung","Pädagogische Hochschule","Grenzackerstraße 18",1100,"Wien","Österreich","office@phwien.ac.at","+43160118",
+35,"Private Pädagogische Hochschule Burgenland","Bildung","Pädagogische Hochschule","Thomas Alva Edison-Straße 1",7000,"Eisenstadt","Österreich","office@ph-burgenland.at","+4359010300",
+36,"Private Pädagogische Hochschule der Diözese Linz","Bildung","Pädagogische Hochschule","Salesianumweg 3",4020,"Linz","Österreich","office@ph-linz.at","+43732772666","+437327726661010"
+37,"Anton Bruckner Privatuniversität Linz","Bildung","Privatuniversität","Hagenstraße 57",4040,"Linz","Österreich","information@bruckneruni.at","+43732701000","+43732701000299"
+38,"Danube Private University Krems","Bildung","Privatuniversität","Steiner Landstraße 124",3500,"Krems","Österreich","info@DP-Uni.ac.at","+43676842419305","+432732704787060"
+39,"Karl Landsteiner Privatuniversität für Gesundheitswissenschaften","Bildung","Privatuniversität","Dr.-Karl-Dorrek-Straße 30",3500,"Krems","Österreich","office@kl.ac.at","+432732720900","+43273272090500"
+40,"Katholisch-Theologische Privatuniversität Linz","Bildung","Privatuniversität","Bethlehemstraße 20",4020,"Linz","Österreich","rektorat@ku-linz.at","+43732784293","+437327842934155"
+41,"Modul University Vienna","Bildung","Privatuniversität","Am Kahlenberg 1",1190,"Wien","Österreich","office@modul.ac.at","+4313203555101","+4313203555901"
+42,"Musik und Kunst Privatuniversität der Stadt Wien","Bildung","Privatuniversität","Johannesgasse 4a",1010,"Wien","Österreich","office@muk.ac.at","+4315127747","+43151277477913"
+43,"Paracelsus Medizinische Privatuniversität","Bildung","Privatuniversität","Strubergasse 21",5020,"Salzburg","Österreich",,"+4366224200","+43662242080009"
+44,"Private Universität für Gesundheitswissenschaften, Medizinische Informatik und Technik","Bildung","Privatuniversität","Eduard-Wallnöfer-Zentrum 1",6060,"Hall in Tirol","Österreich","rektorat@umit.at","+435086483000","+43508648673001"
+45,"Privatuniversität der Kreativwirtschaft","Bildung","Privatuniversität","Mariazeller Straße 97a",3100,"St. Pölten","Österreich","office@ndu.ac.at","+4327428902411","+4327428902413"
+46,"Privatuniversität Schloss Seeburg","Bildung","Privatuniversität","Seeburgstrasse 8",5201,"Seekirchen am Wallersee","Österreich","info@uni-seeburg.at","+43621226260","+436212262639"
+47,"Sigmund Freud PrivatUniversität Wien","Bildung","Privatuniversität","Freudplatz 1",1020,"Wien","Österreich","rektorat@sfu.ac.at","+4317984098",
+48,"Webster University Vienna","Bildung","Privatuniversität","Praterstrasse 23",1020,"Wien","Österreich","info@webster.ac.at","+43126992930",
+49,"Akademie der bildenden Künste Wien","Bildung","Universität","Schillerplatz 3",1010,"Wien","Österreich",,"+431588161818","+431588161898"
+50,"Alpen-Adria Universität Klagenfurt","Bildung","Universität","Universitätsstraße 65-67",9020,"Klagenfurt am Wörthersee","Österreich","uni@aau.at","+434632700",
+51,"Johannes Kepler Universität Linz","Bildung","Universität","Altenberger Straße 69",4040,"Linz","Österreich","rektor@jku.at","+4373224680","+4373224688822"
+52,"Karl-Franzens-Universität Graz","Bildung","Universität","Universitätsplatz 3",8010,"Graz","Österreich","info@uni-graz.at","+433163800","+433163809030"
+53,"Leopold-Franzens-Universität Innsbruck","Bildung","Universität","Innrain 52",6020,"Innsbruck","Österreich",,"+435125070",
+54,"Medizinische Universität Graz","Bildung","Universität","Auenbruggerplatz 2",8036,"Graz","Österreich","rektor@medunigraz.at","+433163850",
+55,"Medizinische Universität Innsbruck","Bildung","Universität","Innrain 52",6020,"Innsbruck","Österreich",,"+4351290030",
+56,"Medizinische Universität Wien","Bildung","Universität","Spitalgasse 23",1090,"Wien","Österreich","buero-universitaetsleitung@meduniwien.ac.at","+431401600","+43140160910000"
+57,"Montanuniversität Leoben","Bildung","Universität","Franz-Josef-Straße 18",8700,"Leoben","Österreich","office@unileoben.ac.at","+4338424027001","+4338424027012"
+58,"Paris-Lodron-Universität Salzburg","Bildung","Universität","Kapitelgasse 4",5020,"Salzburg","Österreich","studium@sbg.ac.at","+4366280440","+436628044145"
+59,"Technische Universität Graz","Bildung","Universität","Rechbauerstraße 12",8010,"Graz","Österreich","info@tugraz.at","+433168730","+433168736009"
+60,"Technische Universität Wien","Bildung","Universität","Karlsplatz 13",1040,"Wien","Österreich",,"+431588010","+4315880141099"
+61,"Universität für angewandte Kunst Wien","Bildung","Universität","Oskar-Kokoschka-Platz 2",1010,"Wien","Österreich","info@uni-ak.ac.at",,
+62,"Universität für Bodenkultur Wien","Bildung","Universität","Gregor-Mendel-Straße 33",1180,"Wien","Österreich",,"+431476540",
+63,"Universität für künstlerische und industrielle Gestaltung Linz","Bildung","Universität","Hauptplatz 8, Postfach 6",4010,"Linz","Österreich","studien.office@ufg.at ","+437327898","+43732783508"
+64,"Universität für Musik und darstellende Kunst Graz","Bildung","Universität","Leonhardstraße 15",8010,"Graz","Österreich","info@kug.ac.at","+433163890",
+65,"Universität für Musik und darstellende Kunst Wien","Bildung","Universität","Anton-von-Webern-Platz 1",1030,"Wien","Österreich",,"+43171155",
+66,"Universität für Weiterbildung Krems","Bildung","Universität","Dr.-Karl-Dorrek-Straße 30",3500,"Krems","Österreich","info@donau-uni.ac.at ","+4327328936000","+4327328934000"
+67,"Universität Mozarteum Salzburg","Bildung","Universität","Mirabellplatz 1",5020,"Salzburg","Österreich","info@moz.ac.at","+4366261980","+4366261983033"
+68,"Universität Wien","Bildung","Universität","Universitätsring 1",1010,"Wien","Österreich",,"+43142770",
+69,"Veterinärmedizinische Universität Wien","Bildung","Universität","Veterinärplatz 1",1210,"Wien","Österreich",,"+431250770","+431250771090"
+70,"Wirtschaftsuniversität Wien","Bildung","Universität","Welthandelsplatz 1, AD",1020,"Wien","Österreich",,,
+71,"Studienbeihilfenbehörde","Bildung","Behörde","Gudrunstraße 179",1100,"Wien","Österreich",,"+431601730","+43160173200"
+72,"Bundesinstitut für Bildungsforschung, Innovation und Entwicklung des österr. Schulwesens","Bildung","Behörde","Alpenstraße 121",5020,"Salzburg","Österreich","office.zms@bifie.at","+43662620088","+436626200881900"
+73,"Österreichisches Sprachen-Kompetenz-Zentrum (ÖSZ)","Bildung","Dienstleister","Hans-Sachs-Gasse 3/I",8010,"Graz","Österreich","office@oesz.at","+43316824150","+433168241506"

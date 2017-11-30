@@ -1,2 +1,2 @@
-"Id","Name","Branche","Adresse","PLZ","Stadt","Land","E-Mail","Tel","Fax"
-1,"Landesschulrat für Salzburg","Aufsichtsbehörde","Mozartplatz 10",5010,"Salzburg","Österreich","homepage@lsr-sbg.gv.at","+436628083","+4366280832199"
+"Id","Name","Branche","Typ","Adresse","PLZ","Stadt","Land","E-Mail","Tel","Fax"
+1,"Landesschulrat für Salzburg","Bildung","Behörde","Mozartplatz 10",5010,"Salzburg","Österreich","homepage@lsr-sbg.gv.at","+436628083","+4366280832199"

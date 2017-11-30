@@ -1,2 +1,2 @@
-"Id","Name","Branche","Adresse","PLZ","Stadt","Land","E-Mail","Tel","Fax"
-1,"Landesschulrat für Tirol","Aufsichtsbehörde","Innrain 1, Andechshof",6020,"Innsbruck","Österreich","office@lsr-t.gv.at","+43512520330","+4351252033342"
+"Id","Name","Branche","Typ","Adresse","PLZ","Stadt","Land","E-Mail","Tel","Fax"
+1,"Landesschulrat für Tirol","Bildung","Behörde","Innrain 1, Andechshof",6020,"Innsbruck","Österreich","office@lsr-t.gv.at","+43512520330","+4351252033342"

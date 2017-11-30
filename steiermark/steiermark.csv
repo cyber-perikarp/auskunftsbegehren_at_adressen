@@ -1,2 +1,2 @@
-"Id","Name","Branche","Adresse","PLZ","Stadt","Land","E-Mail","Tel","Fax"
-1,"Landesschulrat für Steiermark","Aufsichtsbehörde","Körblergasse 23",8011,"Graz","Österreich","lsr@lsr-stmk.gv.at","+4350248345",
+"Id","Name","Branche","Typ","Adresse","PLZ","Stadt","Land","E-Mail","Tel","Fax"
+1,"Landesschulrat für Steiermark","Bildung","Behörde","Körblergasse 23",8011,"Graz","Österreich","lsr@lsr-stmk.gv.at","+4350248345",
