@@ -25,6 +25,9 @@ loglevel = getattr(sys.modules["logging"], args["loglevel"].upper() if args["log
 chromalog.basicConfig(format="%(message)s", level=loglevel)
 logger = logging.getLogger()
 
+# In dieser Tabelle landen die Daten
+table = "adressdaten"
+
 # In diesem Ordner sind wir
 workDir = os.getcwd()
 
@@ -166,15 +169,15 @@ def populateGeneratedFields(record):
     return record
 
 
-# Alle Unterordner die nicht mit . beginnen enthalten die csvs
-for table in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x[0] != ".")]:
-    logger.info("Creating Table %s: " % (table,))
-    createOrUpdate(table)
+logger.info("Creating Table adressdaten: ")
+createOrUpdate(table)
 
+# Alle Unterordner die nicht mit . beginnen enthalten die csvs
+for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x[0] != ".")]:
     # Hier werden schon die csvs geladen
-    for csvFile in [x for x in os.listdir(workDir + "/" + table) if os.path.splitext(x)[1] == ".csv"]:
+    for csvFile in [x for x in os.listdir(workDir + "/" + folder) if os.path.splitext(x)[1] == ".csv"]:
         # Pfad zur csv
-        csvFile = workDir + "/" + table + "/" + csvFile
+        csvFile = workDir + "/" + folder + "/" + csvFile
         logger.info("Using File: " + csvFile)
 
         # csv lesen und parsen
