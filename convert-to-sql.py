@@ -78,7 +78,7 @@ def insertRecord(record, table):
                 tel,
                 fax
             ) VALUES (
-                "%s", /* Id aus der Datei */
+                %s, /* Id aus der Datei */
                 "%s", /* Dateiname */
                 "%s", /* Name */
                 "%s", /* Branche */
