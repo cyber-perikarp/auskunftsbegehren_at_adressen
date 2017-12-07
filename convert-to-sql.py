@@ -52,9 +52,7 @@ def createOrUpdate(table):
     except:
         cursor.execute(
             """CREATE TABLE %s (
-                id INT(5) NOT NULL UNIQUE AUTO_INCREMENT,
-                idfile INT(5) NOT NULL,
-                quelldatei VARCHAR(64) NOT NULL,
+                id VARCHAR(64) NOT NULL UNIQUE,
                 name VARCHAR(128) NOT NULL,
                 branche VARCHAR(32) NOT NULL,
                 typ VARCHAR(32) NOT NULL,
@@ -80,8 +78,7 @@ def insertRecord(record, table):
     try:
         insertString = """
             INSERT INTO %s (
-                idfile,
-                quelldatei,
+                id,
                 name,
                 branche,
                 typ,
@@ -94,8 +91,7 @@ def insertRecord(record, table):
                 tel,
                 fax
             ) VALUES (
-                %s, /* Id aus der Datei */
-                "%s", /* Dateiname */
+                "%s", /* Id aus der Datei + Dateiname */
                 "%s", /* Name */
                 "%s", /* Branche */
                 "%s", /* Typ */
@@ -110,8 +106,7 @@ def insertRecord(record, table):
             );
             """ % (
                 table,
-                sanitizeInput(record["Id"]), # Das heißt zwar ID, ist aber IDFile
-                sanitizeInput(record["quelldatei"]),
+                sanitizeInput(record["Id"]) + "-" + sanitizeInput(record["quelldatei"]),
                 sanitizeInput(record["Name"]),
                 sanitizeInput(record["Branche"]),
                 sanitizeInput(record["Typ"]),
