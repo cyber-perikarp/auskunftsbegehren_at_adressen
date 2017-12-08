@@ -1,3 +1,5 @@
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+
 # auskunftsbegehren.at Adressdaten
 In diesem Repo liegen Adressdaten österreichischer Behörden, staatsnaher Unternehmen, öffentlich-rechtlichen Körperschaften, Banken, Versicherungen, etc. die als Datenquelle für auskunftsbegehren.at dienen. Pull requests sind willkommen :smile:
 
