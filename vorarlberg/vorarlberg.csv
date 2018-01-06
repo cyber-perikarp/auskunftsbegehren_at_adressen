@@ -1,3 +1,4 @@
 "Id","Name","Branche","Typ","Adresse","PLZ","Land","E-Mail","Tel","Fax"
 1,"Landesschulrat für Vorarlberg","Bildung","Behörde","Bahnhofstraße 12",6900,"Österreich","office@lsr-vbg.gv.at","+43557449600","+4355744960408"
 2,"Amt der Vorarlberger Landesregierung","Landesbehörde","Administration","Römerstraße 15",6901,"Österreich","land@vorarlberg.at","+43 5574 511 0","+43 5574 511 920095"
+3,"Landespolizeidirektion Vorarlberg","Infrastruktur","Polizei","Bahnhofstraße 45",6900,"Österreich","LPD-V@polizei.gv.at","+4359133/80/0","+4359133/80/1009"
