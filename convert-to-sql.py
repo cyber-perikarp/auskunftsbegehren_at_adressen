@@ -29,10 +29,10 @@ logger = logging.getLogger()
 table = "adressdaten"
 
 # In diesem Ordner sind wir
-workDir = os.getcwd()
+workDir = os.path.dirname(os.path.realpath(__file__))
 
 # Postleitzahlendatenbank einlesen
-plzDatei = open('plz_verzeichnis.csv', newline='')
+plzDatei = open(workDir + '/plz_verzeichnis.csv', newline='')
 plzDict = csv.DictReader(plzDatei)
 plz = {}
 for row in plzDict:
