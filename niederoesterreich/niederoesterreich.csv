@@ -1,7 +1,7 @@
 Id,Name,Branche,Typ,Adresse,PLZ,Land,E-Mail,Tel,Fax
-1,Landesschulrat für Niederösterreich,Bildung,Behörde,Rennbahnstraße 29,3109,Österreich,office@lsr-noe.gv.at ,+4327422800,+4327422801111
+1,Landesschulrat für Niederösterreich,Bildung,Behörde,Rennbahnstraße 29,3109,Österreich,office@lsr-noe.gv.at ,4327422800,4327422801111
 2,Landespolizeidirektion Niederösterreich,Infrastruktur,Polizei,Neue Herrengasse 15,3100,Österreich,LPD-N@polizei.gv.at,+4359133/30/0,+4359133/30/1009
-,Volkspartei Niederösterreich,Interessensvertretung,Partei,Ferstlergasse 4,3100,Österreich,vp.direkt@vpnoe.at,+432742 9020,
-,Landesgeschäftsstelle d. SPÖ,Interessensvertretung,Partei,Niederösterreichring 1a,3100,Österreich,servicenoe@spoe.at,+43 (2742) 2255,+43 (2742) 2255-101
-,Das Grüne Büro – Die Grünen Nö,Interessensvertretung,Partei,DanielGranStraße 48,3100,Österreich,noe@gruene.at,+4302742310660,+430274231066011
-,FPÖ Landesgeschäftsstelle Nö,Interessensvertretung,Partei,Purkersdorferstraße 38,3100,Österreich,fpoe-niederoesterreich@fpoe.at,+43 2742 256 280,
+3,Volkspartei Niederösterreich,Interessensvertretung,Partei,Ferstlergasse 4,3100,Österreich,vp.direkt@vpnoe.at,+432742 9020,
+4,Landesgeschäftsstelle d. SPÖ,Interessensvertretung,Partei,Niederösterreichring 1a,3100,Österreich,servicenoe@spoe.at,+43 (2742) 2255,+43 (2742) 2255-101
+5,Das Grüne Büro – Die Grünen Nö,Interessensvertretung,Partei,DanielGranStraße 48,3100,Österreich,noe@gruene.at,4302742310660,430274231066011
+6,FPÖ Landesgeschäftsstelle Nö,Interessensvertretung,Partei,Purkersdorferstraße 38,3100,Österreich,fpoe-niederoesterreich@fpoe.at,+43 2742 256 280,
