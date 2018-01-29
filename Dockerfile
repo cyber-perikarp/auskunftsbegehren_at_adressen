@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM debian-slim:latest
 LABEL maintainer="Sebastian Elisa Pfeifer <sebastian.pfeifer@unicorncloud.org>"
 
 WORKDIR /opt
@@ -9,13 +9,8 @@ RUN apt-get update && \
   rm -rf /var/lib/apt/lists/* && \
   apt-get clean
 
-ENV MYSQL_HOST localhost
-ENV MYSQL_PASSWORD auskunftsbegehren_at
-ENV MYSQL_USER auskunftsbegehren_at
-ENV MYSQL_DATABASE auskunftsbegehren_at
-
 COPY . /opt
 
 RUN pip3 install -r /opt/requirements.txt
 
-ENTRYPOINT ["python3", "/opt/convert-to-sql.py", "$MYSQL_HOST", "$MYSQL_USER", "$MYSQL_PASSWORD", "$MYSQL_DATABASE"]
+ENTRYPOINT ["python3", "/opt/convert-to-sql.py", "database", "auskunftsbegehren_at", "auskunftsbegehren_at", "auskunftsbegehren_at"]
