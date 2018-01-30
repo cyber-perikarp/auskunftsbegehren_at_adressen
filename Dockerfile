@@ -12,6 +12,8 @@ RUN apt-get update && \
 
 COPY . /opt
 
+ADD .start.sh /start.sh
+
 RUN pip3 install -r /opt/requirements.txt
 
-ENTRYPOINT ["python3", "/opt/convert-to-sql.py", "database", "auskunftsbegehren_at", "auskunftsbegehren_at", "auskunftsbegehren_at"]
+ENTRYPOINT ["bash", "/start.sh"]
