@@ -1,0 +1,10 @@
+language: go
+
+go:
+  - "1.15"
+
+before_script:
+  - go get github.com/Clever/csvlint/cmd/csvlint
+
+script:
+  - ./check.sh
