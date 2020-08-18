@@ -1,4 +1,5 @@
 * Name des Datenverarbeiters:
+* Langname des Datenverarbeiters:
 * Branche:
 * Typ:
 * Adresse:
