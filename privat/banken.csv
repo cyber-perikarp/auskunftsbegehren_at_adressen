@@ -1,90 +1,90 @@
 "Id","Name","Name_Lang","Branche","Typ","Adresse","PLZ","Land","E-Mail","Tel","Fax","Pruefung"
-1,"UniCredit Bank Austria","UniCredit Bank Austria AG","Finanzen","Bank","Rothschildplatz 1",1020,"Österreich","info@unicreditgroup.at","+435050525","+435050556155","17.08.2020"
-2,"BAWAG PSK","BAWAG P.S.K. Bank für Arbeit und Wirtschaft und Österreichische Postsparkasse Aktiengesellschaft","Finanzen","Bank","Wiedner Gürtel 11",1100,"Österreich","kundenservice@bawagpsk.com","+4359905",,"17.08.2020"
-3,"Erste Bank und Sparkasse","Erste Bank der oesterreichischen Sparkassen AG","Finanzen","Bank","Am Belvedere 1",1100,"Österreich","service@s-servicecenter.at","+435010020111","+4350100910100","17.08.2020"
-4,"Raiffeisenlandesbank Niederösterreich-Wien","Raiffeisenlandesbank Niederösterreich-Wien AG","Finanzen","Bank","F.-W.-Raiffeisen-Platz 1",1020,"Österreich","info@raiffeisenbank.at","+4351700900",,"17.08.2020"
-5,"Raiffeisen Landesbank Burgenland","Raiffeisenlandesbank Burgenland und Revisionsverband eGen","Finanzen","Bank","Friedrich Wilhelm Raiffeisen-Straße 1",7000,"Österreich","info.rlbb@raiffeisen-burgenland.at","+4326826910","+432682691109","17.08.2020"
-6,"Raiffeisen-Landesbank Steiermark","Raiffeisen-Landesbank Steiermark AG","Finanzen","Bank","Kaiserfeldgasse 5",8010,"Österreich","info@rlbstmk.at","+4331680360","+4331680363089","17.08.2020"
-7,"Raiffeisenlandesbank Kärnten","Raiffeisenlandesbank Kärnten – Rechenzentrum und Revisionsverband, Registrierte Genossenschaft mit beschränkter Haftung","Finanzen","Bank","Raiffeisenplatz 1",9020,"Österreich","maria.wohlgemuth@rbgk.raiffeisen.at","+434639930012812",,"17.08.2020"
-8,"Raiffeisenverband Salzburg","Raiffeisenverband Salzburg eGen","Finanzen","Bank","Schwarzstraße 13-15",5020,"Österreich","info@rvs.at","+436628886",,"17.08.2020"
-9,"Raiffeisenlandesbank Oberösterreich","Raiffeisenlandesbank Oberösterreich Aktiengesellschaft","Finanzen","Bank","Europaplatz 1a",4020,"Österreich","internet@rlbooe.at","+4373265960","+43732659622739","17.08.2020"
-10,"Raiffeisen-Landesbank Tirol","Raiffeisen-Landesbank Tirol AG","Finanzen","Bank","Adamgasse 1-7",6020,"Österreich","info@rlb-tirol.at","+4351253050","+43512530511938","17.08.2020"
-11,"Raiffeisenlandesbank Vorarlberg","Raiffeisenlandesbank Vorarlberg Waren- und Revisionsverband registrierte Genossenschaft mit beschränkter Haftung","Finanzen","Bank","Rheinstraße 11",6900,"Österreich","info@raiba.at","+4355744050","+435574405331","17.08.2020"
-12,"Volksbank Kärnten","Volksbank Kärnten eG","Finanzen","Bank","Pernhartgasse 7",9020,"Österreich","info@vbktn.at","+4350909","+43509099001","17.08.2020"
-13,"Volksbank Niederösterreich","Volksbank Niederösterreich AG","Finanzen","Bank","Brunngasse 10",3100,"Österreich","kundenservice@vbnoe.at","+4327423910","+4327423918001","17.08.2020"
-14,"Volksbank Oberösterreich","Volksbank Oberösterreich AG","Finanzen","Bank","Pfarrgasse 5",4600,"Österreich","office@vb-ooe.at","+4372424950","+43724249597","17.08.2020"
-15,"Volksbank Salzburg","Volksbank Salzburg eG","Finanzen","Bank","St.-Julien-Straße 12",5020,"Österreich","kundenservice@volksbanksalzburg.at","+4366286960","+43662869621","17.08.2020"
-16,"Volksbank Steiermark","Volksbank Steiermark AG","Finanzen","Bank","Schmiedgasse 31",8010,"Österreich","vertrieb@volksbank-stmk.at","+4350901","+43509018169","17.08.2020"
-17,"Volksbank Tirol","Volksbank Tirol AG","Finanzen","Bank","Meinhardstraße 1",6020,"Österreich","kundenservice@volksbank.tirol","+4350566",,"17.08.2020"
-18,"Volksbank Vorarlberg","Volksbank Vorarlberg e. Gen.","Finanzen","Bank","Ringstraße 27",6830,"Österreich","volksbank@vvb.at","+43508828000",,"17.08.2020"
-19,"Volksbank Horn","Volksbank Wien AG","Finanzen","Bank","Hauptplatz 10",3580,"Österreich","kundenservice@volksbankwien.at","+4329822204",,"17.08.2020"
-20,"Volksbank Wien","Volksbank Wien AG","Finanzen","Bank","Dietrichgasse 25",1030,"Österreich","kundenservice@volksbankwien.at","+431401370","+431401377600","17.08.2020"
-21,"Oberbank","Oberbank AG","Finanzen","Bank","Untere Donaulände 28",4020,"Österreich","office@oberbank.at","+4373278020","+43732780232140","17.08.2020"
-22,"BTV","Bank für Tirol und Vorarlberg Aktiengesellschaft","Finanzen","Bank","Stadtforum 1",6020,"Österreich","info@btv.at","+435053330",,"17.08.2020"
-23,"BKS","BKS Bank AG","Finanzen","Bank","St. Veiter Ring 43",9020,"Österreich","bks@bks.at","+434635858",,"17.08.2020"
-24,"Hypo NOE und Wien","HYPO NOE Landesbank für Niederösterreich und Wien AG","Finanzen","Bank","Hypogasse 1",3100,"Österreich","landesbank@hyponoe.at","+435909100",,"17.08.2020"
-25,"Hypo Tirol","Hypo Tirol Bank AG","Finanzen","Bank","Meraner Straße 8",6020,"Österreich","service@hypotirol.com","+43507000","+435070041000","17.08.2020"
-26,"Hypo Vorarlberg","Hypo Vorarlberg Bank AG","Finanzen","Bank","Hypo-Passage 1",6900,"Österreich","info@hypovbg.at","+43504141000","+43504141050","17.08.2020"
-27,"Hypo Burgenland","HYPO-BANK BURGENLAND Aktiengesellschaft","Finanzen","Bank","Neusiedlerstraße 33",7000,"Österreich","info@bank-bgld.at","+4326826050","+4326826057209","17.08.2020"
-28,"Hypo Oberösterreich","Oberösterreichische Landesbank Aktiengesellschaft","Finanzen","Bank","Landstraße 38",4010,"Österreich","office@hypo-ooe.at","+4373276390","+437327639954954","17.08.2020"
-29,"Hypo Salzburg","Salzburger Landes‑Hypothekenbank Aktiengesellschaft","Finanzen","Bank","Residenzplatz 7",5020,"Österreich","office@hyposalzburg.at","+436628046","+43662804664646","17.08.2020"
-30,"Hypo Steiermark","Landes-Hypothekenbank Steiermark AG","Finanzen","Bank","Radetzkystraße 15-17",8010,"Österreich","hypo@landes.hypobank.at","+4331680510","+4331680515354","17.08.2020"
-31,"Ärzte- und Apothekerbank","Österreichische Ärzte- und Apothekerbank AG","Finanzen","Bank","Schottengasse 10",1010,"Österreich","kundenservice@apobank.at","+431400800",,"17.08.2020"
-32,"Austrian Anadi Bank","Austrian Anadi Bank AG","Finanzen","Bank","Domgasse 5",9020,"Österreich","austrian@anadibank.com","+43502020","+43502023000","17.08.2020"
-33,"Bankhaus Carl Spängler","Bankhaus Carl Spängler & Co. AG","Finanzen","Bank","Schwarzstraße 1",5020,"Österreich","bankhaus@spaengler.at","+4366286860","+436628686158","17.08.2020"
-34,"Bankhaus Schelhammer & Schattera","Bankhaus Schelhammer and Schattera AG","Finanzen","Bank","Goldschmiedgasse 3",1010,"Österreich","bank.office@schelhammer.at","+431534340","+431534348065","17.08.2020"
-35,"bank99","bank99 AG","Finanzen","Bank","Rochusplatz 1",1030,"Österreich","info@bank99.at","+43800099099",,"17.08.2020"
-36,"Capital Bank","CAPITAL BANK – GRAWE Gruppe AG","Finanzen","Bank","Burgring 16",8010,"Österreich","office@capitalbank.at","+433168072","+4331680722291","17.08.2020"
-37,"DolomitenBank","DolomitenBank Osttirol-Westkärnten eG","Finanzen","Bank","Südtiroler Platz 9",9900,"Österreich","info@dolomitenbank.at","+43485266650","+434852666535","17.08.2020"
-38,"easybank","easybank AG","Finanzen","Bank","Wiedner Gürtel 11",1100,"Österreich","easy@easybank.at","+4357005535","+4357005590","17.08.2020"
-39,"Schoellerbank","Schoellerbank AG","Finanzen","Bank","Renngasse 3",1010,"Österreich","info@schoellerbank.at","+431534710","+431534711655","17.08.2020"
-40,"SPARDA-BANK","Volksbank Wien AG","Finanzen","Bank","Bahnhofplatz 7",9500,"Österreich","mail@sparda.at  ","+43424228156","+434242281569485","17.08.2020"
-41,"VKB","Volkskreditbank AG","Finanzen","Bank","Rudigierstraße 5-7, Postfach 116",4010,"Österreich","service@vkb-bank.at","+4373276370","+4373276371484","17.08.2020"
-43,"Marchfelder Bank","Marchfelder Bank eG","Finanzen","Bank","Marchfelder-Platz 1-2",2230,"Österreich","mail@marchfelderbank.at","+43228289250","+432282892510","17.08.2020"
-44,"Sparkasse Feldkirchen","Sparkasse Feldkirchen, Vereinssparkasse","Finanzen","Bank","Sparkassenstraße 1a",9560,,"Info@Feldkirchen.Sparkasse.at","+435010033400","+4350100933400",
-45,"Kärntner Sparkasse","Kärntner Sparkasse AG","Finanzen","Bank","Neuer Platz 14",9020,,"info@kspk.at","+435010020706","+4350100930800",
-46,"Sparkasse der Stadt Amstetten","Sparkasse der Stadt Amstetten AG","Finanzen","Bank","Hauptplatz 31",3300,,"info@amstetten.sparkasse.at","+435010025400","+4350100925400",
-47,"Sparkasse Baden","Sparkasse Baden, Vereinssparkasse","Finanzen","Bank","Hauptplatz 15",2500,,"info@sparkassebaden.at","+435010020205","+435010020205",
-48,"Sparkasse Hainburg-Bruck-Neusiedl","Sparkasse Hainburg-Bruck-Neusiedl AG","Finanzen","Bank","Hauptplatz 1",2410,,"info@sparkasse.hbn.at","+435010020216","+435010020216",
-49,"Sparkasse Haugsdorf","Sparkasse Haugsdorf Vereinssparkasse","Finanzen","Bank","Hauptplatz 1",2054,,"info@haugsdorf.sparkasse.at","+435010079800","+435010020218",
-50,"Sparkasse Herzogenburg-Neulengbach","Sparkasse Herzogenburg-Neulengbach Bank AG","Finanzen","Bank","Rathausplatz 9-10",3130,,"spk@herzogenburg.sparkasse.at","+435010010100","+435010025100",
-51,"Sparkasse Horn-Ravelsbach-Kirchberg","Sparkasse Horn-Ravelsbach-Kirchberg AG","Finanzen","Bank","Kirchenplatz 12",3580,,"office@horn.sparkasse.at","+435010026000","+435010020221",
-52,"Sparkasse Korneuburg","Sparkasse Korneuburg AG","Finanzen","Bank","Sparkassenplatz 1",2100,,"information@korneuburg.sparkasse.at","+435010043200","+435010020227",
-53,"Kremser Bank und Sparkasse","Kremser Bank und Sparkassen AG","Finanzen","Bank","Ringstraße 5-7",3500,,"info@kremserbank.at","+435010025500","+435010020228",
-54,"Sparkasse Langenlois","Sparkasse Langenlois Vereinssparkasse","Finanzen","Bank","Kornplatz 2a",3550,,"info@langenlois.sparkasse.at","+435010079700","+4350100979700",
-55,"Sparkasse Neunkirchen","Sparkasse Neunkirchen","Finanzen","Bank","Hauptplatz 2",2620,,"service@neunkirchen.sparkasse.at","+435010020241","+4350100972600",
-56,"Sparkasse Pottenstein N.Ö.","Sparkasse Pottenstein N.Ö. Vereinssparkasse","Finanzen","Bank","Hauptplatz 5",2563,,"office@pottenstein.sparkasse.at","+435010020245","+4350100925950",
-57,"Sparkasse Poysdorf","Sparkasse Poysdorf AG","Finanzen","Bank","Dreifaltigkeitsplatz 2",2170,,"office@poysdorf.sparkasse.at","+4350100–25200","+435010020246",
-58,"Sparkasse Niederösterreich Mitte West","Sparkasse Niederösterreich Mitte West AG","Finanzen","Bank","Domgasse 5",3100,,"office@spknoe.at","+435010073200","+4350100973131",
-59,"Sparkasse Scheibbs","Sparkasse Scheibbs AG","Finanzen","Bank","Hauptstraße 9",3270,,"info@scheibbs.sparkasse.at","+435010079900","+4350100979900",
-60,"Wiener Neustädter Sparkasse","Wiener Neustädter Sparkasse Vereinssparkasse","Finanzen","Bank","Neunkirchner Straße 4",2700,,"info@wrneustadt.sparkasse.at","+435010038200","+4.50100938200",
-61,"Waldviertler Sparkasse","Waldviertler Sparkasse Bank AG","Finanzen","Bank","Sparkassenplatz 3",3910,,"office@wspk.at","+435010079300","+435010020272",
-62,"Sparkasse Salzkammergut","Sparkasse Salzkammergut AG","Finanzen","Bank","Sparkassenplatz 1",4820,,"office@salzkammergut.sparkasse.at","+435010049600","+4350100949600",
-63,"Sparkasse Eferding-Peuerbach-Waizenkirchen","Sparkasse Eferding-Peuerbach-Waizenkirchen Vereinssparkasse","Finanzen","Bank","Stadtplatz 1",4070,,"info@epw.sparkasse.at","+435010042000","+4350100942000",
-64,"Sparkasse Frankenmarkt","Sparkasse Frankenmarkt AG","Finanzen","Bank","Hauptstraße 94",4890,,"Info@frankenmarkt.sparkasse.at","+435010049000","+4350100949000",
-65,"Sparkasse Lambach","Sparkasse Lambach Bank AG","Finanzen","Bank","Klosterplatz 3",4650,,"info@lambach.sparkasse.at","+435010043000","+4350100943000",
-66,"Allgemeine Sparkasse Oberösterreich","Allgemeine Sparkasse Oberösterreich Bankaktiengesellschaft","Finanzen","Bank","Promenade 11 – 13",4020,,"ebusiness@sparkasse-ooe.at","+435010040000","+4350100940000",
-67,"Sparkasse Neuhofen","Sparkasse Neuhofen Bank AG","Finanzen","Bank","Marktplatz 18",4501,,"info@neuhofen.sparkasse.at","+435010042300","+4350100–942300",
-68,"Sparkasse Pregarten-Unterweißenbach","Sparkasse Pregarten-Unterweißenbach AG","Finanzen","Bank","Stadtplatz 19",4230,,"office@pregarten.sparkasse.at","+435010042700","+435010042741",
-69,"Sparkasse Ried im Innkreis-Haag am Hausruck","Sparkasse Ried im Innkreis-Haag am Hausruck Gemeindesparkasse","Finanzen","Bank","Marktplatz 2",4910,,"mail@sparkasse-ried.at","+435010049400","+435010052222",
-70,"Sparkasse Mühlviertel-West Bank","Sparkasse Mühlviertel-West Bank AG","Finanzen","Bank","Stadtplatz 24",4150,,"smw@smw.at","+435010042800","+4350100942800",
-71,"Sparkasse Mittersill","Sparkasse Mittersill AG","Finanzen","Bank","Stadtplatz 4",5730,,"info@mittersill.sparkasse.at","+435010048700","+4350100948700",
-72,"Salzburger Sparkasse","Salzburger Sparkasse Bank AG","Finanzen","Bank","Alter Markt 3. Postfach 180",5021,,"info@salzburg.sparkasse.at","+435010041000","+4350100941000",
-73,"Steiermärkische Bank und Sparkasse","Steiermärkische Bank und Sparkassen AG","Finanzen","Bank","Sparkassenplatz 4",8010,,"info@steiermaerkische.at","+435010036000","+4350100936000",
-74,"Sparkasse Mürzzuschlag","Sparkasse Mürzzuschlag AG","Finanzen","Bank","Wiener Straße 78",8680,,"info@muerzzuschlag.sparkasse.at","+435010037300","+4350100937300",
-75,"Sparkasse Pöllau","Sparkasse Pöllau AG","Finanzen","Bank","Hauptplatz 2",8225,,"info@poellau.sparkasse.at","+435010037400","+4350100937400",
-76,"Sparkasse Voitsberg-Köflach Bank","Sparkasse Voitsberg-Köflach Bank AG","Finanzen","Bank","Bahnhofstraße 2",8570,,"info@vk.sparkasse.at","+435010037500","+4350100937500",
-77,"Sparkasse Imst","Sparkasse Imst AG","Finanzen","Bank","Sparkassenplatz 1",6460,,"service@imst.sparkasse.at","+435010077000","+4350100977000",
-78,"Tiroler Sparkasse","Tiroler Sparkasse Bankaktiengesellschaft Innsbruck","Finanzen","Bank","Sparkassenplatz 1, Postfach 245",6010,,"sparkasse@tirolersparkasse.at","+435010070000","+4350100970000",
-79,"Sparkasse der Stadt Kitzbühel","Sparkasse der Stadt Kitzbühel Gemeindesparkasse","Finanzen","Bank","Bahnhofstraße 6",6370,,"info@sparkasse-kitzbuehel.at","+435010078600",,
-80,"Sparkasse Kufstein","Sparkasse Kufstein Vereinssparkasse","Finanzen","Bank","Oberer Stadtplatz 1",6330,,"service@sparkasse-kufstein.at","+435010076000","+4350100976000",
-81,"Lienzer Sparkasse","Lienzer Sparkasse AG","Finanzen","Bank","Johannesplatz 6",9900,,"info@lienzer.sparkasse.at","+435010033500","+4350100933500",
-82,"Sparkasse Rattenberg","Sparkasse Rattenberg Bank AG","Finanzen","Bank","Sparkassenplatz 69",6240,,"info@rattenberg.sparkasse.at","+435010076400","+4350100976400",
-83,"Sparkasse Reutte","Sparkasse Reutte AG","Finanzen","Bank","Obermarkt 51",6600,,"office@sparkasse-reutte.at","+435010076800","+4350100976800",
-84,"Sparkasse Schwaz","Sparkasse Schwaz AG","Finanzen","Bank","Franz-Josef-Straße 8 – 10",6130,,"info@sparkasse-schwaz.at","+435010077300","+4350100977300",
-85,"Sparkasse Bludenz","Sparkasse Bludenz Bank AG","Finanzen","Bank","Sparkassenplatz 1",6700,,"info@bludenz.sparkasse.at","+435010077800","+4350100977800",
-86,"Sparkasse Bregenz","Sparkasse Bregenz Bank AG","Finanzen","Bank","Sparkassenplatz 1, Postfach 331",6901,,"mail@bregenz.sparkasse.at","+435010075000","+4350100975000",
-87,"Dornbirner Sparkasse","Dornbirner Sparkasse Bank AG","Finanzen","Bank","Sparkassenplatz 1, Postfach 18",6850,,"service@dornbirn.sparkasse.at","+435010074000","+4350100974000",
-88,"Sparkasse der Gemeinde Egg","Sparkasse der Gemeinde Egg Gemeindesparkasse","Finanzen","Bank","Loco 873",6863,,"info@egg.sparkasse.at","+435010075500","+4350100975500",
-89,"Sparkasse der Stadt Feldkirch","Sparkasse der Stadt Feldkirch Vereinssparkasse","Finanzen","Bank","Sparkassenplatz 1, Postfach 50",6800,,"info@feldkirch.sparkasse.at","+435010043600","+4350100943600",
-90,"Die Zweite Sparkasse","Die Zweite Wiener Vereins-Sparcasse","Finanzen","Bank","Am Schweizer Garten 1, Objekt 2",1030,,"wien7@diezweitesparkasse.at","+435010023092",,
+1,"UniCredit Bank Austria","UniCredit Bank Austria AG","Finanzen","Bank","Rothschildplatz 1",1020,"Österreich","info@unicreditgroup.at","+435050525","+435050556155","18.08.2020"
+2,"BAWAG PSK","BAWAG P.S.K. Bank für Arbeit und Wirtschaft und Österreichische Postsparkasse Aktiengesellschaft","Finanzen","Bank","Wiedner Gürtel 11",1100,"Österreich","kundenservice@bawagpsk.com","+4359905",,"18.08.2020"
+3,"Erste Bank und Sparkasse","Erste Bank der oesterreichischen Sparkassen AG","Finanzen","Bank","Am Belvedere 1",1100,"Österreich","service@s-servicecenter.at","+435010020111","+4350100910100","18.08.2020"
+4,"Raiffeisenlandesbank Niederösterreich-Wien","Raiffeisenlandesbank Niederösterreich-Wien AG","Finanzen","Bank","F.-W.-Raiffeisen-Platz 1",1020,"Österreich","info@raiffeisenbank.at","+4351700900",,"18.08.2020"
+5,"Raiffeisen Landesbank Burgenland","Raiffeisenlandesbank Burgenland und Revisionsverband eGen","Finanzen","Bank","Friedrich Wilhelm Raiffeisen-Straße 1",7000,"Österreich","info.rlbb@raiffeisen-burgenland.at","+4326826910","+432682691109","18.08.2020"
+6,"Raiffeisen-Landesbank Steiermark","Raiffeisen-Landesbank Steiermark AG","Finanzen","Bank","Kaiserfeldgasse 5",8010,"Österreich","info@rlbstmk.at","+4331680360","+4331680363089","18.08.2020"
+7,"Raiffeisenlandesbank Kärnten","Raiffeisenlandesbank Kärnten – Rechenzentrum und Revisionsverband, Registrierte Genossenschaft mit beschränkter Haftung","Finanzen","Bank","Raiffeisenplatz 1",9020,"Österreich","maria.wohlgemuth@rbgk.raiffeisen.at","+434639930012812",,"18.08.2020"
+8,"Raiffeisenverband Salzburg","Raiffeisenverband Salzburg eGen","Finanzen","Bank","Schwarzstraße 13-15",5020,"Österreich","info@rvs.at","+436628886",,"18.08.2020"
+9,"Raiffeisenlandesbank Oberösterreich","Raiffeisenlandesbank Oberösterreich Aktiengesellschaft","Finanzen","Bank","Europaplatz 1a",4020,"Österreich","internet@rlbooe.at","+4373265960","+43732659622739","18.08.2020"
+10,"Raiffeisen-Landesbank Tirol","Raiffeisen-Landesbank Tirol AG","Finanzen","Bank","Adamgasse 1-7",6020,"Österreich","info@rlb-tirol.at","+4351253050","+43512530511938","18.08.2020"
+11,"Raiffeisenlandesbank Vorarlberg","Raiffeisenlandesbank Vorarlberg Waren- und Revisionsverband registrierte Genossenschaft mit beschränkter Haftung","Finanzen","Bank","Rheinstraße 11",6900,"Österreich","info@raiba.at","+4355744050","+435574405331","18.08.2020"
+12,"Volksbank Kärnten","Volksbank Kärnten eG","Finanzen","Bank","Pernhartgasse 7",9020,"Österreich","info@vbktn.at","+4350909","+43509099001","18.08.2020"
+13,"Volksbank Niederösterreich","Volksbank Niederösterreich AG","Finanzen","Bank","Brunngasse 10",3100,"Österreich","kundenservice@vbnoe.at","+4327423910","+4327423918001","18.08.2020"
+14,"Volksbank Oberösterreich","Volksbank Oberösterreich AG","Finanzen","Bank","Pfarrgasse 5",4600,"Österreich","office@vb-ooe.at","+4372424950","+43724249597","18.08.2020"
+15,"Volksbank Salzburg","Volksbank Salzburg eG","Finanzen","Bank","St.-Julien-Straße 12",5020,"Österreich","kundenservice@volksbanksalzburg.at","+4366286960","+43662869621","18.08.2020"
+16,"Volksbank Steiermark","Volksbank Steiermark AG","Finanzen","Bank","Schmiedgasse 31",8010,"Österreich","vertrieb@volksbank-stmk.at","+4350901","+43509018169","18.08.2020"
+17,"Volksbank Tirol","Volksbank Tirol AG","Finanzen","Bank","Meinhardstraße 1",6020,"Österreich","kundenservice@volksbank.tirol","+4350566",,"18.08.2020"
+18,"Volksbank Vorarlberg","Volksbank Vorarlberg e. Gen.","Finanzen","Bank","Ringstraße 27",6830,"Österreich","volksbank@vvb.at","+43508828000",,"18.08.2020"
+19,"Volksbank Horn","Volksbank Wien AG","Finanzen","Bank","Hauptplatz 10",3580,"Österreich","kundenservice@volksbankwien.at","+4329822204",,"18.08.2020"
+20,"Volksbank Wien","Volksbank Wien AG","Finanzen","Bank","Dietrichgasse 25",1030,"Österreich","kundenservice@volksbankwien.at","+431401370","+431401377600","18.08.2020"
+21,"Oberbank","Oberbank AG","Finanzen","Bank","Untere Donaulände 28",4020,"Österreich","office@oberbank.at","+4373278020","+43732780232140","18.08.2020"
+22,"BTV","Bank für Tirol und Vorarlberg Aktiengesellschaft","Finanzen","Bank","Stadtforum 1",6020,"Österreich","info@btv.at","+435053330",,"18.08.2020"
+23,"BKS","BKS Bank AG","Finanzen","Bank","St. Veiter Ring 43",9020,"Österreich","bks@bks.at","+434635858",,"18.08.2020"
+24,"Hypo NOE und Wien","HYPO NOE Landesbank für Niederösterreich und Wien AG","Finanzen","Bank","Hypogasse 1",3100,"Österreich","landesbank@hyponoe.at","+435909100",,"18.08.2020"
+25,"Hypo Tirol","Hypo Tirol Bank AG","Finanzen","Bank","Meraner Straße 8",6020,"Österreich","service@hypotirol.com","+43507000","+435070041000","18.08.2020"
+26,"Hypo Vorarlberg","Hypo Vorarlberg Bank AG","Finanzen","Bank","Hypo-Passage 1",6900,"Österreich","info@hypovbg.at","+43504141000","+43504141050","18.08.2020"
+27,"Hypo Burgenland","HYPO-BANK BURGENLAND Aktiengesellschaft","Finanzen","Bank","Neusiedlerstraße 33",7000,"Österreich","info@bank-bgld.at","+4326826050","+4326826057209","18.08.2020"
+28,"Hypo Oberösterreich","Oberösterreichische Landesbank Aktiengesellschaft","Finanzen","Bank","Landstraße 38",4010,"Österreich","office@hypo-ooe.at","+4373276390","+437327639954954","18.08.2020"
+29,"Hypo Salzburg","Salzburger Landes‑Hypothekenbank Aktiengesellschaft","Finanzen","Bank","Residenzplatz 7",5020,"Österreich","office@hyposalzburg.at","+436628046","+43662804664646","18.08.2020"
+30,"Hypo Steiermark","Landes-Hypothekenbank Steiermark AG","Finanzen","Bank","Radetzkystraße 15-17",8010,"Österreich","hypo@landes.hypobank.at","+4331680510","+4331680515354","18.08.2020"
+31,"Ärzte- und Apothekerbank","Österreichische Ärzte- und Apothekerbank AG","Finanzen","Bank","Schottengasse 10",1010,"Österreich","kundenservice@apobank.at","+431400800",,"18.08.2020"
+32,"Austrian Anadi Bank","Austrian Anadi Bank AG","Finanzen","Bank","Domgasse 5",9020,"Österreich","austrian@anadibank.com","+43502020","+43502023000","18.08.2020"
+33,"Bankhaus Carl Spängler","Bankhaus Carl Spängler & Co. AG","Finanzen","Bank","Schwarzstraße 1",5020,"Österreich","bankhaus@spaengler.at","+4366286860","+436628686158","18.08.2020"
+34,"Bankhaus Schelhammer & Schattera","Bankhaus Schelhammer and Schattera AG","Finanzen","Bank","Goldschmiedgasse 3",1010,"Österreich","bank.office@schelhammer.at","+431534340","+431534348065","18.08.2020"
+35,"bank99","bank99 AG","Finanzen","Bank","Rochusplatz 1",1030,"Österreich","info@bank99.at","+43800099099",,"18.08.2020"
+36,"Capital Bank","CAPITAL BANK – GRAWE Gruppe AG","Finanzen","Bank","Burgring 16",8010,"Österreich","office@capitalbank.at","+433168072","+4331680722291","18.08.2020"
+37,"DolomitenBank","DolomitenBank Osttirol-Westkärnten eG","Finanzen","Bank","Südtiroler Platz 9",9900,"Österreich","info@dolomitenbank.at","+43485266650","+434852666535","18.08.2020"
+38,"easybank","easybank AG","Finanzen","Bank","Wiedner Gürtel 11",1100,"Österreich","easy@easybank.at","+4357005535","+4357005590","18.08.2020"
+39,"Schoellerbank","Schoellerbank AG","Finanzen","Bank","Renngasse 3",1010,"Österreich","info@schoellerbank.at","+431534710","+431534711655","18.08.2020"
+40,"SPARDA-BANK","Volksbank Wien AG","Finanzen","Bank","Bahnhofplatz 7",9500,"Österreich","mail@sparda.at  ","+43424228156","+434242281569485","18.08.2020"
+41,"VKB","Volkskreditbank AG","Finanzen","Bank","Rudigierstraße 5-7, Postfach 116",4010,"Österreich","service@vkb-bank.at","+4373276370","+4373276371484","18.08.2020"
+43,"Marchfelder Bank","Marchfelder Bank eG","Finanzen","Bank","Marchfelder-Platz 1-2",2230,"Österreich","mail@marchfelderbank.at","+43228289250","+432282892510","18.08.2020"
+44,"Sparkasse Feldkirchen","Sparkasse Feldkirchen, Vereinssparkasse","Finanzen","Bank","Sparkassenstraße 1a",9560,"Österreich","Info@Feldkirchen.Sparkasse.at","+435010033400","+4350100933400","18.08.2020"
+45,"Kärntner Sparkasse","Kärntner Sparkasse AG","Finanzen","Bank","Neuer Platz 14",9020,"Österreich","info@kspk.at","+435010020706","+4350100930800","18.08.2020"
+46,"Sparkasse der Stadt Amstetten","Sparkasse der Stadt Amstetten AG","Finanzen","Bank","Hauptplatz 31",3300,"Österreich","info@amstetten.sparkasse.at","+435010025400","+4350100925400","18.08.2020"
+47,"Sparkasse Baden","Sparkasse Baden, Vereinssparkasse","Finanzen","Bank","Hauptplatz 15",2500,"Österreich","info@sparkassebaden.at","+435010020205","+435010020205","18.08.2020"
+48,"Sparkasse Hainburg-Bruck-Neusiedl","Sparkasse Hainburg-Bruck-Neusiedl AG","Finanzen","Bank","Hauptplatz 1",2410,"Österreich","info@sparkasse.hbn.at","+435010020216","+435010020216","18.08.2020"
+49,"Sparkasse Haugsdorf","Sparkasse Haugsdorf Vereinssparkasse","Finanzen","Bank","Hauptplatz 1",2054,"Österreich","info@haugsdorf.sparkasse.at","+435010079800","+435010020218","18.08.2020"
+50,"Sparkasse Herzogenburg-Neulengbach","Sparkasse Herzogenburg-Neulengbach Bank AG","Finanzen","Bank","Rathausplatz 9-10",3130,"Österreich","spk@herzogenburg.sparkasse.at","+435010010100","+435010025100","18.08.2020"
+51,"Sparkasse Horn-Ravelsbach-Kirchberg","Sparkasse Horn-Ravelsbach-Kirchberg AG","Finanzen","Bank","Kirchenplatz 12",3580,"Österreich","office@horn.sparkasse.at","+435010026000","+435010020221","18.08.2020"
+52,"Sparkasse Korneuburg","Sparkasse Korneuburg AG","Finanzen","Bank","Sparkassenplatz 1",2100,"Österreich","information@korneuburg.sparkasse.at","+435010043200","+435010020227","18.08.2020"
+53,"Kremser Bank und Sparkasse","Kremser Bank und Sparkassen AG","Finanzen","Bank","Ringstraße 5-7",3500,"Österreich","info@kremserbank.at","+435010025500","+435010020228","18.08.2020"
+54,"Sparkasse Langenlois","Sparkasse Langenlois Vereinssparkasse","Finanzen","Bank","Kornplatz 2a",3550,"Österreich","info@langenlois.sparkasse.at","+435010079700","+4350100979700","18.08.2020"
+55,"Sparkasse Neunkirchen","Sparkasse Neunkirchen","Finanzen","Bank","Hauptplatz 2",2620,"Österreich","service@neunkirchen.sparkasse.at","+435010020241","+4350100972600","18.08.2020"
+56,"Sparkasse Pottenstein N.Ö.","Sparkasse Pottenstein N.Ö. Vereinssparkasse","Finanzen","Bank","Hauptplatz 5",2563,"Österreich","office@pottenstein.sparkasse.at","+435010020245","+4350100925950","18.08.2020"
+57,"Sparkasse Poysdorf","Sparkasse Poysdorf AG","Finanzen","Bank","Dreifaltigkeitsplatz 2",2170,"Österreich","office@poysdorf.sparkasse.at","+4350100–25200","+435010020246","18.08.2020"
+58,"Sparkasse Niederösterreich Mitte West","Sparkasse Niederösterreich Mitte West AG","Finanzen","Bank","Domgasse 5",3100,"Österreich","office@spknoe.at","+435010073200","+4350100973131","18.08.2020"
+59,"Sparkasse Scheibbs","Sparkasse Scheibbs AG","Finanzen","Bank","Hauptstraße 9",3270,"Österreich","info@scheibbs.sparkasse.at","+435010079900","+4350100979900","18.08.2020"
+60,"Wiener Neustädter Sparkasse","Wiener Neustädter Sparkasse Vereinssparkasse","Finanzen","Bank","Neunkirchner Straße 4",2700,"Österreich","info@wrneustadt.sparkasse.at","+435010038200","+4.50100938200","18.08.2020"
+61,"Waldviertler Sparkasse","Waldviertler Sparkasse Bank AG","Finanzen","Bank","Sparkassenplatz 3",3910,"Österreich","office@wspk.at","+435010079300","+435010020272","18.08.2020"
+62,"Sparkasse Salzkammergut","Sparkasse Salzkammergut AG","Finanzen","Bank","Sparkassenplatz 1",4820,"Österreich","office@salzkammergut.sparkasse.at","+435010049600","+4350100949600","18.08.2020"
+63,"Sparkasse Eferding-Peuerbach-Waizenkirchen","Sparkasse Eferding-Peuerbach-Waizenkirchen Vereinssparkasse","Finanzen","Bank","Stadtplatz 1",4070,"Österreich","info@epw.sparkasse.at","+435010042000","+4350100942000","18.08.2020"
+64,"Sparkasse Frankenmarkt","Sparkasse Frankenmarkt AG","Finanzen","Bank","Hauptstraße 94",4890,"Österreich","Info@frankenmarkt.sparkasse.at","+435010049000","+4350100949000","18.08.2020"
+65,"Sparkasse Lambach","Sparkasse Lambach Bank AG","Finanzen","Bank","Klosterplatz 3",4650,"Österreich","info@lambach.sparkasse.at","+435010043000","+4350100943000","18.08.2020"
+66,"Allgemeine Sparkasse Oberösterreich","Allgemeine Sparkasse Oberösterreich Bankaktiengesellschaft","Finanzen","Bank","Promenade 11 – 13",4020,"Österreich","ebusiness@sparkasse-ooe.at","+435010040000","+4350100940000","18.08.2020"
+67,"Sparkasse Neuhofen","Sparkasse Neuhofen Bank AG","Finanzen","Bank","Marktplatz 18",4501,"Österreich","info@neuhofen.sparkasse.at","+435010042300","+4350100942300","18.08.2020"
+68,"Sparkasse Pregarten-Unterweißenbach","Sparkasse Pregarten-Unterweißenbach AG","Finanzen","Bank","Stadtplatz 19",4230,"Österreich","office@pregarten.sparkasse.at","+435010042700","+435010042741","18.08.2020"
+69,"Sparkasse Ried im Innkreis-Haag am Hausruck","Sparkasse Ried im Innkreis-Haag am Hausruck Gemeindesparkasse","Finanzen","Bank","Marktplatz 2",4910,"Österreich","mail@sparkasse-ried.at","+435010049400","+435010052222","18.08.2020"
+70,"Sparkasse Mühlviertel-West Bank","Sparkasse Mühlviertel-West Bank AG","Finanzen","Bank","Stadtplatz 24",4150,"Österreich","smw@smw.at","+435010042800","+4350100942800","18.08.2020"
+71,"Sparkasse Mittersill","Sparkasse Mittersill AG","Finanzen","Bank","Stadtplatz 4",5730,"Österreich","info@mittersill.sparkasse.at","+435010048700","+4350100948700","18.08.2020"
+72,"Salzburger Sparkasse","Salzburger Sparkasse Bank AG","Finanzen","Bank","Alter Markt 3. Postfach 180",5021,"Österreich","info@salzburg.sparkasse.at","+435010041000","+4350100941000","18.08.2020"
+73,"Steiermärkische Bank und Sparkasse","Steiermärkische Bank und Sparkassen AG","Finanzen","Bank","Sparkassenplatz 4",8010,"Österreich","info@steiermaerkische.at","+435010036000","+4350100936000","18.08.2020"
+74,"Sparkasse Mürzzuschlag","Sparkasse Mürzzuschlag AG","Finanzen","Bank","Wiener Straße 78",8680,"Österreich","info@muerzzuschlag.sparkasse.at","+435010037300","+4350100937300","18.08.2020"
+75,"Sparkasse Pöllau","Sparkasse Pöllau AG","Finanzen","Bank","Hauptplatz 2",8225,"Österreich","info@poellau.sparkasse.at","+435010037400","+4350100937400","18.08.2020"
+76,"Sparkasse Voitsberg-Köflach Bank","Sparkasse Voitsberg-Köflach Bank AG","Finanzen","Bank","Bahnhofstraße 2",8570,"Österreich","info@vk.sparkasse.at","+435010037500","+4350100937500","18.08.2020"
+77,"Sparkasse Imst","Sparkasse Imst AG","Finanzen","Bank","Sparkassenplatz 1",6460,"Österreich","service@imst.sparkasse.at","+435010077000","+4350100977000","18.08.2020"
+78,"Tiroler Sparkasse","Tiroler Sparkasse Bankaktiengesellschaft Innsbruck","Finanzen","Bank","Sparkassenplatz 1, Postfach 245",6010,"Österreich","sparkasse@tirolersparkasse.at","+435010070000","+4350100970000","18.08.2020"
+79,"Sparkasse der Stadt Kitzbühel","Sparkasse der Stadt Kitzbühel Gemeindesparkasse","Finanzen","Bank","Bahnhofstraße 6",6370,"Österreich","info@sparkasse-kitzbuehel.at","+435010078600",,"18.08.2020"
+80,"Sparkasse Kufstein","Sparkasse Kufstein Vereinssparkasse","Finanzen","Bank","Oberer Stadtplatz 1",6330,"Österreich","service@sparkasse-kufstein.at","+435010076000","+4350100976000","18.08.2020"
+81,"Lienzer Sparkasse","Lienzer Sparkasse AG","Finanzen","Bank","Johannesplatz 6",9900,"Österreich","info@lienzer.sparkasse.at","+435010033500","+4350100933500","18.08.2020"
+82,"Sparkasse Rattenberg","Sparkasse Rattenberg Bank AG","Finanzen","Bank","Sparkassenplatz 69",6240,"Österreich","info@rattenberg.sparkasse.at","+435010076400","+4350100976400","18.08.2020"
+83,"Sparkasse Reutte","Sparkasse Reutte AG","Finanzen","Bank","Obermarkt 51",6600,"Österreich","office@sparkasse-reutte.at","+435010076800","+4350100976800","18.08.2020"
+84,"Sparkasse Schwaz","Sparkasse Schwaz AG","Finanzen","Bank","Franz-Josef-Straße 8 – 10",6130,"Österreich","info@sparkasse-schwaz.at","+435010077300","+4350100977300","18.08.2020"
+85,"Sparkasse Bludenz","Sparkasse Bludenz Bank AG","Finanzen","Bank","Sparkassenplatz 1",6700,"Österreich","info@bludenz.sparkasse.at","+435010077800","+4350100977800","18.08.2020"
+86,"Sparkasse Bregenz","Sparkasse Bregenz Bank AG","Finanzen","Bank","Sparkassenplatz 1, Postfach 331",6901,"Österreich","mail@bregenz.sparkasse.at","+435010075000","+4350100975000","18.08.2020"
+87,"Dornbirner Sparkasse","Dornbirner Sparkasse Bank AG","Finanzen","Bank","Sparkassenplatz 1, Postfach 18",6850,"Österreich","service@dornbirn.sparkasse.at","+435010074000","+4350100974000","18.08.2020"
+88,"Sparkasse der Gemeinde Egg","Sparkasse der Gemeinde Egg Gemeindesparkasse","Finanzen","Bank","Loco 873",6863,"Österreich","info@egg.sparkasse.at","+435010075500","+4350100975500","18.08.2020"
+89,"Sparkasse der Stadt Feldkirch","Sparkasse der Stadt Feldkirch Vereinssparkasse","Finanzen","Bank","Sparkassenplatz 1, Postfach 50",6800,"Österreich","info@feldkirch.sparkasse.at","+435010043600","+4350100943600","18.08.2020"
+90,"Die Zweite Sparkasse","Die Zweite Wiener Vereins-Sparcasse","Finanzen","Bank","Am Schweizer Garten 1, Objekt 2",1030,"Österreich","wien7@diezweitesparkasse.at","+435010023092",,"18.08.2020"
