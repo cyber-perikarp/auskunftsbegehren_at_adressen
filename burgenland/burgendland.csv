@@ -1,3 +1,10 @@
 "Id","Name","Name_Lang","Branche","Typ","Adresse","PLZ","Land","E-Mail","Tel","Fax","Pruefung"
-1,"Landesschulrat für Burgenland",,"Bildung","Behörde","Kernausteig 3",7000,"Österreich","office@lsr-bgld.gv.at","+432682710","+4326827101009",
-2,"Landespolizeidirektion Burgenland",,"Infrastruktur","Polizei","Neusiedler Straße 84",7000,"Österreich","LPD-B@polizei.gv.at","+4359133/10/0","+4359133/10/1009",
+1,"Bildungsdirektion Burgenland","Bildungsdirektion Burgenland","Bildung","Behörde","Kernausteig 3",7000,"Österreich","office@bildung-bgld.gv.at","+432682710","+4326827101009","19.08.2020"
+2,"Landespolizeidirektion Burgenland",,"Infrastruktur","Polizei","Neusiedler Straße 84",7000,"Österreich","LPD-B@polizei.gv.at","+4359133/10/0","+4359133/10/1009","19.08.2020"
+3,"Wirtschaftskammer Burgenland","Wirtschaftskammer Burgenland","Interessensvertretung","Kammer","Robert-Graf-Platz 1",7000,"Österreich","wkbgld@wkbgld.at","+435909072000","+435909072015","18.08.2020"
+4,"Rechtanswaltskammer Burgenland","Rechtanswaltskammer Burgenland","Interessensvertretung","Kammer","Marktstraße 3",7000,"Österreich","rak.bgld@aon.at","+43720211990","+43720211991","18.08.2020"
+5,"Landeszahnärztekammer Burgenland","Landeszahnärztekammer Burgenland","Interessensvertretung","Kammer","Schlossplatz 1",7431,"Österreich","office@bgld.zahnaerztekammer.at","+43505117000","+43505117002","18.08.2020"
+6,"Notariatskammer für Wien, Niederösterreich und Burgenland ","Notariatskammer für Wien, Niederösterreich und Burgenland ","Interessensvertretung","Kammer","Landesgerichtsstraße 20",1010,"Österreich","kammer-wnb@notar.or.at","+43140245090","+4314063475","18.08.2020"
+7,"Ärztekammer Burgenland","Ärztekammer Burgenland","Interessensvertretung","Kammer","Johann Permayerstraße 3",7000,"Österreich","office@aekbgld.at","+43268262521","+4326826252190","18.08.2020"
+8,"Apothekerkammer Burgenland","Apothekerkammer Burgenland","Interessensvertretung","Kammer","Permayerstraße 3",7000,"Österreich","burgenland@apothekerkammer.at","+43268261645","+43268266115","18.08.2020"
+9,"Kammer der Steuerberater und Wirtschaftsprüfer Burgenland","Kammer der Steuerberater und Wirtschaftsprüfer Burgenland","Interessensvertretung","Kammer","Schönbrunnerstraße 222-228/1/6/2",1120,"Österreich","office@ksw.or.at","+431811730","+43181173100","18.08.2020"
