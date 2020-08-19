@@ -4,6 +4,8 @@
 # Quit on errors
 set -e
 
+sum=0
+
 # Iterate through all folder
 for folder in $(ls -d -1 */); do
   echo "Found folder: ${folder}"
@@ -12,8 +14,22 @@ for folder in $(ls -d -1 */); do
   # And now check all the files
   for file in $(ls -1); do
     echo "Checking file: ${file}"
-    csvlint "${file}"
+
+    # Count the lines in the file
+    tmp=$(wc -l < ${file})
+    lines=$(echo "${tmp}-1" | bc)
+    echo "file contains ${lines} entries"
+
+    # Check the file
+    /home/spfeifer/go/bin/csvlint "${file}"
+
+    # Add number of entries to total sum
+    sum=$(echo "${sum}+${lines}" | bc)
+
+    echo -e "\r"
   done
 
   cd ..
 done
+
+echo "Number of entries: ${sum}"
