@@ -1,3 +1,12 @@
 "Id","Name","Name_Lang","Branche","Typ","Adresse","PLZ","Land","E-Mail","Tel","Fax","Pruefung"
-1,"Landesschulrat für Kärnten",,"Bildung","Behörde","10. -Oktober-Straße 24",9020,"Österreich","office@lsr-ktn.gv.at","+434635812","+434635812",
-2,"Landespolizeidirektion Kärnten",,"Infrastruktur","Polizei","Buchengasse 3",9020,"Österreich","LPD-K@polizei.gv.at","+4359133/20/0","+4359133/20/1009",
+1,"Bildungsdirektion für Kärnten","Bildungsdirektion für Kärnten","Bildung","Behörde","10. -Oktober-Straße 24",9020,"Österreich","office@bildung-ktn.gv.at","+4350534","+435053411111","19.08.2020"
+2,"Landespolizeidirektion Kärnten","Landespolizeidirektion Kärnten","Infrastruktur","Polizei","Buchengasse 3",9020,"Österreich","LPD-K@polizei.gv.at","+4359133200","+4359133201009","19.08.2020"
+3,"Wirtschaftskammer Kärnten","Wirtschaftskammer Kärnten","Interessensvertretung","Kammer","Europaplatz 1",9021,"Österreich","wirtschaftskammer@wkk.or.at","+435909040","+43590904704","18.08.2020"
+4,"Rechtanswaltskammer Kärnten","Rechtanswaltskammer Kärnten","Interessensvertretung","Kammer","Theatergasse 4",9020,"Österreich","kammer@rechtsanwaelte-kaernten.at","+43463512425","+4346351242515","18.08.2020"
+5,"Landeszahnärztekammer Kärnten","Landeszahnärztekammer Kärnten","Interessensvertretung","Kammer","Neuer Platz 7/1",9020,"Österreich","office@ktn.zahnaerztekammer.at","+43505119020","+43505119023","18.08.2020"
+6,"Ärztekammer Kärnten","Ärztekammer Kärnten","Interessensvertretung","Kammer","St. Veiter Straße 34/II",9020,"Österreich","aek@aekktn.at","+46358560","+463514222","18.08.2020"
+7,"Apothekerkammer Kärnten","Apothekerkammer Kärnten","Interessensvertretung","Kammer","Alter Platz 24/II",9020,"Österreich","kaernten@apothekerkammer.at","+43463513366","+4346351336620","18.08.2020"
+8,"Arbeiterkammer Kärnten","Arbeiterkammer Kärnten","Interessensvertretung","Kammer","Bahnhofplatz 3",9021,"Österreich","arbeiterkammer@akktn.at","+4350477","'+4350477-2400","18.08.2020"
+9,"Kammer der Steuerberater und Wirtschaftsprüfer Kärnten","Kammer der Steuerberater und Wirtschaftsprüfer Kärnten","Interessensvertretung","Kammer","Lakeside B11 a, 1. OG",9020,"Österreich","kaernten@ksw.or.at","+43463512944","+434635129445","18.08.2020"
+10,"Kammer der ZiviltechnikerInnen für Steiermark und Kärnten","Kammer der ZiviltechnikerInnen für Steiermark und Kärnten","Interessensvertretung","Kammer","Schönaugasse 7/1",8010,"Österreich","office@ztkammer.at","+43316826344","+4331682634425","18.08.2020"
+11,"Landarbeiterkammer Kärnten","Landarbeiterkammer Kärnten","Interessensvertretung","Kammer","Bahnhofstrasse 44/III",9020,"Österreich","lak@lakktn.at","+434635870419","+434635870420","18.08.2020"
