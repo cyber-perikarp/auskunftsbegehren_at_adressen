@@ -1,3 +1,13 @@
 "Id","Name","Name_Lang","Branche","Typ","Adresse","PLZ","Land","E-Mail","Tel","Fax","Pruefung"
-1,"Landesschulrat für Oberösterreich",,"Bildung","Behörde","Sonnensteinstraße 20",4020,"Österreich","lsr@lsr-ooe.gv.at","+4373270714131","+4373270714140",
-2,"Landespolizeidirektion Oberösterreich",,"Infrastruktur","Polizei","Gruberstraße 35",4021,"Österreich","LPD-O@polizei.gv.at","+4359133/40/0","+4359133/40/7803",
+1,"Bildungsdirektion Oberösterreich","Bildungsdirektion Oberösterreich","Bildung","Behörde","Sonnensteinstraße 20",4040,"Österreich","bd.post@bildung-ooe.gv.at","'+4373270714131","'+4373270714140","19.08.2020"
+2,"Landespolizeidirektion Oberösterreich","Landespolizeidirektion Oberösterreich","Infrastruktur","Polizei","Gruberstraße 35",4021,"Österreich","LPD-O@polizei.gv.at","+4359133500","+4359133407800","19.08.2020"
+17,"Wirtschaftskammer Oberösterreich","Wirtschaftskammer Oberösterreich","Interessensvertretung","Kammer","Hessenplatz 3",4020,"Österreich","service@wkooe.at","+43590909","+435909092800","18.08.2020"
+26,"Rechtanswaltskammer Oberösterreich","Rechtanswaltskammer Oberösterreich","Interessensvertretung","Kammer","Gruberstraße 21",4020,"Österreich","office@ooerak.or.at","+43732771730","+4373277173085","18.08.2020"
+35,"Landeszahnärztekammer Oberösterreich","Landeszahnärztekammer Oberösterreich","Interessensvertretung","Kammer","Marienstraße 9/1",4020,"Österreich","office@ooe.zahnaerztekammer.at","+43505114010","+43505114014","18.08.2020"
+44,"Notariatskammer für Oberösterreich","Notariatskammer für Oberösterreich","Interessensvertretung","Kammer","Schmiedegasse 20/5",4040,"Österreich","oberoesterreich@notariatskammer.at","+43732737073","+43732708019","18.08.2020"
+50,"Ärztekammer Oberösterreich","Ärztekammer Oberösterreich","Interessensvertretung","Kammer","Dinghoferstraße 4",4010,"Österreich","aekooe@aekooe.at","+437327783710","+43732783660300","18.08.2020"
+59,"Apothekerkammer Oberösterreich","Apothekerkammer Oberösterreich","Interessensvertretung","Kammer","Mozartstraße 26/1",4020,"Österreich","ooe@apothekerkammer.at","+43732770350","+4314028602951","18.08.2020"
+68,"Arbeiterkammer Oberösterreich","Arbeiterkammer Oberösterreich","Interessensvertretung","Kammer","Volksgartenstraße 40",4020,"Österreich","online@akooe.at","+43506906","+435069062860","18.08.2020"
+77,"Kammer der Steuerberater und Wirtschaftsprüfer Oberösterreich","Kammer der Steuerberater und Wirtschaftsprüfer Oberösterreich","Interessensvertretung","Kammer","Landstraße 49/III",4020,"Österreich","ooe@ksw.or.at","+43732773385","+4373277338515","18.08.2020"
+85,"Kammer der ZiviltechnikerInnen für Oberösterreich und Salzburg","Kammer der ZiviltechnikerInnen für Oberösterreich und Salzburg","Interessensvertretung","Kammer","Kaarstraße 2/II",4040,"Österreich","linz@arching-zt.at","+43732738394","+437327383944","18.08.2020"
+88,"OÖ Landarbeiterkammer","Kammer für Arbeiter und Angestellte in der Land- und Forstwirtschaft in OÖ","Interessensvertretung","Kammer","Scharitzerstraße 9",4020,"Österreich","office@lak-ooe.at","+43732656381",,"18.08.2020"
