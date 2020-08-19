@@ -21,7 +21,7 @@ for folder in $(ls -d -1 */); do
     echo "file contains ${lines} entries"
 
     # Check the file
-    /home/spfeifer/go/bin/csvlint "${file}"
+    csvlint "${file}"
 
     # Add number of entries to total sum
     sum=$(echo "${sum}+${lines}" | bc)
