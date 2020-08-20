@@ -25,7 +25,7 @@ workDir = os.path.dirname(os.path.realpath(__file__))
 
 # Hardgecodede Parameter
 outFile = workDir + "/noyb.csv"
-csvHeader = ["status","id","display_name","legal_name","url","department","street_address","city","neighbourhood","postal_code","region","country","requires_identification","operating_countries","custom_identifier","identifiers","generic_url","generic_email","generic_note","access_url","access_email","access_note","deletion_url","deletion_email","deletion_note","portability_url","portability_email","portability_note","correction_url","correction_email","correction_note"]
+csvHeader = ["status", "id", "display_name", "legal_name", "url", "department", "street_address", "city", "neighbourhood", "postal_code", "region", "country", "requires_identification", "operating_countries", "custom_identifier", "identifiers", "generic_url", "generic_email", "generic_note", "access_url", "access_email", "access_note", "deletion_url", "deletion_email", "deletion_note", "portability_url", "portability_email", "portability_note", "correction_url", "correction_email", "correction_note"]
 
 # Postleitzahlendatenbank einlesen
 plzDatei = open(workDir + "/plz_verzeichnis.csv", newline="")
@@ -38,10 +38,10 @@ def sanitizePhoneNumber(number):
     number = number.replace(" ", "")
     number = number.replace("-", "")
     number = number.replace("/", "")
-    number = number.replace("'", "") # Wegen LibreOffice
+    number = number.replace("'", "")  # Wegen LibreOffice
     return number
 
-def checkIfFullRecord (record):
+def checkIfFullRecord(record):
     if (not record["Id"]
         or not record["Name"]
         or not record["Name_Lang"]
@@ -50,9 +50,9 @@ def checkIfFullRecord (record):
         or not record["Adresse"]
         or not record["PLZ"]
         or not record["Land"]
-        or not record["E-Mail"]):
-            logger.error("Not exporting: " + record["Name"])
-            return False
+            or not record["E-Mail"]):
+        logger.error("Not exporting: " + record["Name"])
+        return False
     return True
 
 def populateGeneratedFields(record):
