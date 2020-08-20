@@ -87,7 +87,7 @@ def populateGeneratedFields(record):
     record["identifiers"] = ""
     record["generic_url"] = ""
     record["generic_email"] = record["E-Mail"]
-    record["generic_note"] = ""
+    record["generic_note"] = "Phone: " + tel + ", Fax: " + fax
     record["access_url"] = ""
     record["access_email"] = ""
     record["access_note"] = ""
