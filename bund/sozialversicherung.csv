@@ -1,48 +1,41 @@
 "Id","Name","Name_Lang","Branche","Typ","Adresse","PLZ","Land","E-Mail","Tel","Fax","Pruefung"
-1,"Allgemeine Unfallversicherungsanstalt",,"Gesundheit","Sozialversicherungsträger","Adalbert-Stifter-Straße 65","1200","Österreich","HAL@auva.at ","+435939320000","+435939320606",
-2,"Betriebskrankenkasse der Wiener Verkehrsbetriebe",,"Gesundheit","Sozialversicherungsträger","Erdbergstraße 202/E7a","1030","Österreich","office@bkkwvb.at ","+431790923999","+4316028562",
-3,"Betriebskrankenkasse Kapfenberg",,"Gesundheit","Sozialversicherungsträger","Friedrich-Böhler-Straße 11","8605","Österreich","direktion@bkkka.sozvers.at ","+4338622036448","+4338622037730",
-4,"Betriebskrankenkasse Mondi Business Paper",,"Gesundheit","Sozialversicherungsträger","Theresienthalstraße 50","3363","Österreich","service@bkkmondi.at ","+4374755002163","+437475500911",
-5,"Betriebskrankenkasse Voestalpine Bahnsysteme",,"Gesundheit","Sozialversicherungsträger","Kerpelystraße 201","8700","Österreich","bkkbahnsysteme@bkkva.sozvers.at ","+4350304253138","+4350304652127",
-6,"Betriebskrankenkasse Zeltweg",,"Gesundheit","Sozialversicherungsträger","Alpinestraße 1","8740","Österreich","bkk.zeltweg@bkkzw.sozvers.at ","+435030428171","+435030468179",
-7,"Burgenländische Gebietskrankenkasse",,"Gesundheit","Sozialversicherungsträger","Siegfried Marcus-Straße 5","7000","Österreich","bgkk@bgkk.at","+4326826080","+4326826081041",
-8,"Kärntner Gebietskrankenkasse",,"Gesundheit","Sozialversicherungsträger","Kempfstraße 8","9021","Österreich","kaerntner.gkk@kgkk.at ","+435058551000","+435058552539",
-9,"Kranken- und Unfallfürsorge der Tiroler Gemeindebeamten",,"Gesundheit","Sozialversicherungsträger","Adamgasse 7a","6010","Österreich",,"+43512572838","+43512567610",
-10,"Kranken- und Unfallfürsorge der Tiroler Landesbeamten",,"Gesundheit","Sozialversicherungsträger","Wiihelm-Greil-Straße 17/II","6010","Österreich",,"+435125082175","+43512508655",
-11,"Kranken- und Unfallfürsorge der Tiroler Landeslehrer",,"Gesundheit","Sozialversicherungsträger","Wiihelm-Greil-Straße 17/II","6010","Österreich",,"+435125082161","+435125082175",
-12,"Krankenfürsorge der Beamten der Stadtgemeinde Baden",,"Gesundheit","Sozialversicherungsträger","Hauptplatz 1","2500","Österreich",,"+43225286800","+43225286800246",
-13,"Krankenfürsorge für die Beamten der Landeshauptstadt Linz",,"Gesundheit","Sozialversicherungsträger","Altes Rathaus","4041","Österreich",,"+4373270701243","+43732707012435",
-14,"Krankenfürsorge für die Beamten der Stadt Wels",,"Gesundheit","Sozialversicherungsträger","Stadtpiatz 1","4600","Österreich",,"+4372422354800","+4372422353180",
-15,"Krankenfürsorge für oberösterreichische Gemeindebeamte",,"Gesundheit","Sozialversicherungsträger","Friedrichstraße 11","4040","Österreich",,"+437327880000","+4373278800030",
-16,"Krankenfürsorge für oberösterreichische Landesbeamte",,"Gesundheit","Sozialversicherungsträger","Promenade 28","4021","Österreich",,"+43732772013867","+43732772013875",
-17,"Krankenfürsorgeanstalt der Beamten der Landeshauptstadt Bregenz",,"Gesundheit","Sozialversicherungsträger","Rathausstraße 4","6900","Österreich",,"+4355744101442","+435574410505",
-18,"Krankenfürsorgeanstalt der Beamten der Stadt Villach",,"Gesundheit","Sozialversicherungsträger","Rathaus","9500","Österreich","kfa@villach.at","+434242205371","+4342422051999",
-19,"Krankenfürsorgeanstalt der Bediensteten der Stadt Wien",,"Gesundheit","Sozialversicherungsträger","Schlesingerplatz 5","1080","Österreich","generaldirektion@kfa.co.at","+431404360","+431404369946863",
-20,"Krankenfürsorgeanstalt der Magistratsbeamten der Landeshauptstadt Salzburg",,"Gesundheit","Sozialversicherungsträger","Schloß Mirabell","5024","Österreich",,"+4368280722529","+4366280722073",
-21,"Krankenfürsorgeanstalt für Beamte des Magistrates Steyr",,"Gesundheit","Sozialversicherungsträger","Postfach 200, Stadtplatz 27","4400","Österreich",,"+437252575","+437252575223",
-22,"Krankenfürsorgeanstalt für die Beamten der Landeshauptstadt Graz",,"Gesundheit","Sozialversicherungsträger","Schmiedgasse 26","8010","Österreich",,"+433188725902","+433168725903",
-23,"Krankenfürsorgeeinrichtung der Beamten der Stadtgemeinde Hallein",,"Gesundheit","Sozialversicherungsträger","Schöndorferplatz 14","5400","Österreich",,"+4362458988168","+4362458988169",
-24,"Krankenversicherungsfonds der Beamten der Gemeinde Bad Gastein",,"Gesundheit","Sozialversicherungsträger","Kaiser-Franz-Josef-Straße 1","5640","Österreich",,"+436434374423","+436434374433",
-25,"Niederösterreichische Gebietskrankenkasse",,"Gesundheit","Sozialversicherungsträger","Kremser Landstraße 3","3100","Österreich","info@noegkk.at ","+43508996100","+43508996581",
-26,"Oberösterreichische Gebietskrankenkasse",,"Gesundheit","Sozialversicherungsträger","Gruberstraße 77","4020","Österreich","ooegkk@ooegkk.at ","+43578070","+4357807109010",
-27,"Oberösterreichische Lehrer-, Kranken- und Unfallfürsorge",,"Gesundheit","Sozialversicherungsträger","Leonfeldner Straße 11","4041","Österreich",,"+437326682210","+43732868226",
-28,"Pensionsinstitut der Linz AG",,"Gesundheit","Sozialversicherungsträger","Postfach 1300, Wiener Straße 151","4021","Österreich",,"+4373234000","+4373234003522",
-29,"Pensionsversicherungsanstalt",,"Gesundheit","Sozialversicherungsträger","Friedrich-Hillegeist-Straße 1","1021","Österreich","pva@pensionsversicherung.at ","+4350303","+435030328850",
-30,"Salzburger Gebietskrankenkasse",,"Gesundheit","Sozialversicherungsträger","Engelbert-Weiß-Weg 10","5020","Österreich","sgkk@sgkk.at ","+4366288890","+4366288891111",
-31,"Sozialversicherungsanstalt der Bauern",,"Gesundheit","Sozialversicherungsträger","Ghegastraße 1 ","1030","Österreich","info@svb.at ","+431797060","+431797061300",
-32,"Sozialversicherungsanstalt der gewerblichen Wirtschaft",,"Gesundheit","Sozialversicherungsträger","Wiedner Hauptstraße 84-86","1051","Österreich",,"+43508080","+43508089099",
-33,"Steiermärkische Gebietskrankenkasse",,"Gesundheit","Sozialversicherungsträger","Josef-Pongratz-Platz 1","8010","Österreich","service@stgkk.at ","+4331680350","+4331680351590",
-34,"Tiroler Gebietskrankenkasse",,"Gesundheit","Sozialversicherungsträger","Klara-Pölt-Weg 2 ","6020","Österreich","tgkk@tgkk.at ","+4359160","+4359160300",
-35,"Versicherungsanstalt des österreichischen Notariats",,"Gesundheit","Sozialversicherungsträger","Florianigasse 2, Postfach 15","1082","Österreich","office@van.co.at","+43140513810","+43405138120",
-36,"Versicherungsanstalt für Eisenbahnen und Bergbau",,"Gesundheit","Sozialversicherungsträger","Unke Wienzelle 48-52","1060","Österreich","und","+435023500","+4350235076501",
-37,"Versicherungsanstalt öffentlich Bediensteter",,"Gesundheit","Sozialversicherungsträger","Josefstädter Straße 80","1080","Österreich","postoffice@bva.at ","+43504050","+435040522900",
-38,"Vorarlberger Gebietskrankenkasse",,"Gesundheit","Sozialversicherungsträger","Jahngasse 4","6850","Österreich","vgkk@vgkk.at ","+43508455","+435084551040",
-39,"Wiener Gebietskrankenkasse",,"Gesundheit","Sozialversicherungsträger","Wienerbergstraße 15-19","1100","Österreich","office@wgkk.at","+431601220","+4316024613",
-40,"Bauarbeiter- Urlaubs- und Abfertigungskasse",,"Gesundheit","Sozialversicherungsträger","Kliebergasse 1A",1040,"Österreich","kommunikation@buak.at","+43579579",,
-41,"ELGA GmbH",,"Gesundheit","Dienstleister","Treustraße 35-43/ Stg. 4/ 1. Stock",1200,"Österreich","office@elga.gv.at","+4312127050",,
-42,"Gemeinde-Servicezentrum",,"Gesundheit","Dienstleister","Gabelsbergerstraße 5",9020,"Österreich","gsz@ktn.gde.at","+4346355111300","+4346355111222",
-43,"Gemeindeverband für das Pensionsrecht der Tiroler Gemeindebeamten",,"Gesundheit","Dienstleister","Adamgasse 7 A",6020,"Österreich",,"+43512572838",,
-44,"Hauptverband der österreichischen Sozialversicherungsträger",,"Gesundheit","Dienstleister","Kundmanngasse 21","1031","Österreich","posteingang.allgemein@hvb.sozvers.at","+431711320","+431711323777",
-45,"HK-SKA Bad Ischl Betriebs-GmbH",,"Gesundheit","Dienstleister","Gartenstraße 9",4829,"Österreich","info@herzreha.at","+436132278010","+436132278018190",
-46,"IEF-Service GmbH",,"Gesundheit","Dienstleister","Linke Wienzeile 246",1150,"Österreich","office@insolvenzentgelt.at","+43120512120",,
-47,"IT-Services der Sozialversicherung Gmbh",,"Gesundheit","Dienstleister","Johann-Böhm-Platz 1",1020,"Österreich","office@itsv.at","+43501248445600","+43501248445080",
+1,"AUVA","Allgemeine Unfallversicherungsanstalt","Gesundheit","Sozialversicherungsträger","Adalbert-Stifter-Straße 65","1200","Österreich","kontakt@auva.at","+435939320000","+435939320606","20.08.2020"
+2,"KFA der Tiroler Gemeindebeamten","Kranken- und Unfallfürsorge der Tiroler Gemeindebeamten","Gesundheit","Krankenfürsorgeanstalt","Adamgasse 7a","6020","Österreich",,"+43512572838","'+4351257283815","20.08.2020"
+3,"KFA der Tiroler Landesbeamten einschließlich der LandeslehrerInnen","Kranken- und Unfallfürsorge der Tiroler Landesbeamten einschließlich der LandeslehrerInnen","Gesundheit","Krankenfürsorgeanstalt","Wiihelm-Greil-Straße 17/II","6020","Österreich","kuf@tirol.gv.at","+435125082152","'+43512508742155","20.08.2020"
+5,"KFA der Beamten der Stadtgemeinde Baden","Krankenfürsorge der Beamten der Stadtgemeinde Baden","Gesundheit","Krankenfürsorgeanstalt","Hauptplatz 1","2500","Österreich",,"'+4373270701241",,"20.08.2020"
+6,"KFA für die Beamten der Landeshauptstadt Linz","Krankenfürsorge für die Beamten der Landeshauptstadt Linz","Gesundheit","Krankenfürsorgeanstalt","Hauptplatz 1","4020","Österreich","mkf@mag.linz.at","'+4373270701241",,"20.08.2020"
+7,"KFA für die Beamten der Stadt Wels","Krankenfürsorge für die Beamten der Stadt Wels","Gesundheit","Krankenfürsorgeanstalt","Stadtpiatz 1","4600","Österreich","kfw@wels.gv.at","+4372422354800",,"20.08.2020"
+8,"KFA für oberösterreichische Gemeinden","Kranken- und Unfallfürsorge für oberösterreichische Gemeinden","Gesundheit","Krankenfürsorgeanstalt","Ferihumerstraße 8","4041","Österreich","office@kfg.ooe.gv.at","'+437327880000","+4373278800030","20.08.2020"
+9,"KFA für oberösterreichische Landesbedienstete","Kranken- und Unfallfürsorge für oberösterreichische Landesbedienstete","Gesundheit","Krankenfürsorgeanstalt","Promenade 28","4010","Österreich","klf.post@ooe.gv.at","'+43732772013861",,"20.08.2020"
+,"Oberösterreichische Lehrer-Kranken- und Unfallfürsorge","Oberösterreichische Lehrer-Kranken- und Unfallfürsorge","Gesundheit","Krankenfürsorgeanstalt","Leonfeldner Straße 11","4041","Österreich","office@kfg.ooe.gv.at","'+437326682210",,"20.08.2020"
+11,"KFA der Beamten der Stadt Villach","Krankenfürsorgeanstalt der Beamten der Stadt Villach","Gesundheit","Krankenfürsorgeanstalt","Rathausplatz 1","9500","Österreich","kfa@villach.at","'+4342422051919",,"20.08.2020"
+12,"KFA der Bediensteten der Stadt Wien","Krankenfürsorgeanstalt der Bediensteten der Stadt Wien","Gesundheit","Krankenfürsorgeanstalt","Schlesingerplatz 5","1081","Österreich","generaldirektion@kfa.co.at","+431404360","+43140436099","20.08.2020"
+13,"KFA der Magistratsbeamten der Landeshauptstadt Salzburg","Krankenfürsorgeanstalt der Magistratsbeamten der Landeshauptstadt Salzburg","Gesundheit","Krankenfürsorgeanstalt","Mirabellplatz 4","5024","Österreich","kfa@stadt-salzburg.at","'+4366280722530",,"20.08.2020"
+14,"KFA für Beamte der Stadt Steyr","Krankenfürsorgeanstalt für Beamte der Stadt Steyr","Gesundheit","Krankenfürsorgeanstalt","Postfach 200, Stadtplatz 27","4400","Österreich","kfa@steyr.gv.at","+437252575",,"20.08.2020"
+15,"KFA für die Beamten der Landeshauptstadt Graz","Krankenfürsorgeanstalt für die Beamten der Landeshauptstadt Graz","Gesundheit","Krankenfürsorgeanstalt","Hauptplatz 1","8011","Österreich","kfa@stadt.graz.at","'+433168725900",,"20.08.2020"
+16,"LFA der Beamten der Stadtgemeinde Hallein","Krankenfürsorgeeinrichtung der Beamten der Stadtgemeinde Hallein","Gesundheit","Krankenfürsorgeanstalt","Schöndorferplatz 14","5400","Österreich","stadtamt@hallein.gv.at","+4362458988168",,"20.08.2020"
+17,"KFA der Beamten der Gemeinde Bad Gastein","Krankenversicherungsfonds der Beamten der Gemeinde Bad Gastein","Gesundheit","Krankenfürsorgeanstalt","Kaiser-Franz-Josef-Straße 1","5640","Österreich",,"+436434374423",,"20.08.2020"
+18,"Pensionsinstitut der Linz AG","Pensionsinstitut der Linz AG","Gesundheit","Zuschusskasse","Postfach 1300, Wiener Straße 151","4021","Österreich","pensionsinstitut@linzag.at","'+4373234003518","+4373234003522","20.08.2020"
+19,"PVA","Pensionsversicherungsanstalt","Gesundheit","Sozialversicherungsträger","Friedrich-Hillegeist-Straße 1","1021","Österreich","pva@pensionsversicherung.at ","+4350303","+435030328850","20.08.2020"
+20,"VA des österreichischen Notariates","Versorgungsanstalt des österreichischen Notariates","Gesundheit","Sozialversicherungsträger","Florianigasse 2, Postfach 15","1080","Österreich","office@van.co.at","+43140513810",,"20.08.2020"
+21,"BUAK","Bauarbeiter- Urlaubs- und Abfertigungskasse","Gesundheit","Sozialversicherungsträger","Kliebergasse 1A",1050,"Österreich","kommunikation@buak.at","+43579579",,"20.08.2020"
+22,"ELGA","ELGA GmbH","Gesundheit","Dienstleister","Treustraße 35-43/ Stg. 4/ 1. Stock",1200,"Österreich","office@elga.gv.at","+4312127050",,"20.08.2020"
+23,"GSZ","Gemeinde-Servicezentrum","Gesundheit","Dienstleister","Gabelsbergerstraße 5",9020,"Österreich","gsz@ktn.gde.at","+4346355111300","+4346355111222","20.08.2020"
+24,"Gemeindeverband für das Pensionsrecht der Tiroler Gemeindebeamten","Gemeindeverband für das Pensionsrecht der Tiroler Gemeindebeamten","Gesundheit","Dienstleister","Adamgasse 7 A",6020,"Österreich",,"+43512572838",,"20.08.2020"
+25,"Dachverband der Sozialversicherungsträger","Dachverband der Sozialversicherungsträger","Gesundheit","Dienstleister","Kundmanngasse 21","1030","Österreich","posteingang.allgemein@sozialversicherung.at","+431711320",,"20.08.2020"
+26,"HK-SKA","HK-SKA Betriebs-GmbH","Gesundheit","Dienstleister","Gartenstraße 9",4820,"Österreich","info@herzreha.at","+436132278010","+436132278018190","20.08.2020"
+27,"IEF-Service","IEF-Service GmbH","Gesundheit","Dienstleister","Linke Wienzeile 246",1150,"Österreich","office@insolvenzentgelt.at","+43120512120",,"20.08.2020"
+28,"IT-Services der Sozialversicherung","IT-Services der Sozialversicherung GmbH","Gesundheit","Dienstleister","Johann-Böhm-Platz 1",1020,"Österreich","office@itsv.at","+43501248445600","+43501248445080","20.08.2020"
+,"SVC","Sozialversicherungs-Chipkarten Betriebs- und Errichtungsgesellschaft m.b.H.","Gesundheit","Dienstleister","Ernst-Melchior-Gasse 22",1020,"Österreich","info@svc.co.at","'+43501247140","'+43501247143776","20.08.2020"
+,"SVD","SVD Büromanagement GmbH","Gesundheit","Dienstleister","Dresdner Straße 45",1200,"Österreich","office@svdgmbh.at","'+4317981414","'+4317981414200","20.08.2020"
+29,"BVAEB","Versicherungsanstalt öffentlich Bediensteter, Eisenbahnen und Bergbau","Gesundheit","Sozialversicherungsträger","Josefstätter Straße 80",1080,"Österreich","postoffice@bvaeb.sv.at","+4350405","+435040522900","20.08.2020"
+30,"ÖGK","Österreichische Gesundheitskasse","Gesundheit","Sozialversicherungsträger","Haidingergasse 1, Postfach 7",1006,"Österreich","office@oegk.at","+43507660",,"20.08.2020"
+31,"SVS","Sozialversicherungsanstalt der Selbstständigen","Gesundheit","Sozialversicherungsträger","Wiedner Hauptstraße 84-86",1051,"Österreich","dsb@svs.at","+4350808808",,"20.08.2020"
+32,"Allianz Vorsorgekasse","Allianz Vorsorgekasse AG","Gesundheit","Vorsorgekasse","Hietzinger Kai 101-105",1130,"Österreich","servicekasse@allianz.at","+435900980181","+435900940128","20.08.2020"
+33,"APK Vorsorgekasse","APK Vorsorgekasse AG","Gesundheit","Vorsorgekasse","Thomas-Klestil-Platz 13",1030,"Österreich","office@apk-vk.at","+435027550","+43502755609","20.08.2020"
+34,"BONUS Vorsorgekasse","BONUS Vorsorgekasse AG","Gesundheit","Vorsorgekasse","Traungasse 14-16",1030,"Österreich","kundenservice@bonusvorsorge.at","+4319949974","+43199499741999","20.08.2020"
+35,"BUAK Betriebliche Vorsorgekasse","BUAK Betriebliche Vorsorgekasse GesmbH","Gesundheit","Vorsorgekasse","Kliebergasse 1a",1050,"Österreich","buak-bvk@buak.at","+435795793000","+4357957993099","20.08.2020"
+36,"fair-finance Vorsorgekasse","fair-finance Vorsorgekasse AG","Gesundheit","Vorsorgekasse","Alser Straße 21",1080,"Österreich","office@fair-finance.at","+43140571710","+431405717171","20.08.2020"
+37,"Niederösterreichische Vorsorgekasse","Niederösterreichische Vorsorgekasse AG","Gesundheit","Vorsorgekasse","Neue Herrengasse 10",3100,"Österreich","office@noevk.at","'+432742905557100'+432742905557120",,"20.08.2020"
+38,"Valida Plus","Valida Plus AG","Gesundheit","Vorsorgekasse","Mooslackengasse 12",1190,"Österreich","office@valida.at","+431316480","+431316486010","20.08.2020"
+39,"VBV – Vorsorgekasse","VBV – Vorsorgekasse AG","Gesundheit","Vorsorgekasse","Obere Donaustraße 49-53",1020,"Österreich","info@vorsorgekasse.at","+431217018500","+4312170178260","20.08.2020"
