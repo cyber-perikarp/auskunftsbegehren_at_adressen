@@ -22,7 +22,10 @@ logger = logging.getLogger()
 
 # In diesem Ordner sind wir
 workDir = os.path.dirname(os.path.realpath(__file__))
-outfile = workDir + "/noyb.csv"
+
+# Hardgecodede Parameter
+outFile = workDir + "/noyb.csv"
+csvHeader = ["status","id","display_name","legal_name","url","department","street_address","city","neighbourhood","postal_code","region","country","requires_identification","operating_countries","custom_identifier","identifiers","generic_url","generic_email","generic_note","access_url","access_email","access_note","deletion_url","deletion_email","deletion_note","portability_url","portability_email","portability_note","correction_url","correction_email","correction_note"]
 
 # Postleitzahlendatenbank einlesen
 plzDatei = open(workDir + '/plz_verzeichnis.csv', newline='')
@@ -45,6 +48,7 @@ def checkIfFullRecord (record):
         or not record["Adresse"]
         or not record["PLZ"]
         or not record["Land"]):
+        or not record["E-Mail"]
             logger.error("Not exporting: " + record["Name"])
             return False
     return True
@@ -106,6 +110,8 @@ def populateGeneratedFields(record):
     del record["Land"]
     del record["E-Mail"]
     del record["Pruefung"]
+    del record["Tel"]
+    del record["Fax"]
 
     return record
 
@@ -126,3 +132,15 @@ for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x
                     logger.info("Processing entry: " + record["Name"])
                     record = populateGeneratedFields(record)
                     logger.debug(record)
+
+                    # CSV schreiben!
+                    try:
+                        with open(outFile, 'w') as csvFile:
+                            logger.debug("Headers: " + str(csvHeader))
+
+                            writer = csv.DictWriter(csvFile, fieldnames=csvHeader)
+                            writer.writeheader()
+                            writer.writerow(record)
+
+                    except IOError:
+                        logger.error("Can't write to file!")
