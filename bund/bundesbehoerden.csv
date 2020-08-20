@@ -1,16 +1,16 @@
 "Id","Name","Name_Lang","Branche","Typ","Adresse","PLZ","Land","E-Mail","Tel","Fax","Pruefung"
-1,"Bundesministerium für Arbeit, Soziales und Konsumentenschutz",,"Bundesbehörde","Bundesministerium","Stubenring 1","1010","Österreich","post@sozialministerium.at","+431711000","+431711006502",
-2,"Bundesministerium für Bildung",,"Bundesbehörde","Bundesministerium","Minoritenplatz 5","1010","Österreich","ministerium@bmb.gv.at","+431531200","+431531203099",
-3,"Bundesministerium für Europa, Integration und Äußeres",,"Bundesbehörde","Bundesministerium","Minoritenplatz 8","1010","Österreich","post@bmeia.gv.at","+435011500","+435011590",
-4,"Bundesministerium für Familien und Jugend",,"Bundesbehörde","Bundesministerium","Untere Donaustraße 13 - 15","1020","Österreich","office@bmfj.gv.at","+431711000","+43151316791339",
-5,"Bundesministerium für Finanzen",,"Bundesbehörde","Bundesministerium","Johannesgasse 5","1010","Österreich","post@bmf.gv.at","+431514330","+431514335907201",
-6,"Bundesministerium für Gesundheit und Frauen",,"Bundesbehörde","Bundesministerium","Radetzkystraße 2","1030","Österreich","buergerservice@bmgf.gv.at","+431711000","+43171344041000",
-7,"Bundesministerium für Inneres",,"Bundesbehörde","Bundesministerium","Herrengasse 7","1010","Österreich","post@bmi.gv.at","+431531260","+43153126108613",
-8,"Bundesministerium für Justiz",,"Bundesbehörde","Bundesministerium","Museumstraße 7","1070","Österreich","post@bmj.gv.at","+4315263686","+43521522727",
-9,"Bundesministerium für Land- und Forstwirtschaft, Umwelt und Wasserwirtschaft",,"Bundesbehörde","Bundesministerium","Stubenring 1","1010","Österreich","service@bmlfuw.gv.at","+431711000","+43151316799900",
-10,"Bundesministerium für Landesverteidigung und Sport",,"Bundesbehörde","Bundesministerium","Roßauer Lände 1","1090","Österreich","buergerservice@bmlvs.gv.at","+43502010","+43502011026122",
-11,"Bundesministerium für Verkehr, Innovation und Technologie",,"Bundesbehörde","Bundesministerium","Radetzkystraße 2","1030","Österreich","servicebuero@bmvit.gv.at","+43171162650","+43171162658099",
-12,"Bundesministerium für Wissenschaft, Forschung und Wirtschaft",,"Bundesbehörde","Bundesministerium","Stubenring 1","1010","Österreich","service@bmwfw.gv.at","+431711000","+4317108573",
+1,"Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz","Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz","Bundesbehörde","Bundesministerium","Stubenring 1","1010","Österreich","post@sozialministerium.at","+431711000","'+4317158258","20.08.2020"
+2,"Bundesministerium für Bildung, Wissenschaft und Forschung","Bundesministerium für Bildung, Wissenschaft und Forschung","Bundesbehörde","Bundesministerium","Minoritenplatz 5","1010","Österreich","ministerium@bmbwf.gv.at","'+431531200","'+431531203099","20.08.2020"
+3,"Bundesministerium für europäische und internationale Angelegenheiten","Bundesministerium für europäische und internationale Angelegenheiten","Bundesbehörde","Bundesministerium","Minoritenplatz 8","1010","Österreich","post@bmeia.gv.at","'+43501150","'+43501159","20.08.2020"
+4,"Bundesministerium für Arbeit, Familie und Jugend","Bundesministerium für Arbeit, Familie und Jugend","Bundesbehörde","Bundesministerium","Untere Donaustraße 13 - 15","1020","Österreich","office@bmafj.gv.at","+431711000",,"20.08.2020"
+5,"Bundesministerium für Finanzen","Bundesministerium für Finanzen","Bundesbehörde","Bundesministerium","Johannesgasse 5","1010","Österreich","post@bmf.gv.at","+431514330",,"20.08.2020"
+7,"Bundesministerium für Inneres","Bundesministerium für Inneres","Bundesbehörde","Bundesministerium","Herrengasse 7","1010","Österreich","post@bmi.gv.at","+431531260","+43153126108613","20.08.2020"
+8,"Bundesministerium für Justiz","Bundesministerium für Justiz","Bundesbehörde","Bundesministerium","Museumstraße 7","1070","Österreich",,"+4315263686",,"20.08.2020"
+9,"Bundesministerium für Landwirtschaft, Regionen und Tourismus","Bundesministerium für Landwirtschaft, Regionen und Tourismus","Bundesbehörde","Bundesministerium","Stubenring 1","1010","Österreich","office@bmlrt.gv.at","+431711000","'+43171100606503","20.08.2020"
+10,"Bundesministerium für Landesverteidigung","Bundesministerium für Landesverteidigung","Bundesbehörde","Bundesministerium","Roßauer Lände 1","1090","Österreich","buergerservice@bmlv.gv.at","+43502011021160",,"20.08.2020"
+11,"Bundesministerium für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie","Bundesministerium für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie","Bundesbehörde","Bundesministerium","Radetzkystraße 2","1030","Österreich","servicebuero@bmk.gv.at","+43171162650",,"20.08.2020"
+,"Bundesministerium für Kunst, Kultur, öffentlichen Dienst und Sport","Bundesministerium für Kunst, Kultur, öffentlichen Dienst und Sport","Bundesbehörde","Bundesministerium","Radetzkystraße 2","1030","Österreich","buergerservice@bmkoes.gv.at","'+431716060",,"20.08.2020"
+,"Bundesministerium für Digitalisierung und Wirtschaftsstandort","Bundesministerium für Digitalisierung und Wirtschaftsstandort","Bundesbehörde","Bundesministerium","Stubenring 1","1010","Österreich","service@bmdw.gv.at","'+431711000",,"20.08.2020"
 13,"Bundesamt für Soziales u.Behindertenwesen",,"Bundesbehörde","Bundesbehörde","Babenbergerstraße 5",1010,"Österreich",,,,
 14,"Österreichische Agentur für Gesundheit und Ernährungssicherheit GmbH",,"Bundesbehörde","Öffentliches Unternehmen","Spargelfeldstrasse 191",1220,"Österreich","management@ages.at","+43 5 0555-0","+43 50 555-22019",
 15,"Beschussamt Wien",,"Bundesbehörde","Bundesbehörde","Wielandweg 27",1220,"Österreich","office-wien@beschussamt.gv.at","+43 1 7346268-0","+431 7346268-12",
