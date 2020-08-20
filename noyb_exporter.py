@@ -28,7 +28,7 @@ outFile = workDir + "/noyb.csv"
 csvHeader = ["status","id","display_name","legal_name","url","department","street_address","city","neighbourhood","postal_code","region","country","requires_identification","operating_countries","custom_identifier","identifiers","generic_url","generic_email","generic_note","access_url","access_email","access_note","deletion_url","deletion_email","deletion_note","portability_url","portability_email","portability_note","correction_url","correction_email","correction_note"]
 
 # Postleitzahlendatenbank einlesen
-plzDatei = open(workDir + '/plz_verzeichnis.csv', newline='')
+plzDatei = open(workDir + "/plz_verzeichnis.csv", newline="")
 plzDict = csv.DictReader(plzDatei)
 plz = {}
 for row in plzDict:
@@ -43,12 +43,14 @@ def sanitizePhoneNumber(number):
 
 def checkIfFullRecord (record):
     if (not record["Id"]
+        or not record["Name"]
+        or not record["Name_Lang"]
         or not record["Branche"]
         or not record["Typ"]
         or not record["Adresse"]
         or not record["PLZ"]
-        or not record["Land"]):
-        or not record["E-Mail"]
+        or not record["Land"]
+        or not record["E-Mail"]):
             logger.error("Not exporting: " + record["Name"])
             return False
     return True
@@ -115,6 +117,15 @@ def populateGeneratedFields(record):
 
     return record
 
+# Header schreiben
+try:
+    with open(outFile, "w") as outFileHandler:
+        logger.debug("Headers: " + str(csvHeader))
+        writer = csv.DictWriter(outFileHandler, fieldnames=csvHeader)
+        writer.writeheader()
+except IOError:
+    logger.error("Cant write to file!")
+
 # Alle Unterordner die nicht mit . beginnen enthalten die csvs
 for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x[0] != ".")]:
     # Hier werden schon die csvs geladen
@@ -135,12 +146,9 @@ for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x
 
                     # CSV schreiben!
                     try:
-                        with open(outFile, 'w') as csvFile:
-                            logger.debug("Headers: " + str(csvHeader))
-
-                            writer = csv.DictWriter(csvFile, fieldnames=csvHeader)
-                            writer.writeheader()
+                        with open(outFile, "a+") as outFileHandler:
+                            writer = csv.DictWriter(outFileHandler, fieldnames=csvHeader)
                             writer.writerow(record)
 
                     except IOError:
-                        logger.error("Can't write to file!")
+                        logger.error("Cant write to file!")
