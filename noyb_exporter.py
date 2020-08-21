@@ -32,7 +32,7 @@ plzFile = open(workDir + "/plz_verzeichnis.csv", newline="")
 plzDict = csv.DictReader(plzFile)
 plz = {}
 for row in plzDict:
-    plz[row["PLZ"]] = (row["Ort"], row["region"])
+    plz[row["PLZ"]] = (row["Ort"], row["Bundesland"])
 
 def sanitizePhoneNumber(number):
     number = number.replace(" ", "")
@@ -71,8 +71,8 @@ def populateGeneratedFields(record):
 
     # ID
     sourceFile = os.path.splitext(csvFile)[0].split("/")[-1]
-
-    id = sourceFile + "_" + record["folder"] + "_" + record["Id"]
+    lastChecked = record["Pruefung"].replace(".", "-")
+    id = sourceFile + "_" + record["folder"] + "_" + record["Id"] + "_" + lastChecked
 
     recordToReturn = {}
 
