@@ -9,7 +9,7 @@ import sys
 import argparse
 
 # CLI Parameter
-parser = argparse.ArgumentParser("convert-to-sql.py")
+parser = argparse.ArgumentParser("noyb_exporter.py")
 parser.add_argument("--loglevel", help="DEBUG, INFO, ERROR, CRITICAL")
 
 args = vars(parser.parse_args())
@@ -28,11 +28,11 @@ outFile = workDir + "/noyb.csv"
 csvHeader = ["status", "id", "display_name", "legal_name", "url", "department", "street_address", "city", "neighbourhood", "postal_code", "region", "country", "requires_identification", "operating_countries", "custom_identifier", "identifiers", "generic_url", "generic_email", "generic_note", "access_url", "access_email", "access_note", "deletion_url", "deletion_email", "deletion_note", "portability_url", "portability_email", "portability_note", "correction_url", "correction_email", "correction_note"]
 
 # Postleitzahlendatenbank einlesen
-plzDatei = open(workDir + "/plz_verzeichnis.csv", newline="")
-plzDict = csv.DictReader(plzDatei)
+plzFile = open(workDir + "/plz_verzeichnis.csv", newline="")
+plzDict = csv.DictReader(plzFile)
 plz = {}
 for row in plzDict:
-    plz[row["PLZ"]] = (row["Ort"], row["Bundesland"])
+    plz[row["PLZ"]] = (row["Ort"], row["region"])
 
 def sanitizePhoneNumber(number):
     number = number.replace(" ", "")
@@ -41,6 +41,7 @@ def sanitizePhoneNumber(number):
     number = number.replace("(", "")
     number = number.replace(")", "")
     number = number.replace("'", "") # Wegen LibreOffice
+    logger.debug("Sanitized Phone Number: " + number)
     return number
 
 def checkIfFullRecord(record):
@@ -62,13 +63,16 @@ def populateGeneratedFields(record):
     tel = sanitizePhoneNumber(record["Tel"])
     fax = sanitizePhoneNumber(record["Fax"])
 
-    # Postleitzahl und Bundesland aus Postleitzahlendatenbank
-    stadt = plz[record["PLZ"]][0]
-    bundesland = plz[record["PLZ"]][1]
+    # Postleitzahl und region aus Postleitzahlendatenbank
+    city = plz[record["PLZ"]][0]
+    region = plz[record["PLZ"]][1]
+
+    logger.debug("Found city and region: " + city + ", " + region)
 
     # ID
-    quelldatei = os.path.splitext(csvFile)[0].split("/")[-1]
-    id = quelldatei + "_" + record["folder"] + "_" + record["Id"]
+    sourceFile = os.path.splitext(csvFile)[0].split("/")[-1]
+
+    id = sourceFile + "_" + record["folder"] + "_" + record["Id"]
 
     recordToReturn = {}
 
@@ -80,10 +84,10 @@ def populateGeneratedFields(record):
     recordToReturn["url"] = ""
     recordToReturn["department"] = ""
     recordToReturn["street_address"] = record["Adresse"]
-    recordToReturn["city"] = stadt
+    recordToReturn["city"] = city
     recordToReturn["neighbourhood"] = ""
     recordToReturn["postal_code"] = record["PLZ"]
-    recordToReturn["region"] = bundesland
+    recordToReturn["region"] = region
     recordToReturn["country"] = "AUSTRIA"
     recordToReturn["requires_identification"] = ""
     recordToReturn["operating_countries"] = ""
@@ -114,7 +118,7 @@ try:
         writer = csv.DictWriter(outFileHandler, fieldnames=csvHeader)
         writer.writeheader()
 except IOError:
-    logger.error("Cant write to file!")
+    logger.critical("Cant write to file!")
 
 # Alle Unterordner die nicht mit . beginnen enthalten die csvs
 for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x[0] != ".")]:
@@ -142,4 +146,4 @@ for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x
                             writer.writerow(record)
 
                     except IOError:
-                        logger.error("Cant write to file!")
+                        logger.critical("Cant write to file!")
