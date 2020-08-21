@@ -1,6 +1,6 @@
 "Branche","Branchenbeschreibung","Typ","Typenbeschreibung"
 "Sozialleistungen","Private oder staatliche Sozialleistungen","Dienstleister",
-"Kultur",,"Museen / Theater",
+"Kultur",,"Museum / Theater / Bibliothek",
 "Gesundheit",,"Aufsichtsbehörde",
 "Interessensvertretung","Kammern, Wirtschaftsverbünde, Religionsgemeinschaften","Polizei",
 "Bildung","Museen, Unis, Schulen","Krankenhaus",
@@ -11,8 +11,8 @@
 "Finanzen",,"Fachhochschule",
 "Bezirksbehörde",,"Pädagogische Hochschule",
 "Gemeindebehörde",,"Privatuniversität",
-,,"Universität",
-,,"Behörde",
+"Erzeugung",,"Universität",
+"Einzelhandel",,"Behörde",
 ,,"Administration","z.B. Ämter der Landesregierung"
 ,,"Bank",
 ,,"Verkehr",
