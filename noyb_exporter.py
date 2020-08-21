@@ -38,6 +38,8 @@ def sanitizePhoneNumber(number):
     number = number.replace(" ", "")
     number = number.replace("-", "")
     number = number.replace("/", "")
+    number = number.replace("(", "")
+    number = number.replace(")", "")
     number = number.replace("'", "") # Wegen LibreOffice
     return number
 
