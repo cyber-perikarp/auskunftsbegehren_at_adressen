@@ -48,11 +48,10 @@ def checkIfFullRecord(record):
     if (not record["Id"]
         or not record["Name"]
         or not record["Name_Lang"]
-        or not record["Branche"]
-        or not record["Typ"]
         or not record["Adresse"]
         or not record["PLZ"]
         or not record["Land"]
+        or not record["Pruefung"]
         or not record["E-Mail"]):
             logger.error("Not exporting: " + record["Name"])
             return False
