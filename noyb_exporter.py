@@ -38,7 +38,7 @@ def sanitizePhoneNumber(number):
     number = number.replace(" ", "")
     number = number.replace("-", "")
     number = number.replace("/", "")
-    number = number.replace("'", "")  # Wegen LibreOffice
+    number = number.replace("'", "") # Wegen LibreOffice
     return number
 
 def checkIfFullRecord(record):
@@ -50,9 +50,9 @@ def checkIfFullRecord(record):
         or not record["Adresse"]
         or not record["PLZ"]
         or not record["Land"]
-            or not record["E-Mail"]):
-        logger.error("Not exporting: " + record["Name"])
-        return False
+        or not record["E-Mail"]):
+            logger.error("Not exporting: " + record["Name"])
+            return False
     return True
 
 def populateGeneratedFields(record):
@@ -66,56 +66,44 @@ def populateGeneratedFields(record):
 
     # ID
     quelldatei = os.path.splitext(csvFile)[0].split("/")[-1]
-    id = quelldatei + "_" + bundesland + "_" + record["Id"]
+    id = quelldatei + "_" + record["folder"] + "_" + record["Id"]
+
+    recordToReturn = {}
 
     # Felder für noyb
-    record["status"] = ""
-    record["id"] = ""
-    record["display_name"] = record["Name"]
-    record["legal_name"] = record["Name_Lang"]
-    record["url"] = ""
-    record["department"] = ""
-    record["street_address"] = record["Adresse"]
-    record["city"] = stadt
-    record["neighbourhood"] = ""
-    record["postal_code"] = record["PLZ"]
-    record["region"] = bundesland
-    record["country"] = "AUSTRIA"
-    record["requires_identification"] = ""
-    record["operating_countries"] = ""
-    record["custom_identifier"] = id
-    record["identifiers"] = ""
-    record["generic_url"] = ""
-    record["generic_email"] = record["E-Mail"]
-    record["generic_note"] = "Phone: " + tel + ", Fax: " + fax
-    record["access_url"] = ""
-    record["access_email"] = ""
-    record["access_note"] = ""
-    record["deletion_url"] = ""
-    record["deletion_email"] = ""
-    record["deletion_note"] = ""
-    record["portability_url"] = ""
-    record["portability_email"] = ""
-    record["portability_note"] = ""
-    record["correction_url"] = ""
-    record["correction_email"] = ""
-    record["correction_note"] = ""
+    recordToReturn["status"] = ""
+    recordToReturn["id"] = ""
+    recordToReturn["display_name"] = record["Name"]
+    recordToReturn["legal_name"] = record["Name_Lang"]
+    recordToReturn["url"] = ""
+    recordToReturn["department"] = ""
+    recordToReturn["street_address"] = record["Adresse"]
+    recordToReturn["city"] = stadt
+    recordToReturn["neighbourhood"] = ""
+    recordToReturn["postal_code"] = record["PLZ"]
+    recordToReturn["region"] = bundesland
+    recordToReturn["country"] = "AUSTRIA"
+    recordToReturn["requires_identification"] = ""
+    recordToReturn["operating_countries"] = ""
+    recordToReturn["custom_identifier"] = id
+    recordToReturn["identifiers"] = ""
+    recordToReturn["generic_url"] = ""
+    recordToReturn["generic_email"] = record["E-Mail"]
+    recordToReturn["generic_note"] = "Phone: " + tel + ", Fax: " + fax
+    recordToReturn["access_url"] = ""
+    recordToReturn["access_email"] = ""
+    recordToReturn["access_note"] = ""
+    recordToReturn["deletion_url"] = ""
+    recordToReturn["deletion_email"] = ""
+    recordToReturn["deletion_note"] = ""
+    recordToReturn["portability_url"] = ""
+    recordToReturn["portability_email"] = ""
+    recordToReturn["portability_note"] = ""
+    recordToReturn["correction_url"] = ""
+    recordToReturn["correction_email"] = ""
+    recordToReturn["correction_note"] = ""
 
-    # Felder die direkt aus den Dateien kommen entfernen
-    del record["Id"]
-    del record["Name"]
-    del record["Name_Lang"]
-    del record["Branche"]
-    del record["Typ"]
-    del record["Adresse"]
-    del record["PLZ"]
-    del record["Land"]
-    del record["E-Mail"]
-    del record["Pruefung"]
-    del record["Tel"]
-    del record["Fax"]
-
-    return record
+    return recordToReturn
 
 # Header schreiben
 try:
@@ -138,6 +126,7 @@ for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x
         with open(csvFile, newline='') as csvFileReader:
             readFile = csv.DictReader(csvFileReader)
             for record in readFile:
+                record["folder"] = folder # Wir brauchen das zum generieren der ID
                 # Unvollständige Datensätze werden nicht eingefügt
                 if (checkIfFullRecord(record)):
                     logger.info("Processing entry: " + record["Name"])
