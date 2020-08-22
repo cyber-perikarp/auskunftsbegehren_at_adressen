@@ -63,8 +63,8 @@ def checkIfFullRecord(record):
 
 def populateGeneratedFields(record):
     # Alle leerzeichen, bindestriche, klammern etc aus telefon und faxnummer entfernen
-    tel = sanitizePhoneNumber(record["Tel"])
-    fax = sanitizePhoneNumber(record["Fax"])
+    record["Tel"] = sanitizePhoneNumber(record["Tel"])
+    record["Fax"] = sanitizePhoneNumber(record["Fax"])
 
     # Postleitzahl aus Postleitzahlendatenbank
     city = plz[record["PLZ"]][0]
