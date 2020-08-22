@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+###################################
+# https://www.mydatadoneright.eu/ #
+###################################
+
 import csv
 import os
 import logging
@@ -21,14 +25,15 @@ chromalog.basicConfig(format="%(message)s", level=loglevel)
 logger = logging.getLogger()
 
 # In diesem Ordner sind wir
-workDir = os.path.dirname(os.path.realpath(__file__))
+workDir = os.path.dirname(os.path.realpath(__file__)) + "/.."
 
 # Hardgecodede Parameter
 outFile = workDir + "/noyb.csv"
 csvHeader = ["status", "id", "display_name", "legal_name", "url", "department", "street_address", "city", "neighbourhood", "postal_code", "region", "country", "requires_identification", "operating_countries", "custom_identifier", "identifiers", "generic_url", "generic_email", "generic_note", "access_url", "access_email", "access_note", "deletion_url", "deletion_email", "deletion_note", "portability_url", "portability_email", "portability_note", "correction_url", "correction_email", "correction_note"]
+foldersToIgnore = [".", "..", "docs", "exporter", "upload", ".git", ".github"]
 
 # Postleitzahlendatenbank einlesen
-plzFile = open(workDir + "/plz_verzeichnis.csv", newline="")
+plzFile = open(workDir + "/exporter/plz_verzeichnis.csv", newline="")
 plzDict = csv.DictReader(plzFile)
 plz = {}
 for row in plzDict:
@@ -119,8 +124,11 @@ try:
 except IOError:
     logger.critical("Cant write to file!")
 
-# Alle Unterordner die nicht mit . beginnen enthalten die csvs
-for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x[0] != ".")]:
+logger.debug(sorted(os.listdir(workDir)))
+
+# Alle Unterordner laden, außer die die wir ignorieren wollen
+for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x not in foldersToIgnore)]:
+    print(sorted(os.listdir(workDir)))
     # Hier werden schon die csvs geladen
     for csvFile in [x for x in os.listdir(workDir + "/" + folder) if os.path.splitext(x)[1] == ".csv"]:
         # Pfad zur csv

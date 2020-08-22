@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+######################
+# THIS IS DEPRECATED #
+######################
+
 import csv
 import os
 import argparse

@@ -4,6 +4,9 @@
 # Quit on errors
 set -e
 
+# We are in a subfolder
+cd $TRAVIS_BUILD_DIR
+
 sum=0
 
 # Iterate through all folder

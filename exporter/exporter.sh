@@ -4,8 +4,12 @@
 # Quit on errors
 set -e
 
+# We are in a subfolder
+cd $TRAVIS_BUILD_DIR
+
 mkdir upload
-./noyb_exporter.py
+figlet "NOYB"
+./exporter/noyb_exporter.py
 mv noyb.csv upload
 
 cat <<EOF >> upload/index.html
@@ -27,4 +31,5 @@ cat <<EOF >> upload/index.html
 </html>
 EOF
 
+figlet "UPLOAD"
 ls -hall upload
