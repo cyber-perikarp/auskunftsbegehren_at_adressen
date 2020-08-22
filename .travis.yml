@@ -1,5 +1,6 @@
 dist: focal
 language: python
+os: linux
 
 install:
   - sudo apt update
@@ -19,10 +20,10 @@ script:
 
 deploy:
   provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
+  token: $GITHUB_TOKEN
   keep_history: true
   local_dir: upload
+  strategy: git
   committer_from_gh: true
   on:
     branch: master
