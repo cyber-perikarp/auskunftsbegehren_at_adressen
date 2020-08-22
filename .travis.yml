@@ -1,9 +1,9 @@
 dist: focal
 
 before_script:
-  - sudo add-apt-repository ppa:longsleep/golang-backports
+  - sudo add-apt-repository -y ppa:longsleep/golang-backports
   - sudo apt update
-  - sudo apt install golang-go python-pip
+  - sudo apt install -y golang-go python-pip
   - go get github.com/Clever/csvlint/cmd/csvlint
   - sudo pip install -g chromalog
 
