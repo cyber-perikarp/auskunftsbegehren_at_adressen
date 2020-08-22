@@ -1,21 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="utf-8">
   <style>
     body {
-      margin: 40px auto;
       max-width: 650px;
-      line-height: 1.6;
-      font-size: 18px;
+      margin: 40px auto;
+      padding: 0 10px;
       color: #444;
-      padding: 0 10px
+      font-family: Sans-serif;
     }
 
     h1,
     h2,
     h3 {
-      line-height: 1.2
+      line-height: 1.2;
+    }
+
+    a:link {
+      color: darkblue;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: darkcyan;
+    }
+
+    .important {
+      color: red !important;
     }
   </style>
   <title>
@@ -32,18 +44,19 @@
   <ul>
     <li>
       <a href="noyb.csv">
-        Aufbereitet für NOYB
+        Aufbereitet für NOYB (CSV)
       </a>
     </li>
     <li>
       <a href="general.csv">
-        Genereller Export
+        Genereller Export (CSV)
       </a>
     </li>
   </ul>
   <p>
     Lizenz: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International</a><br>
-    <a href="https://github.com/cyber-perikarp/auskunftsbegehren_at_adressen/blob/master/docs/mitwirkende.md" target="_blank">Mitwirkende</a>
+    <a href="https://github.com/cyber-perikarp/auskunftsbegehren_at_adressen/blob/master/docs/mitwirkende.md" target="_blank">Mitwirkende</a><br>
+    <a href="https://github.com/cyber-perikarp/auskunftsbegehren_at_adressen/issues/new" target="_blank" class="important">Neuen Datensatz einreichen</a>
   </p>
 </body>
 </html>
