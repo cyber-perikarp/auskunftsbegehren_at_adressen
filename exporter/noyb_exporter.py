@@ -128,7 +128,6 @@ logger.debug(sorted(os.listdir(workDir)))
 
 # Alle Unterordner laden, außer die die wir ignorieren wollen
 for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x not in foldersToIgnore)]:
-    print(sorted(os.listdir(workDir)))
     # Hier werden schon die csvs geladen
     for csvFile in [x for x in os.listdir(workDir + "/" + folder) if os.path.splitext(x)[1] == ".csv"]:
         # Pfad zur csv
