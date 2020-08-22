@@ -4,5 +4,8 @@
 # auskunftsbegehren.at Adressdaten
 In diesem Repo liegen Adressdaten österreichischer Behörden, staatsnaher Unternehmen, öffentlich-rechtlichen Körperschaften, Banken, Versicherungen, etc. die als Datenquelle für auskunftsbegehren.at dienen. Pull requests sind willkommen :smile:! Bitte das Telefonnummernformat einhalten!
 
+# Download der aufbereiteten Datensätze
+[Hier!](https://auskunftsbegehren-adressen.cyber-perikarp.eu/)
+
 ## Lizenz
 [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)
