@@ -93,7 +93,7 @@ for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x
         # Foldername schreiben!
         try:
             with open(outFile, "a+") as outFileHandler:
-                outFileHandler.write("## " + folder + "\n")
+                outFileHandler.write("## " + folder + "\n\n")
 
         except IOError:
             logger.critical("Cant write to file!")
@@ -111,7 +111,7 @@ for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x
                     # Content schreiben!
                     try:
                         with open(outFile, "a+") as outFileHandler:
-                            outFileHandler.write("### " + record["Name"] + "\n")
+                            outFileHandler.write("### " + record["Name"] + "\n\n")
                             outFileHandler.write("**" + record["Name_Lang"] + "**\n")
                             outFileHandler.write(record["Adresse"] + "\n")
                             outFileHandler.write(record["PLZ"] + " " + record["Ort"] + "\n\n")
