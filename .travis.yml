@@ -16,6 +16,7 @@ before_script:
 
 script:
   - ./.exporter/exporter.sh
+  - echo "auskunftsbegehren-adressen.cyber-perikarp.eu" > upload/CNAME
 
 before_deploy:
   - cd $TRAVIS_BUILD_DIR
