@@ -30,7 +30,7 @@ cat <<EOF >> upload/index.html
 		Datensatzdownload
 	</h1>
 	<h2>
-		Letztes Update: $(date)
+		Letztes Update: $(TZ=Europe/Vienna date +"%A, %m.%d.%Y %T %:z")
 	</h2>
   <ul>
     <li>
