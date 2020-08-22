@@ -67,7 +67,7 @@ def populateGeneratedFields(record):
     record["Fax"] = sanitizePhoneNumber(record["Fax"])
 
     # Postleitzahl aus Postleitzahlendatenbank
-    city = plz[record["PLZ"]][0]
+    cirecord["Ort"] = plz[record["PLZ"]][0]
 
     logger.debug("Found city and region: " + city + ", " + region)
 
@@ -76,8 +76,6 @@ def populateGeneratedFields(record):
     lastChecked = record["Pruefung"].replace(".", "-")
     id = sourceFile + "_" + record["Folder"] + "_" + record["Id"] + "_" + lastChecked
     record["Id"] = id
-
-    record["Ort"] = city
 
     del record["Folder"]
 
