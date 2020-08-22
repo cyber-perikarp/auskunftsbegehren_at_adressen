@@ -14,7 +14,7 @@ figlet "NOYB"
 mv noyb.csv upload
 
 figlet "GENERAL CSV"
-./.exporter/general_exporter.py
+./.exporter/general_csv_exporter.py
 mv general.csv upload
 
 now=$(TZ=Europe/Vienna date +"%A, %m.%d.%Y %T %:z")
