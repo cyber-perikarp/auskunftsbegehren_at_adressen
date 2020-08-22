@@ -11,8 +11,10 @@ install:
   - export GOPATH=/tmp/go && go get github.com/Clever/csvlint/cmd/csvlint
   - pip install -r .exporter/requirements.txt
 
-script:
+before_script:
   - ./.exporter/check.sh
+
+script:
   - ./.exporter/exporter.sh
 
 before_deploy:
