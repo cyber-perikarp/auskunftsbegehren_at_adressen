@@ -6,8 +6,8 @@ install:
   - sudo add-apt-repository -y ppa:longsleep/golang-backports
   - sudo apt-key adv --fetch-keys 'https://mariadb.org/mariadb_release_signing_key.asc'
   - sudo add-apt-repository -y 'deb [arch=amd64,arm64,ppc64el] http://ams2.mirrors.digitalocean.com/mariadb/repo/10.5/ubuntu focal main'
-  - sudo apt update
-  - sudo apt install -y golang-go python3-mysqldb
+  - sudo apt-get update
+  - sudo apt-get install -y golang-go python3-mysqldb
   - go get github.com/Clever/csvlint/cmd/csvlint
   - pip install -r requirements.txt
 
