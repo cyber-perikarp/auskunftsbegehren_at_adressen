@@ -66,9 +66,8 @@ def populateGeneratedFields(record):
     tel = sanitizePhoneNumber(record["Tel"])
     fax = sanitizePhoneNumber(record["Fax"])
 
-    # Postleitzahl und region aus Postleitzahlendatenbank
+    # Postleitzahl aus Postleitzahlendatenbank
     city = plz[record["PLZ"]][0]
-    region = plz[record["PLZ"]][1]
 
     logger.debug("Found city and region: " + city + ", " + region)
 
