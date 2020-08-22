@@ -76,7 +76,7 @@ def populateGeneratedFields(record):
     # ID
     sourceFile = os.path.splitext(csvFile)[0].split("/")[-1]
     lastChecked = record["Pruefung"].replace(".", "-")
-    id = sourceFile + "_" + record["folder"] + "_" + record["Id"] + "_" + lastChecked
+    id = sourceFile + "_" + record["Folder"] + "_" + record["Id"] + "_" + lastChecked
 
     recordToReturn = {}
 
@@ -138,7 +138,7 @@ for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x
         with open(csvFile, newline='') as csvFileReader:
             readFile = csv.DictReader(csvFileReader)
             for record in readFile:
-                record["folder"] = folder # Wir brauchen das zum generieren der ID
+                record["Folder"] = folder # Wir brauchen das zum generieren der ID
                 # Unvollständige Datensätze werden nicht eingefügt
                 if (checkIfFullRecord(record)):
                     logger.info("Processing entry: " + record["Name"])
