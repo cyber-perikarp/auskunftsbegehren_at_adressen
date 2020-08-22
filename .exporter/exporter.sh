@@ -13,7 +13,7 @@ figlet "NOYB"
 ./.exporter/noyb_exporter.py
 mv noyb.csv upload
 
-figlet "GENERAL"
+figlet "GENERAL CSV"
 ./.exporter/general_exporter.py
 mv general.csv upload
 
