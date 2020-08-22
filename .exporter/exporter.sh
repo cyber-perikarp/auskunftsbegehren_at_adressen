@@ -17,10 +17,6 @@ figlet "GENERAL CSV"
 ./.exporter/general_csv_exporter.py
 mv general.csv upload
 
-figlet "GENERAL MD"
-./.exporter/general_markdown_exporter.py
-mv general.md upload
-
 now=$(TZ=Europe/Vienna date +"%A, %m.%d.%Y %T %:z")
 sed -i "s/%%DATE%%/$now/g" .exporter/download.html
 mv .exporter/download.html upload/index.html
