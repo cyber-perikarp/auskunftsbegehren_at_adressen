@@ -9,7 +9,7 @@ cd $TRAVIS_BUILD_DIR
 
 mkdir upload
 figlet "NOYB"
-./exporter/noyb_exporter.py
+./.exporter/noyb_exporter.py
 mv noyb.csv upload
 
 cat <<EOF >> upload/index.html

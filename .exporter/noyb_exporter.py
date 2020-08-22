@@ -30,10 +30,10 @@ workDir = os.path.dirname(os.path.realpath(__file__)) + "/.."
 # Hardgecodede Parameter
 outFile = workDir + "/noyb.csv"
 csvHeader = ["status", "id", "display_name", "legal_name", "url", "department", "street_address", "city", "neighbourhood", "postal_code", "region", "country", "requires_identification", "operating_countries", "custom_identifier", "identifiers", "generic_url", "generic_email", "generic_note", "access_url", "access_email", "access_note", "deletion_url", "deletion_email", "deletion_note", "portability_url", "portability_email", "portability_note", "correction_url", "correction_email", "correction_note"]
-foldersToIgnore = [".", "..", "docs", "exporter", "upload", ".git", ".github"]
+foldersToIgnore = [".", "..", ".exporter", "docs", "upload", ".git", ".github"]
 
 # Postleitzahlendatenbank einlesen
-plzFile = open(workDir + "/exporter/plz_verzeichnis.csv", newline="")
+plzFile = open(workDir + "/.exporter/plz_verzeichnis.csv", newline="")
 plzDict = csv.DictReader(plzFile)
 plz = {}
 for row in plzDict:

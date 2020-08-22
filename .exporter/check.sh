@@ -15,7 +15,7 @@ for folder in $(ls -d -1 */); do
   cd "${folder}"
 
   # And now check all the files
-  for file in $(ls -1); do
+  for file in $(ls -1 *.csv); do
     echo "Checking file: ${file}"
 
     # Count the lines in the file

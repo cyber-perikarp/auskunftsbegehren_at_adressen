@@ -9,11 +9,11 @@ install:
   - sudo apt-get update
   - sudo apt-get install -y golang-go python3-mysqldb figlet
   - export GOPATH=/tmp/go && go get github.com/Clever/csvlint/cmd/csvlint
-  - pip install -r exporter/requirements.txt
+  - pip install -r .exporter/requirements.txt
 
 script:
-  - ./exporter/check.sh
-  - ./exporter/exporter.sh
+  - ./.exporter/check.sh
+  - ./.exporter/exporter.sh
 
 before_deploy:
   - cd $TRAVIS_BUILD_DIR
