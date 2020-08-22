@@ -26,3 +26,5 @@ cat <<EOF >> upload/index.html
 </body>
 </html>
 EOF
+
+ls -hall upload

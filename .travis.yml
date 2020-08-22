@@ -15,12 +15,18 @@ script:
   - ./check.sh
   - ./github-pages.sh
 
+before_deploy:
+  - cd $TRAVIS_BUILD_DIR
+
 deploy:
   provider: pages
   token: $GITHUB_TOKEN
   keep_history: true
   local_dir: upload
   strategy: git
+  edge: true
+  skip_cleanup: true
+  target_branch: gh-pages
   committer_from_gh: true
   on:
     branch: master
