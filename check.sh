@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Sebastian Elisa Pfeifer <sebastian @ sebastian - elisa - pfeifer.eu>
+# Sebastian Elisa Pfeifer <sebastian@sebastian-elisa-pfeifer.eu>
 
 # Quit on errors
 set -e

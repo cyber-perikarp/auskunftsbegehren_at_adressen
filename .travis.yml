@@ -1,10 +1,22 @@
-language: go
-
-go:
-  - "1.15"
+dist: focal
 
 before_script:
+  - sudo add-apt-repository ppa:longsleep/golang-backports
+  - sudo apt update
+  - sudo apt install golang-go python-pip
   - go get github.com/Clever/csvlint/cmd/csvlint
+  - sudo pip install -g chromalog
 
 script:
   - ./check.sh
+  - ./github-pages.sh
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  local_dir: upload
+  committer_from_gh: true
+  on:
+    branch: master
