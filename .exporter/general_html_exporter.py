@@ -89,7 +89,8 @@ try:
             <body>
               <h1>
                 Genereller Export
-              </h1>""")
+              </h1>
+              <div id="listContainer">""")
 except IOError:
     logger.critical("Cant write to file!")
 
@@ -102,14 +103,6 @@ for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x
         # Pfad zur csv
         csvFile = workDir + "/" + folder + "/" + csvFile
         logger.info("Using File: " + csvFile)
-
-        # Foldername schreiben!
-        try:
-            with open(outFile, "a+") as outFileHandler:
-                outFileHandler.write("<h2>" + folder + "</h2>\n")
-
-        except IOError:
-            logger.critical("Cant write to file!")
 
         # csv lesen und parsen
         with open(csvFile, newline='') as csvFileReader:
@@ -124,7 +117,8 @@ for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x
                     # Content schreiben!
                     try:
                         with open(outFile, "a+") as outFileHandler:
-                            outFileHandler.write("<h3>" + record["Name"] + "</h3>\n")
+                            outFileHandler.write("<div class=\"listItem\">")
+                            outFileHandler.write("<h2>" + record["Name"] + "</h2>\n")
                             outFileHandler.write("<strong>" + record["Name_Lang"] + "</strong><br>\n")
                             outFileHandler.write("<p>" + record["Adresse"] + "<br>\n")
                             outFileHandler.write(record["PLZ"] + " " + record["Ort"] + "</p>\n")
@@ -137,7 +131,8 @@ for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x
                             if record["Fax"]:
                                  outFileHandler.write("<span>Fax: " + record["Fax"] + "</span><br>\n")
 
-                            outFileHandler.write("<p><i>Letzte Prüfung am: " + record["Pruefung"] + "</i></p>\n\n")
+                            outFileHandler.write("<p><i>Letzte Prüfung am: " + record["Pruefung"] + "</i></p>\n")
+                            outFileHandler.write("</div>\n\n")
 
                     except IOError:
                         logger.critical("Cant write to file!")
@@ -145,7 +140,7 @@ for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x
 # Footer
 try:
     with open(outFile, "a+") as outFileHandler:
-        outFileHandler.write("""
+        outFileHandler.write("""</div> <!-- This is the end of the listWrapper -->
                 <p>
                 Lizenz: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International</a><br>
                 <a href="https://github.com/cyber-perikarp/auskunftsbegehren_at_adressen/blob/master/docs/mitwirkende.md" target="_blank">Mitwirkende</a><br>
