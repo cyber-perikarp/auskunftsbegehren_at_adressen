@@ -29,6 +29,7 @@ a:visited {
 
 .listItem {
   page-break-inside: avoid;
+  width: 95%;
 }
 
 #listContainer {
