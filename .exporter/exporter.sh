@@ -28,7 +28,7 @@ figlet "GENERAL HTML"
 mv general.html upload
 
 figlet "GENERAL PDF"
-wkhtmltopdf --page-size A4 --enable-local-file-access upload/general.html upload/general.pdf
+wkhtmltopdf --page-size A4 --enable-local-file-access --footer-left "https://auskunftsbegehren-adressen.cyber-perikarp.eu/" --footer-right "Seite [page] von [topage]" upload/general.html upload/general.pdf
 
 figlet "UPLOAD"
 ls -hall upload
