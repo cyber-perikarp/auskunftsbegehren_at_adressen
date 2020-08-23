@@ -9,6 +9,12 @@ cd $TRAVIS_BUILD_DIR
 
 mkdir upload
 
+now=$(TZ=Europe/Vienna date +"%A, %m.%d.%Y %T %:z")
+sed -i "s/%%DATE%%/$now/g" .exporter/download.html
+mv .exporter/download.html upload/index.html
+
+mv .exporter/style.css upload
+
 figlet "NOYB"
 ./.exporter/noyb_exporter.py
 mv noyb.csv upload
@@ -23,12 +29,6 @@ mv general.html upload
 
 figlet "GENERAL PDF"
 wkhtmltopdf --page-size A4 upload/general.html upload/general.pdf
-
-now=$(TZ=Europe/Vienna date +"%A, %m.%d.%Y %T %:z")
-sed -i "s/%%DATE%%/$now/g" .exporter/download.html
-mv .exporter/download.html upload/index.html
-
-mv .exporter/style.css upload
 
 figlet "UPLOAD"
 ls -hall upload
