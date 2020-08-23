@@ -7,9 +7,13 @@ body {
 }
 
 h1,
-h2,
-h3 {
+h2 {
   line-height: 1.2;
+}
+
+h3 {
+  line-height: 1;
+  margin: 0px;
 }
 
 a:link {

@@ -3,7 +3,7 @@
 
 #######################
 # Genereller Exporter #
-#      Markdown       ä
+#        HTML         #
 #######################
 
 import csv
@@ -29,7 +29,7 @@ logger = logging.getLogger()
 workDir = os.path.dirname(os.path.realpath(__file__)) + "/.."
 
 # Hardgecodede Parameter
-outFile = workDir + "/general.md"
+outFile = workDir + "/general.html"
 foldersToIgnore = [".", "..", ".exporter", "docs", "upload", ".git", ".github"]
 
 # Postleitzahlendatenbank einlesen
@@ -76,7 +76,20 @@ def populateGeneratedFields(record):
 # Header schreiben
 try:
     with open(outFile, "w") as outFileHandler:
-        outFileHandler.write("# Genereller Export\n\n")
+        outFileHandler.write("""<!DOCTYPE html>
+            <html lang="de">
+            <head>
+              <meta charset="utf-8">
+              <link rel="stylesheet" type="text/css" href="style.css">
+              <meta name="viewport" content="width=device-width, initial-scale=1">
+              <title>
+                Export
+              </title>
+            </head>
+            <body>
+              <h1>
+                Genereller Export
+              </h1>""")
 except IOError:
     logger.critical("Cant write to file!")
 
@@ -93,7 +106,7 @@ for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x
         # Foldername schreiben!
         try:
             with open(outFile, "a+") as outFileHandler:
-                outFileHandler.write("## " + folder + "\n\n")
+                outFileHandler.write("<h2>" + folder + "</h2>\n")
 
         except IOError:
             logger.critical("Cant write to file!")
@@ -111,20 +124,35 @@ for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x
                     # Content schreiben!
                     try:
                         with open(outFile, "a+") as outFileHandler:
-                            outFileHandler.write("### " + record["Name"] + "\n\n")
-                            outFileHandler.write("**" + record["Name_Lang"] + "**\n")
-                            outFileHandler.write(record["Adresse"] + "\n")
-                            outFileHandler.write(record["PLZ"] + " " + record["Ort"] + "\n\n")
+                            outFileHandler.write("<h3>" + record["Name"] + "</h3>\n")
+                            outFileHandler.write("<strong>" + record["Name_Lang"] + "</strong><br>\n")
+                            outFileHandler.write("<p>" + record["Adresse"] + "<br>\n")
+                            outFileHandler.write(record["PLZ"] + " " + record["Ort"] + "</p>\n")
                             if record["E-Mail"]:
-                                outFileHandler.write("Mail: " + record["E-Mail"] + "\n")
+                                outFileHandler.write("<span>Mail: <a href=\"mailto:" + record["E-Mail"] + "\">" + record["E-Mail"] + "</a></span><br>\n")
 
                             if record["Tel"]:
-                                outFileHandler.write("Tel: " + record["Tel"] + "\n")
+                                outFileHandler.write("<span>Tel:  <a href=\"tel:" + record["Tel"] + "\">" + record["Tel"] + "</a></span><br>\n")
 
                             if record["Fax"]:
-                                 outFileHandler.write("Fax: " + record["Fax"] + "\n")
+                                 outFileHandler.write("<span>Fax: " + record["Fax"] + "</span><br>\n")
 
-                            outFileHandler.write("*Letzte Prüfung am: " + record["Pruefung"] + "*\n\n")
+                            outFileHandler.write("<p><i>Letzte Prüfung am: " + record["Pruefung"] + "</i></p>\n\n")
 
                     except IOError:
                         logger.critical("Cant write to file!")
+
+# Footer
+try:
+    with open(outFile, "a+") as outFileHandler:
+        outFileHandler.write("""
+                <p>
+                Lizenz: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International</a><br>
+                <a href="https://github.com/cyber-perikarp/auskunftsbegehren_at_adressen/blob/master/docs/mitwirkende.md" target="_blank">Mitwirkende</a><br>
+                <a href="https://github.com/cyber-perikarp/auskunftsbegehren_at_adressen/issues/new" target="_blank" class="important">Neuen Datensatz einreichen</a>
+              </p>
+            </body>
+            </html>
+        """)
+except IOError:
+    logger.critical("Cant write to file!")
