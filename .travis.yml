@@ -9,7 +9,7 @@ install:
   - sudo apt-get update
   - sudo apt-get install -y golang-go python3-mysqldb figlet wget
   - wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.focal_amd64.deb
-  - sudo dpkg -i wkhtmltox_0.12.6-1.focal_amd64.deb
+  - sudo dpkg -i wkhtmltox_0.12.6-1.focal_amd64.deb || true
   - sudo apt-get -f -y install
   - rm wkhtmltox_0.12.6-1.focal_amd64.deb
   - export GOPATH=/tmp/go && go get github.com/Clever/csvlint/cmd/csvlint
