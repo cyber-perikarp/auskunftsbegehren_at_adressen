@@ -9,7 +9,7 @@ cd $TRAVIS_BUILD_DIR
 
 mkdir upload
 
-now=$(TZ=Europe/Vienna date +"%A, %m.%d.%Y %T %:z")
+now=$(TZ=Europe/Vienna date +"%A, %d.%m.%Y %T %:z")
 sed -i "s/%%DATE%%/$now/g" .exporter/download.html
 mv .exporter/download.html upload/index.html
 
