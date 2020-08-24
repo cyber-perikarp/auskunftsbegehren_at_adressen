@@ -20,11 +20,11 @@ before_script:
 
 script:
   - ./.exporter/exporter.sh
-  - echo "auskunftsbegehren-adressen.cyber-perikarp.eu" > upload/CNAME
   - ./.exporter/export_check.sh
 
 before_deploy:
   - cd $TRAVIS_BUILD_DIR
+  - echo "auskunftsbegehren-adressen.cyber-perikarp.eu" > upload/CNAME
 
 deploy:
   provider: pages

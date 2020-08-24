@@ -24,4 +24,3 @@ for file in $(ls -1 *.csv); do
 done
 
 figlet "EXPORT CHECK"
-figlet "PASSED"
