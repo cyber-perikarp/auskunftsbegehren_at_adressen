@@ -35,5 +35,22 @@ a:visited {
 #listContainer {
   width: 100%;
   display: inline-grid;
-  grid-template-columns: 25% 25% 25% 25%;
+}
+
+@media (min-width: 1080px) {
+  #listContainer {
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+}
+
+@media (max-width: 1080px) {
+  #listContainer {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media (max-width: 760px) {
+  #listContainer {
+    grid-template-columns: 100%;
+  }
 }
