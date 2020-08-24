@@ -17,10 +17,14 @@ mv .exporter/style.css upload
 
 figlet "NOYB"
 ./.exporter/noyb_exporter.py
+noybCounter=$(wc -l < noyb.csv)
+sed -i "s/%%NOYB_COUNTER%%/$now/g" .exporter/download.html
 mv noyb.csv upload
 
 figlet "GENERAL CSV"
 ./.exporter/general_csv_exporter.py
+generalCounter=$(wc -l < general.csv)
+sed -i "s/%%GENERAL_COUNTER%%/$now/g" .exporter/download.html
 mv general.csv upload
 
 figlet "GENERAL HTML"
