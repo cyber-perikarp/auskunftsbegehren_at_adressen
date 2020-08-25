@@ -66,6 +66,10 @@ p {
   .screenOnly {
     display: none;
   }
+
+  .listItem {
+    display: block;
+  }
 }
 
 @media (min-width: 1080px) {
