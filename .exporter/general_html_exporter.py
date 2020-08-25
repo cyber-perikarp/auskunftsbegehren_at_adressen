@@ -92,6 +92,19 @@ try:
                   <h1 class="center">
                     Genereller Export
                   </h1>
+                  <div id="buttonContainer" class="center screenOnly">
+                    <button class="btn" onclick="filterSelection('bund')">Bund</button>
+                    <button class="btn" onclick="filterSelection('burgenland')">Burgenland</button>
+                    <button class="btn" onclick="filterSelection('kaernten')">Kärnten</button>
+                    <button class="btn" onclick="filterSelection('niederoesterreich')">Niederösterreich</button>
+                    <button class="btn" onclick="filterSelection('oberoesterreich')">Oberösterreich</button>
+                    <button class="btn" onclick="filterSelection('salzburg')">Salzburg</button>
+                    <button class="btn" onclick="filterSelection('steiermark')">Steiermark</button>
+                    <button class="btn" onclick="filterSelection('tirol')">Tirol</button>
+                    <button class="btn" onclick="filterSelection('vorarlberg')">Vorarlberg</button>
+                    <button class="btn" onclick="filterSelection('wien')">Wien</button>
+                    <button class="btn" onclick="filterSelection('privat')">Privat</button>
+                    </div>
               </header>
               <div id="listContainer">""")
 except IOError:
@@ -120,7 +133,7 @@ for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x
                     # Content schreiben!
                     try:
                         with open(outFile, "a+") as outFileHandler:
-                            outFileHandler.write("<div class=\"listItem\">")
+                            outFileHandler.write("<div class=\"listItem {0}\">".format(os.path.splitext(csvFile)[0].split("/")[-2]))
                             outFileHandler.write("<h2>{0}</h2>\n".format(record["Name"]))
                             outFileHandler.write("<strong>{0}</strong><br>\n".format(record["Name_Lang"]))
                             outFileHandler.write("<p>{0}<br>\n".format(record["Adresse"]))
@@ -152,6 +165,7 @@ try:
                   </p>
                 </footer>
             </body>
+            <script src="filter.js"></script>
             </html>
         """)
 except IOError:
