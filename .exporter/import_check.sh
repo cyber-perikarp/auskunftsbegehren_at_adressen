@@ -36,4 +36,3 @@ for folder in $(ls -d -1 */); do
 done
 
 echo "Number of entries: ${sum}"
-figlet "IMPORT CHECK"

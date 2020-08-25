@@ -22,5 +22,3 @@ for file in $(ls -1 *.csv); do
   /tmp/go/bin/csvlint "${file}"
   echo -e "\r"
 done
-
-figlet "EXPORT CHECK"

@@ -16,14 +16,15 @@ install:
   - pip install -r .exporter/requirements.txt
 
 before_script:
-  - ./.exporter/import_check.sh
-  - ./.exporter/check_plz_against_database.py
+  - figlet "IMPORT CHECK"; ./.exporter/import_check.sh
+  - figlet "PLZ CHECK"; ./.exporter/check_plz_against_database.py
 
 script:
-  - ./.exporter/exporter.sh
-  - ./.exporter/export_check.sh
+  - figlet "EXPORT"; ./.exporter/exporter.sh
+  - figlet "EXPORT CHECK"; ./.exporter/export_check.sh
 
 before_deploy:
+  - figlet "DEPLOY"
   - cd $TRAVIS_BUILD_DIR
   - echo "auskunftsbegehren-adressen.cyber-perikarp.eu" > upload/CNAME
 
