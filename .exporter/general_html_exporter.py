@@ -164,8 +164,8 @@ try:
                     <a href="https://github.com/cyber-perikarp/auskunftsbegehren_at_adressen/issues/new" target="_blank" class="important">Neuen Datensatz einreichen</a>
                   </p>
                 </footer>
+                <script src="filter.js"></script>
             </body>
-            <script src="filter.js"></script>
             </html>
         """)
 except IOError:
