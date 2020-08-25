@@ -131,7 +131,7 @@ for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x
                             if record["Fax"]:
                                 outFileHandler.write("<span>Fax: {0}</span><br>\n".format(record["Fax"]))
 
-                            outFileHandler.write("<p><i>Letzte Prüfung am: {0}</i></p>\n".format(record["Pruefung"]))
+                            outFileHandler.write("<p><em>Letzte Prüfung am: {0}</em></p>\n".format(record["Pruefung"]))
                             outFileHandler.write("</div>\n\n")
 
                     except IOError:
