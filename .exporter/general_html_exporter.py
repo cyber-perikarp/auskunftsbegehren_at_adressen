@@ -80,7 +80,7 @@ try:
             <html lang="de">
             <head>
               <meta charset="utf-8">
-              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.1/mini-default.min.css">
+              <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.1/mini-default.min.css">
               <link rel="stylesheet" type="text/css" href="style.css">
               <meta name="viewport" content="width=device-width, initial-scale=1">
               <title>
@@ -126,13 +126,13 @@ for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x
                             outFileHandler.write("<p>{0}<br>\n".format(record["Adresse"]))
                             outFileHandler.write("{0} {1}</p>\n".format(record["PLZ"], record["Ort"]))
                             if record["E-Mail"]:
-                                outFileHandler.write("<span><span class=\"icon-mail\"></span> Mail: <a href=\"mailto:{0}\">{1}</a></span><br>\n".format(record["E-Mail"], record["E-Mail"]))
+                                outFileHandler.write("<span><span class=\"icon-mail screenOnly\"></span> Mail: <a href=\"mailto:{0}\">{1}</a></span><br>\n".format(record["E-Mail"], record["E-Mail"]))
 
                             if record["Tel"]:
-                                outFileHandler.write("<span><span class=\"icon-phone\"></span> Tel: <a href=\"tel:{0}\">{1}</a></span><br>\n".format(record["Tel"], record["Tel"]))
+                                outFileHandler.write("<span><span class=\"icon-phone screenOnly\"></span> Tel: <a href=\"tel:{0}\">{1}</a></span><br>\n".format(record["Tel"], record["Tel"]))
 
                             if record["Fax"]:
-                                outFileHandler.write("<span><span class=\"icon-upload\"></span> Fax: {0}</span><br>\n".format(record["Fax"]))
+                                outFileHandler.write("<span><span class=\"icon-upload screenOnly\"></span> Fax: {0}</span><br>\n".format(record["Fax"]))
 
                             outFileHandler.write("<p><em>Letzte Prüfung am: {0}</em></p>\n".format(record["Pruefung"]))
                             outFileHandler.write("</div>\n\n")

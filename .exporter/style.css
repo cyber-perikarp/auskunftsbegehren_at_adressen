@@ -47,6 +47,12 @@ p {
   display: inline-grid;
 }
 
+@media print {
+  .screenOnly {
+    display: none;
+  }
+}
+
 @media (min-width: 1080px) {
   #listContainer {
     grid-template-columns: 25% 25% 25% 25%;
