@@ -89,7 +89,7 @@ try:
             </head>
             <body>
               <header>
-                  <h1>
+                  <h1 class="center">
                     Genereller Export
                   </h1>
               </header>
