@@ -17,6 +17,7 @@ install:
 
 before_script:
   - ./.exporter/import_check.sh
+  - ./.exporter/check_plz_against_database.py
 
 script:
   - ./.exporter/exporter.sh
