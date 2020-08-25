@@ -80,6 +80,7 @@ try:
             <html lang="de">
             <head>
               <meta charset="utf-8">
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.1/mini-default.min.css">
               <link rel="stylesheet" type="text/css" href="style.css">
               <meta name="viewport" content="width=device-width, initial-scale=1">
               <title>
@@ -87,9 +88,11 @@ try:
               </title>
             </head>
             <body>
-              <h1>
-                Genereller Export
-              </h1>
+              <header>
+                  <h1>
+                    Genereller Export
+                  </h1>
+              </header>
               <div id="listContainer">""")
 except IOError:
     logger.critical("Cant write to file!")
@@ -123,13 +126,13 @@ for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x
                             outFileHandler.write("<p>{0}<br>\n".format(record["Adresse"]))
                             outFileHandler.write("{0} {1}</p>\n".format(record["PLZ"], record["Ort"]))
                             if record["E-Mail"]:
-                                outFileHandler.write("<span>Mail: <a href=\"mailto:{0}\">{1}</a></span><br>\n".format(record["E-Mail"], record["E-Mail"]))
+                                outFileHandler.write("<span><span class=\"icon-mail\"></span> Mail: <a href=\"mailto:{0}\">{1}</a></span><br>\n".format(record["E-Mail"], record["E-Mail"]))
 
                             if record["Tel"]:
-                                outFileHandler.write("<span>Tel: <a href=\"tel:{0}\">{1}</a></span><br>\n".format(record["Tel"], record["Tel"]))
+                                outFileHandler.write("<span><span class=\"icon-phone\"></span> Tel: <a href=\"tel:{0}\">{1}</a></span><br>\n".format(record["Tel"], record["Tel"]))
 
                             if record["Fax"]:
-                                outFileHandler.write("<span>Fax: {0}</span><br>\n".format(record["Fax"]))
+                                outFileHandler.write("<span><span class=\"icon-upload\"></span> Fax: {0}</span><br>\n".format(record["Fax"]))
 
                             outFileHandler.write("<p><em>Letzte Prüfung am: {0}</em></p>\n".format(record["Pruefung"]))
                             outFileHandler.write("</div>\n\n")
@@ -141,11 +144,13 @@ for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x
 try:
     with open(outFile, "a+") as outFileHandler:
         outFileHandler.write("""</div> <!-- This is the end of the listWrapper -->
-                <p>
-                Lizenz: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International</a><br>
-                <a href="https://github.com/cyber-perikarp/auskunftsbegehren_at_adressen/blob/master/docs/mitwirkende.md" target="_blank">Mitwirkende</a><br>
-                <a href="https://github.com/cyber-perikarp/auskunftsbegehren_at_adressen/issues/new" target="_blank" class="important">Neuen Datensatz einreichen</a>
-              </p>
+                <footer>
+                    <p>
+                    Lizenz: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International</a><br>
+                    <a href="https://github.com/cyber-perikarp/auskunftsbegehren_at_adressen/blob/master/docs/mitwirkende.md" target="_blank">Mitwirkende</a><br>
+                    <a href="https://github.com/cyber-perikarp/auskunftsbegehren_at_adressen/issues/new" target="_blank" class="important">Neuen Datensatz einreichen</a>
+                  </p>
+                </footer>
             </body>
             </html>
         """)
