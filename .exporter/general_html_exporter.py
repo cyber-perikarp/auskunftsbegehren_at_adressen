@@ -118,20 +118,20 @@ for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x
                     try:
                         with open(outFile, "a+") as outFileHandler:
                             outFileHandler.write("<div class=\"listItem\">")
-                            outFileHandler.write("<h2>" + record["Name"] + "</h2>\n")
-                            outFileHandler.write("<strong>" + record["Name_Lang"] + "</strong><br>\n")
-                            outFileHandler.write("<p>" + record["Adresse"] + "<br>\n")
-                            outFileHandler.write(record["PLZ"] + " " + record["Ort"] + "</p>\n")
+                            outFileHandler.write("<h2>{0}</h2>\n".format(record["Name"]))
+                            outFileHandler.write("<strong>{0}</strong><br>\n".format(record["Name_Lang"]))
+                            outFileHandler.write("<p>{0}<br>\n".format(record["Adresse"]))
+                            outFileHandler.write("{0} {1}</p>\n".format(record["PLZ"], record["Ort"]))
                             if record["E-Mail"]:
-                                outFileHandler.write("<span>Mail: <a href=\"mailto:" + record["E-Mail"] + "\">" + record["E-Mail"] + "</a></span><br>\n")
+                                outFileHandler.write("<span>Mail: <a href=\"mailto:{0}\">{1}</a></span><br>\n".format(record["E-Mail"], record["E-Mail"]))
 
                             if record["Tel"]:
-                                outFileHandler.write("<span>Tel:  <a href=\"tel:" + record["Tel"] + "\">" + record["Tel"] + "</a></span><br>\n")
+                                outFileHandler.write("<span>Tel: <a href=\"tel:{0}\">{1}</a></span><br>\n".format(record["Tel"], record["Tel"]))
 
                             if record["Fax"]:
-                                 outFileHandler.write("<span>Fax: " + record["Fax"] + "</span><br>\n")
+                                outFileHandler.write("<span>Fax: {0}</span><br>\n".format(record["Fax"]))
 
-                            outFileHandler.write("<p><i>Letzte Prüfung am: " + record["Pruefung"] + "</i></p>\n")
+                            outFileHandler.write("<p><i>Letzte Prüfung am: {0}</i></p>\n".format(record["Pruefung"]))
                             outFileHandler.write("</div>\n\n")
 
                     except IOError:
