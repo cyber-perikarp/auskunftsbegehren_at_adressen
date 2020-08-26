@@ -32,8 +32,21 @@ workDir = os.path.dirname(os.path.realpath(__file__)) + "/.."
 
 # Hardgecodede Parameter
 outFile = workDir + "/general.csv"
-csvHeader = ["Name", "Name_Lang", "Branche", "Typ", "Adresse", "PLZ", "Ort", "Land", "E-Mail", "Tel", "Fax", "Pruefung"]
+csvHeader = ["Name", "Name_Lang", "Branche", "Typ", "Adresse", "PLZ", "Ort", "Ebene", "E-Mail", "Tel", "Fax", "Pruefung"]
 foldersToIgnore = [".", "..", ".exporter", "docs", "upload", ".git", ".github"]
+administrationLevels = {
+    "bund": "Bund",
+    "burgenland": "Burgenland",
+    "kaernten": "Kärnten",
+    "niederoesterreich": "Niederösterreich",
+    "oberoesterreich": "Oberösterreich",
+    "privat": "Privat",
+    "salzburg": "Salzburg",
+    "steiermark": "Steiermark",
+    "tirol": "Tirol",
+    "vorarlberg": "Vorarlberg",
+    "wien": "Wien"
+}
 
 # Postleitzahlendatenbank einlesen
 plzFile = open(workDir + "/.exporter/plz_verzeichnis.csv", newline="")
@@ -59,7 +72,7 @@ def checkIfFullRecord(record):
         or not record["Name"]
         or not record["Name_Lang"]
         or not record["Adresse"]
-        or not record["PLZ"] # Hier stand vor kurzem auch noch Land als Kriterium aber dieses Feld wird bald entfernt
+        or not record["PLZ"]
         or not record["Pruefung"]):
             logger.error("Not exporting: " + record["Name"])
             return False
@@ -71,6 +84,8 @@ def populateGeneratedFields(record):
 
     # Postleitzahl aus Postleitzahlendatenbank
     record["Ort"] = plz[record["PLZ"]][0]
+
+    record["Ebene"] = ' '.join([administrationLevels.get(i, i) for i in record["Ordner"].split()])
 
     logger.debug("Found city: " + record["Ort"])
 
@@ -119,6 +134,7 @@ for entry in sortedRecords:
         with open(outFile, "a+") as outFileHandler:
             del entry["Ordner"]
             del entry["Id"]
+            del entry["Land"]
 
             logger.info("Writing entry: " + entry["Name"])
 
