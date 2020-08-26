@@ -37,17 +37,17 @@ try:
                     Genereller Export
                   </h1>
                   <div id="buttonContainer" class="center screenOnly">
-                    <button class="btn" onclick="filterSelection('bund')">Bund</button>
-                    <button class="btn" onclick="filterSelection('burgenland')">Burgenland</button>
-                    <button class="btn" onclick="filterSelection('kaernten')">Kärnten</button>
-                    <button class="btn" onclick="filterSelection('niederoesterreich')">Niederösterreich</button>
-                    <button class="btn" onclick="filterSelection('oberoesterreich')">Oberösterreich</button>
-                    <button class="btn" onclick="filterSelection('salzburg')">Salzburg</button>
-                    <button class="btn" onclick="filterSelection('steiermark')">Steiermark</button>
-                    <button class="btn" onclick="filterSelection('tirol')">Tirol</button>
-                    <button class="btn" onclick="filterSelection('vorarlberg')">Vorarlberg</button>
-                    <button class="btn" onclick="filterSelection('wien')">Wien</button>
-                    <button class="btn" onclick="filterSelection('privat')">Privat</button>
+                    <button class="btn" onclick="filterSelection('Bund')">Bund</button>
+                    <button class="btn" onclick="filterSelection('Burgenland')">Burgenland</button>
+                    <button class="btn" onclick="filterSelection('Kärnten')">Kärnten</button>
+                    <button class="btn" onclick="filterSelection('Niederösterreich')">Niederösterreich</button>
+                    <button class="btn" onclick="filterSelection('Oberösterreich')">Oberösterreich</button>
+                    <button class="btn" onclick="filterSelection('Salzburg')">Salzburg</button>
+                    <button class="btn" onclick="filterSelection('Steiermark')">Steiermark</button>
+                    <button class="btn" onclick="filterSelection('Tirol')">Tirol</button>
+                    <button class="btn" onclick="filterSelection('Vorarlberg')">Vorarlberg</button>
+                    <button class="btn" onclick="filterSelection('Wien')">Wien</button>
+                    <button class="btn" onclick="filterSelection('Privat')">Privat</button>
                     </div>
               </header>
               <div id="listContainer">""")
@@ -65,7 +65,7 @@ with open(csvFile, newline='') as csvFileReader:
         # TODO: Library suchen für das
         try:
             with open(outFile, "a+") as outFileHandler:
-                outFileHandler.write("<div class=\"listItem {0}\">".format(os.path.splitext(csvFile)[0].split("/")[-2]))
+                outFileHandler.write("<div class=\"listItem {0}\">".format(record["Ebene"]))
                 outFileHandler.write("<h2>{0}</h2>\n".format(record["Name"]))
                 outFileHandler.write("<strong>{0}</strong><br>\n".format(record["Name_Lang"]))
                 outFileHandler.write("<p>{0}<br>\n".format(record["Adresse"]))
