@@ -84,6 +84,7 @@ try:
         writer.writeheader()
 except IOError:
     logger.critical("Cant write to file!")
+    exit(1)
 
 logger.debug(sorted(os.listdir(workDir)))
 
@@ -126,3 +127,4 @@ for entry in sortedRecords:
 
     except IOError:
         logger.critical("Cant write to file!")
+        exit(1)
