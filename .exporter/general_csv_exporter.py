@@ -42,6 +42,7 @@ plz = {}
 for row in plzDict:
     plz[row["PLZ"]] = (row["Ort"], row["Bundesland"])
 
+# Alle leerzeichen, bindestriche, klammern etc aus telefon und faxnummer entfernen
 def sanitizePhoneNumber(number):
     number = number.replace(" ", "")
     number = number.replace("-", "")
@@ -52,19 +53,19 @@ def sanitizePhoneNumber(number):
     logger.debug("Sanitized Phone Number: " + number)
     return number
 
+# Hier wird geprüft ob die notwendigen Felder vorhanden sind
 def checkIfFullRecord(record):
     if (not record["Id"]
         or not record["Name"]
         or not record["Name_Lang"]
         or not record["Adresse"]
-        or not record["PLZ"]
+        or not record["PLZ"] # Hier stand vor kurzem auch noch Land als Kriterium aber dieses Feld wird bald entfernt
         or not record["Pruefung"]):
             logger.error("Not exporting: " + record["Name"])
             return False
     return True
 
 def populateGeneratedFields(record):
-    # Alle leerzeichen, bindestriche, klammern etc aus telefon und faxnummer entfernen
     record["Tel"] = sanitizePhoneNumber(record["Tel"])
     record["Fax"] = sanitizePhoneNumber(record["Fax"])
 
@@ -99,7 +100,8 @@ for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x
         with open(csvFile, newline='') as csvFileReader:
             readFile = csv.DictReader(csvFileReader)
             for record in readFile:
-                record["Ordner"] = folder # Wir brauchen das zum generieren der ID
+                record["Ordner"] = folder # Wir brauchen das zum sortieren später
+
                 # Unvollständige Datensätze werden nicht eingefügt
                 if (checkIfFullRecord(record)):
                     logger.info("Processing entry: " + record["Name"])
