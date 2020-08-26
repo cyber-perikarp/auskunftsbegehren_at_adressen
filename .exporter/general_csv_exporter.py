@@ -12,6 +12,8 @@ import logging
 import chromalog
 import sys
 import argparse
+from collections import OrderedDict
+from operator import getitem
 
 # CLI Parameter
 parser = argparse.ArgumentParser("general_exporter.py")
@@ -30,7 +32,7 @@ workDir = os.path.dirname(os.path.realpath(__file__)) + "/.."
 
 # Hardgecodede Parameter
 outFile = workDir + "/general.csv"
-csvHeader = ["Id", "Name", "Name_Lang", "Branche", "Typ", "Adresse", "PLZ", "Ort", "Land", "E-Mail", "Tel", "Fax", "Pruefung"]
+csvHeader = ["Name", "Name_Lang", "Branche", "Typ", "Adresse", "PLZ", "Ort", "Land", "E-Mail", "Tel", "Fax", "Pruefung"]
 foldersToIgnore = [".", "..", ".exporter", "docs", "upload", ".git", ".github"]
 
 # Postleitzahlendatenbank einlesen
@@ -56,7 +58,6 @@ def checkIfFullRecord(record):
         or not record["Name_Lang"]
         or not record["Adresse"]
         or not record["PLZ"]
-        or not record["Land"]
         or not record["Pruefung"]):
             logger.error("Not exporting: " + record["Name"])
             return False
@@ -72,14 +73,6 @@ def populateGeneratedFields(record):
 
     logger.debug("Found city: " + record["Ort"])
 
-    # ID
-    sourceFile = os.path.splitext(csvFile)[0].split("/")[-1]
-    lastChecked = record["Pruefung"].replace(".", "-")
-    id = sourceFile + "_" + record["Folder"] + "_" + record["Id"] + "_" + lastChecked
-    record["Id"] = id
-
-    del record["Folder"]
-
     return record
 
 # Header schreiben
@@ -93,6 +86,7 @@ except IOError:
 
 logger.debug(sorted(os.listdir(workDir)))
 
+recordsToWrite = []
 # Alle Unterordner laden, außer die die wir ignorieren wollen
 for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x not in foldersToIgnore)]:
     # Hier werden schon die csvs geladen
@@ -105,18 +99,28 @@ for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x
         with open(csvFile, newline='') as csvFileReader:
             readFile = csv.DictReader(csvFileReader)
             for record in readFile:
-                record["Folder"] = folder # Wir brauchen das zum generieren der ID
+                record["Ordner"] = folder # Wir brauchen das zum generieren der ID
                 # Unvollständige Datensätze werden nicht eingefügt
                 if (checkIfFullRecord(record)):
                     logger.info("Processing entry: " + record["Name"])
                     record = populateGeneratedFields(record)
                     logger.debug(record)
+                    recordsToWrite.append(record)
 
-                    # CSV schreiben!
-                    try:
-                        with open(outFile, "a+") as outFileHandler:
-                            writer = csv.DictWriter(outFileHandler, fieldnames=csvHeader)
-                            writer.writerow(record)
+sortedRecords = sorted(recordsToWrite, key = lambda tup: (tup["Ordner"], tup["Name"]))
+logger.debug(sortedRecords)
 
-                    except IOError:
-                        logger.critical("Cant write to file!")
+for entry in sortedRecords:
+    # CSV schreiben!
+    try:
+        with open(outFile, "a+") as outFileHandler:
+            del entry["Ordner"]
+            del entry["Id"]
+
+            logger.info("Writing entry: " + entry["Name"])
+
+            writer = csv.DictWriter(outFileHandler, fieldnames=csvHeader)
+            writer.writerow(entry)
+
+    except IOError:
+        logger.critical("Cant write to file!")
