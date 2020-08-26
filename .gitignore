@@ -2,7 +2,5 @@ upload
 .~lock*
 .vscode
 noyb.csv
-general.csv
-general.md
-general.html
-general.pdf
+general.*
+upload
