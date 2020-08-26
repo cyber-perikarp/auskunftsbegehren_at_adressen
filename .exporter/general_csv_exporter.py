@@ -12,9 +12,11 @@ import logging
 import chromalog
 import sys
 import argparse
+from collections import OrderedDict
+from operator import getitem
 
 # CLI Parameter
-parser = argparse.ArgumentParser("general_exporter.py")
+parser = argparse.ArgumentParser("general_csv_exporter.py")
 parser.add_argument("--loglevel", help="DEBUG, INFO, ERROR, CRITICAL")
 
 args = vars(parser.parse_args())
@@ -30,8 +32,21 @@ workDir = os.path.dirname(os.path.realpath(__file__)) + "/.."
 
 # Hardgecodede Parameter
 outFile = workDir + "/general.csv"
-csvHeader = ["Id", "Name", "Name_Lang", "Branche", "Typ", "Adresse", "PLZ", "Ort", "Land", "E-Mail", "Tel", "Fax", "Pruefung"]
+csvHeader = ["Name", "Name_Lang", "Branche", "Typ", "Adresse", "PLZ", "Ort", "Ebene", "E-Mail", "Tel", "Fax", "Pruefung"]
 foldersToIgnore = [".", "..", ".exporter", "docs", "upload", ".git", ".github"]
+administrationLevels = {
+    "bund": "Bund",
+    "burgenland": "Burgenland",
+    "kaernten": "Kärnten",
+    "niederoesterreich": "Niederösterreich",
+    "oberoesterreich": "Oberösterreich",
+    "privat": "Privat",
+    "salzburg": "Salzburg",
+    "steiermark": "Steiermark",
+    "tirol": "Tirol",
+    "vorarlberg": "Vorarlberg",
+    "wien": "Wien"
+}
 
 # Postleitzahlendatenbank einlesen
 plzFile = open(workDir + "/.exporter/plz_verzeichnis.csv", newline="")
@@ -40,6 +55,7 @@ plz = {}
 for row in plzDict:
     plz[row["PLZ"]] = (row["Ort"], row["Bundesland"])
 
+# Alle leerzeichen, bindestriche, klammern etc aus telefon und faxnummer entfernen
 def sanitizePhoneNumber(number):
     number = number.replace(" ", "")
     number = number.replace("-", "")
@@ -50,35 +66,28 @@ def sanitizePhoneNumber(number):
     logger.debug("Sanitized Phone Number: " + number)
     return number
 
+# Hier wird geprüft ob die notwendigen Felder vorhanden sind
 def checkIfFullRecord(record):
     if (not record["Id"]
         or not record["Name"]
         or not record["Name_Lang"]
         or not record["Adresse"]
         or not record["PLZ"]
-        or not record["Land"]
         or not record["Pruefung"]):
             logger.error("Not exporting: " + record["Name"])
             return False
     return True
 
 def populateGeneratedFields(record):
-    # Alle leerzeichen, bindestriche, klammern etc aus telefon und faxnummer entfernen
     record["Tel"] = sanitizePhoneNumber(record["Tel"])
     record["Fax"] = sanitizePhoneNumber(record["Fax"])
 
     # Postleitzahl aus Postleitzahlendatenbank
     record["Ort"] = plz[record["PLZ"]][0]
 
+    record["Ebene"] = ' '.join([administrationLevels.get(i, i) for i in record["Ordner"].split()])
+
     logger.debug("Found city: " + record["Ort"])
-
-    # ID
-    sourceFile = os.path.splitext(csvFile)[0].split("/")[-1]
-    lastChecked = record["Pruefung"].replace(".", "-")
-    id = sourceFile + "_" + record["Folder"] + "_" + record["Id"] + "_" + lastChecked
-    record["Id"] = id
-
-    del record["Folder"]
 
     return record
 
@@ -90,9 +99,11 @@ try:
         writer.writeheader()
 except IOError:
     logger.critical("Cant write to file!")
+    exit(1)
 
 logger.debug(sorted(os.listdir(workDir)))
 
+recordsToWrite = []
 # Alle Unterordner laden, außer die die wir ignorieren wollen
 for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x not in foldersToIgnore)]:
     # Hier werden schon die csvs geladen
@@ -105,18 +116,31 @@ for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x
         with open(csvFile, newline='') as csvFileReader:
             readFile = csv.DictReader(csvFileReader)
             for record in readFile:
-                record["Folder"] = folder # Wir brauchen das zum generieren der ID
+                record["Ordner"] = folder # Wir brauchen das zum sortieren später
+
                 # Unvollständige Datensätze werden nicht eingefügt
                 if (checkIfFullRecord(record)):
                     logger.info("Processing entry: " + record["Name"])
                     record = populateGeneratedFields(record)
                     logger.debug(record)
+                    recordsToWrite.append(record)
 
-                    # CSV schreiben!
-                    try:
-                        with open(outFile, "a+") as outFileHandler:
-                            writer = csv.DictWriter(outFileHandler, fieldnames=csvHeader)
-                            writer.writerow(record)
+sortedRecords = sorted(recordsToWrite, key = lambda tup: (tup["Ordner"], tup["Name"]))
+logger.debug(sortedRecords)
 
-                    except IOError:
-                        logger.critical("Cant write to file!")
+for entry in sortedRecords:
+    # CSV schreiben!
+    try:
+        with open(outFile, "a+") as outFileHandler:
+            del entry["Ordner"]
+            del entry["Id"]
+            del entry["Land"]
+
+            logger.info("Writing entry: " + entry["Name"])
+
+            writer = csv.DictWriter(outFileHandler, fieldnames=csvHeader)
+            writer.writerow(entry)
+
+    except IOError:
+        logger.critical("Cant write to file!")
+        exit(1)

@@ -1,4 +1,4 @@
-filterSelection("bund")
+filterSelection("Bund")
 
 function filterSelection(c) {
   var x, i;
