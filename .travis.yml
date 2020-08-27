@@ -18,10 +18,10 @@ install:
 before_script:
   - figlet "IMPORT CHECK"; ./.exporter/import_check.sh
   - figlet "PLZ CHECK"; ./.exporter/check_plz_against_database.py
-
-script:
   - figlet "PRE EXPORT"; ./.exporter/pre_export.sh
   - figlet "DOWNLOAD PAGE"; ./.download/prepare.sh # This needs to be done before the exporters run
+
+script:
   - figlet "EXPORT"; ./.exporter/exporter.sh
   - figlet "EXPORT CHECK"; ./.exporter/export_check.sh
 
