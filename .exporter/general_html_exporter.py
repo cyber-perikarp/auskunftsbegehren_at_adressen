@@ -24,7 +24,7 @@ try:
             <html lang="de">
             <head>
               <meta charset="utf-8">
-              <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.1/mini-default.min.css">
+              <link rel="stylesheet" media="screen" href="mini-default.min.css">
               <link rel="stylesheet" type="text/css" href="style.css">
               <meta name="viewport" content="width=device-width, initial-scale=1">
               <title>

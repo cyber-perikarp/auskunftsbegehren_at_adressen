@@ -15,6 +15,7 @@ mv .exporter/download.html upload/index.html
 
 mv .exporter/style.css upload
 mv .exporter/filter.js upload
+mv .exporter/mini-default.min.css upload
 
 figlet "NOYB"
 ./.exporter/noyb_exporter.py
