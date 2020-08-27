@@ -7,16 +7,6 @@ set -e
 # We are in a subfolder
 cd $TRAVIS_BUILD_DIR
 
-mkdir upload
-
-now=$(TZ=Europe/Vienna date +"%A, %d.%m.%Y %T %:z")
-sed -i "s/%%DATE%%/$now/g" .exporter/download.html
-mv .exporter/download.html upload/index.html
-
-mv .exporter/style.css upload
-mv .exporter/filter.js upload
-mv .exporter/mini-default.min.css upload
-
 figlet "NOYB"
 ./.exporter/noyb_exporter.py
 noybCounter=$(wc -l < noyb.csv)
