@@ -8,7 +8,7 @@ set -e
 cd $TRAVIS_BUILD_DIR
 
 now=$(TZ=Europe/Vienna date +"%A, %d.%m.%Y %T %:z")
-sed -i "s/%%DATE%%/$now/g" .exporter/index.html
+sed -i "s/%%DATE%%/$now/g" .download/index.html
 mv .download/index.html upload/index.html
 
 mv .download/style.css upload
