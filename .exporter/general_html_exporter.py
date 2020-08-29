@@ -17,6 +17,31 @@ workDir = os.path.dirname(os.path.realpath(__file__)) + "/.."
 outFile = workDir + "/general.html"
 csvFile = workDir + "/upload/general.csv"
 
+def writeRecord(record):
+    # TODO: Library suchen für das
+    try:
+        with open(outFile, "a+") as outFileHandler:
+            outFileHandler.write("<div class=\"listItem {0}\">".format(record["Ebene"]))
+            outFileHandler.write("<h2>{0}</h2>\n".format(record["Name"]))
+            outFileHandler.write("<strong>{0}</strong><br>\n".format(record["Name_Lang"]))
+            outFileHandler.write("<p>{0}<br>\n".format(record["Adresse"]))
+            outFileHandler.write("{0} {1}</p>\n".format(record["PLZ"], record["Ort"]))
+            if record["E-Mail"]:
+                outFileHandler.write("<span><span class=\"icon-mail screenOnly\"></span> Mail: <a href=\"mailto:{0}\">{1}</a></span><br>\n".format(record["E-Mail"], record["E-Mail"]))
+
+            if record["Tel"]:
+                outFileHandler.write("<span><span class=\"icon-phone screenOnly\"></span> Tel: <a href=\"tel:{0}\">{1}</a></span><br>\n".format(record["Tel"], record["Tel"]))
+
+            if record["Fax"]:
+                outFileHandler.write("<span><span class=\"icon-upload screenOnly\"></span> Fax: {0}</span><br>\n".format(record["Fax"]))
+
+            outFileHandler.write("<p><em>Letzte Prüfung am: {0}</em></p>\n".format(record["Pruefung"]))
+            outFileHandler.write("</div> <!-- List Item End -->\n\n")
+
+    except IOError:
+        print("Cant write to file!")
+        exit(1)
+
 # Header schreiben
 try:
     with open(outFile, "w") as outFileHandler:
@@ -62,29 +87,7 @@ with open(csvFile, newline='') as csvFileReader:
         print("Processing entry: " + record["Name"])
 
         # Content schreiben!
-        # TODO: Library suchen für das
-        try:
-            with open(outFile, "a+") as outFileHandler:
-                outFileHandler.write("<div class=\"listItem {0}\">".format(record["Ebene"]))
-                outFileHandler.write("<h2>{0}</h2>\n".format(record["Name"]))
-                outFileHandler.write("<strong>{0}</strong><br>\n".format(record["Name_Lang"]))
-                outFileHandler.write("<p>{0}<br>\n".format(record["Adresse"]))
-                outFileHandler.write("{0} {1}</p>\n".format(record["PLZ"], record["Ort"]))
-                if record["E-Mail"]:
-                    outFileHandler.write("<span><span class=\"icon-mail screenOnly\"></span> Mail: <a href=\"mailto:{0}\">{1}</a></span><br>\n".format(record["E-Mail"], record["E-Mail"]))
-
-                if record["Tel"]:
-                    outFileHandler.write("<span><span class=\"icon-phone screenOnly\"></span> Tel: <a href=\"tel:{0}\">{1}</a></span><br>\n".format(record["Tel"], record["Tel"]))
-
-                if record["Fax"]:
-                    outFileHandler.write("<span><span class=\"icon-upload screenOnly\"></span> Fax: {0}</span><br>\n".format(record["Fax"]))
-
-                outFileHandler.write("<p><em>Letzte Prüfung am: {0}</em></p>\n".format(record["Pruefung"]))
-                outFileHandler.write("</div> <!-- List Item End -->\n\n")
-
-        except IOError:
-            print("Cant write to file!")
-            exit(1)
+        writeRecord(record)
 
 # Footer
 try:
