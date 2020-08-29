@@ -125,7 +125,7 @@ for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x
                     logger.debug(record)
                     recordsToWrite.append(record)
 
-sortedRecords = sorted(recordsToWrite, key = lambda tup: (tup["Ordner"], tup["Name"]))
+sortedRecords = sorted(recordsToWrite, key = lambda tup: (tup["Ordner"], tup["Branche"], tup["Typ"], tup["Name"]))
 logger.debug(sortedRecords)
 
 for entry in sortedRecords:
