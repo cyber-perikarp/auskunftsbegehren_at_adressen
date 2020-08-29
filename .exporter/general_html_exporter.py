@@ -80,7 +80,7 @@ with open(csvFile, newline='') as csvFileReader:
                     outFileHandler.write("<span><span class=\"icon-upload screenOnly\"></span> Fax: {0}</span><br>\n".format(record["Fax"]))
 
                 outFileHandler.write("<p><em>Letzte Prüfung am: {0}</em></p>\n".format(record["Pruefung"]))
-                outFileHandler.write("</div>\n\n")
+                outFileHandler.write("</div> <!-- List Item End -->\n\n")
 
         except IOError:
             print("Cant write to file!")
