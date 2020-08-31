@@ -9,18 +9,16 @@ header {
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4 {
   line-height: 1.2;
   margin-left: 0px;
+  display: block;
 }
 
 .center {
   text-align: center;
-}
-
-h3 {
-  line-height: 1;
-  margin: 0px;
 }
 
 a:link {
@@ -38,7 +36,6 @@ a:visited {
 
 .listItem {
   page-break-inside: avoid;
-  display: none;
   width: 95%;
   height: 95%;
 }
@@ -47,15 +44,15 @@ p {
   margin-left: 0px;
 }
 
-#listContainer {
+.listContainer {
   width: 100%;
   display: inline-grid;
   overflow: hidden;
 }
 
-.btn.active {
-  background-color: #666;
-  color: white;
+/* Für den Filter */
+.filter {
+  display: none;
 }
 
 .show {
@@ -73,19 +70,19 @@ p {
 }
 
 @media (min-width: 1080px) {
-  #listContainer {
+  .listContainer {
     grid-template-columns: 25% 25% 25% 25%;
   }
 }
 
 @media (max-width: 1080px) {
-  #listContainer {
+  .listContainer {
     grid-template-columns: 50% 50%;
   }
 }
 
 @media (max-width: 760px) {
-  #listContainer {
+  .listContainer {
     grid-template-columns: 100%;
   }
 }

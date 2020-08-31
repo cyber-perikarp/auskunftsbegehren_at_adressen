@@ -17,30 +17,25 @@ workDir = os.path.dirname(os.path.realpath(__file__)) + "/.."
 outFile = workDir + "/general.html"
 csvFile = workDir + "/upload/general.csv"
 
-def writeRecord(record):
+def writeRecord(outFileHandler, record):
     # TODO: Library suchen für das
-    try:
-        with open(outFile, "a+") as outFileHandler:
-            outFileHandler.write("<div class=\"listItem {0}\">".format(record["Ebene"]))
-            outFileHandler.write("<h2>{0}</h2>\n".format(record["Name"]))
-            outFileHandler.write("<strong>{0}</strong><br>\n".format(record["Name_Lang"]))
-            outFileHandler.write("<p>{0}<br>\n".format(record["Adresse"]))
-            outFileHandler.write("{0} {1}</p>\n".format(record["PLZ"], record["Ort"]))
-            if record["E-Mail"]:
-                outFileHandler.write("<span><span class=\"icon-mail screenOnly\"></span> Mail: <a href=\"mailto:{0}\">{1}</a></span><br>\n".format(record["E-Mail"], record["E-Mail"]))
+    outFileHandler.write("<div class=\"listItem {0}\">".format(record["Ebene"]))
+    outFileHandler.write("<h4>{0}</h4>\n".format(record["Name"]))
+    outFileHandler.write("<p><strong>{0}</strong></p>\n".format(record["Name_Lang"]))
+    outFileHandler.write("<p>{0}<br>\n".format(record["Adresse"]))
+    outFileHandler.write("{0} {1}</p>\n".format(record["PLZ"], record["Ort"]))
+    outFileHandler.write("<p>Typ: <em>{0}</em></p>".format(record["Typ"]))
+    if record["E-Mail"]:
+        outFileHandler.write("<span class=\"icon-mail screenOnly\"></span>Mail: <a href=\"mailto:{0}\">{1}</a><br>\n".format(record["E-Mail"], record["E-Mail"]))
 
-            if record["Tel"]:
-                outFileHandler.write("<span><span class=\"icon-phone screenOnly\"></span> Tel: <a href=\"tel:{0}\">{1}</a></span><br>\n".format(record["Tel"], record["Tel"]))
+    if record["Tel"]:
+        outFileHandler.write("<span class=\"icon-phone screenOnly\"></span>Tel: <a href=\"tel:{0}\">{1}</a><br>\n".format(record["Tel"], record["Tel"]))
 
-            if record["Fax"]:
-                outFileHandler.write("<span><span class=\"icon-upload screenOnly\"></span> Fax: {0}</span><br>\n".format(record["Fax"]))
+    if record["Fax"]:
+        outFileHandler.write("<span class=\"icon-upload screenOnly\"></span>Fax: {0}<br>\n".format(record["Fax"]))
 
-            outFileHandler.write("<p><em>Letzte Prüfung am: {0}</em></p>\n".format(record["Pruefung"]))
-            outFileHandler.write("</div> <!-- List Item End -->\n\n")
-
-    except IOError:
-        print("Cant write to file!")
-        exit(1)
+    outFileHandler.write("<p>Letzte Prüfung am: <em>{0}</em></p>\n".format(record["Pruefung"]))
+    outFileHandler.write("</div> <!-- List Item End -->\n\n")
 
 # Header schreiben
 try:
@@ -75,24 +70,65 @@ try:
                     <button class="btn" onclick="filterSelection('Privat')">Privat</button>
                     </div>
               </header>
-              <div id="listContainer">""")
+              <div id="mainContainer">""")
 except IOError:
     print("Cant write to file!")
     exit(1)
 
+# Wir brauchen ein neues dict, weil wir die überschriften schreiben wollen
+recordsDict = {}
+
 # csv lesen und parsen
 with open(csvFile, newline='') as csvFileReader:
     readFile = csv.DictReader(csvFileReader)
-    for record in readFile:
-        print("Processing entry: " + record["Name"])
 
-        # Content schreiben!
-        writeRecord(record)
+    for record in readFile:
+        if not record["Ebene"] in recordsDict:
+            print("Adding administration Level: " + record["Ebene"])
+            recordsDict[record["Ebene"]] = {}
+
+        if not record["Branche"] in recordsDict[record["Ebene"]]:
+            print("Adding sector: " + record["Branche"])
+            recordsDict[record["Ebene"]][record["Branche"]] = {}
+
+        print("Processing entry: " + record["Name"])
+        lastChecked = record["Pruefung"].replace(".", "-")
+        nameForId = record["Name"].replace(" ", "-").lower()
+        id = record["Ebene"] + "_" + record["Branche"] + "_" + lastChecked + "_" + nameForId
+
+        recordsDict[record["Ebene"]][record["Branche"]][id] = record
+
+try:
+    with open(outFile, "a+") as outFileHandler:
+        for administrationLevel in recordsDict:
+            print("Writing administration Level: " + administrationLevel)
+
+            outFileHandler.write("<div class=\"administrationLevelContainer filter {0}\">".format(administrationLevel))
+            outFileHandler.write("<h2>{0}</h2>".format(administrationLevel))
+
+            for type in recordsDict[administrationLevel]:
+                print("Writing type: " + type)
+                outFileHandler.write("<div class=\"listContainer {0}\">".format(type))
+                outFileHandler.write("<h3>{0}</h3>".format(type))
+
+                for record in recordsDict[administrationLevel][type]:
+                    print("Writing entry: " + recordsDict[administrationLevel][type][record]["Name"])
+                    writeRecord(outFileHandler, recordsDict[administrationLevel][type][record])
+
+                outFileHandler.write("</div><!-- end of {0} listContainer -->".format(type))
+                print("End of: " + type)
+
+            outFileHandler.write("</div><!-- end of {0} administrationLevelContainer -->".format(administrationLevel))
+            print("End of: " + administrationLevel)
+
+except IOError:
+    print("Cant write to file!")
+    exit(1)
 
 # Footer
 try:
     with open(outFile, "a+") as outFileHandler:
-        outFileHandler.write("""</div> <!-- This is the end of the listWrapper -->
+        outFileHandler.write("""</div> <!-- This is the end of the mainContainer -->
                 <footer>
                     <p>
                     Lizenz: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International</a><br>

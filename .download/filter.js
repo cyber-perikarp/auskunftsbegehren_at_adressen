@@ -2,7 +2,7 @@ filterSelection("Bund")
 
 function filterSelection(c) {
   var x, i;
-  x = document.getElementsByClassName("listItem");
+  x = document.getElementsByClassName("filter");
   // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
   for (i = 0; i < x.length; i++) {
     w3RemoveClass(x[i], "show");
@@ -33,15 +33,4 @@ function w3RemoveClass(element, name) {
     }
   }
   element.className = arr1.join(" ");
-}
-
-// Add active class to the current control button (highlight it)
-var btnContainer = document.getElementById("buttonContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("inverse");
-    current[0].className = current[0].className.replace("inverse ", "");
-    this.className += " inverse";
-  });
 }
