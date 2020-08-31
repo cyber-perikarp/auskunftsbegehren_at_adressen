@@ -44,7 +44,7 @@ p {
   margin-left: 0px;
 }
 
-.listContainer {
+.typeContainer {
   width: 100%;
   display: inline-grid;
   overflow: hidden;
@@ -70,19 +70,19 @@ p {
 }
 
 @media (min-width: 1080px) {
-  .listContainer {
+  .typeContainer {
     grid-template-columns: 25% 25% 25% 25%;
   }
 }
 
 @media (max-width: 1080px) {
-  .listContainer {
+  .typeContainer {
     grid-template-columns: 50% 50%;
   }
 }
 
 @media (max-width: 760px) {
-  .listContainer {
+  .typeContainer {
     grid-template-columns: 100%;
   }
 }
