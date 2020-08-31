@@ -10,11 +10,15 @@ header {
 
 h1,
 h2,
-h3,
-h4 {
+h3 {
+  display: block;
+  margin: 10px auto 15px auto;
+  text-align: center;
+}
+
+.listItem h4 {
   line-height: 1.2;
   margin-left: 0px;
-  display: block;
 }
 
 .center {
@@ -44,7 +48,7 @@ p {
   margin-left: 0px;
 }
 
-.typeContainer {
+.itemContainer {
   width: 100%;
   display: inline-grid;
   overflow: hidden;
@@ -70,19 +74,19 @@ p {
 }
 
 @media (min-width: 1080px) {
-  .typeContainer {
+  .itemContainer {
     grid-template-columns: 25% 25% 25% 25%;
   }
 }
 
 @media (max-width: 1080px) {
-  .typeContainer {
+  .itemContainer {
     grid-template-columns: 50% 50%;
   }
 }
 
 @media (max-width: 760px) {
-  .typeContainer {
+  .itemContainer {
     grid-template-columns: 100%;
   }
 }

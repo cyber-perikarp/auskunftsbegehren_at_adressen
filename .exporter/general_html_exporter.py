@@ -111,9 +111,11 @@ try:
                 outFileHandler.write("<div class=\"typeContainer {0}\">".format(type))
                 outFileHandler.write("<h3>{0}</h3>".format(type))
 
+                outFileHandler.write("<div class=\"itemContainer\">")
                 for record in recordsDict[administrationLevel][type]:
                     print("Writing entry: " + recordsDict[administrationLevel][type][record]["Name"])
                     writeRecord(outFileHandler, recordsDict[administrationLevel][type][record])
+                outFileHandler.write("</div><!-- end of {0} itemContainer".format(recordsDict[administrationLevel][type][record]["Name"]))
 
                 outFileHandler.write("</div><!-- end of {0} typeContainer -->".format(type))
                 print("End of: " + type)
