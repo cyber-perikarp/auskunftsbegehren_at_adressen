@@ -16,6 +16,10 @@ h3 {
   text-align: center;
 }
 
+.left {
+  text-align: left;
+}
+
 .listItem h4 {
   line-height: 1.2;
   margin-left: 0px;
@@ -71,7 +75,7 @@ p {
   .listItem {
     display: block;
   }
-  
+
   .itemContainer {
     grid-template-columns: 50% 50%;
   }
