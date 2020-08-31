@@ -71,6 +71,10 @@ p {
   .listItem {
     display: block;
   }
+  
+  .itemContainer {
+    grid-template-columns: 50% 50%;
+  }
 }
 
 @media (min-width: 1080px) {
