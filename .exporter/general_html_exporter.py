@@ -19,23 +19,23 @@ csvFile = workDir + "/upload/general.csv"
 
 def writeRecord(outFileHandler, record):
     # TODO: Library suchen für das
-    outFileHandler.write("<div class=\"listItem {0}\">".format(record["Ebene"]))
-    outFileHandler.write("<h4>{0}</h4>\n".format(record["Name"]))
-    outFileHandler.write("<p><strong>{0}</strong></p>\n".format(record["Name_Lang"]))
-    outFileHandler.write("<p>{0}<br>\n".format(record["Adresse"]))
-    outFileHandler.write("{0} {1}</p>\n".format(record["PLZ"], record["Ort"]))
-    outFileHandler.write("<p>Typ: <em>{0}</em></p>".format(record["Typ"]))
-    if record["E-Mail"]:
+    outFileHandler.write("<div class=\"listItem {0}\">".format(record["Ebene"])) # Das ist der Container eines Datensatzes
+    outFileHandler.write("<h4>{0}</h4>\n".format(record["Name"])) # Kurzbezeichnung
+    outFileHandler.write("<p><strong>{0}</strong></p>\n".format(record["Name_Lang"])) # Langname
+    outFileHandler.write("<p>{0}<br>\n".format(record["Adresse"])) # Straße, Hausnummer, Postfach
+    outFileHandler.write("{0} {1}</p>\n".format(record["PLZ"], record["Ort"])) # PLZ und Ort
+    outFileHandler.write("<p>Typ: <em>{0}</em></p>".format(record["Typ"])) # Typ der Firma; Branche steht schon in der Überschrift
+    if record["E-Mail"]: # Email nur anzeigen wenn vorhanden, mit Icon
         outFileHandler.write("<span class=\"icon-mail screenOnly\"></span><span class=\"marginLeft\">Mail:</span> <a href=\"mailto:{0}\">{1}</a><br>\n".format(record["E-Mail"], record["E-Mail"]))
 
-    if record["Tel"]:
+    if record["Tel"]: # Telefon nur anzeigen wenn vorhanden, mit Icon
         outFileHandler.write("<span class=\"icon-phone screenOnly\"></span><span class=\"marginLeft\">Tel:</span> <a href=\"tel:{0}\">{1}</a><br>\n".format(record["Tel"], record["Tel"]))
 
-    if record["Fax"]:
+    if record["Fax"]: # Fax nur anzeigen wenn vorhanden, mit Icon
         outFileHandler.write("<span class=\"icon-upload screenOnly\"></span><span class=\"marginLeft\">Fax:</span> {0}<br>\n".format(record["Fax"]))
 
-    outFileHandler.write("<p>Letzte Prüfung am: <em>{0}</em></p>\n".format(record["Pruefung"]))
-    outFileHandler.write("</div> <!-- List Item End -->\n\n")
+    outFileHandler.write("<p>Letzte Prüfung am: <em>{0}</em></p>\n".format(record["Pruefung"])) # Das ist die Beschreibung wann der Datensatz das letzte mal geprüft wurde
+    outFileHandler.write("</div> <!-- List Item End -->\n\n") # Container Ende
 
 # Header schreiben
 try:
@@ -82,45 +82,45 @@ recordsDict = {}
 with open(csvFile, newline='') as csvFileReader:
     readFile = csv.DictReader(csvFileReader)
 
-    for record in readFile:
-        if not record["Ebene"] in recordsDict:
+    for record in readFile: # Das geht durch alle Datensätze ...
+        if not record["Ebene"] in recordsDict: # ... und wenn die "Ebene", d.h. "Bund", "Steiermark", "Privat" etc. noch nicht vorhanden ist ...
             print("Adding administration Level: " + record["Ebene"])
-            recordsDict[record["Ebene"]] = {}
+            recordsDict[record["Ebene"]] = {} # ... wird sie dem Dict hinzugefügt, und ebenfalls als dict initialisiert
 
-        if not record["Branche"] in recordsDict[record["Ebene"]]:
+        if not record["Branche"] in recordsDict[record["Ebene"]]: # Hier passiert das gleiche wie oben mit den Ebenen, nur mit den Branchen
             print("Adding sector: " + record["Branche"])
             recordsDict[record["Ebene"]][record["Branche"]] = {}
 
         print("Processing entry: " + record["Name"])
-        lastChecked = record["Pruefung"].replace(".", "-")
+        lastChecked = record["Pruefung"].replace(".", "-") # Hier und in den nächsten zwei Zeilen wird eine eindeutige ID für jeden Datensatz generiert
         nameForId = record["Name"].replace(" ", "-").lower()
         id = record["Ebene"] + "_" + record["Branche"] + "_" + lastChecked + "_" + nameForId
 
-        recordsDict[record["Ebene"]][record["Branche"]][id] = record
+        recordsDict[record["Ebene"]][record["Branche"]][id] = record # Hier fügen wir dann den Datensatz dem großen dict hinzu
 
 try:
     with open(outFile, "a+") as outFileHandler:
         for administrationLevel in recordsDict:
             print("Writing administration Level: " + administrationLevel)
 
-            outFileHandler.write("<div class=\"administrationLevelContainer filter {0}\">".format(administrationLevel))
+            outFileHandler.write("<div class=\"administrationLevelContainer filter {0}\">".format(administrationLevel)) # Das ist der "Ebene" Container
             outFileHandler.write("<h2>{0}</h2>".format(administrationLevel))
 
             for type in recordsDict[administrationLevel]:
                 print("Writing type: " + type)
-                outFileHandler.write("<div class=\"typeContainer {0}\">".format(type))
+                outFileHandler.write("<div class=\"typeContainer {0}\">".format(type)) # Das ist der "Branche" Container
                 outFileHandler.write("<h3>{0}</h3>".format(type))
 
-                outFileHandler.write("<div class=\"itemContainer\">")
+                outFileHandler.write("<div class=\"itemContainer\">") # Hier ist der Item Container - Hierdrauf wirkt das CSS Grid
                 for record in recordsDict[administrationLevel][type]:
                     print("Writing entry: " + recordsDict[administrationLevel][type][record]["Name"])
-                    writeRecord(outFileHandler, recordsDict[administrationLevel][type][record])
-                outFileHandler.write("</div><!-- end of {0} itemContainer".format(recordsDict[administrationLevel][type][record]["Name"]))
+                    writeRecord(outFileHandler, recordsDict[administrationLevel][type][record]) # Hier schreiben wir den Datensatz
+                outFileHandler.write("</div><!-- end of {0} itemContainer -->".format(recordsDict[administrationLevel][type][record]["Name"])) # Ende des itemContainer
 
-                outFileHandler.write("</div><!-- end of {0} typeContainer -->".format(type))
+                outFileHandler.write("</div><!-- end of {0} typeContainer -->".format(type)) # Ende des Branchen Containers
                 print("End of: " + type)
 
-            outFileHandler.write("</div><!-- end of {0} administrationLevelContainer -->".format(administrationLevel))
+            outFileHandler.write("</div><!-- end of {0} administrationLevelContainer -->".format(administrationLevel)) # Ende des Ebenen Containers
             print("End of: " + administrationLevel)
 
 except IOError:
