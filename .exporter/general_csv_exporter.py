@@ -63,6 +63,7 @@ def sanitizePhoneNumber(number):
     number = number.replace("(", "")
     number = number.replace(")", "")
     number = number.replace("'", "") # Wegen LibreOffice
+    number = number.replace("‘", "") # Auch wegen LibreOffice
     logger.debug("Sanitized Phone Number: " + number)
     return number
 
