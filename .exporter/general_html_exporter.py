@@ -26,13 +26,13 @@ def writeRecord(outFileHandler, record):
     outFileHandler.write("{0} {1}</p>\n".format(record["PLZ"], record["Ort"]))
     outFileHandler.write("<p>Typ: <em>{0}</em></p>".format(record["Typ"]))
     if record["E-Mail"]:
-        outFileHandler.write("<span class=\"icon-mail screenOnly\"></span>Mail: <a href=\"mailto:{0}\">{1}</a><br>\n".format(record["E-Mail"], record["E-Mail"]))
+        outFileHandler.write("<span class=\"icon-mail screenOnly\"></span><span class=\"marginLeft\">Mail:</span> <a href=\"mailto:{0}\">{1}</a><br>\n".format(record["E-Mail"], record["E-Mail"]))
 
     if record["Tel"]:
-        outFileHandler.write("<span class=\"icon-phone screenOnly\"></span>Tel: <a href=\"tel:{0}\">{1}</a><br>\n".format(record["Tel"], record["Tel"]))
+        outFileHandler.write("<span class=\"icon-phone screenOnly\"></span><span class=\"marginLeft\">Tel:</span> <a href=\"tel:{0}\">{1}</a><br>\n".format(record["Tel"], record["Tel"]))
 
     if record["Fax"]:
-        outFileHandler.write("<span class=\"icon-upload screenOnly\"></span>Fax: {0}<br>\n".format(record["Fax"]))
+        outFileHandler.write("<span class=\"icon-upload screenOnly\"></span><span class=\"marginLeft\">Fax:</span> {0}<br>\n".format(record["Fax"]))
 
     outFileHandler.write("<p>Letzte Prüfung am: <em>{0}</em></p>\n".format(record["Pruefung"]))
     outFileHandler.write("</div> <!-- List Item End -->\n\n")

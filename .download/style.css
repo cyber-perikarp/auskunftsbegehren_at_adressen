@@ -1,3 +1,4 @@
+/* HTML Basis neu stylen */
 body {
   margin: 10px auto 0px auto;
   padding: 0 10px;
@@ -16,19 +17,31 @@ h3 {
   text-align: center;
 }
 
-.left {
-  text-align: left;
+p {
+  margin-left: 0px;
 }
 
+/* Vor allem für den Abstand bei Email etc zu den Icons */
+.marginLeft {
+  margin-left: 3px;
+}
+
+/* Überschriften der einzelnen Datensätze */
 .listItem h4 {
   line-height: 1.2;
   margin-left: 0px;
 }
 
+/* Textausrichtung */
 .center {
   text-align: center;
 }
 
+.left {
+  text-align: left;
+}
+
+/* Farben */
 a:link {
   color: darkblue;
   text-decoration: none;
@@ -42,14 +55,11 @@ a:visited {
   color: red !important;
 }
 
+/* Grid */
 .listItem {
   page-break-inside: avoid;
   width: 95%;
   height: 95%;
-}
-
-p {
-  margin-left: 0px;
 }
 
 .itemContainer {
@@ -67,6 +77,7 @@ p {
   display: block;
 }
 
+/* Das betrifft die Druckversion und damit auch das PDF */
 @media print {
   .screenOnly {
     display: none;
@@ -81,6 +92,7 @@ p {
   }
 }
 
+/* Das hier ist nötig damit die Spalten responsive bleiben */
 @media (min-width: 1080px) {
   .itemContainer {
     grid-template-columns: 25% 25% 25% 25%;
