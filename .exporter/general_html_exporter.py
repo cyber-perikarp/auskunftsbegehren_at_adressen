@@ -138,6 +138,7 @@ try:
                     <a href="https://github.com/cyber-perikarp/auskunftsbegehren_at_adressen/issues/new" target="_blank" class="important">Neuen Datensatz einreichen</a>
                   </p>
                 </footer>
+                <script src="jquery-3.5.1.min.js"></script>
                 <script src="filter.js"></script>
             </body>
             </html>
