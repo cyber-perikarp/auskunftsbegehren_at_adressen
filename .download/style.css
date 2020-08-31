@@ -32,13 +32,17 @@ p {
   margin-left: 0px;
 }
 
-/* Textausrichtung */
+/* Textformatierung */
 .center {
   text-align: center;
 }
 
 .left {
   text-align: left;
+}
+
+.strong {
+  font-weight: bold;
 }
 
 /* Farben */

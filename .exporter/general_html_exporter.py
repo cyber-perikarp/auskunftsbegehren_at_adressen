@@ -104,12 +104,12 @@ try:
             print("Writing administration Level: " + administrationLevel)
 
             outFileHandler.write("<div class=\"administrationLevelContainer filter {0}\">".format(administrationLevel)) # Das ist der "Ebene" Container
-            outFileHandler.write("<h2>{0}</h2>".format(administrationLevel))
+            outFileHandler.write("<h2 class=\"strong\">{0}</h2>".format(administrationLevel))
 
             for type in recordsDict[administrationLevel]:
                 print("Writing type: " + type)
                 outFileHandler.write("<div class=\"typeContainer {0}\">".format(type)) # Das ist der "Branche" Container
-                outFileHandler.write("<h3>{0}</h3>".format(type))
+                outFileHandler.write("<h3 class=\"strong\">{0}</h3>".format(type))
 
                 outFileHandler.write("<div class=\"itemContainer\">") # Hier ist der Item Container - Hierdrauf wirkt das CSS Grid
                 for record in recordsDict[administrationLevel][type]:
