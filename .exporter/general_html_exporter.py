@@ -43,32 +43,28 @@ try:
         outFileHandler.write("""<!DOCTYPE html>
             <html lang="de">
             <head>
-              <meta charset="utf-8">
-              <link rel="stylesheet" media="screen" href="mini-default.min.css">
-              <link rel="stylesheet" type="text/css" href="style.css">
-              <meta name="viewport" content="width=device-width, initial-scale=1">
-              <title>
-                Export
-              </title>
+                <meta charset="utf-8">
+                <link rel="stylesheet" media="screen" href="mini-default.min.css">
+                <link rel="stylesheet" type="text/css" href="style.css">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <title>
+                    Export
+                </title>
             </head>
             <body>
-              <header>
-                  <h1 class="center">
-                    Genereller Export
-                  </h1>
-                  <div id="buttonContainer" class="center screenOnly">
-                    <button class="btn" onclick="filterSelection('Bund')">Bund</button>
-                    <button class="btn" onclick="filterSelection('Burgenland')">Burgenland</button>
-                    <button class="btn" onclick="filterSelection('Kärnten')">Kärnten</button>
-                    <button class="btn" onclick="filterSelection('Niederösterreich')">Niederösterreich</button>
-                    <button class="btn" onclick="filterSelection('Oberösterreich')">Oberösterreich</button>
-                    <button class="btn" onclick="filterSelection('Salzburg')">Salzburg</button>
-                    <button class="btn" onclick="filterSelection('Steiermark')">Steiermark</button>
-                    <button class="btn" onclick="filterSelection('Tirol')">Tirol</button>
-                    <button class="btn" onclick="filterSelection('Vorarlberg')">Vorarlberg</button>
-                    <button class="btn" onclick="filterSelection('Wien')">Wien</button>
-                    <button class="btn" onclick="filterSelection('Privat')">Privat</button>
-                    </div>
+                <header class="sticky screenOnly">
+                    <!-- TODO: Das automatisch generieren -->
+                    <a href="?filter=Bund" role="button" id="BundButton">Bund</a>
+                    <a href="?filter=Burgenland" role="button" id="BurgenlandButton">Burgenland</a>
+                    <a href="?filter=Kärnten" role="button" id="KärntenButton">Kärnten</a>
+                    <a href="?filter=Niederösterreich" role="button" id="NiederösterreichButton">Niederösterreich</a>
+                    <a href="?filter=Oberösterreich" role="button" id="OberösterreichButton">Oberösterreich</a>
+                    <a href="?filter=Salzburg" role="button" id="SalzburgButton">Salzburg</a>
+                    <a href="?filter=Steiermark" role="button" id="SteiermarkButton">Steiermark</a>
+                    <a href="?filter=Tirol" role="button" id="TirolButton">Tirol</a>
+                    <a href="?filter=Vorarlberg" role="button" id="VorarlbergButton">Vorarlberg</a>
+                    <a href="?filter=Wien" role="button" id="WienButton">Wien</a>
+                    <a href="?filter=Privat" role="button" id="PrivatButton">Privat</a>
               </header>
               <div id="mainContainer">""")
 except IOError:
