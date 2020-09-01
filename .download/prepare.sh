@@ -9,8 +9,10 @@ cd $TRAVIS_BUILD_DIR
 
 now=$(TZ=Europe/Vienna date +"%A, %d.%m.%Y %T %:z")
 sed -i "s/%%DATE%%/$now/g" .download/index.html
-mv .download/index.html upload/index.html
+cp .download/index.html upload/index.html
 
-mv .download/style.css upload
-mv .download/filter.js upload
-mv .download/mini-default.min.css upload
+cp .download/style.css upload
+cp .download/jquery-3.5.1.min.js upload
+cp .download/filter.js upload
+cp .download/mini-default.min.css upload
+cp .download/cyber-perikarp-logo.png upload

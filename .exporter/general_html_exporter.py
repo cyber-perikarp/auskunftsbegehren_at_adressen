@@ -43,32 +43,28 @@ try:
         outFileHandler.write("""<!DOCTYPE html>
             <html lang="de">
             <head>
-              <meta charset="utf-8">
-              <link rel="stylesheet" media="screen" href="mini-default.min.css">
-              <link rel="stylesheet" type="text/css" href="style.css">
-              <meta name="viewport" content="width=device-width, initial-scale=1">
-              <title>
-                Export
-              </title>
+                <meta charset="utf-8">
+                <link rel="stylesheet" media="screen" href="mini-default.min.css">
+                <link rel="stylesheet" type="text/css" href="style.css">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <title>
+                    Export
+                </title>
             </head>
             <body>
-              <header>
-                  <h1 class="center">
-                    Genereller Export
-                  </h1>
-                  <div id="buttonContainer" class="center screenOnly">
-                    <button class="btn" onclick="filterSelection('Bund')">Bund</button>
-                    <button class="btn" onclick="filterSelection('Burgenland')">Burgenland</button>
-                    <button class="btn" onclick="filterSelection('Kärnten')">Kärnten</button>
-                    <button class="btn" onclick="filterSelection('Niederösterreich')">Niederösterreich</button>
-                    <button class="btn" onclick="filterSelection('Oberösterreich')">Oberösterreich</button>
-                    <button class="btn" onclick="filterSelection('Salzburg')">Salzburg</button>
-                    <button class="btn" onclick="filterSelection('Steiermark')">Steiermark</button>
-                    <button class="btn" onclick="filterSelection('Tirol')">Tirol</button>
-                    <button class="btn" onclick="filterSelection('Vorarlberg')">Vorarlberg</button>
-                    <button class="btn" onclick="filterSelection('Wien')">Wien</button>
-                    <button class="btn" onclick="filterSelection('Privat')">Privat</button>
-                    </div>
+                <header class="sticky screenOnly">
+                    <!-- TODO: Das automatisch generieren -->
+                    <a href="?filter=Bund" role="button">Bund</a>
+                    <a href="?filter=Burgenland" role="button">Burgenland</a>
+                    <a href="?filter=Kärnten" role="button">Kärnten</a>
+                    <a href="?filter=Niederösterreich" role="button">Niederösterreich</a>
+                    <a href="?filter=Oberösterreich" role="button">Oberösterreich</a>
+                    <a href="?filter=Salzburg" role="button">Salzburg</a>
+                    <a href="?filter=Steiermark" role="button">Steiermark</a>
+                    <a href="?filter=Tirol" role="button">Tirol</a>
+                    <a href="?filter=Vorarlberg" role="button">Vorarlberg</a>
+                    <a href="?filter=Wien" role="button">Wien</a>
+                    <a href="?filter=Privat" role="button">Privat</a>
               </header>
               <div id="mainContainer">""")
 except IOError:
@@ -103,7 +99,7 @@ try:
         for administrationLevel in recordsDict:
             print("Writing administration Level: " + administrationLevel)
 
-            outFileHandler.write("<div class=\"administrationLevelContainer filter {0}\">".format(administrationLevel)) # Das ist der "Ebene" Container
+            outFileHandler.write("<div class=\"administrationLevelContainer filter\" id=\"{0}\">".format(administrationLevel)) # Das ist der "Ebene" Container
             outFileHandler.write("<h2 class=\"strong\">{0}</h2>".format(administrationLevel))
 
             for type in recordsDict[administrationLevel]:
@@ -138,6 +134,7 @@ try:
                     <a href="https://github.com/cyber-perikarp/auskunftsbegehren_at_adressen/issues/new" target="_blank" class="important">Neuen Datensatz einreichen</a>
                   </p>
                 </footer>
+                <script src="jquery-3.5.1.min.js"></script>
                 <script src="filter.js"></script>
             </body>
             </html>
