@@ -11,6 +11,6 @@ $(document).ready(function() {
 
   // Aktiven Link hervorheben
   buttonId = '#' + filter + 'Button';
-  $( buttonId ).addClass('activeMenuItem');
+  $(buttonId).addClass('activeMenuItem');
 
 });

@@ -54,17 +54,17 @@ try:
             <body>
                 <header class="sticky screenOnly">
                     <!-- TODO: Das automatisch generieren -->
-                    <a href="?filter=Bund" role="button" id="BundButton">Bund</a>
-                    <a href="?filter=Burgenland" role="button" id="BurgenlandButton">Burgenland</a>
-                    <a href="?filter=Kärnten" role="button" id="KärntenButton">Kärnten</a>
-                    <a href="?filter=Niederösterreich" role="button" id="NiederösterreichButton">Niederösterreich</a>
-                    <a href="?filter=Oberösterreich" role="button" id="OberösterreichButton">Oberösterreich</a>
-                    <a href="?filter=Salzburg" role="button" id="SalzburgButton">Salzburg</a>
-                    <a href="?filter=Steiermark" role="button" id="SteiermarkButton">Steiermark</a>
-                    <a href="?filter=Tirol" role="button" id="TirolButton">Tirol</a>
-                    <a href="?filter=Vorarlberg" role="button" id="VorarlbergButton">Vorarlberg</a>
-                    <a href="?filter=Wien" role="button" id="WienButton">Wien</a>
-                    <a href="?filter=Privat" role="button" id="PrivatButton">Privat</a>
+                    <a href="?filter=Bund" role="button">Bund</a>
+                    <a href="?filter=Burgenland" role="button">Burgenland</a>
+                    <a href="?filter=Kärnten" role="button">Kärnten</a>
+                    <a href="?filter=Niederösterreich" role="button">Niederösterreich</a>
+                    <a href="?filter=Oberösterreich" role="button">Oberösterreich</a>
+                    <a href="?filter=Salzburg" role="button">Salzburg</a>
+                    <a href="?filter=Steiermark" role="button">Steiermark</a>
+                    <a href="?filter=Tirol" role="button">Tirol</a>
+                    <a href="?filter=Vorarlberg" role="button">Vorarlberg</a>
+                    <a href="?filter=Wien" role="button">Wien</a>
+                    <a href="?filter=Privat" role="button">Privat</a>
               </header>
               <div id="mainContainer">""")
 except IOError:
