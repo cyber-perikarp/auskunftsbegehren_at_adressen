@@ -99,7 +99,7 @@ try:
         for administrationLevel in recordsDict:
             print("Writing administration Level: " + administrationLevel)
 
-            outFileHandler.write("<div class=\"administrationLevelContainer filter {0}\">".format(administrationLevel)) # Das ist der "Ebene" Container
+            outFileHandler.write("<div class=\"administrationLevelContainer filter\" id=\"{0}\">".format(administrationLevel)) # Das ist der "Ebene" Container
             outFileHandler.write("<h2 class=\"strong\">{0}</h2>".format(administrationLevel))
 
             for type in recordsDict[administrationLevel]:
