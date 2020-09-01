@@ -15,3 +15,4 @@ cp .download/style.css upload
 cp .download/jquery-3.5.1.min.js upload
 cp .download/filter.js upload
 cp .download/mini-default.min.css upload
+cp .download/cyber-perikarp-logo.png upload
