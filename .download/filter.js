@@ -1,19 +1,42 @@
-$(document).ready(function() {
-  let params = new URLSearchParams(window.location.search)
+function redirectOrUpdateVisible() {
+  // rawHash ist z.B. "#Bund"
+  rawHash = $(location).attr('hash').replace(/^#/, "");
 
-  // Wenn es keinen Filterparameter gibt, leiten wir auf "Bund" weiter
-  if (!params.has('filter')) {
-    window.location.href = '?filter=Bund';
+  if (!rawHash) {
+    var url = location.href;
+    location.href = '#Bund';
+    oldVisible = 'Bund';
+  } else {
+    if (typeof oldVisible == 'undefined') {
+      oldVisible = 'Bund';
+    }
+
+    // Wir wollen die Umlaute nicht codiert haben
+    decodedHash = decodeURIComponent(rawHash);
+
+    // Bei aktivem Button hervorhebung entfernen
+    oldVisibleMenuItem = 'header a:contains(' + oldVisible + ')';
+    if ($(oldVisibleMenuItem).hasClass('activeMenuItem')) {
+      $(oldVisibleMenuItem).removeClass('activeMenuItem');
+    }
+
+    // Aktiven Link hervorheben
+    activeMenuItem = 'header a:contains(' + decodedHash + ')';
+
+    // Neuen aktiven Button hervorheben
+    $(activeMenuItem).addClass('activeMenuItem');
+
+    // Alte Datensätze ausblenden
+    oldVisibleItemList = '#' + oldVisible;
+    if ($(oldVisibleItemList).hasClass('show')) {
+      $(oldVisibleItemList).removeClass('show');
+    }
+
+    // Neue Datensätze einblenden
+    activeItemList = '#' + decodedHash;
+    $(activeItemList).addClass('show');
+
+    // Aktiven Status speichern
+    oldVisible = decodedHash;
   }
-
-  // Holt den Wert des Filters
-  var filter = params.get('filter');
-
-  // Aktiven Link hervorheben
-  buttonGetter = 'header a:contains(' + filter + ')';
-  $(buttonGetter).addClass('activeMenuItem');
-
-  // Das was wir sehen wollen einblenden
-  activeItemGetter = '#' + filter;
-  $(activeItemGetter).addClass('show');
-});
+}

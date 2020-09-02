@@ -70,12 +70,16 @@ a:visited {
   page-break-inside: avoid;
   width: 95%;
   height: 95%;
+  padding: 5px;
+  box-shadow: 1px 1px 5px black;
 }
 
 .itemContainer {
   width: 100%;
   display: inline-grid;
   overflow: hidden;
+  padding-top: 10px;
+  border-top: 2px black solid;
 }
 
 /* Für den Filter */

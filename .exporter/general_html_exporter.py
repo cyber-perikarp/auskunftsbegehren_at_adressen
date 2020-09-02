@@ -51,20 +51,20 @@ try:
                     Export
                 </title>
             </head>
-            <body>
+            <body onload="redirectOrUpdateVisible()" onhashchange="redirectOrUpdateVisible();">
                 <header class="sticky screenOnly">
                     <!-- TODO: Das automatisch generieren -->
-                    <a href="?filter=Bund" role="button">Bund</a>
-                    <a href="?filter=Burgenland" role="button">Burgenland</a>
-                    <a href="?filter=Kärnten" role="button">Kärnten</a>
-                    <a href="?filter=Niederösterreich" role="button">Niederösterreich</a>
-                    <a href="?filter=Oberösterreich" role="button">Oberösterreich</a>
-                    <a href="?filter=Salzburg" role="button">Salzburg</a>
-                    <a href="?filter=Steiermark" role="button">Steiermark</a>
-                    <a href="?filter=Tirol" role="button">Tirol</a>
-                    <a href="?filter=Vorarlberg" role="button">Vorarlberg</a>
-                    <a href="?filter=Wien" role="button">Wien</a>
-                    <a href="?filter=Privat" role="button">Privat</a>
+                    <a href="#Bund" role="button">Bund</a>
+                    <a href="#Burgenland" role="button">Burgenland</a>
+                    <a href="#Kärnten" role="button">Kärnten</a>
+                    <a href="#Niederösterreich" role="button">Niederösterreich</a>
+                    <a href="#Oberösterreich" role="button">Oberösterreich</a>
+                    <a href="#Salzburg" role="button">Salzburg</a>
+                    <a href="#Steiermark" role="button">Steiermark</a>
+                    <a href="#Tirol" role="button">Tirol</a>
+                    <a href="#Vorarlberg" role="button">Vorarlberg</a>
+                    <a href="#Wien" role="button">Wien</a>
+                    <a href="#Privat" role="button">Privat</a>
               </header>
               <div id="mainContainer">""")
 except IOError:
