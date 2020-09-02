@@ -1,23 +1,27 @@
-$(document).ready(function() {
-  oldVisible = 'Bund';
+function redirectOrUpdateVisible() {
+  // rawHash ist z.B. "#Bund"
+  rawHash = $(location).attr('hash').replace(/^#/, "");
 
-  window.addEventListener("hashchange", updateVisible, false);
-
-  function updateVisible() {
-    // rawHash ist z.B. "#Bund"
-    rawHash = $(location).attr('hash').replace(/^#/, "");
+  if (!rawHash) {
+    var url = location.href;
+    location.href = '#Bund';
+    oldVisible = 'Bund';
+  } else {
+    if (typeof oldVisible == 'undefined') {
+      oldVisible = 'Bund';
+    }
 
     // Wir wollen die Umlaute nicht codiert haben
     decodedHash = decodeURIComponent(rawHash);
-
-    // Aktiven Link hervorheben
-    activeMenuItem = 'header a:contains(' + decodedHash + ')';
 
     // Bei aktivem Button hervorhebung entfernen
     oldVisibleMenuItem = 'header a:contains(' + oldVisible + ')';
     if ($(oldVisibleMenuItem).hasClass('activeMenuItem')) {
       $(oldVisibleMenuItem).removeClass('activeMenuItem');
     }
+
+    // Aktiven Link hervorheben
+    activeMenuItem = 'header a:contains(' + decodedHash + ')';
 
     // Neuen aktiven Button hervorheben
     $(activeMenuItem).addClass('activeMenuItem');
@@ -35,4 +39,4 @@ $(document).ready(function() {
     // Aktiven Status speichern
     oldVisible = decodedHash;
   }
-});
+}

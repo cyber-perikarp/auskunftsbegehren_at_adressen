@@ -51,7 +51,7 @@ try:
                     Export
                 </title>
             </head>
-            <body>
+            <body onload="redirectOrUpdateVisible()" onhashchange="redirectOrUpdateVisible();">
                 <header class="sticky screenOnly">
                     <!-- TODO: Das automatisch generieren -->
                     <a href="#Bund" role="button">Bund</a>
