@@ -7,7 +7,7 @@ install:
   - sudo apt-key adv --fetch-keys 'https://mariadb.org/mariadb_release_signing_key.asc'
   - sudo add-apt-repository -y 'deb [arch=amd64,arm64,ppc64el] http://ams2.mirrors.digitalocean.com/mariadb/repo/10.5/ubuntu focal main'
   - sudo apt-get update
-  - sudo apt-get install -y golang-go python3-mysqldb figlet wget
+  - sudo apt-get install -y golang-go python3-mysqldb figlet wget rsync
   - wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.focal_amd64.deb
   - sudo dpkg -i wkhtmltox_0.12.6-1.focal_amd64.deb || true
   - sudo apt-get -f -y install
@@ -18,7 +18,6 @@ install:
 before_script:
   - figlet "IMPORT CHECK"; ./.exporter/import_check.sh
   - figlet "PLZ CHECK"; ./.exporter/check_plz_against_database.py
-  - figlet "PRE EXPORT"; ./.exporter/pre_export.sh
   - figlet "DOWNLOAD PAGE"; ./.download/prepare.sh # This needs to be done before the exporters run
 
 script:
