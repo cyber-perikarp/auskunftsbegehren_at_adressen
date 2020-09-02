@@ -1,9 +1,8 @@
 function redirectOrUpdateVisible() {
-  // rawHash ist z.B. "#Bund"
+  // rawHash ist z.B. "Bund"
   rawHash = $(location).attr('hash').replace(/^#/, "");
 
   if (!rawHash) {
-    var url = location.href;
     location.href = '#Bund';
     oldVisible = 'Bund';
   } else {
