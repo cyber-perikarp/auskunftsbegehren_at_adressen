@@ -16,7 +16,7 @@ from collections import OrderedDict
 from operator import getitem
 
 # CLI Parameter
-parser = argparse.ArgumentParser("general_csv_exporter.py")
+parser = argparse.ArgumentParser("generic_csv_exporter.py")
 parser.add_argument("--loglevel", help="DEBUG, INFO, ERROR, CRITICAL")
 
 args = vars(parser.parse_args())

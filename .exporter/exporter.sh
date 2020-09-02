@@ -14,13 +14,13 @@ sed -i "s/%%NOYB_COUNTER%%/$noybCounter/g" upload/index.html
 mv noyb.csv upload
 
 figlet "GENERAL CSV"
-./.exporter/general_csv_exporter.py
+./.exporter/generic_csv_exporter.py
 generalCounter=$(wc -l < general.csv)
 sed -i "s/%%GENERAL_COUNTER%%/$generalCounter/g" upload/index.html
 mv general.csv upload
 
 figlet "GENERAL HTML"
-./.exporter/general_html_exporter.py
+./.exporter/generic_html_exporter.py
 mv general.html upload
 
 figlet "GENERAL PDF"
