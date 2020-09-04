@@ -42,7 +42,7 @@ def writeRecord(outFileHandler, record):
             print("Cant write QR Code to file!")
             exit(1)
 
-        outFileHandler.write("<span class=\"icon-phone screenOnly\" data-qrcode-filename:\"" + qrcodeFileName + "\"></span><span class=\"marginLeft\">Tel:</span> <a href=\"tel:{0}\">{1}</a><br>\n".format(record["Tel"], record["Tel"]))
+        outFileHandler.write("<span class=\"icon-phone screenOnly\" data-featherlight:\"qrcodes/{0}\"></span><span class=\"marginLeft\">Tel:</span> <a href=\"tel:{1}\">{2}</a><br>\n".format(qrcodeFileName, record["Tel"], record["Tel"]))
 
     if record["Fax"]: # Fax nur anzeigen wenn vorhanden, mit Icon
         outFileHandler.write("<span class=\"icon-upload screenOnly\"></span><span class=\"marginLeft\">Fax:</span> {0}<br>\n".format(record["Fax"]))
