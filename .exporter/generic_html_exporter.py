@@ -136,7 +136,6 @@ try:
                   </p>
                 </footer>
                 <script src="js/jquery-3.5.1.js"></script>
-                <script src="js/qrcode.js"></script>
                 <script src="js/featherlight.js"></script>
                 <script src="js/filter.js"></script>
             </body>
