@@ -44,8 +44,8 @@ try:
             <html lang="de">
             <head>
                 <meta charset="utf-8">
-                <link rel="stylesheet" media="screen" href="css/mini-default.min.css">
-                <link rel="stylesheet" type="text/css" href="css/style.min.css">
+                <link rel="stylesheet" media="screen" href="css/mini-default.css">
+                <link rel="stylesheet" type="text/css" href="css/style.css">
                 <meta name="viewport" content="width=device-width, initial-scale=1">
                 <title>
                     Export
@@ -134,9 +134,9 @@ try:
                     <a href="https://github.com/cyber-perikarp/auskunftsbegehren_at_adressen/issues/new" target="_blank" class="important">Neuen Datensatz einreichen</a>
                   </p>
                 </footer>
-                <script src="js/jquery-3.5.1.min.js"></script>
-                <script src="js/qrcode.min.js"></script>
-                <script src="js/filter.min.js"></script>
+                <script src="js/jquery-3.5.1.js"></script>
+                <script src="js/qrcode.js"></script>
+                <script src="js/filter.js"></script>
             </body>
             </html>
         """)
