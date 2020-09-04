@@ -14,7 +14,7 @@ install:
   - rm wkhtmltox_0.12.6-1.focal_amd64.deb
   - export GOPATH=/tmp/go && go get github.com/Clever/csvlint/cmd/csvlint
   - pip install -r .exporter/requirements.txt
-  - npm install --global uglifyjs uglifycss
+  - npm install --global uglify-js uglifycss
 
 before_script:
   - figlet "IMPORT CHECK"; ./.exporter/import_check.sh
