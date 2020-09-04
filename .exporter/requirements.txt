@@ -1,2 +1,3 @@
 chromalog
 mysqlclient
+qrcode[pil]
