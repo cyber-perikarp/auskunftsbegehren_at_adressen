@@ -9,6 +9,8 @@
 import csv
 import os
 import sys
+import qrcode
+import hashlib
 
 # In diesem Ordner sind wir
 workDir = os.path.dirname(os.path.realpath(__file__)) + "/.."
@@ -16,6 +18,7 @@ workDir = os.path.dirname(os.path.realpath(__file__)) + "/.."
 # Hardgecodede Parameter
 outFile = workDir + "/general.html"
 csvFile = workDir + "/upload/general.csv"
+qrCodeFolder = workDir + "/qrcodes/"
 
 def writeRecord(outFileHandler, record):
     # TODO: Library suchen für das
@@ -29,7 +32,17 @@ def writeRecord(outFileHandler, record):
         outFileHandler.write("<span class=\"icon-mail screenOnly\"></span><span class=\"marginLeft\">Mail:</span> <a href=\"mailto:{0}\">{1}</a><br>\n".format(record["E-Mail"], record["E-Mail"]))
 
     if record["Tel"]: # Telefon nur anzeigen wenn vorhanden, mit Icon
-        outFileHandler.write("<span class=\"icon-phone screenOnly\"></span><span class=\"marginLeft\">Tel:</span> <a href=\"tel:{0}\">{1}</a><br>\n".format(record["Tel"], record["Tel"]))
+        qrcodeImage = qrcode.make("TEL:" + record["Tel"]) # TEL: sagt dass der QR Code eine Telefonnummer ist
+        qrcodeFileName = hashlib.md5(record["Name"].encode("utf-8")).hexdigest() + ".png" # Wir wollen den md5 Hash des Namens
+        qrcodeFileNameAndPath = qrCodeFolder + "/" + qrcodeFileName
+
+        try:
+            qrcodeImage.save(qrcodeFileNameAndPath)
+        except:
+            print("Cant write QR Code to file!")
+            exit(1)
+
+        outFileHandler.write("<span class=\"icon-phone screenOnly\" data-qrcode-filename:\"" + qrcodeFileName + "\"></span><span class=\"marginLeft\">Tel:</span> <a href=\"tel:{0}\">{1}</a><br>\n".format(record["Tel"], record["Tel"]))
 
     if record["Fax"]: # Fax nur anzeigen wenn vorhanden, mit Icon
         outFileHandler.write("<span class=\"icon-upload screenOnly\"></span><span class=\"marginLeft\">Fax:</span> {0}<br>\n".format(record["Fax"]))
@@ -69,7 +82,7 @@ try:
               </header>
               <div id="mainContainer">""")
 except IOError:
-    print("Cant write to file!")
+    print("Cant write header to file!")
     exit(1)
 
 # Wir brauchen ein neues dict, weil wir die überschriften schreiben wollen
@@ -121,7 +134,7 @@ try:
             print("End of: " + administrationLevel)
 
 except IOError:
-    print("Cant write to file!")
+    print("Cant write record to file!")
     exit(1)
 
 # Footer
@@ -142,5 +155,5 @@ try:
             </html>
         """)
 except IOError:
-    print("Cant write to file!")
+    print("Cant write footer to file!")
     exit(1)
