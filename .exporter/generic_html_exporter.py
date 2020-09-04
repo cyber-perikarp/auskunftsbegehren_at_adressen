@@ -45,6 +45,7 @@ try:
             <head>
                 <meta charset="utf-8">
                 <link rel="stylesheet" media="screen" href="css/mini-default.css">
+                <link rel="stylesheet" media="screen" href="css/featherlight.css">
                 <link rel="stylesheet" type="text/css" href="css/style.css">
                 <meta name="viewport" content="width=device-width, initial-scale=1">
                 <title>
@@ -136,6 +137,7 @@ try:
                 </footer>
                 <script src="js/jquery-3.5.1.js"></script>
                 <script src="js/qrcode.js"></script>
+                <script src="js/featherlight.js"></script>
                 <script src="js/filter.js"></script>
             </body>
             </html>
