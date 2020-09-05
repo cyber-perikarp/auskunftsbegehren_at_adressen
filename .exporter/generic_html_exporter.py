@@ -94,11 +94,9 @@ with open(csvFile, newline='') as csvFileReader:
 
     for record in readFile: # Das geht durch alle Datensätze ...
         if not record["Ebene"] in recordsDict: # ... und wenn die "Ebene", d.h. "Bund", "Steiermark", "Privat" etc. noch nicht vorhanden ist ...
-            print("Adding administration Level: " + record["Ebene"])
             recordsDict[record["Ebene"]] = {} # ... wird sie dem Dict hinzugefügt, und ebenfalls als dict initialisiert
 
         if not record["Branche"] in recordsDict[record["Ebene"]]: # Hier passiert das gleiche wie oben mit den Ebenen, nur mit den Branchen
-            print("Adding sector: " + record["Branche"])
             recordsDict[record["Ebene"]][record["Branche"]] = {}
 
         lastChecked = record["Pruefung"].replace(".", "-") # Hier und in den nächsten zwei Zeilen wird eine eindeutige ID für jeden Datensatz generiert
