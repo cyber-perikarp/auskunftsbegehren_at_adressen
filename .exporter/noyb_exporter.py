@@ -141,7 +141,7 @@ for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x
                 record["Folder"] = folder # Wir brauchen das zum generieren der ID
                 # Unvollständige Datensätze werden nicht eingefügt
                 if (checkIfFullRecord(record)):
-                    logger.info("Processing entry: " + record["Name"])
+                    logger.debug("Processing entry: " + record["Name"])
                     record = populateGeneratedFields(record)
                     logger.debug(record)
 

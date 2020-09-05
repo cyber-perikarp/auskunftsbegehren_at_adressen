@@ -101,7 +101,6 @@ with open(csvFile, newline='') as csvFileReader:
             print("Adding sector: " + record["Branche"])
             recordsDict[record["Ebene"]][record["Branche"]] = {}
 
-        print("Processing entry: " + record["Name"])
         lastChecked = record["Pruefung"].replace(".", "-") # Hier und in den nächsten zwei Zeilen wird eine eindeutige ID für jeden Datensatz generiert
         nameForId = record["Name"].replace(" ", "-").lower()
         id = record["Ebene"] + "_" + record["Branche"] + "_" + lastChecked + "_" + nameForId
@@ -123,15 +122,12 @@ try:
 
                 outFileHandler.write("<div class=\"itemContainer\">") # Hier ist der Item Container - Hierdrauf wirkt das CSS Grid
                 for record in recordsDict[administrationLevel][type]:
-                    print("Writing entry: " + recordsDict[administrationLevel][type][record]["Name"])
                     writeRecord(outFileHandler, recordsDict[administrationLevel][type][record]) # Hier schreiben wir den Datensatz
                 outFileHandler.write("</div><!-- end of {0} itemContainer -->".format(recordsDict[administrationLevel][type][record]["Name"])) # Ende des itemContainer
 
                 outFileHandler.write("</div><!-- end of {0} typeContainer -->".format(type)) # Ende des Branchen Containers
-                print("End of: " + type)
 
             outFileHandler.write("</div><!-- end of {0} administrationLevelContainer -->".format(administrationLevel)) # Ende des Ebenen Containers
-            print("End of: " + administrationLevel)
 
 except IOError:
     print("Cant write record to file!")

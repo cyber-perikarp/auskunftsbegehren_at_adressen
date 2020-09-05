@@ -27,7 +27,6 @@ for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x
     for csvFile in [x for x in os.listdir(workDir + "/" + folder) if os.path.splitext(x)[1] == ".csv"]:
         # Pfad zur csv
         csvFile = workDir + "/" + folder + "/" + csvFile
-        print("Using File: " + csvFile)
 
         # csv lesen und parsen
         with open(csvFile, newline='') as csvFileReader:
@@ -36,4 +35,3 @@ for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x
                 # Unvollständige Datensätze werden nicht eingefügt
                 if record["PLZ"]:
                     ort = plz[record["PLZ"]][0] # Im Fehlerfall fliegt hier eine Exception was die CI Pipeline abbricht
-                    print("Found city: " + ort + " for entry " + record["Name"])

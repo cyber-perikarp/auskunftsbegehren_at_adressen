@@ -17,10 +17,8 @@ rsync -avP .download/ upload/
 
 find upload/js/ -type f \
     -name "*.js" ! -name "*.min.*" ! -name "vfs_fonts*" \
-    -exec echo {} \; \
     -exec uglifyjs {} --comments -c -m -o {} \;
 
 find upload/css/ -type f \
     -name "*.css" ! -name "*.min.*" \
-    -exec echo {} \; \
     -exec uglifycss {} --output {} \;
