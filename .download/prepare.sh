@@ -8,6 +8,7 @@ set -e
 cd $TRAVIS_BUILD_DIR
 
 mkdir upload
+mkdir qrcodes
 
 now=$(TZ=Europe/Vienna date +"%A, %d.%m.%Y %T %:z")
 sed -i "s/%%DATE%%/$now/g" .download/index.html
