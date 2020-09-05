@@ -121,7 +121,7 @@ for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x
 
                 # Unvollständige Datensätze werden nicht eingefügt
                 if (checkIfFullRecord(record)):
-                    logger.info("Processing entry: " + record["Name"])
+                    logger.debug("Processing entry: " + record["Name"])
                     record = populateGeneratedFields(record)
                     logger.debug(record)
                     recordsToWrite.append(record)
@@ -137,7 +137,7 @@ for entry in sortedRecords:
             del entry["Id"]
             del entry["Land"]
 
-            logger.info("Writing entry: " + entry["Name"])
+            logger.debug("Writing entry: " + entry["Name"])
 
             writer = csv.DictWriter(outFileHandler, fieldnames=csvHeader)
             writer.writerow(entry)
