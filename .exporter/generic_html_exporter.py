@@ -42,7 +42,7 @@ def writeRecord(outFileHandler, record):
             print("Cant write QR Code to file!")
             exit(1)
 
-        outFileHandler.write("<span class=\"icon-phone tooltip lightbox screenOnly\" aria-label=\"Klicke hier für einen QR Code\" data-qrcode-url:\"{0}\"></span><span class=\"marginLeft\">Tel:</span> <a href=\"tel:{1}\">{2}</a><br>\n".format(qrcodeMd5HashOfName, record["Tel"], record["Tel"]))
+        outFileHandler.write("<span class=\"icon-phone tooltip lightbox screenOnly\" aria-label=\"Klicke hier für einen QR Code\" data-featherlight=\"qrcodes/{0}.png\"></span><span class=\"marginLeft\">Tel:</span> <a href=\"tel:{1}\">{2}</a><br>\n".format(qrcodeMd5HashOfName, record["Tel"], record["Tel"]))
 
     if record["Fax"]: # Fax nur anzeigen wenn vorhanden, mit Icon
         outFileHandler.write("<span class=\"icon-upload screenOnly\"></span><span class=\"marginLeft\">Fax:</span> {0}<br>\n".format(record["Fax"]))
@@ -151,9 +151,6 @@ try:
                 <script src="js/jquery-3.5.1.js"></script>
                 <script src="js/featherlight.js"></script>
                 <script src="js/filter.js"></script>
-                <script>
-                    # $('.lightbox').featherlight($(this), configuration);
-                </script>
             </body>
             </html>
         """)
