@@ -9,6 +9,8 @@
 import csv
 import os
 import sys
+import qrcode
+import hashlib
 
 # In diesem Ordner sind wir
 workDir = os.path.dirname(os.path.realpath(__file__)) + "/.."
@@ -16,6 +18,7 @@ workDir = os.path.dirname(os.path.realpath(__file__)) + "/.."
 # Hardgecodede Parameter
 outFile = workDir + "/general.html"
 csvFile = workDir + "/upload/general.csv"
+qrcodeFolder = workDir + "/qrcodes/"
 
 def writeRecord(outFileHandler, record):
     # TODO: Library suchen für das
@@ -29,7 +32,17 @@ def writeRecord(outFileHandler, record):
         outFileHandler.write("<span class=\"icon-mail screenOnly\"></span><span class=\"marginLeft\">Mail:</span> <a href=\"mailto:{0}\">{1}</a><br>\n".format(record["E-Mail"], record["E-Mail"]))
 
     if record["Tel"]: # Telefon nur anzeigen wenn vorhanden, mit Icon
-        outFileHandler.write("<span class=\"icon-phone screenOnly\"></span><span class=\"marginLeft\">Tel:</span> <a href=\"tel:{0}\">{1}</a><br>\n".format(record["Tel"], record["Tel"]))
+        qrcodeImage = qrcode.make("TEL:" + record["Tel"]) # TEL: sagt dass der QR Code eine Telefonnummer ist
+        qrcodeMd5HashOfName = hashlib.md5(record["Name"].encode("utf-8")).hexdigest() # Wir wollen den md5 Hash des Namens
+        qrcodeFileNameAndPath = qrcodeFolder + "/" + qrcodeMd5HashOfName + ".png"
+
+        try:
+            qrcodeImage.save(qrcodeFileNameAndPath)
+        except:
+            print("Cant write QR Code to file!")
+            exit(1)
+
+        outFileHandler.write("<span class=\"icon-phone tooltip lightbox screenOnly\" aria-label=\"Klicke hier für einen QR Code\" data-featherlight=\"qrcodes/{0}.png\"></span><span class=\"marginLeft\">Tel:</span> <a href=\"tel:{1}\">{2}</a><br>\n".format(qrcodeMd5HashOfName, record["Tel"], record["Tel"]))
 
     if record["Fax"]: # Fax nur anzeigen wenn vorhanden, mit Icon
         outFileHandler.write("<span class=\"icon-upload screenOnly\"></span><span class=\"marginLeft\">Fax:</span> {0}<br>\n".format(record["Fax"]))
@@ -44,7 +57,8 @@ try:
             <html lang="de">
             <head>
                 <meta charset="utf-8">
-                <link rel="stylesheet" media="screen" href="css/mini-default.min.css">
+                <link rel="stylesheet" media="screen" href="css/mini-default.css">
+                <link rel="stylesheet" media="screen" href="css/featherlight.css">
                 <link rel="stylesheet" type="text/css" href="css/style.css">
                 <meta name="viewport" content="width=device-width, initial-scale=1">
                 <title>
@@ -68,7 +82,7 @@ try:
               </header>
               <div id="mainContainer">""")
 except IOError:
-    print("Cant write to file!")
+    print("Cant write header to file!")
     exit(1)
 
 # Wir brauchen ein neues dict, weil wir die überschriften schreiben wollen
@@ -120,7 +134,7 @@ try:
             print("End of: " + administrationLevel)
 
 except IOError:
-    print("Cant write to file!")
+    print("Cant write record to file!")
     exit(1)
 
 # Footer
@@ -134,11 +148,12 @@ try:
                     <a href="https://github.com/cyber-perikarp/auskunftsbegehren_at_adressen/issues/new" target="_blank" class="important">Neuen Datensatz einreichen</a>
                   </p>
                 </footer>
-                <script src="js/jquery-3.5.1.min.js"></script>
+                <script src="js/jquery-3.5.1.js"></script>
+                <script src="js/featherlight.js"></script>
                 <script src="js/filter.js"></script>
             </body>
             </html>
         """)
 except IOError:
-    print("Cant write to file!")
+    print("Cant write footer to file!")
     exit(1)

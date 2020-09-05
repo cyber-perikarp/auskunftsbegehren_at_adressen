@@ -22,6 +22,7 @@ mv general.csv upload
 figlet "GENERAL HTML"
 ./.exporter/generic_html_exporter.py
 mv general.html upload
+mv qrcodes upload
 
 figlet "GENERAL PDF"
 wkhtmltopdf --page-size A4 --enable-local-file-access --print-media-type --footer-left "https://auskunftsbegehren-adressen.cyber-perikarp.eu/" --footer-right "Seite [page] von [topage]" upload/general.html upload/general.pdf
