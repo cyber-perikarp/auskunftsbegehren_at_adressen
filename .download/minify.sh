@@ -18,3 +18,5 @@ find upload/css/ -type f \
 find upload/ -type f \
     -name "*.html" ! -name "*.html.*" \
     -exec minify {} --type html -o {} \;
+
+rm -rf upload/*.sh
