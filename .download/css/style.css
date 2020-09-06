@@ -131,6 +131,10 @@ a:visited {
   .marginLeft {
     margin-left: 0px;
   }
+
+  h4 {
+    display: none;
+  }
 }
 
 /* Das betrifft nur die Bildschirmanzeige */
