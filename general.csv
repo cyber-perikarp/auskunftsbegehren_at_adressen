@@ -253,13 +253,13 @@ PH Linz,Private Pädagogische Hochschule der Diözese Linz,Bildung,Pädagogische
 PH Oberösterreich,Pädagogische Hochschule Oberösterreich,Bildung,Pädagogische Hochschule,Kaplanhofstraße 40,4020,Linz,Oberösterreich,office@ph-ooe.at,+4373274700,,24.08.2020
 JKU,Johannes Kepler Universität Linz,Bildung,Universität,Altenberger Straße 69,4040,Linz,Oberösterreich,datenschutz@jku.at,+4373224680,+4373224684929,23.08.2020
 UFG,Universität für künstlerische und industrielle Gestaltung Linz,Bildung,Universität,Hauptplatz 6,4020,Linz,Oberösterreich,datenschutz@ufg.at,+437327898,+43732783508,23.08.2020
-KFA für Beamte der Stadt Steyr,Krankenfürsorgeanstalt für Beamte der Stadt Steyr,Gesundheit,Krankenfürsorgeanstalt,"Postfach 200, Stadtplatz 27",4400,Steyr,Oberösterreich,kfa@steyr.gv.at,+437252575,,20.08.2020
+KFA für Beamte der Stadt Steyr,Krankenfürsorgeanstalt für Beamte der Stadt Steyr,Gesundheit,Krankenfürsorgeanstalt,"Stadtplatz 27, Postfach 200",4400,Steyr,Oberösterreich,kfa@steyr.gv.at,+437252575,,20.08.2020
 KFA für die Beamten der Landeshauptstadt Linz,Krankenfürsorge für die Beamten der Landeshauptstadt Linz,Gesundheit,Krankenfürsorgeanstalt,Hauptplatz 1,4020,Linz,Oberösterreich,mkf@mag.linz.at,+4373270701241,,20.08.2020
 KFA für die Beamten der Stadt Wels,Krankenfürsorge für die Beamten der Stadt Wels,Gesundheit,Krankenfürsorgeanstalt,Stadtpiatz 1,4600,Wels,Oberösterreich,kfw@wels.gv.at,+4372422354800,,20.08.2020
 KFA für oberösterreichische Gemeinden,Kranken- und Unfallfürsorge für oberösterreichische Gemeinden,Gesundheit,Krankenfürsorgeanstalt,Ferihumerstraße 8,4041,"Linz, Donau Postfach",Oberösterreich,office@kfg.ooe.gv.at,+437327880000,+4373278800030,20.08.2020
 KFA für oberösterreichische Landesbedienstete,Kranken- und Unfallfürsorge für oberösterreichische Landesbedienstete,Gesundheit,Krankenfürsorgeanstalt,Promenade 28,4010,"Linz, Donau",Oberösterreich,klf.post@ooe.gv.at,+43732772013861,,20.08.2020
 Oberösterreichische Lehrer-Kranken- und Unfallfürsorge,Oberösterreichische Lehrer-Kranken- und Unfallfürsorge,Gesundheit,Krankenfürsorgeanstalt,Leonfeldner Straße 11,4041,"Linz, Donau Postfach",Oberösterreich,office@kfg.ooe.gv.at,+437326682210,,20.08.2020
-Pensionsinstitut der Linz AG,Pensionsinstitut der Linz AG,Gesundheit,Zuschusskasse,"Postfach 1300, Wiener Straße 151",4021,"Linz, Donau Postfach",Oberösterreich,pensionsinstitut@linzag.at,+4373234003518,+4373234003522,20.08.2020
+Pensionsinstitut der Linz AG,Pensionsinstitut der Linz AG,Gesundheit,Zuschusskasse,"Wiener Straße 151, Postfach 1300",4021,"Linz, Donau Postfach",Oberösterreich,pensionsinstitut@linzag.at,+4373234003518,+4373234003522,20.08.2020
 Landespolizeidirektion Oberösterreich,Landespolizeidirektion Oberösterreich,Infrastruktur,Polizei,Gruberstraße 35,4021,"Linz, Donau Postfach",Oberösterreich,LPD-O@polizei.gv.at,+4359133500,+4359133407800,19.08.2020
 Apothekerkammer Oberösterreich,Apothekerkammer Oberösterreich,Interessensvertretung,Kammer,Mozartstraße 26/1,4020,Linz,Oberösterreich,ooe@apothekerkammer.at,+43732770350,+4314028602951,18.08.2020
 Arbeiterkammer Oberösterreich,Kammer für Arbeiter und Angestellte für Oberösterreich,Interessensvertretung,Kammer,Volksgartenstraße 40,4020,Linz,Oberösterreich,online@akooe.at,+43506906,+435069062860,18.08.2020
@@ -403,9 +403,20 @@ bob,A1 Telekom Austria AG,Infrastruktur,Mobilfunk,"bob service, Postfach 0680",1
 educom,edustore GmbH,Infrastruktur,Mobilfunk,Universitätsstraße 4/5,1090,Wien,Privat,customerservice@educom.at,+431961074850,+431961074833,24.08.2020
 eety,Hutchison Drei Austria GmbH,Infrastruktur,Mobilfunk,Brünner Straße 52,1210,Wien,Privat,info@eety.at,,,24.08.2020
 spusu,MASS Response Service GmbH,Infrastruktur,Mobilfunk,"DC Tower 1, 38. Stock, Donau-City-Straße 7",1220,Wien,Privat,office@spusu.at,+436706701000,,24.08.2020
+Compass,Compass-Verlag GmbH,Infrastruktur,Telefonbuchverlag,Matznergasse 17,1140,Wien,Privat,office@compass.at,+43198116113,+43198116118,06.09.2020
+FirmenABC,FirmenABC Marketing GmbH,Infrastruktur,Telefonbuchverlag,Strass 1,5301,Eugendorf,Privat,office@firmenabc.at,+43622520810,+4362252081020,06.09.2020
+Heise RegioConcept,Heise RegioConcept GmbH & Co. KG,Infrastruktur,Telefonbuchverlag,Franz-Fritsch-Straße 11,4600,Wels,Privat,office@telefonbuchverlag.at,+43724220883000,+43724220883090,06.09.2020
+Herold,Herold Business Data GmbH,Infrastruktur,Telefonbuchverlag,Guntramsdorfer Straße 105,2340,Mödling,Privat,kundenservice@herold.at,+4322364010,+4322364018,06.09.2020
 Wiener Linien,Wiener Linien GmbH & Co KG,Infrastruktur,Verkehr,Erdbergstraße 202,1030,Wien,Privat,post@wienerlinien.at,+43179090,+431790924609,24.08.2020
 share now,car2go Österreich GmbH,Infrastruktur,Verkehr,Hintere Zollamtsstraße 9,1030,Wien,Privat,servus@share-now.com,+4312677111,,24.08.2020
 ÖBB,ÖBB Personenverkehrs AG,Infrastruktur,Verkehr,Am Hauptbahnhof 2,1100,Wien,Privat,impressum@pv.oebb.at,+431930000,,24.08.2020
+OÖVV,OÖ Verkehrsverbund-Organisations GmbH Nfg. & Co KG,Infrastruktur,Verkehrsverbund,Volksgartenstraße 23,4020,Linz,Privat,office@ooevg.at,+437326610100,+4373266101030,06.09.2020
+SVV,Salzburger Verkehrsverbund GmbH,Infrastruktur,Verkehrsverbund,"Schallmooser Hauptstraße 10, Postfach 74",5027,Salzburg,Privat,office@salzburg-verkehr.at,+43662632900,+43662875787111,06.09.2020
+VOR,Verkehrsverbund Ost-Region (VOR) GmbH,Infrastruktur,Verkehrsverbund,Europaplatz 3/3,1150,Wien,Privat,office@vor.at,+431955550,+431955551122,06.09.2020
+VST,Verkehrsverbund Steiermark GmbH,Infrastruktur,Verkehrsverbund,Friedrichgasse 13,8010,Graz,Privat,office@verbundlinie.at,+433168121380,+433168121383,06.09.2020
+VVK,Verkehrsverbund Kärnten GesmbH,Infrastruktur,Verkehrsverbund,Bahnhofplatz 5,9020,Klagenfurt am Wörthersee,Privat,datenschutz@vkgmbh.at,+434635461821,+434635461830,06.09.2020
+VVT,Verkehrsverbund Tirol GesmbH,Infrastruktur,Verkehrsverbund,Sterzinger Straße 3,6020,Innsbruck,Privat,info@vvt.at,+43512575858,+4351257585833,06.09.2020
+VVV,Verkehrsverbund Vorarlberg GmbH,Infrastruktur,Verkehrsverbund,Herrengasse 10-12,6800,Feldkirch,Privat,info@vmobil.at,+43552283951,+43552273973,06.09.2020
 Österreichische Post,Österreichische Post Aktiengesellschaft,Infrastruktur,Zustellung,Rochusplatz 1,1030,Wien,Privat,kundenservice@post.at,+43577670,+435776722071,24.08.2020
 Alevitische Glaubensgemeinschaft,Alevitische Glaubensgemeinschaft in Österreich,Interessensvertretung,Religionsgemeinschaft,Schererstraße 4,1210,Wien,Privat,info@evang.at,+436602852624,,18.08.2020
 Alt-Alevitische Glaubensgemeinschaft,Alt-Alevitische Glaubensgemeinschaft in Österreich,Interessensvertretung,Religionsgemeinschaft,Kennergasse 10/R1,1100,Wien,Privat,info@alt-aleviten.at,,,18.08.2020
@@ -436,7 +447,7 @@ AKS,"Aktion kritischer Schüler_innen, Bundesorganisation",Verein,Interessensver
 Amnesty,Amnesty International Österreich,Verein,Interessensvertretung,Lerchenfelder Gürtel 43/4/3,1160,Wien,Privat,office@amnesty.at,+43178008,+4317800844,24.08.2020
 NOYB,NOYB - Europäisches Zentrum für digitale Rechte,Verein,Interessensvertretung,Goldschlagstraße 172/4/2,1140,Wien,Privat,info@noyb.eu,,,24.08.2020
 Reporter ohne Grenzen,Reporter ohne Grenzen Österreich,Verein,Interessensvertretung,Helferstorferstraße 5,1010,Wien,Privat,info@rog.at,+436642546847,,24.08.2020
-Schülerunion,Schülerunion Österreich,Verein,Interessensvertretung,Postfach 21,1082,Wien,Privat,service@schuelerunion.at,+436649601571,,24.08.2020
+Schülerunion,Schülerunion Österreich,Verein,Interessensvertretung,Lichtenfelsgasse 7,1010,Wien,Privat,service@schuelerunion.at,+436649601571,,06.09.2020
 ÖSV,Österreichischer Skiverband,Verein,Interessensvertretung,Olympiastraße 10,6020,Innsbruck,Privat,info@oesv.at,+43512335010,+43512361998,24.08.2020
 ÖVSV,Österreichischer Versuchssenderverband – Dachverband,Verein,Interessensvertretung,"Industriezentrum NÖ-Süd, Straße 14, Objekt 31",2351,Wiener Neudorf,Privat,oevsv@oevsv.at,+4319992132,+4319992133,24.08.2020
 ASBÖ,Arbeiter-Samariter-Bund Österreichs,Verein,NGO,Hollergasse 2-6,1150,Wien,Privat,info@samariterbund.net,+43189145226,+43189145149,24.08.2020
@@ -452,7 +463,7 @@ metalab,Verein zur Förderung der Erforschung und Bildung sozialer und technisch
 ARBÖ,"Auto-, Motor- und Radfahrerbund Österreichs, Bundesorganisation",Verein,Verkehr,Johann-Böhm-Platz 1,1020,Wien,Privat,info@arboe.at,+431891210,+43189121236,24.08.2020
 ÖAMTC,"Österreichischer Automobil-, Motorrad- und Touringclub",Verein,Verkehr,Baumgasse 129,1030,Wien,Privat,office@oeamtc.at,+431711990,,24.08.2020
 BH Hallein,Bezirkshauptmannschaft Hallein,Bezirksbehörde,Administration,Schwarzstraße 14,5400,Hallein,Salzburg,bh-hallein@salzburg.gv.at,+4362457960,+4362457966019,25.08.2020
-BH Salzburg-Umgebung,Bezirkshauptmannschaft Salzburg-Umgebung,Bezirksbehörde,Administration,Postfach 533 ,5021,Salzburg Postfach,Salzburg,bh-sl@salzburg.gv.at,+4366281800,+4366281805719,25.08.2020
+BH Salzburg-Umgebung,Bezirkshauptmannschaft Salzburg-Umgebung,Bezirksbehörde,Administration,Karl-Wurmb-Straße 17,5020,Salzburg,Salzburg,bh-sl@salzburg.gv.at,+4366281800,+4366281805719,06.09.2020
 BH St. Johann,Bezirkshauptmannschaft St. Johann,Bezirksbehörde,Administration,Hauptstraße 1,5600,St. Johann im Pongau,Salzburg,bh-st-johann@salzburg.gv.at,+4364126101,+43641261016219,25.08.2020
 BH Tamsweg,Bezirkshauptmannschaft Tamsweg,Bezirksbehörde,Administration,Kapuzinerplatz 1,5580,Tamsweg,Salzburg,bh-tamsweg@salzburg.gv.at,+43647465410,+43647465416519,25.08.2020
 BH Zell am See,Bezirkshauptmannschaft Zell am See,Bezirksbehörde,Administration,Postfach 130 ,5700,Zell am See,Salzburg,bh-zell@salzburg.gv.at,+4365427600,+4365427606719,25.08.2020
