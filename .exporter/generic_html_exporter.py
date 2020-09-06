@@ -27,8 +27,11 @@ def writeRecord(outFileHandler, record):
     outFileHandler.write("<h4 class=\"title is-4\">{0}</h4>\n".format(record["Name"])) # Kurzbezeichnung
     outFileHandler.write("<p><strong>{0}</strong></p>\n".format(record["Name_Lang"])) # Langname
 
-    address = record["Adresse"] + ", " + record["PLZ"] + " " + record["Ort"] + ", Österreich" # Adresse in einer Zeile
-    urlencodesAddress = urllib.parse.quote(address.replace("Postfach", "").strip()) # Adresse URL-Encoden, "Postfach" und Whitespaces entfernen
+    addressWithoutPoBox = record["Adresse"].split(", Postfach", 1)[0]
+    addressWithoutPoBox = addressWithoutPoBox.replace(", Postfach", "").strip() # Postfach entfernen aus der Adresse
+
+    address = addressWithoutPoBox + ", " + record["PLZ"] + " " + record["Ort"] + ", Österreich" # Adresse in einer Zeile
+    urlencodesAddress = urllib.parse.quote(address.strip()) # Adresse URL-Encoden und Whitespaces entfernen
     mapLink = "https://www.google.at/maps/place/" + urlencodesAddress
 
     outFileHandler.write("<p><a href=\"{0}\" target=\"_blank\">{1}<br>\n".format(mapLink, record["Adresse"])) # Straße, Hausnummer, Postfach
