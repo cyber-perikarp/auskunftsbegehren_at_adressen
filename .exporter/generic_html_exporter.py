@@ -11,6 +11,7 @@ import os
 import sys
 import qrcode
 import hashlib
+import urllib.parse
 
 # In diesem Ordner sind wir
 workDir = os.path.dirname(os.path.realpath(__file__)) + "/.."
@@ -25,8 +26,14 @@ def writeRecord(outFileHandler, record):
     outFileHandler.write("<div class=\"listItem {0}\">".format(record["Ebene"])) # Das ist der Container eines Datensatzes
     outFileHandler.write("<h4 class=\"title is-4\">{0}</h4>\n".format(record["Name"])) # Kurzbezeichnung
     outFileHandler.write("<p><strong>{0}</strong></p>\n".format(record["Name_Lang"])) # Langname
-    outFileHandler.write("<p>{0}<br>\n".format(record["Adresse"])) # Straße, Hausnummer, Postfach
-    outFileHandler.write("{0} {1}</p>\n".format(record["PLZ"], record["Ort"])) # PLZ und Ort
+
+    address = record["Adresse"] + ", " + record["PLZ"] + " " + record["Ort"] + ", Österreich"
+    urlencodesAddress = urllib.parse.quote(address)
+    mapLink = "https://www.google.at/maps/place/" + urlencodesAddress
+
+    outFileHandler.write("<p><a href=\"{0}\" target=\"_blank\">{1}<br>\n".format(mapLink, record["Adresse"])) # Straße, Hausnummer, Postfach
+    outFileHandler.write("{0} {1}</a></p>\n".format(record["PLZ"], record["Ort"])) # PLZ und Ort
+
     outFileHandler.write("<p>Typ: <em>{0}</em></p>".format(record["Typ"])) # Typ der Firma; Branche steht schon in der Überschrift
     if record["E-Mail"]: # Email nur anzeigen wenn vorhanden, mit Icon
         outFileHandler.write("<span class=\"icon-email screenOnly\"></span><span class=\"marginLeft\">Mail:</span> <a href=\"mailto:{0}\">{1}</a><br>\n".format(record["E-Mail"], record["E-Mail"]))
