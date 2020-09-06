@@ -42,7 +42,7 @@ def writeRecord(outFileHandler, record):
             print("Cant write QR Code to file!")
             exit(1)
 
-        outFileHandler.write("<span class=\"icon-phone screenOnly\"></span><span class=\"marginLeft\">Tel:</span> <a href=\"tel:{1}\">{2}</a><span class=\"icon-qrcode marginLeft screenOnly lightbox\" data-featherlight=\"qrcodes/{0}.png\"></span><br>\n".format(qrcodeMd5HashOfName, record["Tel"], record["Tel"]))
+        outFileHandler.write("<span class=\"icon-phone screenOnly\"></span><span class=\"marginLeft\">Tel:</span> <a href=\"tel:{1}\">{2}</a><span class=\"icon-qrcode marginLeft screenOnly desktopOnly lightbox\" data-featherlight=\"qrcodes/{0}.png\"></span><br>\n".format(qrcodeMd5HashOfName, record["Tel"], record["Tel"]))
 
     if record["Fax"]: # Fax nur anzeigen wenn vorhanden, mit Icon
         outFileHandler.write("<span class=\"icon-fax screenOnly\"></span><span class=\"marginLeft\">Fax:</span> {0}<br>\n".format(record["Fax"]))
@@ -65,15 +65,15 @@ try:
                     Export
                 </title>
             </head>
-            <body onload="redirectOrUpdateVisible()" onhashchange="redirectOrUpdateVisible();">
-                <header class="sticky screenOnly">
-                    <nav class="navbar" role="navigation" aria-label="Hauptmenü">
+            <body onload="redirectOrUpdateVisible()" onhashchange="redirectOrUpdateVisible();" class="has-navbar-fixed-top">
+                <header class="screenOnly">
+                    <nav class="navbar is-fixed-top" role="navigation" aria-label="Hauptmenü">
                       <div class="navbar-brand">
                         <a class="navbar-item" href="/">
                           <img src="img/cyber-perikarp-logo.png" height="28">
                         </a>
 
-                        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="mainNav">
+                        <a role="button" id="navbar-burger" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="mainNav">
                           <span aria-hidden="true"></span>
                           <span aria-hidden="true"></span>
                           <span aria-hidden="true"></span>
@@ -203,6 +203,7 @@ try:
                 <script src="js/jquery-3.5.1.js"></script>
                 <script src="js/featherlight.js"></script>
                 <script src="js/filter.js"></script>
+                <script src="js/generic-html-export.js"></script>
             </body>
             </html>
         """)

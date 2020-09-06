@@ -158,4 +158,8 @@ a:visited {
   .itemContainer {
     grid-template-columns: 100%;
   }
+
+  .desktopOnly {
+    display: none;
+  }
 }
