@@ -27,8 +27,8 @@ def writeRecord(outFileHandler, record):
     outFileHandler.write("<h4 class=\"title is-4\">{0}</h4>\n".format(record["Name"])) # Kurzbezeichnung
     outFileHandler.write("<p><strong>{0}</strong></p>\n".format(record["Name_Lang"])) # Langname
 
-    address = record["Adresse"] + ", " + record["PLZ"] + " " + record["Ort"] + ", Österreich"
-    urlencodesAddress = urllib.parse.quote(address)
+    address = record["Adresse"] + ", " + record["PLZ"] + " " + record["Ort"] + ", Österreich" # Adresse in einer Zeile
+    urlencodesAddress = urllib.parse.quote(address.replace("Postfach", "").strip()) # Adresse URL-Encoden, "Postfach" und Whitespaces entfernen
     mapLink = "https://www.google.at/maps/place/" + urlencodesAddress
 
     outFileHandler.write("<p><a href=\"{0}\" target=\"_blank\">{1}<br>\n".format(mapLink, record["Adresse"])) # Straße, Hausnummer, Postfach
@@ -74,10 +74,10 @@ try:
             </head>
             <body onload="redirectOrUpdateVisible()" onhashchange="redirectOrUpdateVisible();" class="has-navbar-fixed-top">
                 <header class="screenOnly">
-                    <nav class="navbar is-fixed-top" role="navigation" aria-label="Hauptmenü">
+                    <nav class="navbar is-fixed-top" aria-label="Hauptmenü">
                       <div class="navbar-brand">
                         <a class="navbar-item" href="/">
-                          <img src="img/cyber-perikarp-logo.png" height="28">
+                          <img src="img/cyber-perikarp-logo.png" height="28" alt="Cyber Perikarp Logo">
                         </a>
 
                         <a role="button" id="navbar-burger" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="mainNav">
