@@ -14,11 +14,3 @@ now=$(TZ=Europe/Vienna date +"%A, %d.%m.%Y %T %:z")
 sed -i "s/%%DATE%%/$now/g" .download/index.html
 
 rsync -avP .download/ upload/
-
-find upload/js/ -type f \
-    -name "*.js" ! -name "*.min.*" ! -name "vfs_fonts*" \
-    -exec uglifyjs {} --comments -c -m -o {} \;
-
-find upload/css/ -type f \
-    -name "*.css" ! -name "*.min.*" \
-    -exec uglifycss {} --output {} \;
