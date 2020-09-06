@@ -23,7 +23,7 @@ p {
 
 /* Vor allem für den Abstand bei Email etc zu den Icons */
 .marginLeft {
-  margin-left: 3px;
+  margin-left: 5px;
 }
 
 /* Überschriften der einzelnen Datensätze */
@@ -139,6 +139,10 @@ a:visited {
   .itemContainer {
     padding-top: 10px;
     border-top: 2px black solid;
+  }
+
+  .marginLeft {
+    margin-left: 0px;
   }
 }
 
