@@ -67,18 +67,70 @@ try:
             </head>
             <body onload="redirectOrUpdateVisible()" onhashchange="redirectOrUpdateVisible();">
                 <header class="sticky screenOnly">
-                    <!-- TODO: Das automatisch generieren -->
-                    <a href="#Bund" role="button">Bund</a>
-                    <a href="#Burgenland" role="button">Burgenland</a>
-                    <a href="#Kärnten" role="button">Kärnten</a>
-                    <a href="#Niederösterreich" role="button">Niederösterreich</a>
-                    <a href="#Oberösterreich" role="button">Oberösterreich</a>
-                    <a href="#Salzburg" role="button">Salzburg</a>
-                    <a href="#Steiermark" role="button">Steiermark</a>
-                    <a href="#Tirol" role="button">Tirol</a>
-                    <a href="#Vorarlberg" role="button">Vorarlberg</a>
-                    <a href="#Wien" role="button">Wien</a>
-                    <a href="#Privat" role="button">Privat</a>
+                    <nav class="navbar" role="navigation" aria-label="Hauptmenü">
+                      <div class="navbar-brand">
+                        <a class="navbar-item" href="https://auskunftsbegehren-adressen.cyber-perikarp.eu/">
+                          <img src="/img/cyber-perikarp-logo.png" height="28">
+                        </a>
+
+                        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="mainNav">
+                          <span aria-hidden="true"></span>
+                          <span aria-hidden="true"></span>
+                          <span aria-hidden="true"></span>
+                        </a>
+                      </div>
+
+                      <div id="mainNav" class="navbar-menu">
+                        <div class="navbar-start">
+                          <a class="navbar-item" href="#Bund">
+                            Bund
+                          </a>
+                          <a class="navbar-item" href="#Privat">
+                            Privat
+                          </a>
+                          <a class="navbar-item" href="#Burgenland">
+                            Burgenland
+                          </a>
+                          <a class="navbar-item" href="#Kärnten">
+                            Kärnten
+                          </a>
+                          <a class="navbar-item" href="#Niederösterreich">
+                            Niederösterreich
+                          </a>
+                          <a class="navbar-item" href="#Oberösterreich">
+                            Oberösterreich
+                          </a>
+                          <a class="navbar-item" href="#Salzburg">
+                            Salzburg
+                          </a>
+                          <a class="navbar-item" href="#Steiermark">
+                            Steiermark
+                          </a>
+                          <a class="navbar-item" href="#Tirol">
+                            Tirol
+                          </a>
+                          <a class="navbar-item" href="#Vorarlberg">
+                            Vorarlberg
+                          </a>
+                          <a class="navbar-item" href="#Wien">
+                            Wien
+                          </a>
+                        </div>
+
+                        <div class="navbar-end">
+                          <div class="navbar-item">
+                            <div class="buttons">
+                              <a class="button is-link is-light" target="_blank" href="https://github.com/cyber-perikarp/auskunftsbegehren_at_adressen/blob/master/docs/mitwirkende.md">
+                                <strong>Mitwirkende</strong>
+                              </a>
+                              <a class="button is-link is-light" target="_blank" href="https://github.com/cyber-perikarp/auskunftsbegehren_at_adressen/issues/new">
+                                <strong>Neuer Datensatz</strong>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </nav>
               </header>
               <div id="mainContainer">""")
 except IOError:

@@ -14,13 +14,13 @@ function redirectOrUpdateVisible() {
     decodedHash = decodeURIComponent(rawHash);
 
     // Bei aktivem Button hervorhebung entfernen
-    oldVisibleMenuItem = 'header a:contains(' + oldVisible + ')';
+    oldVisibleMenuItem = '.navbar-start a:contains(' + oldVisible + ')';
     if ($(oldVisibleMenuItem).hasClass('activeMenuItem')) {
       $(oldVisibleMenuItem).removeClass('activeMenuItem');
     }
 
     // Aktiven Link hervorheben
-    activeMenuItem = 'header a:contains(' + decodedHash + ')';
+    activeMenuItem = '.navbar-start a:contains(' + decodedHash + ')';
 
     // Neuen aktiven Button hervorheben
     $(activeMenuItem).addClass('activeMenuItem');
