@@ -55,7 +55,6 @@ def checkIfFullRecord(record):
         or not record["Name_Lang"]
         or not record["Adresse"]
         or not record["PLZ"]
-        or not record["Land"]
         or not record["Pruefung"]
         or not record["E-Mail"]):
             logger.error("Not exporting: " + record["Name"])

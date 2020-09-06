@@ -135,7 +135,6 @@ for entry in sortedRecords:
         with open(outFile, "a+") as outFileHandler:
             del entry["Ordner"]
             del entry["Id"]
-            del entry["Land"]
 
             logger.debug("Writing entry: " + entry["Name"])
 
