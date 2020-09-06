@@ -29,7 +29,7 @@ def writeRecord(outFileHandler, record):
     outFileHandler.write("{0} {1}</p>\n".format(record["PLZ"], record["Ort"])) # PLZ und Ort
     outFileHandler.write("<p>Typ: <em>{0}</em></p>".format(record["Typ"])) # Typ der Firma; Branche steht schon in der Überschrift
     if record["E-Mail"]: # Email nur anzeigen wenn vorhanden, mit Icon
-        outFileHandler.write("<span class=\"icon-email\"></span><span class=\"marginLeft\">Mail:</span> <a href=\"mailto:{0}\">{1}</a><br>\n".format(record["E-Mail"], record["E-Mail"]))
+        outFileHandler.write("<span class=\"icon-email screenOnly\"></span><span class=\"marginLeft\">Mail:</span> <a href=\"mailto:{0}\">{1}</a><br>\n".format(record["E-Mail"], record["E-Mail"]))
 
     if record["Tel"]: # Telefon nur anzeigen wenn vorhanden, mit Icon
         qrcodeImage = qrcode.make("TEL:" + record["Tel"]) # TEL: sagt dass der QR Code eine Telefonnummer ist
@@ -42,10 +42,10 @@ def writeRecord(outFileHandler, record):
             print("Cant write QR Code to file!")
             exit(1)
 
-        outFileHandler.write("<span class=\"icon-phone\"></span><span class=\"marginLeft\">Tel:</span> <a href=\"tel:{1}\">{2}</a><span class=\"icon-qrcode marginLeft lightbox\" data-featherlight=\"qrcodes/{0}.png\"></span><br>\n".format(qrcodeMd5HashOfName, record["Tel"], record["Tel"]))
+        outFileHandler.write("<span class=\"icon-phone screenOnly\"></span><span class=\"marginLeft\">Tel:</span> <a href=\"tel:{1}\">{2}</a><span class=\"icon-qrcode marginLeft screenOnly lightbox\" data-featherlight=\"qrcodes/{0}.png\"></span><br>\n".format(qrcodeMd5HashOfName, record["Tel"], record["Tel"]))
 
     if record["Fax"]: # Fax nur anzeigen wenn vorhanden, mit Icon
-        outFileHandler.write("<span class=\"icon-fax\"></span><span class=\"marginLeft\">Fax:</span> {0}<br>\n".format(record["Fax"]))
+        outFileHandler.write("<span class=\"icon-fax screenOnly\"></span><span class=\"marginLeft\">Fax:</span> {0}<br>\n".format(record["Fax"]))
 
     outFileHandler.write("<p>Letzte Prüfung am: <em>{0}</em></p>\n".format(record["Pruefung"])) # Das ist die Beschreibung wann der Datensatz das letzte mal geprüft wurde
     outFileHandler.write("</div> <!-- List Item End -->\n\n") # Container Ende
