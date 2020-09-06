@@ -23,7 +23,7 @@ qrcodeFolder = workDir + "/qrcodes/"
 def writeRecord(outFileHandler, record):
     # TODO: Library suchen für das
     outFileHandler.write("<div class=\"listItem {0}\">".format(record["Ebene"])) # Das ist der Container eines Datensatzes
-    outFileHandler.write("<h4>{0}</h4>\n".format(record["Name"])) # Kurzbezeichnung
+    outFileHandler.write("<h4 class=\"title is-4\">{0}</h4>\n".format(record["Name"])) # Kurzbezeichnung
     outFileHandler.write("<p><strong>{0}</strong></p>\n".format(record["Name_Lang"])) # Langname
     outFileHandler.write("<p>{0}<br>\n".format(record["Adresse"])) # Straße, Hausnummer, Postfach
     outFileHandler.write("{0} {1}</p>\n".format(record["PLZ"], record["Ort"])) # PLZ und Ort
@@ -111,12 +111,12 @@ try:
             print("Writing administration Level: " + administrationLevel)
 
             outFileHandler.write("<div class=\"administrationLevelContainer filter\" id=\"{0}\">".format(administrationLevel)) # Das ist der "Ebene" Container
-            outFileHandler.write("<h2 class=\"strong\">{0}</h2>".format(administrationLevel))
+            outFileHandler.write("<h2 class=\"strong title\">{0}</h2>".format(administrationLevel))
 
             for type in recordsDict[administrationLevel]:
                 print("Writing type: " + type)
                 outFileHandler.write("<div class=\"typeContainer {0}\">".format(type)) # Das ist der "Branche" Container
-                outFileHandler.write("<h3 class=\"strong\">{0}</h3>".format(type))
+                outFileHandler.write("<h3 class=\"strong subtitle\">{0}</h3>".format(type))
 
                 outFileHandler.write("<div class=\"itemContainer\">") # Hier ist der Item Container - Hierdrauf wirkt das CSS Grid
                 for record in recordsDict[administrationLevel][type]:
