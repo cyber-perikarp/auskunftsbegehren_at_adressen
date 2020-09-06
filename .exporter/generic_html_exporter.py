@@ -69,7 +69,7 @@ try:
                 <header class="sticky screenOnly">
                     <nav class="navbar" role="navigation" aria-label="Hauptmenü">
                       <div class="navbar-brand">
-                        <a class="navbar-item" href="https://auskunftsbegehren-adressen.cyber-perikarp.eu/">
+                        <a class="navbar-item" href="/">
                           <img src="/img/cyber-perikarp-logo.png" height="28">
                         </a>
 
