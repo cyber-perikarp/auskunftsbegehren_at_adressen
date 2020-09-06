@@ -189,9 +189,15 @@ try:
         outFileHandler.write("""</div> <!-- This is the end of the mainContainer -->
                 <footer>
                     <p>
-                    Lizenz: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International</a><br>
-                    <a href="https://github.com/cyber-perikarp/auskunftsbegehren_at_adressen/blob/master/docs/mitwirkende.md" class="screenOnly" target="_blank">Mitwirkende</a><br>
-                    <a href="https://github.com/cyber-perikarp/auskunftsbegehren_at_adressen/issues/new" target="_blank" class="important screenOnly">Neuen Datensatz einreichen</a>
+                    <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de" target="_blank">
+                        <img src="/img/by-sa.svg" alt="Creative Commons Attribution-ShareAlike 4.0 International">
+                    </a><br>
+                    <a href="https://github.com/cyber-perikarp/auskunftsbegehren_at_adressen/blob/master/docs/mitwirkende.md" class="screenOnly" target="_blank">
+                        Mitwirkende
+                    </a><br>
+                    <a href="https://github.com/cyber-perikarp/auskunftsbegehren_at_adressen/issues/new" target="_blank" class="important screenOnly">
+                        Neuen Datensatz einreichen
+                    </a>
                   </p>
                 </footer>
                 <script src="js/jquery-3.5.1.js"></script>
