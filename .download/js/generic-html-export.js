@@ -1,5 +1,8 @@
 $(document).ready(function() {
-  $('#mainNav').addClass('show');
+  if ($(window).width() < 1024) {
+    $('#mainNav').addClass('show');
+  }
+
   $('#navbar-burger').click(function() {
     $('#navbar-burger').toggleClass('is-active');
     $('#mainNav').toggleClass('show');

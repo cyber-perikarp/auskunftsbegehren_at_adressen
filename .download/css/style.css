@@ -107,6 +107,7 @@ a:visited {
 .icon-qrcode {
   content: url(../img/qrcode.svg);
   height: 15px;
+  cursor: pointer;
 }
 
 /* Das betrifft die Druckversion und damit auch das PDF */
@@ -141,7 +142,7 @@ a:visited {
   }
 }
 
-/* Das hier ist nötig damit die Spalten responsive bleiben */
+/* Responsive Sachen */
 @media (min-width: 1080px) {
   .itemContainer {
     grid-template-columns: 25% 25% 25% 25%;
@@ -151,6 +152,12 @@ a:visited {
 @media (max-width: 1080px) {
   .itemContainer {
     grid-template-columns: 50% 50%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .desktopOnly {
+    display: none;
   }
 }
 
