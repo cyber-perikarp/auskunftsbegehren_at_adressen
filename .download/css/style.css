@@ -127,6 +127,10 @@ a:visited {
   .listItem {
     width: 95%;
   }
+
+  .marginLeft {
+    margin-left: 0px;
+  }
 }
 
 /* Das betrifft nur die Bildschirmanzeige */
@@ -139,10 +143,6 @@ a:visited {
   .itemContainer {
     padding-top: 10px;
     border-top: 2px black solid;
-  }
-
-  .marginLeft {
-    margin-left: 0px;
   }
 }
 
