@@ -127,7 +127,8 @@ a:visited {
 /* Das betrifft nur die Bildschirmanzeige */
 @media screen {
   .listItem {
-    box-shadow: 0px 1px 5px black;
+    box-shadow: 1px 1px 5px black;
+    margin-left: 1px;
   }
 
   .itemContainer {
