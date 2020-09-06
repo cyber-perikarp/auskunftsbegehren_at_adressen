@@ -18,7 +18,7 @@ h3 {
 }
 
 p {
-  margin-left: 0px;
+  margin: 5px 0 10px 0;
 }
 
 /* Vor allem für den Abstand bei Email etc zu den Icons */
@@ -70,6 +70,7 @@ a:visited {
   page-break-inside: avoid;
   width: 95%;
   height: 95%;
+  padding: 15px;
 }
 
 .itemContainer {
@@ -87,6 +88,27 @@ a:visited {
   display: block;
 }
 
+/* Icons */
+.icon-phone {
+  content: url(../img/phone.svg);
+  height: 15px;
+}
+
+.icon-fax {
+  content: url(../img/fax.svg);
+  height: 15px;
+}
+
+.icon-email {
+  content: url(../img/email.svg);
+  height: 15px;
+}
+
+.icon-qrcode {
+  content: url(../img/qrcode.svg);
+  height: 15px;
+}
+
 /* Das betrifft die Druckversion und damit auch das PDF */
 @media print {
   .screenOnly {
@@ -100,15 +122,19 @@ a:visited {
   .itemContainer {
     grid-template-columns: 50% 50%;
   }
+
+  .listItem {
+    width: 95%;
+  }
 }
 
 /* Das betrifft nur die Bildschirmanzeige */
 @media screen {
   .listItem {
-    padding: 5px;
     box-shadow: 1px 1px 5px black;
+    margin-left: 1px;
   }
-  
+
   .itemContainer {
     padding-top: 10px;
     border-top: 2px black solid;
@@ -131,5 +157,9 @@ a:visited {
 @media (max-width: 760px) {
   .itemContainer {
     grid-template-columns: 100%;
+  }
+
+  .desktopOnly {
+    display: none;
   }
 }
