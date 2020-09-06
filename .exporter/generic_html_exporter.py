@@ -70,7 +70,7 @@ try:
                     <nav class="navbar" role="navigation" aria-label="Hauptmenü">
                       <div class="navbar-brand">
                         <a class="navbar-item" href="/">
-                          <img src="/img/cyber-perikarp-logo.png" height="28">
+                          <img src="img/cyber-perikarp-logo.png" height="28">
                         </a>
 
                         <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="mainNav">
@@ -190,7 +190,7 @@ try:
                 <footer>
                     <p>
                     <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de" target="_blank">
-                        <img src="/img/by-sa.svg" alt="Creative Commons Attribution-ShareAlike 4.0 International">
+                        <img src="img/by-sa.svg" alt="Creative Commons Attribution-ShareAlike 4.0 International">
                     </a><br>
                     <a href="https://github.com/cyber-perikarp/auskunftsbegehren_at_adressen/blob/master/docs/mitwirkende.md" class="screenOnly" target="_blank">
                         Mitwirkende

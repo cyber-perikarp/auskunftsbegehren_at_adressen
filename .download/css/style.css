@@ -90,22 +90,22 @@ a:visited {
 
 /* Icons */
 .icon-phone {
-  content: url(/img/phone.svg);
+  content: url(../img/phone.svg);
   height: 15px;
 }
 
 .icon-fax {
-  content: url(/img/fax.svg);
+  content: url(../img/fax.svg);
   height: 15px;
 }
 
 .icon-email {
-  content: url(/img/email.svg);
+  content: url(../img/email.svg);
   height: 15px;
 }
 
 .icon-qrcode {
-  content: url(/img/qrcode.svg);
+  content: url(../img/qrcode.svg);
   height: 15px;
 }
 
@@ -121,6 +121,10 @@ a:visited {
 
   .itemContainer {
     grid-template-columns: 50% 50%;
+  }
+
+  .listItem {
+    width: 95%;
   }
 }
 
