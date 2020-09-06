@@ -147,25 +147,25 @@ a:visited {
 }
 
 /* Responsive Sachen */
-@media (min-width: 1080px) {
+@media screen and (min-width: 1080px) {
   .itemContainer {
     grid-template-columns: 25% 25% 25% 25%;
   }
 }
 
-@media (max-width: 1080px) {
+@media screen and (max-width: 1080px) {
   .itemContainer {
     grid-template-columns: 50% 50%;
   }
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .desktopOnly {
     display: none;
   }
 }
 
-@media (max-width: 760px) {
+@media screen and (max-width: 760px) {
   .itemContainer {
     grid-template-columns: 100%;
   }
