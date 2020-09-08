@@ -13,13 +13,13 @@ noybCounter=$(wc -l < noyb.csv)
 sed -i "s/%%NOYB_COUNTER%%/$noybCounter/g" upload/index.html
 mv noyb.csv upload
 
-echo "GENERAL CSV"
+echo "GENERIC CSV"
 ./.exporter/generic_csv_exporter.py
 generalCounter=$(wc -l < general.csv)
-sed -i "s/%%GENERAL_COUNTER%%/$generalCounter/g" upload/index.html
+sed -i "s/%%GENERIC_COUNTER%%/$generalCounter/g" upload/index.html
 mv general.csv upload
 
-echo "GENERAL HTML"
+echo "GENERIC HTML"
 ./.exporter/generic_html_exporter.py
 mv general.html upload
 mv qrcodes upload
