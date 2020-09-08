@@ -24,5 +24,8 @@ echo "GENERIC HTML"
 mv generic.html upload
 mv qrcodes upload
 
+echo "GENERIC PDF"
+weasyprint upload/generic.html upload/generic.pdf
+
 echo "UPLOAD"
 ls -hall upload
