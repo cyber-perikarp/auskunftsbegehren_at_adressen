@@ -17,11 +17,11 @@ echo "GENERIC CSV"
 ./.exporter/generic_csv_exporter.py
 generalCounter=$(wc -l < general.csv)
 sed -i "s/%%GENERIC_COUNTER%%/$generalCounter/g" upload/index.html
-mv general.csv upload
+mv generic.csv upload
 
 echo "GENERIC HTML"
 ./.exporter/generic_html_exporter.py
-mv general.html upload
+mv generic.html upload
 mv qrcodes upload
 
 echo "UPLOAD"
