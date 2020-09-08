@@ -35,18 +35,18 @@ Bundesdenkmalamt,Bundesdenkmalamt,Bundesbehörde,Bundesbehörde,"Hofburg, Säule
 Bundeskanzleramt,Bundeskanzleramt,Bundesbehörde,Bundesbehörde,Ballhausplatz 2,1010,Wien,Bund,service@bka.gv.at,+431531150,+43153115204274,20.08.2020
 Datenschutzbehörde,Österreichische Datenschutzbehörde,Bundesbehörde,Bundesbehörde,Barichgasse 40-42,1030,Wien,Bund,dsb@dsb.gv.at,+431521522569,,20.08.2020
 Sozialministeriumservice,Bundesamt für Soziales und Behindertenwesen – Sozialministeriumservice,Bundesbehörde,Bundesbehörde,Babenbergerstraße 5,1010,Wien,Bund,post@sozialministeriumservice.at,+4359988,+431588312266,20.08.2020
-"Bundesministerium für Arbeit, Familie und Jugend","Bundesministerium für Arbeit, Familie und Jugend",Bundesbehörde,Bundesministerium,Untere Donaustraße 13 - 15,1020,Wien,Bund,office@bmafj.gv.at,+431711000,,20.08.2020
-"Bundesministerium für Bildung, Wissenschaft und Forschung","Bundesministerium für Bildung, Wissenschaft und Forschung",Bundesbehörde,Bundesministerium,Minoritenplatz 5,1010,Wien,Bund,ministerium@bmbwf.gv.at,+431531200,+431531203099,20.08.2020
-Bundesministerium für Digitalisierung und Wirtschaftsstandort,Bundesministerium für Digitalisierung und Wirtschaftsstandort,Bundesbehörde,Bundesministerium,Stubenring 1,1010,Wien,Bund,service@bmdw.gv.at,+431711000,,20.08.2020
-Bundesministerium für Finanzen,Bundesministerium für Finanzen,Bundesbehörde,Bundesministerium,Johannesgasse 5,1010,Wien,Bund,post@bmf.gv.at,+431514330,,20.08.2020
-Bundesministerium für Inneres,Bundesministerium für Inneres,Bundesbehörde,Bundesministerium,Herrengasse 7,1010,Wien,Bund,post@bmi.gv.at,+431531260,+43153126108613,20.08.2020
-Bundesministerium für Justiz,Bundesministerium für Justiz,Bundesbehörde,Bundesministerium,Museumstraße 7,1070,Wien,Bund,post@bmj.gv.at,+4315263686,,20.08.2020
-"Bundesministerium für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie","Bundesministerium für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie",Bundesbehörde,Bundesministerium,Radetzkystraße 2,1030,Wien,Bund,servicebuero@bmk.gv.at,+43171162650,,20.08.2020
-"Bundesministerium für Kunst, Kultur, öffentlichen Dienst und Sport","Bundesministerium für Kunst, Kultur, öffentlichen Dienst und Sport",Bundesbehörde,Bundesministerium,Radetzkystraße 2,1030,Wien,Bund,buergerservice@bmkoes.gv.at,+431716060,,20.08.2020
-Bundesministerium für Landesverteidigung,Bundesministerium für Landesverteidigung,Bundesbehörde,Bundesministerium,Roßauer Lände 1,1090,Wien,Bund,buergerservice@bmlv.gv.at,+43502011021160,,20.08.2020
-"Bundesministerium für Landwirtschaft, Regionen und Tourismus","Bundesministerium für Landwirtschaft, Regionen und Tourismus",Bundesbehörde,Bundesministerium,Stubenring 1,1010,Wien,Bund,office@bmlrt.gv.at,+431711000,+43171100606503,20.08.2020
-"Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz","Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz",Bundesbehörde,Bundesministerium,Stubenring 1,1010,Wien,Bund,post@sozialministerium.at,+431711000,+4317158258,20.08.2020
-Bundesministerium für europäische und internationale Angelegenheiten,Bundesministerium für europäische und internationale Angelegenheiten,Bundesbehörde,Bundesministerium,Minoritenplatz 8,1010,Wien,Bund,post@bmeia.gv.at,+43501150,+43501159,20.08.2020
+BMAFJ,"Bundesministerium für Arbeit, Familie und Jugend",Bundesbehörde,Bundesministerium,Untere Donaustraße 13 - 15,1020,Wien,Bund,office@bmafj.gv.at,+431711000,,20.08.2020
+BMBWF,"Bundesministerium für Bildung, Wissenschaft und Forschung",Bundesbehörde,Bundesministerium,Minoritenplatz 5,1010,Wien,Bund,ministerium@bmbwf.gv.at,+431531200,+431531203099,20.08.2020
+BMDW,Bundesministerium für Digitalisierung und Wirtschaftsstandort,Bundesbehörde,Bundesministerium,Stubenring 1,1010,Wien,Bund,service@bmdw.gv.at,+431711000,,20.08.2020
+BMEIA,Bundesministerium für europäische und internationale Angelegenheiten,Bundesbehörde,Bundesministerium,Minoritenplatz 8,1010,Wien,Bund,post@bmeia.gv.at,+43501150,+43501159,20.08.2020
+BMF,Bundesministerium für Finanzen,Bundesbehörde,Bundesministerium,Johannesgasse 5,1010,Wien,Bund,post@bmf.gv.at,+431514330,,20.08.2020
+BMI,Bundesministerium für Inneres,Bundesbehörde,Bundesministerium,Herrengasse 7,1010,Wien,Bund,post@bmi.gv.at,+431531260,+43153126108613,20.08.2020
+BMJ,Bundesministerium für Justiz,Bundesbehörde,Bundesministerium,Museumstraße 7,1070,Wien,Bund,post@bmj.gv.at,+4315263686,,20.08.2020
+BMK,"Bundesministerium für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie",Bundesbehörde,Bundesministerium,Radetzkystraße 2,1030,Wien,Bund,servicebuero@bmk.gv.at,+43171162650,,20.08.2020
+BMKOES,"Bundesministerium für Kunst, Kultur, öffentlichen Dienst und Sport",Bundesbehörde,Bundesministerium,Radetzkystraße 2,1030,Wien,Bund,buergerservice@bmkoes.gv.at,+431716060,,20.08.2020
+BMLRT,"Bundesministerium für Landwirtschaft, Regionen und Tourismus",Bundesbehörde,Bundesministerium,Stubenring 1,1010,Wien,Bund,office@bmlrt.gv.at,+431711000,+43171100606503,20.08.2020
+BMLV,Bundesministerium für Landesverteidigung,Bundesbehörde,Bundesministerium,Roßauer Lände 1,1090,Wien,Bund,buergerservice@bmlv.gv.at,+43502011021160,,20.08.2020
+Sozialministerium,"Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz",Bundesbehörde,Bundesministerium,Stubenring 1,1010,Wien,Bund,post@sozialministerium.at,+431711000,+4317158258,20.08.2020
 Bundesverwaltungsgericht,Bundesverwaltungsgericht,Bundesbehörde,Gericht,Erdbergstraße 192-196,1030,Wien,Bund,einlaufstelle@bvwg.gv.at,+431601490,+431711238891541,20.08.2020
 Oberster Gerichtshof,Oberster Gerichtshof,Bundesbehörde,Gericht,Schmerlingplatz 11,1010,Wien,Bund,christoph.brenn@justiz.gv.at,+431521520,+431521523710,20.08.2020
 Verfassungsgerichtshof,Verfassungsgerichtshof,Bundesbehörde,Gericht,Freyung 8,1010,Wien,Bund,vfgh@vfgh.gv.at,+431531220,+431531220499,20.08.2020
@@ -141,6 +141,10 @@ BH Oberwart,Bezirkshauptmannschaft Oberwart,Bezirksbehörde,Administration,Haupt
 Magistrat Eisenstadt,Magistrat Eisenstadt,Bezirksbehörde,Administration,Hauptstraße 35,7000,Eisenstadt,Burgenland,datenschutz@eisenstadt.at,+4326827050,,25.08.2020
 Magistrat der Stadt Rust,Magistrat der Stadt Rust,Bezirksbehörde,Administration,Conradplatz 1,7071,Rust,Burgenland,post@rust.bgld.gv.at,+432685202,+43268520212,25.08.2020
 Bildungsdirektion Burgenland,Bildungsdirektion Burgenland,Bildung,Behörde,Kernausteig 3,7000,Eisenstadt,Burgenland,office@bildung-bgld.gv.at,+432682710,+4326827101009,19.08.2020
+BS Mattersburg,Berufsschule Mattersburg,Bildung,Berufsschule,Bahnstraße 41,7210,Mattersburg,Burgenland,bsma@aon.at,,,08.09.2020
+BS Oberwart,Berufsschule Oberwart,Bildung,Berufsschule,Schulgasse 32,7400,Oberwart,Burgenland,direktion@bs-oberwart.at,+43335232362,+433352323624,08.09.2020
+LBS Eisenstadt,Landesberufsschule Eisenstadt,Bildung,Berufsschule,Gölbeszeile 10-12,7000,Eisenstadt,Burgenland,office@bs-eisenstadt.at,+4326826330322,+4326826330330,08.09.2020
+LBS Pinkafeld,Landesberufsschule Pinkafeld,Bildung,Berufsschule,Schloßgasse 1,7423,Pinkafeld,Burgenland,direktion@bs-pinkafeld.at,+43335742271,+4333574227110,08.09.2020
 FH Burgenland,Fachhochschule Burgenland GmbH,Bildung,Fachhochschule,Campus 1,7000,Eisenstadt,Burgenland,office@fh-burgenland.at,+4357705,+43577051199,24.08.2020
 PH Burgenland,Stiftung private Pädagogische Hochschule Burgenland,Bildung,Pädagogische Hochschule,Thomas-Alva-Edison-Straße 1,7000,Eisenstadt,Burgenland,office@ph-burgenland.at,+43268224817,,24.08.2020
 Landespolizeidirektion Burgenland,Landespolizeidirektion Burgenland,Infrastruktur,Polizei,Neusiedler Straße 84,7000,Eisenstadt,Burgenland,LPD-B@polizei.gv.at,+4359133100,+4359133101009,19.08.2020
@@ -164,6 +168,16 @@ BH Wolfsberg,Bezirkshauptmannschaft Wolfsberg,Bezirksbehörde,Administration,Am 
 Magistrat Klagenfurt,Magistrat der Landeshauptstadt Klagenfurt am Wörthersee,Bezirksbehörde,Administration,"Rathaus, Neuer Platz 1",9010,Klagenfurt am Wörthersee,Kärnten,info@klagenfurt.at,+434635370,,25.08.2020
 Magistrat der Stadt Villach,Magistrat der Stadt Villach,Bezirksbehörde,Administration,Rathausplatz 1,9500,Villach,Kärnten,service@villach.at,+434242205,,25.08.2020
 Bildungsdirektion für Kärnten,Bildungsdirektion für Kärnten,Bildung,Behörde,10. -Oktober-Straße 24,9020,Klagenfurt am Wörthersee,Kärnten,office@bildung-ktn.gv.at,+4350534,+435053411111,19.08.2020
+BS & BZ St. Veit an der Glan,Berufsschule und Bildungszentrum St. Veit an der Glan,Bildung,Berufsschule,Dr.-A.-Lemisch-Straße 5,9300,St. Veit an der Glan,Kärnten,st.veit@bs.ksn.at,+4342122605,+434212260541,08.09.2020
+BZ Ehrental,Bildungszentrum Ehrental,Bildung,Berufsschule,Ehrentaler Str. 117-119,9020,Klagenfurt am Wörthersee,Kärnten,office@bz-ehrental.ksn.at,+4346343216,+434634321610,08.09.2020
+FBS Ferlach,Fachberufsschule Ferlach,Bildung,Berufsschule,Schulhausgasse 12,9170,Ferlach,Kärnten,ferlach@bs.ksn.at,+4342273233,+434227323333,08.09.2020
+FBS Klagenfurt 1,Fachberufsschule Klagenfurt 1,Bildung,Berufsschule,Wulfengasse 24,9020,Klagenfurt am Wörthersee,Kärnten,klagenfurt_1@bs.ksn.at,+434633164112,+4346331641797,08.09.2020
+FBS Klagenfurt 2,Fachberufsschule Klagenfurt 2,Bildung,Berufsschule,Wulfengasse 24,9020,Klagenfurt am Wörthersee,Kärnten,klagenfurt_2@bs.ksn.at,+434633164115,+4346331641793,08.09.2020
+FBS Spittal an der Drau,Fachberufsschule Spittal an der Drau,Bildung,Berufsschule,Litzelhofenstraße 17,9800,Spittal an der Drau,Kärnten,spittal@bs.ksn.at,+4347622431,+434762243112,08.09.2020
+FBS Villach,Fachberufsschule Villach,Bildung,Berufsschule,Tiroler Straße 23,9500,Villach,Kärnten,villach2@bs.ksn.at,+43424256257100,+43424256257103,08.09.2020
+FBS Völkermarkt,Fachberufsschule Völkermarkt,Bildung,Berufsschule,Hans-Kudlich-Weg 17,9100,Völkermarkt,Kärnten,voelkermarkt@bs.ksn.at,+434232287576,+434232287582,08.09.2020
+FBS Wolfsberg,Fachberufsschule Wolfsberg,Bildung,Berufsschule,St. Jakober Straße 2,9400,Wolfsberg,Kärnten,wolfsberg@bs.ksn.at,+4343522209,+434352220915,08.09.2020
+FBS für Tourismus,Fachberufsschule für Tourismus Warmbad Villach,Bildung,Berufsschule,Kumpfallee 87,9504,Villach-Warmbad Villach,Kärnten,warmbad@bs.ksn.at,+43424226977,+4342422697736,08.09.2020
 FH Kärnten,Fachhochschule Kärnten - Gemeinnützige Privatstiftung,Bildung,Fachhochschule,Villacher Straße 1,9800,Spittal an der Drau,Kärnten,info@fh-kaernten.at,+43590500,+435905009910,24.08.2020
 GMPU,Gustav Mahler Privatuniversität für Musik,Bildung,Privatuniversität,Mießtalerstraße 8,9020,Klagenfurt am Wörthersee,Kärnten,info@gmpu.ac.at,+435053616552,,24.08.2020
 PH Kärnten,Pädagogische Hochschule Kärnten,Bildung,Pädagogische Hochschule,Hubertusstraße 1,9020,Klagenfurt am Wörthersee,Kärnten,office@ph-kaernten.ac.at,+43463508508,,24.08.2020
@@ -202,6 +216,29 @@ BH Waidhofen an der Thaya,Bezirkshauptmannschaft Waidhofen an der Thaya,Bezirksb
 BH Wiener Neustadt,Bezirkshauptmannschaft Wiener Neustadt,Bezirksbehörde,Administration,Ungargasse 33,2700,Wiener Neustadt,Niederösterreich,post.bhwb@noel.gv.at,+43262290250,+432622902541000,25.08.2020
 BH Zwettl,Bezirkshauptmannschaft Zwettl,Bezirksbehörde,Administration,Am Statzenberg 1,3910,Zwettl,Niederösterreich,post.bhzt@noel.gv.at,+43282290250,+432822902542000,25.08.2020
 Bildungsdirektion für Niederösterreich,Bildungsdirektion für Niederösterreich,Bildung,Behörde,Rennbahnstraße 29,3109,St. Pölten,Niederösterreich,office@bildung-noe.gv.at,+4327422800,+4327422801111,19.09.2020
+BS St. Egyden/Steinfeld,Berufsschule des Bundes St. Egyden/Steinfeld,Bildung,Berufsschule,Puchberger Straße 1,2731,St. Egyden am Steinfeld,Niederösterreich,318025@aon.at,+43263877431630,+43263877431119,08.09.2020
+BS der ÖBB,Berufsschule der Österreichischen Bundesbahnen,Bildung,Berufsschule,Werkstättenstraße 17,3100,St. Pölten,Niederösterreich,berufsschule@oebb.at,+436649675146,,08.09.2020
+BS für UhrmacherInnen,Berufsschule für UhrmacherInnen und Zeitmesstechnik,Bildung,Berufsschule,Raabser Straße 23,3822,Karlstein an der Thaya,Niederösterreich,htl.karlstein@noeschule.at,+432844202,+432844202312,08.09.2020
+Gartenbauschule Langenlois,Landwirtschaftliche Berufs- und Fachschule,Bildung,Berufsschule,Am Rosenhügel 15,3550,Langenlois,Niederösterreich,office@gartenbauschule.at,+4327342106,+432734210666,08.09.2020
+LBS Amstetten,Landesberufsschule Amstetten,Bildung,Berufsschule,Leopold-Maderthaner-Platz 2,3300,Amstetten,Niederösterreich,office@lbsamstetten.ac.at,+43747262786,+43747262786106,08.09.2020
+LBS Baden,Landesberufsschule Baden,Bildung,Berufsschule,Josef Kollmann Straße 1,2500,Baden,Niederösterreich,direktion@lbsbaden.ac.at,+43225286772,+4322528677234,08.09.2020
+LBS Eggenburg,Landesberufsschule Eggenburg,Bildung,Berufsschule,Siegfried Marcus Straße 2,3730,Eggenburg,Niederösterreich,office@lbseggenburg.ac.at,+4329842500,+432984250050,08.09.2020
+LBS Eggenburg - Standort Stockerau,Landesberufsschule Eggenburg - Standort Stockerau,Bildung,Berufsschule,Weg zur Marienhöhe 3,2000,Stockerau,Niederösterreich,direktion@lbseggenburg-stockerau.ac.at,+43226663401,+4322666340120,08.09.2020
+LBS Geras,Landesberufsschule Geras,Bildung,Berufsschule,Am Goggitschberg 5,2093,Geras,Niederösterreich,office@lbsgeras.ac.at,+432912591,+43291259114,08.09.2020
+LBS Geras - Standort Hollabrunn,Landesberufsschule Geras - Standort Hollabrunn,Bildung,Berufsschule,Josef Weisleinstraße 7,2020,Hollabrunn,Niederösterreich,office@lbshollabrunn.ac.at,+4329522492,+432952249231,08.09.2020
+LBS Laa an der Thaya,Landesberufsschule Laa an der Thaya,Bildung,Berufsschule,Wehrgärten 3,2136,Laa an der Thaya,Niederösterreich,direktion@lbslaa-thaya.ac.at,+4325222304,+432522230420,08.09.2020
+LBS Langenlois,Landesberufsschule Langenlois,Bildung,Berufsschule,Walterstraße 35,3550,Langenlois,Niederösterreich,direktion@lbslangenlois.ac.at,+4327342502,+432734250230,08.09.2020
+LBS Lilienfeld,Landesberufsschule Lilienfeld,Bildung,Berufsschule,Berghofstraße 14,3180,Lilienfeld,Niederösterreich,direktion@lbslilienfeld.ac.at,+43276254670,+4327625467038,08.09.2020
+LBS Mistelbach,Landesberufsschule Mistelbach,Bildung,Berufsschule,Franz Bayer-Straße 2,2130,Mistelbach,Niederösterreich,direktion@lbsmistelbach.ac.at,+4325722369,+432572236955,08.09.2020
+LBS Neunkirchen,Landesberufsschule Neunkirchen,Bildung,Berufsschule,Triester Straße 67,2620,Neunkirchen,Niederösterreich,office@lbsneunkirchen.ac.at,+43263565386,,08.09.2020
+LBS Pöchlarn,Landesberufsschule Pöchlarn,Bildung,Berufsschule,Plesserstraße 1,3380,Pöchlarn,Niederösterreich,holz.it@lbspoechlarn.ac.at,+4327572634,+432757263433,08.09.2020
+LBS Schrems,Landesberufsschule Schrems,Bildung,Berufsschule,Dr.-Theodor-Körner-Platz 1,3943,Schrems,Niederösterreich,office@lbsschrems.ac.at,+43285376016,,08.09.2020
+LBS St. Pölten,Landesberufsschule St. Pölten,Bildung,Berufsschule,Hötzendorfstraße 8,3100,St. Pölten,Niederösterreich,direktion@lbsstpoelten.ac.at,+43274273210,+432742732107,08.09.2020
+LBS Stockerau,Landesberufsschule Stockerau,Bildung,Berufsschule,Brodschildstraße 20,2000,Stockerau,Niederösterreich,office@lbsstockerau.ac.at,+43226662158,+4322666215833,08.09.2020
+LBS Theresienfeld,Landesberufsschule Theresienfeld,Bildung,Berufsschule,Grazer Straße 24,2604,Theresienfeld,Niederösterreich,direktion@lbstheresienfeld.ac.at,+43262271283,+4326227128322,08.09.2020
+LBS Waldegg,Landesberufsschule Waldegg,Bildung,Berufsschule,Waldegg 41,2754,Waldegg,Niederösterreich,office@lbswaldegg.ac.at,+43263342278,+4326334227825,08.09.2020
+LBS Zistersdorf,Landesberufsschule Zistersdorf,Bildung,Berufsschule,Schlossplatz 7,2225,Zistersdorf,Niederösterreich,direktion@lbszistersdorf.ac.at,+4325322360,+4325322360110,08.09.2020
+LWBS Edelhof,Landwirtschaftliche Berufsschule Edelhof,Bildung,Berufsschule,Edelhof 1a,3910,Zwettl,Niederösterreich,office@bs-edelhof.ac.at,+432822540730,+43282254073015,08.09.2020
 Ferdinand Porsche FernFH,Ferdinand Porsche Fern-Fachhochschule GmbH,Bildung,Fachhochschul-Einrichtung,Ferdinand Porsche Ring 3,2700,Wiener Neustadt,Niederösterreich,office@fernfh.ac.at,+43262232600,,24.08.2020
 MilAk,Theresianische Militärakademie,Bildung,Fachhochschul-Einrichtung,Burgplatz 1,2700,Wiener Neustadt,Niederösterreich,redaktion.milak@bmlv.gv.at,+43502012028901,,24.08.2020
 FH St. Pölten,Fachhochschule St. Pölten GmbH,Bildung,Fachhochschule,Matthias Corvinus-Straße 15,3100,St. Pölten,Niederösterreich,csc@fhstp.ac.at,+432742313228200,+432742313228339,24.08.2020
@@ -551,26 +588,26 @@ BH Voitsberg,Bezirkshauptmannschaft Voitsberg,Bezirksbehörde,Administration,Sch
 BH Weiz,Bezirkshauptmannschaft Weiz,Bezirksbehörde,Administration,Birkfelder Straße 28,8160,Weiz,Steiermark,bhwz@stmk.gv.at,+4331726000,+433172600550,19.08.2020
 Magistrat Graz,Magistrat Graz,Bezirksbehörde,Administration,Hauptplatz 1,8010,Graz,Steiermark,stadtverwaltung@graz.at,+433168720,+433168722369,19.08.2020
 Bildungsdirektion für Steiermark,Bildungsdirektion für Steiermark,Bildung,Behörde,Körblergasse 23,8011,Graz Postfach,Steiermark,bildungsdirektion@bildung-stmk.gv.at,+4350248345,,19.08.2020
+LBS Arnfels,Landesberufsschule Arnfels,Bildung,Berufsschule,Hardegger Straße 160,8454,Arnfels,Steiermark,lbsarnfels@stmk.gv.at,+4334552540,+4334552546,25.08.2020
+LBS Bad Gleichenberg,Landesberufsschule Bad Gleichenberg,Bildung,Berufsschule,Mailandbergstraße 16,8344,Bad Gleichenberg,Steiermark,lbsgleichenb@stmk.gv.at,+43315922110,+433159221140,25.08.2020
+LBS Bad Radkersburg,Landesberufsschule Bad Radkersburg,Bildung,Berufsschule,Barthold-Stürgkh-Straße 7,8490,Bad Radkersburg,Steiermark,lbsra@stmk.gv.at,+43347625410,+433476254178,25.08.2020
+LBS Eibiswald,Landesberufsschule Eibiswald,Bildung,Berufsschule,Eibiswald 229,8552,Eibiswald,Steiermark,lbseibis@stmk.gv.at,+433466423350,+4334664233520,25.08.2020
+LBS Feldbach,Landesberufsschule Feldbach,Bildung,Berufsschule,Feldgasse 3,8330,Feldbach,Steiermark,lbsfb@stmk.gv.at,+43315240070,+43315240076,25.08.2020
+LBS Fürstenfeld,Landesberufsschule Fürstenfeld,Bildung,Berufsschule,Gürtelgasse 8,8280,Fürstenfeld,Steiermark,lbsff@stmk.gv.at,+433382522050,+4333825220522,25.08.2020
+LBS Graz 1,Landesberufsschule Graz 1,Bildung,Berufsschule,Hans-Brandstetter-Gasse 12,8010,Graz,Steiermark,lbsgraz1@stmk.gv.at,+43316471044,+43316471044804,25.08.2020
+LBS Graz 2,Landesberufsschule Graz 2,Bildung,Berufsschule,Hans-Brandstetter-Gasse 12,8010,Graz,Steiermark,lbsgraz2@stmk.gv.at,+433164714680,+43316471468704,25.08.2020
+LBS Graz 3,Landesberufsschule Graz 3,Bildung,Berufsschule,Hans-Brandstetter-Gasse 8,8010,Graz,Steiermark,lbsgraz3@stmk.gv.at,+433164712440,+43316471244613,25.08.2020
+LBS Graz 4,Landesberufsschule Graz 4,Bildung,Berufsschule,Hans-Brandstetter-Gasse 2,8010,Graz,Steiermark,lbsgraz4@stmk.gv.at,+433164722350,+433164722357,25.08.2020
+LBS Hartberg,Landesberufsschule Hartberg,Bildung,Berufsschule,Franz-Schmidt-Gasse 5,8230,Hartberg,Steiermark,lbshb1@stmk.gv.at,+433332629390,+433332629394,25.08.2020
+LBS Knittelfeld,Landesberufsschule Knittelfeld,Bildung,Berufsschule,Portniggstraße 21,8720,Knittelfeld,Steiermark,lbskf@stmk.gv.at,+433512828100,+433512828103,25.08.2020
+LBS Mitterdorf im Mürztal,Landesberufsschule Mitterdorf im Mürztal,Bildung,Berufsschule,Untere Berggasse 37,8662,Mitterdorf im Mürztal,Steiermark,lbsmitter@stmk.gv.at,+43385822530,+43385822534,25.08.2020
+LBS Murau,Landesberufsschule Murau,Bildung,Berufsschule,Heiligenstatt 10,8850,Murau,Steiermark,lbsmu@stmk.gv.at,+43353223290,+43353223294,25.08.2020
+LBS Mureck,Landesberufsschule Mureck,Bildung,Berufsschule,Hauptplatz 6,8480,Mureck,Steiermark,lbsmureck@stmk.gv.at,+43347223140,+43347223144,25.08.2020
+LBS Voitsberg,Landesberufsschule Voitsberg,Bildung,Berufsschule,Mozartgasse 14,8570,Voitsberg,Steiermark,lbsvo@stmk.gv.at,+433142223940,+4331422239418,25.08.2020
 FH Campus 02,CAMPUS 02 Fachhochschule der Wirtschaft GmbH,Bildung,Fachhochschule,Körblergasse 126,8010,Graz,Steiermark,info@campus02.at,+433166002177,+4331660021207,24.08.2020
 FH Joanneum,FH Joanneum Gesellschaft mbH,Bildung,Fachhochschule,Alte Poststraße 149,8020,Graz,Steiermark,info@fh-joanneum.at,+4331654530,,24.08.2020
 KPH Graz,Kirchliche Pädagogische Hochschule Graz,Bildung,Pädagogische Hochschule,Bischofsplatz 4,8010,Graz,Steiermark,schulamt@graz-seckau.at,+43316581670,+4331658167011,24.08.2020
 PH Steiermark,Pädagogische Hochschule Steiermark,Bildung,Pädagogische Hochschule,Hasnerplatz 12,8010,Graz,Steiermark,oeffentlichkeit@phst.at,+4331680670,+4331680673199,24.08.2020
-LBS Arnfels,Landesberufsschule Arnfels,Bildung,Schule,Hardegger Straße 160,8454,Arnfels,Steiermark,lbsarnfels@stmk.gv.at,+4334552540,+4334552546,25.08.2020
-LBS Bad Gleichenberg,Landesberufsschule Bad Gleichenberg,Bildung,Schule,Mailandbergstraße 16,8344,Bad Gleichenberg,Steiermark,lbsgleichenb@stmk.gv.at,+43315922110,+433159221140,25.08.2020
-LBS Bad Radkersburg,Landesberufsschule Bad Radkersburg,Bildung,Schule,Barthold-Stürgkh-Straße 7,8490,Bad Radkersburg,Steiermark,lbsra@stmk.gv.at,+43347625410,+433476254178,25.08.2020
-LBS Eibiswald,Landesberufsschule Eibiswald,Bildung,Schule,Eibiswald 229,8552,Eibiswald,Steiermark,lbseibis@stmk.gv.at,+433466423350,+4334664233520,25.08.2020
-LBS Feldbach,Landesberufsschule Feldbach,Bildung,Schule,Feldgasse 3,8330,Feldbach,Steiermark,lbsfb@stmk.gv.at,+43315240070,+43315240076,25.08.2020
-LBS Fürstenfeld,Landesberufsschule Fürstenfeld,Bildung,Schule,Gürtelgasse 8,8280,Fürstenfeld,Steiermark,lbsff@stmk.gv.at,+433382522050,+4333825220522,25.08.2020
-LBS Graz 1,Landesberufsschule Graz 1,Bildung,Schule,Hans-Brandstetter-Gasse 12,8010,Graz,Steiermark,lbsgraz1@stmk.gv.at,+43316471044,+43316471044804,25.08.2020
-LBS Graz 2,Landesberufsschule Graz 2,Bildung,Schule,Hans-Brandstetter-Gasse 12,8010,Graz,Steiermark,lbsgraz2@stmk.gv.at,+433164714680,+43316471468704,25.08.2020
-LBS Graz 3,Landesberufsschule Graz 3,Bildung,Schule,Hans-Brandstetter-Gasse 8,8010,Graz,Steiermark,lbsgraz3@stmk.gv.at,+433164712440,+43316471244613,25.08.2020
-LBS Graz 4,Landesberufsschule Graz 4,Bildung,Schule,Hans-Brandstetter-Gasse 2,8010,Graz,Steiermark,lbsgraz4@stmk.gv.at,+433164722350,+433164722357,25.08.2020
-LBS Hartberg,Landesberufsschule Hartberg,Bildung,Schule,Franz-Schmidt-Gasse 5,8230,Hartberg,Steiermark,lbshb1@stmk.gv.at,+433332629390,+433332629394,25.08.2020
-LBS Knittelfeld,Landesberufsschule Knittelfeld,Bildung,Schule,Portniggstraße 21,8720,Knittelfeld,Steiermark,lbskf@stmk.gv.at,+433512828100,+433512828103,25.08.2020
-LBS Mitterdorf im Mürztal,Landesberufsschule Mitterdorf im Mürztal,Bildung,Schule,Untere Berggasse 37,8662,Mitterdorf im Mürztal,Steiermark,lbsmitter@stmk.gv.at,+43385822530,+43385822534,25.08.2020
-LBS Murau,Landesberufsschule Murau,Bildung,Schule,Heiligenstatt 10,8850,Murau,Steiermark,lbsmu@stmk.gv.at,+43353223290,+43353223294,25.08.2020
-LBS Mureck,Landesberufsschule Mureck,Bildung,Schule,Hauptplatz 6,8480,Mureck,Steiermark,lbsmureck@stmk.gv.at,+43347223140,+43347223144,25.08.2020
-LBS Voitsberg,Landesberufsschule Voitsberg,Bildung,Schule,Mozartgasse 14,8570,Voitsberg,Steiermark,lbsvo@stmk.gv.at,+433142223940,+4331422239418,25.08.2020
 KFU,Karl-Franzens-Universität Graz,Bildung,Universität,Universitätsplatz 3,8010,Graz,Steiermark,info@uni-graz.at,+433163800,+433163809030,23.08.2020
 KUG,Universität für Musik und darstellende Kunst Graz,Bildung,Universität,Leonhardstraße 15,8010,Graz,Steiermark,info@kug.ac.at,+433163890,+433163891101,23.08.2020
 MedUni Graz,Medizinische Universität Graz,Bildung,Universität,Auenbruggerplatz 2,8036,Graz,Steiermark,office.datenschutz@medunigraz.at,+433163850,,23.08.2020
@@ -655,6 +692,26 @@ MBA für den 3. Bezirk,Magistratisches Bezirksamt für den 3. Bezirk,Bezirksbeh�
 "MBA für den 6., 7. Bezirk","Magistratisches Bezirksamt für den 6., 7. Bezirk",Bezirksbehörde,Administration,Hermanngasse 24-26,1070,Wien,Wien,post@mba06.wien.gv.at,+431400007000,+43140009907220,19.08.2020
 Agentur für Qualitätssicherung und Akkreditierung Austria,Agentur für Qualitätssicherung und Akkreditierung Austria,Bildung,Behörde,Franz-Klein-Gasse 5,1190,Wien,Wien,office@aq.ac.at,+43153202200,+431532022099,24.08.2020
 Bildungsdirektion für Wien,Bildungsdirektion für Wien,Bildung,Behörde,Wipplingerstraße 28,1010,Wien,Wien,office@ssr-wien.gv.at,+431525250,,19.08.2020
+Berufsschule der SPAR AG,Berufsschule der SPAR österreichische Warenhandels-AG - Private Spar Akademie Wien,Bildung,Berufsschule,Hietzinger Hauptstraße 17,1130,Wien,Wien,spar.akademie@spar.at,+43187712565,,25.08.2020
+Berufsschule für Baugewerbe,Berufsschule für Baugewerbe,Bildung,Berufsschule,Wagramer Straße 65,1220,Wien,Wien,office.922015@schule.wien.gv.at,+4315991696070,+4315991696080,25.08.2020
+Berufsschule für Bürokaufleute,Berufsschule für Bürokaufleute,Bildung,Berufsschule,Meiselstraße 19,1150,Wien,Wien,office@bsbk.at,+4315991696011,+431599169996010,25.08.2020
+"Berufsschule für Chemie, Grafik und gestaltende Berufe","Berufsschule für Chemie, Grafik und gestaltende Berufe",Bildung,Berufsschule,Hütteldorfer Straße 7-17,1150,Wien,Wien,kontakt@cgg.at,+4315991695212,+431599169995211,25.08.2020
+Berufsschule für Einzelhandel,Berufsschule für Einzelhandel,Bildung,Berufsschule,Amalienstraße 31-33,1130,Wien,Wien,office.913025@schule.wien.gv.at,+4315991695041,+431599169995049,25.08.2020
+"Berufsschule für Elektro-, Veranstaltungs- und Informationstechnik Austria","Berufsschule für Elektro-, Veranstaltungs- und Informationstechnik Austria",Bildung,Berufsschule,Mollardgasse 87,1060,Wien,Wien,office@bsevita.at,+4315991695630,+431599167256,25.08.2020
+Berufsschule für Elektrotechnik und Mechatronik,Berufsschule für Elektrotechnik und Mechatronik,Bildung,Berufsschule,Mollardgasse 87,1060,Wien,Wien,office.906065@schule.wien.gv.at,+4315991695660,+431599169995660,25.08.2020
+Berufsschule für Fahrzeugtechnik,Berufsschule für Fahrzeugtechnik,Bildung,Berufsschule,Scheydgasse 40,1210,Wien,Wien,office.921015@schule.wien.gv.at,+4315991695735,+431599169995735,25.08.2020
+Berufsschule für Gartenbau und Floristik,Berufsschule für Gartenbau und Floristik,Bildung,Berufsschule,Donizettiweg 31,1220,Wien,Wien,office.922025@schule.wien.gv.at,+4315991695860,+431599169995860,25.08.2020
+Berufsschule für Gastgewerbe,Berufsschule für Gastgewerbe,Bildung,Berufsschule,Längenfeldgasse 13-15,1120,Wien,Wien,office.912045@schule.wien.gv.at,+4315991695353,+431599167956,25.08.2020
+Berufsschule für Handel und Reisen,Berufsschule für Handel und Reisen,Bildung,Berufsschule,Hütteldorfer Straße 7-17,1150,Wien,Wien,office.915075@schule.wien.gv.at,+4315991695222,+431599169995222,25.08.2020
+"Berufsschule für Holz, Klang, Farbe und Lack","Berufsschule für Holz, Klang, Farbe und Lack",Bildung,Berufsschule,Hütteldorfer Straße 7-17,1150,Wien,Wien,office.915045@schule.wien.gv.at,+4315991695262,+431599169995261,25.08.2020
+"Berufsschule für Industrie, Finanzen und Transport","Berufsschule für Industrie, Finanzen und Transport",Bildung,Berufsschule,Längenfeldgasse 13-15,1120,Wien,Wien,office.912065@schule.wien.gv.at,+4315991695360,+431599169995360,25.08.2020
+"Berufsschule für Lebensmittel, Touristik und Zahntechnik","Berufsschule für Lebensmittel, Touristik und Zahntechnik",Bildung,Berufsschule,Längenfeldgasse 13-15,1120,Wien,Wien,direktion@bsltz.at,+4315991695341,+431599169995340,25.08.2020
+"Berufsschule für Maschinen-, Fertigungstechnik und Elektronik","Berufsschule für Maschinen-, Fertigungstechnik und Elektronik",Bildung,Berufsschule,Apollogasse 1,1070,Wien,Wien,office@bs-mfe.at,+4315991695561,+431599169995561,25.08.2020
+"Berufsschule für Metalltechnik, Glasbautechnik und Technische Zeichner","Berufsschule für Metalltechnik, Glasbautechnik und Technische Zeichner",Bildung,Berufsschule,Mollardgasse 87,1060,Wien,Wien,office.906125@schule.wien.gv.at,+4315991695620,+431599169995620,25.08.2020
+Berufsschule für Reinigungstechnik,Berufsschule für Reinigungstechnik der Gebäudereinigungsakademie der Wiener Gebäudereiniger SchulungsGmbH,Bildung,Berufsschule,"Eduard-Kittenberger-Gasse 56, Objekt 8/1+1A",1230,Wien,Wien,office@grag.at,+4318655505,,25.08.2020
+"Berufsschule für Sanitär-, Heizungs- und Klimatechnik","Berufsschule für Sanitär-, Heizungs- und Klimatechnik",Bildung,Berufsschule,Mollardgasse 87,1060,Wien,Wien,direktion@sht-wien.com,+4315991695670,+431599169995670,25.08.2020
+Berufsschule für Schönheitsberufe,Berufsschule für Schönheitsberufe,Bildung,Berufsschule,Goldschlagstraße 137,1140,Wien,Wien,office.914015@schule.wien.gv.at,+4315991695805,+431599169995800,25.08.2020
+Berufsschule für Verwaltungsberufe,Berufsschule für Verwaltungsberufe,Bildung,Berufsschule,Embelgasse 46,1050,Wien,Wien,christian.sevcik@bildung-wien.gv.at,+4315991695931,+431599169995935,25.08.2020
 LBS,Lauder Business School,Bildung,Fachhochschul-Einrichtung,Hofzeile 18-20,1190,Wien,Wien,office@lbs.ac.at,+4313691818,,24.08.2020
 FH Campus Wien,FH Campus Wien,Bildung,Fachhochschule,Favoritenstraße 226,1100,Wien,Wien,office@fh-campuswien.ac.at,+43160668776600,+43160668776609,24.08.2020
 FH des bfi Wien,Fachhochschule des BFI Wien Ges.m.b.H.,Bildung,Fachhochschule,Wohlmutstraße 22,1020,Wien,Wien,info@fh-vie.ac.at,+4317201286,+431720128619,24.08.2020
@@ -671,26 +728,6 @@ Jüdische Pädagogische Akademie,Jüdische Pädagogische Akademie,Bildung,Pädag
 KPH Wien/Krems,Kirchliche Pädagogische Hochschule Wien/Krems,Bildung,Pädagogische Hochschule,Mayerweckstraße 1,1210,Wien,Wien,datenschutz@kphvie.ac.at,+431291080,+43129108402,24.08.2020
 PH Wien,Pädagogische Hochschule Wien,Bildung,Pädagogische Hochschule,Grenzackerstraße 18,1100,Wien,Wien,office@phwien.ac.at,+43160118,,24.08.2020
 """die umweltberatung"" Wien","""die umweltberatung"" Wien",Bildung,Schule,Buchengasse 77/4. Stock,1100,Wien,Wien,service@umweltberatung.at,+43180332320,,25.08.2020
-Berufsschule der SPAR AG,Berufsschule der SPAR österreichische Warenhandels-AG - Private Spar Akademie Wien,Bildung,Schule,Hietzinger Hauptstraße 17,1130,Wien,Wien,spar.akademie@spar.at,+43187712565,,25.08.2020
-Berufsschule für Baugewerbe,Berufsschule für Baugewerbe,Bildung,Schule,Wagramer Straße 65,1220,Wien,Wien,office.922015@schule.wien.gv.at,+4315991696070,+4315991696080,25.08.2020
-Berufsschule für Bürokaufleute,Berufsschule für Bürokaufleute,Bildung,Schule,Meiselstraße 19,1150,Wien,Wien,office@bsbk.at,+4315991696011,+431599169996010,25.08.2020
-"Berufsschule für Chemie, Grafik und gestaltende Berufe","Berufsschule für Chemie, Grafik und gestaltende Berufe",Bildung,Schule,Hütteldorfer Straße 7-17,1150,Wien,Wien,kontakt@cgg.at,+4315991695212,+431599169995211,25.08.2020
-Berufsschule für Einzelhandel,Berufsschule für Einzelhandel,Bildung,Schule,Amalienstraße 31-33,1130,Wien,Wien,office.913025@schule.wien.gv.at,+4315991695041,+431599169995049,25.08.2020
-"Berufsschule für Elektro-, Veranstaltungs- und Informationstechnik Austria","Berufsschule für Elektro-, Veranstaltungs- und Informationstechnik Austria",Bildung,Schule,Mollardgasse 87,1060,Wien,Wien,office@bsevita.at,+4315991695630,+431599167256,25.08.2020
-Berufsschule für Elektrotechnik und Mechatronik,Berufsschule für Elektrotechnik und Mechatronik,Bildung,Schule,Mollardgasse 87,1060,Wien,Wien,office.906065@schule.wien.gv.at,+4315991695660,+431599169995660,25.08.2020
-Berufsschule für Fahrzeugtechnik,Berufsschule für Fahrzeugtechnik,Bildung,Schule,Scheydgasse 40,1210,Wien,Wien,office.921015@schule.wien.gv.at,+4315991695735,+431599169995735,25.08.2020
-Berufsschule für Gartenbau und Floristik,Berufsschule für Gartenbau und Floristik,Bildung,Schule,Donizettiweg 31,1220,Wien,Wien,office.922025@schule.wien.gv.at,+4315991695860,+431599169995860,25.08.2020
-Berufsschule für Gastgewerbe,Berufsschule für Gastgewerbe,Bildung,Schule,Längenfeldgasse 13-15,1120,Wien,Wien,office.912045@schule.wien.gv.at,+4315991695353,+431599167956,25.08.2020
-Berufsschule für Handel und Reisen,Berufsschule für Handel und Reisen,Bildung,Schule,Hütteldorfer Straße 7-17,1150,Wien,Wien,office.915075@schule.wien.gv.at,+4315991695222,+431599169995222,25.08.2020
-"Berufsschule für Holz, Klang, Farbe und Lack","Berufsschule für Holz, Klang, Farbe und Lack",Bildung,Schule,Hütteldorfer Straße 7-17,1150,Wien,Wien,office.915045@schule.wien.gv.at,+4315991695262,+431599169995261,25.08.2020
-"Berufsschule für Industrie, Finanzen und Transport","Berufsschule für Industrie, Finanzen und Transport",Bildung,Schule,Längenfeldgasse 13-15,1120,Wien,Wien,office.912065@schule.wien.gv.at,+4315991695360,+431599169995360,25.08.2020
-"Berufsschule für Lebensmittel, Touristik und Zahntechnik","Berufsschule für Lebensmittel, Touristik und Zahntechnik",Bildung,Schule,Längenfeldgasse 13-15,1120,Wien,Wien,direktion@bsltz.at,+4315991695341,+431599169995340,25.08.2020
-"Berufsschule für Maschinen-, Fertigungstechnik und Elektronik","Berufsschule für Maschinen-, Fertigungstechnik und Elektronik",Bildung,Schule,Apollogasse 1,1070,Wien,Wien,office@bs-mfe.at,+4315991695561,+431599169995561,25.08.2020
-"Berufsschule für Metalltechnik, Glasbautechnik und Technische Zeichner","Berufsschule für Metalltechnik, Glasbautechnik und Technische Zeichner",Bildung,Schule,Mollardgasse 87,1060,Wien,Wien,office.906125@schule.wien.gv.at,+4315991695620,+431599169995620,25.08.2020
-Berufsschule für Reinigungstechnik,Berufsschule für Reinigungstechnik der Gebäudereinigungsakademie der Wiener Gebäudereiniger SchulungsGmbH,Bildung,Schule,"Eduard-Kittenberger-Gasse 56, Objekt 8/1+1A",1230,Wien,Wien,office@grag.at,+4318655505,,25.08.2020
-"Berufsschule für Sanitär-, Heizungs- und Klimatechnik","Berufsschule für Sanitär-, Heizungs- und Klimatechnik",Bildung,Schule,Mollardgasse 87,1060,Wien,Wien,direktion@sht-wien.com,+4315991695670,+431599169995670,25.08.2020
-Berufsschule für Schönheitsberufe,Berufsschule für Schönheitsberufe,Bildung,Schule,Goldschlagstraße 137,1140,Wien,Wien,office.914015@schule.wien.gv.at,+4315991695805,+431599169995800,25.08.2020
-Berufsschule für Verwaltungsberufe,Berufsschule für Verwaltungsberufe,Bildung,Schule,Embelgasse 46,1050,Wien,Wien,christian.sevcik@bildung-wien.gv.at,+4315991695931,+431599169995935,25.08.2020
 D.R.Z  Demontage- und Recycling-Zentrum,D.R.Z  Demontage- und Recycling-Zentrum,Bildung,Schule,Vogtgasse 29,1140,Wien,Wien,drz@vhs.at,+43189174155000,,25.08.2020
 Die Kunst VHS,Die Kunst Volkshochschule,Bildung,Schule,Lazarettgasse 27,1090,Wien,Wien,kvh@vhs.at,+43189174154000,,25.08.2020
 Film und Medien Zentrum Margareten,Film und Medien Zentrum Margareten,Bildung,Schule,Johannagasse 2,1050,Wien,Wien,medienzentrum@vhs.at,+43189174105002,,25.08.2020
