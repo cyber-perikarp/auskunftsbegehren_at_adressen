@@ -1,3 +1,4 @@
 chromalog
 mysqlclient
 qrcode[pil]
+weasyprint
