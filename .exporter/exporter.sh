@@ -15,7 +15,7 @@ mv noyb.csv upload
 
 echo "GENERIC CSV"
 ./.exporter/generic_csv_exporter.py
-generalCounter=$(wc -l < general.csv)
+generalCounter=$(wc -l < generic.csv)
 sed -i "s/%%GENERIC_COUNTER%%/$generalCounter/g" upload/index.html
 mv generic.csv upload
 
