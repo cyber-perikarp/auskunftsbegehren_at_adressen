@@ -13,19 +13,19 @@ noybCounter=$(wc -l < noyb.csv)
 sed -i "s/%%NOYB_COUNTER%%/$noybCounter/g" upload/index.html
 mv noyb.csv upload
 
-echo "GENERAL CSV"
+echo "GENERIC CSV"
 ./.exporter/generic_csv_exporter.py
-generalCounter=$(wc -l < general.csv)
-sed -i "s/%%GENERAL_COUNTER%%/$generalCounter/g" upload/index.html
-mv general.csv upload
+generalCounter=$(wc -l < generic.csv)
+sed -i "s/%%GENERIC_COUNTER%%/$generalCounter/g" upload/index.html
+mv generic.csv upload
 
-echo "GENERAL HTML"
+echo "GENERIC HTML"
 ./.exporter/generic_html_exporter.py
-mv general.html upload
+mv generic.html upload
 mv qrcodes upload
 
-echo "GENERAL PDF"
-wkhtmltopdf --page-size A4 --enable-local-file-access --print-media-type --footer-left "https://auskunftsbegehren-adressen.cyber-perikarp.eu/" --footer-right "Seite [page] von [topage]" upload/general.html upload/general.pdf
+echo "GENERIC PDF"
+weasyprint upload/generic.html upload/generic.pdf
 
 echo "UPLOAD"
 ls -hall upload

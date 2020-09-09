@@ -31,7 +31,7 @@ logger = logging.getLogger()
 workDir = os.path.dirname(os.path.realpath(__file__)) + "/.."
 
 # Hardgecodede Parameter
-outFile = workDir + "/general.csv"
+outFile = workDir + "/generic.csv"
 csvHeader = ["Name", "Name_Lang", "Branche", "Typ", "Adresse", "PLZ", "Ort", "Ebene", "E-Mail", "Tel", "Fax", "Pruefung"]
 foldersToIgnore = [".", "..", ".exporter", "docs", "upload", ".git", ".github"]
 administrationLevels = {

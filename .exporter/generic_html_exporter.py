@@ -17,8 +17,8 @@ import urllib.parse
 workDir = os.path.dirname(os.path.realpath(__file__)) + "/.."
 
 # Hardgecodede Parameter
-outFile = workDir + "/general.html"
-csvFile = workDir + "/upload/general.csv"
+outFile = workDir + "/generic.html"
+csvFile = workDir + "/upload/generic.csv"
 qrcodeFolder = workDir + "/qrcodes/"
 
 def writeRecord(outFileHandler, record):
