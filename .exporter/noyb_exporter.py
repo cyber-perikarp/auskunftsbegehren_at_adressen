@@ -91,7 +91,7 @@ def populateGeneratedFields(record):
     recordToReturn["neighbourhood"] = ""
     recordToReturn["postal_code"] = record["PLZ"]
     recordToReturn["region"] = region
-    recordToReturn["country"] = "AUSTRIA"
+    recordToReturn["country"] = "AT"
     recordToReturn["requires_identification"] = ""
     recordToReturn["operating_countries"] = ""
     recordToReturn["custom_identifier"] = id
@@ -121,7 +121,7 @@ try:
         writer = csv.DictWriter(outFileHandler, fieldnames=csvHeader)
         writer.writeheader()
 except IOError:
-    logger.critical("Cant write to file!")
+    logger.critical("Cant write header to file!")
 
 logger.debug(sorted(os.listdir(workDir)))
 
@@ -151,4 +151,4 @@ for folder in [x for x in sorted(os.listdir(workDir)) if (os.path.isdir(x) and x
                             writer.writerow(record)
 
                     except IOError:
-                        logger.critical("Cant write to file!")
+                        logger.critical("Cant write entry to file!")
