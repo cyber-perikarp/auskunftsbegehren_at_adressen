@@ -32,7 +32,7 @@ workDir = os.path.dirname(os.path.realpath(__file__)) + "/.."
 
 # Hardgecodede Parameter
 outFile = workDir + "/generic.csv"
-csvHeader = ["Name", "Name_Lang", "Branche", "Typ", "Adresse", "PLZ", "Ort", "Ebene", "E-Mail", "Tel", "Fax", "Pruefung"]
+csvHeader = ["Name", "Name_Lang", "Branche", "Typ", "Adresse", "PLZ", "Ort", "Ebene", "E-Mail", "Homepage", "Tel", "Fax", "Datenquelle", "Pruefung"]
 foldersToIgnore = [".", "..", ".exporter", "docs", "upload", ".git", ".github"]
 administrationLevels = {
     "bund": "Bund",
