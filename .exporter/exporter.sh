@@ -19,13 +19,5 @@ generalCounter=$(wc -l < generic.csv)
 sed -i "s/%%GENERIC_COUNTER%%/$generalCounter/g" upload/index.html
 mv generic.csv upload
 
-echo "GENERIC HTML"
-./.exporter/generic_html_exporter.py
-mv generic.html upload
-mv qrcodes upload
-
-echo "GENERIC PDF"
-weasyprint upload/generic.html upload/generic.pdf
-
 echo "UPLOAD"
 ls -hall upload
