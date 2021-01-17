@@ -1,2 +1,3 @@
-Die Postleitzahlendatenbank steht unter einer Creative Commons Namensnennung 3.0 Österreich Lizenz.
-Datenquelle: https://www.post.at/geschaeftlich_werben_produkte_und_services_adressen_postlexikon.php
+Creative Commons Namensnennung 4.0 International RTR-GmbH
+Quelle: RTR-GmbH; https://data.rtr.at/nutzungsbedingungen
+https://www.rtr.at/rtr/service/opendata/OD_Uebersicht.de.html
