@@ -2,10 +2,10 @@ Name,Name_Lang,Branche,Typ,Adresse,PLZ,Ort,Ebene,E-Mail,Homepage,Tel,Fax,Datenqu
 BIFIE,"Bundesinstitut für Bildungsforschung, Innovation & Entwicklung des österreichischen Schulwesens",Bildung,Behörde,Alpenstraße 121,5020,Salzburg,Bund,office@bifie.at,https://www.bifie.at/,+43662620088,+436626200881900,Impressum,13.01.2021
 Studienbeihilfenbehörde,Studienbeihilfenbehörde,Bildung,Behörde,Gudrunstraße 179,1100,Wien,Bund,dsb@stbh.gv.at,https://www.stipendium.at/,+43160173,+43160173200,Impressum + Datenschutzerklärung,13.01.2021
 ÖSZ,Österreichisches Sprachen-Kompetenz-Zentrum,Bildung,Dienstleister,Hans-Sachs-Gasse 3/I,8010,Graz,Bund,office@oesz.at,http://www.oesz.at/,+43316824150,+433168241506,Impressum,13.01.2021
-Kunsthistorisches Museum,Kunsthistorisches Museum,Bildung,Museum / Theater / Bibliothek,Burgring 5,1010,Wien,Bund,info@khm.at,,+431525240,+431525244099,,21.08.2020
-Naturhistorisches Museum,Naturhistorisches Museum Wien,Bildung,Museum / Theater / Bibliothek,Burgring 7,1010,Wien,Bund,info@nhm-wien.ac.at,,+431521770,+43152177578,,21.08.2020
-Technisches Museum,Technisches Museum Wien mit Österreichischer Mediathek,Bildung,Museum / Theater / Bibliothek,Mariahilfer Straße 212,1140,Wien,Bund,museumsbox@tmw.at,,+431899980,,,21.08.2020
-ÖNB,Österreichische Nationalbibliothek,Bildung,Museum / Theater / Bibliothek,"Josefsplatz 1, Postfach 25",1015,Wien,Bund,onb@onb.ac.at,,+43153410,+43153410280,,21.08.2020
+Kunsthistorisches Museum,Kunsthistorisches Museum,Bildung,Museum / Theater / Bibliothek,Burgring 5,1010,Wien,Bund,info@khm.at,https://www.khm.at/,+431525240,+431525244099,Impressum,17.01.2021
+Naturhistorisches Museum,Naturhistorisches Museum Wien,Bildung,Museum / Theater / Bibliothek,Burgring 7,1010,Wien,Bund,info@nhm-wien.ac.at,https://nhm-wien.ac.at/,+431521770,+43152177578,Impressum,17.01.2021
+Technisches Museum,Technisches Museum Wien mit Österreichischer Mediathek,Bildung,Museum / Theater / Bibliothek,Mariahilfer Straße 212,1140,Wien,Bund,museumsbox@tmw.at,https://www.technischesmuseum.at/,+431899980,,Impressum,17.01.2021
+ÖNB,Österreichische Nationalbibliothek,Bildung,Museum / Theater / Bibliothek,"Josefsplatz 1, Postfach 25",1015,Wien,Bund,onb@onb.ac.at,https://www.onb.ac.at/,+43153410,+43153410280,Impressum,17.01.2021
 Austro Control,Österreichische Gesellschaft für Zivilluftfahrt mit beschränkter Haftung,Bundesbehörde,Bundesamt,Wagramer Straße 19,1220,Wien,Bund,,https://www.austrocontrol.at/,+43517030,,Impressum,13.01.2021
 BAES,Bundesamt für Ernährungssicherheit,Bundesbehörde,Bundesamt,"p.A. AGES, Spargelfeldstrasse 191",1200,Wien,Bund,baes@baes.gv.at,https://www.baes.gv.at/,+435055532350,,Impressum,13.01.2021
 BAK,Bundesamt zur Korruptionsprävention und Korruptionsbekämpfung,Bundesbehörde,Bundesamt,Herrengasse 7,1010,Wien,Bund,BMI-III-BAK-SPOC@bak.gv.at,https://www.bak.gv.at/,+43153126906800,+43153126108583,Impressum,13.01.2021
@@ -47,6 +47,7 @@ BMKOES,"Bundesministerium für Kunst, Kultur, öffentlichen Dienst und Sport",Bu
 BMLRT,"Bundesministerium für Landwirtschaft, Regionen und Tourismus",Bundesbehörde,Bundesministerium,Stubenring 1,1010,Wien,Bund,office@bmlrt.gv.at,https://www.bmlrt.gv.at/,+431711000,+43171100606503,Impressum,13.01.2021
 BMLV,Bundesministerium für Landesverteidigung,Bundesbehörde,Bundesministerium,Roßauer Lände 1,1090,Wien,Bund,hpa.wien1@bmlv.gv.at,https://www.bundesheer.at/,+43502010,,Datenschutzerklärung,13.01.2021
 Sozialministerium,"Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz",Bundesbehörde,Bundesministerium,Stubenring 1,1010,Wien,Bund,post@sozialministerium.at,https://www.sozialministerium.at/,+431711000,+4317158258,Impressum,13.01.2021
+Pharmazeutische Gehaltskasse,Pharmazeutische Gehaltskasse für Österreich,Bundesbehörde,Dienstleister,Spitalgasse 31,1090,Wien,Bund,office@gk.or.at,https://www.gehaltskasse.at/,+43140414200,+43140414249,Impressum,17.01.2021
 BVwG,Bundesverwaltungsgericht,Bundesbehörde,Gericht,Erdbergstraße 192-196,1030,Wien,Bund,einlaufstelle@bvwg.gv.at,https://www.bvwg.gv.at/,+431601490,+431711238891541,Kontakt,13.01.2021
 OGH,Oberster Gerichtshof,Bundesbehörde,Gericht,Schmerlingplatz 11,1010,Wien,Bund,,https://www.ogh.gv.at/,+431521520,+431521523710,Impressum,13.01.2021
 VfGH,Verfassungsgerichtshof,Bundesbehörde,Gericht,Freyung 8,1010,Wien,Bund,vfgh@vfgh.gv.at,https://www.vfgh.gv.at/,+431531220,,Impressum,13.01.2021
@@ -59,47 +60,44 @@ Hofmusikkapelle,Hofmusikkapelle,Bundesbehörde,Nachgeordnete Behörde,"Hofburg, 
 KommAustria,KommAustria,Bundesbehörde,Nachgeordnete Behörde,Mariahilfer Straße 77-79,1060,Wien,Bund,rtr@rtr.at,https://www.rtr.at/medien/wer_wir_sind/KommAustria/KommAustria.de.html,+431580580,+431580589191,Impressum rtr.at,13.01.2021
 RTR,Rundfunk und Telekom Regulierungs-GmbH,Bundesbehörde,Nachgeordnete Behörde,Mariahilfer Straße 77-79,1060,Wien,Bund,rtr@rtr.at,https://www.rtr.at/,+431580580,+431580589191,Impressum,13.01.2021
 Österreichische Bundesgärten,HBFLA für Gartenbau Schönbrunn und Österreichische Bundesgärten,Bundesbehörde,Nachgeordnete Behörde,Grünbergstraße 24,1130,Wien,Bund,office@bundesgaerten.at,https://www.bundesgaerten.at/,+43181359500,+431813595099,Impressum,13.01.2021
-AGES,Österreichische Agentur für Gesundheit und Ernährungssicherheit GmbH,Bundesbehörde,Öffentliches Unternehmen,Spargelfeldstrasse 191,1220,Wien,Bund,management@ages.at,,+43505550,+435055522019,,20.08.2020
+AGES,Österreichische Agentur für Gesundheit und Ernährungssicherheit GmbH,Bundesbehörde,Öffentliches Unternehmen,Spargelfeldstrasse 191,1220,Wien,Bund,management@ages.at,https://www.ages.at/,+43505550,+435055522019,Impressum,17.01.2021
 AMS,Arbeitsmarktservice,Bundesbehörde,Öffentliches Unternehmen,Treustraße 35-43,1200,Wien,Bund,ams.oesterreich@ams.at,https://www.ams.at/,+4350904199,+4350904188,Impressum,13.01.2021
 Agentur für Rechnungswesen,Agentur für Rechnungswesen GKP GmbH,Bundesbehörde,Öffentliches Unternehmen,Dresdner Straße 89,1200,Wien,Bund,office@arw.gv.at,https://arw.gv.at/,+43505060,,Impressum,13.01.2021
 Landwirtschaftliche Bundesversuchswirtschaften,Landwirtschaftliche Bundesversuchswirtschaften GmbH,Bundesbehörde,Öffentliches Unternehmen,Rottenhauserstraße 32,3250,Wieselburg,Bund,office@bvw.at,,+437416522410,+4374165224115,,21.08.2020
-Spanische Hofreitschule – Lipizzanergestüt Piber,Spanische Hofreitschule – Lipizzanergestüt Piber,Bundesbehörde,Öffentliches Unternehmen,Michaelerplatz 1,1010,Wien,Bund,office@srs.at,,+4315339031,,,21.08.2020
-Austria Tabak,JTI Austria GmbH,Erzeugung,Dienstleister,Erdberger Lände 26a/71,1030,Wien,Bund,konsumentenservice@jti.com,,+431313421,,,22.08.2020
-Dachverband der Sozialversicherungsträger,Dachverband der Sozialversicherungsträger,Gesundheit,Dienstleister,Kundmanngasse 21,1030,Wien,Bund,posteingang.allgemein@sozialversicherung.at,,+431711320,,,20.08.2020
-ELGA,ELGA GmbH,Gesundheit,Dienstleister,Treustraße 35-43/ Stg. 4/ 1. Stock,1200,Wien,Bund,office@elga.gv.at,,+4312127050,,,20.08.2020
-HK-SKA,HK-SKA Betriebs-GmbH,Gesundheit,Dienstleister,Gartenstraße 9,4820,Bad Ischl,Bund,info@herzreha.at,,+436132278010,+436132278018190,,20.08.2020
-IEF-Service,IEF-Service GmbH,Gesundheit,Dienstleister,Linke Wienzeile 246,1150,Wien,Bund,office@insolvenzentgelt.at,,+43120512120,,,20.08.2020
-IT-Services der Sozialversicherung,IT-Services der Sozialversicherung GmbH,Gesundheit,Dienstleister,Johann-Böhm-Platz 1,1020,Wien,Bund,office@itsv.at,,+43501248445600,+43501248445080,,20.08.2020
-SVC,Sozialversicherungs-Chipkarten Betriebs- und Errichtungsgesellschaft m.b.H.,Gesundheit,Dienstleister,Ernst-Melchior-Gasse 22,1020,Wien,Bund,info@svc.co.at,,+43501247140,+43501247143776,,20.08.2020
-SVD,SVD Büromanagement GmbH,Gesundheit,Dienstleister,Dresdner Straße 45,1200,Wien,Bund,office@svdgmbh.at,,+4317981414,+4317981414200,,20.08.2020
-Vamed,Vamed AG,Gesundheit,Dienstleister,Sterngasse 5,1230,Wien,Bund,office@vamed.com,,+431601270,+43160127108,,22.08.2020
-AUVA,Allgemeine Unfallversicherungsanstalt,Gesundheit,Sozialversicherungsträger,Adalbert-Stifter-Straße 65,1200,Wien,Bund,kontakt@auva.at,,+435939320000,+435939320606,,20.08.2020
-BUAK,Bauarbeiter- Urlaubs- und Abfertigungskasse,Gesundheit,Sozialversicherungsträger,Kliebergasse 1A,1050,Wien,Bund,kommunikation@buak.at,,+43579579,,,20.08.2020
-BVAEB,"Versicherungsanstalt öffentlich Bediensteter, Eisenbahnen und Bergbau",Gesundheit,Sozialversicherungsträger,Josefstätter Straße 80,1080,Wien,Bund,postoffice@bvaeb.sv.at,,+4350405,+435040522900,,20.08.2020
-PVA,Pensionsversicherungsanstalt,Gesundheit,Sozialversicherungsträger,Friedrich-Hillegeist-Straße 1,1021,Wien Postfach,Bund,pva@pensionsversicherung.at,,+4350303,+435030328850,,20.08.2020
-SVS,Sozialversicherungsanstalt der Selbstständigen,Gesundheit,Sozialversicherungsträger,Wiedner Hauptstraße 84-86,1051,Wien Postfach,Bund,dsb@svs.at,,+4350808808,,,20.08.2020
-VA des österreichischen Notariates,Versorgungsanstalt des österreichischen Notariates,Gesundheit,Sozialversicherungsträger,"Florianigasse 2, Postfach 15",1080,Wien,Bund,office@van.co.at,,+43140513810,,,20.08.2020
-ÖGK,Österreichische Gesundheitskasse,Gesundheit,Sozialversicherungsträger,"Haidingergasse 1, Postfach 7",1006,Wien,Bund,office@oegk.at,,+43507660,,,20.08.2020
-APK Vorsorgekasse,APK Vorsorgekasse AG,Gesundheit,Vorsorgekasse,Thomas-Klestil-Platz 13,1030,Wien,Bund,office@apk-vk.at,,+435027550,+43502755609,,20.08.2020
-Allianz Vorsorgekasse,Allianz Vorsorgekasse AG,Gesundheit,Vorsorgekasse,Hietzinger Kai 101-105,1130,Wien,Bund,servicekasse@allianz.at,,+435900980181,+435900940128,,20.08.2020
-BONUS Vorsorgekasse,BONUS Vorsorgekasse AG,Gesundheit,Vorsorgekasse,Traungasse 14-16,1030,Wien,Bund,kundenservice@bonusvorsorge.at,,+4319949974,+43199499741999,,20.08.2020
-BUAK Betriebliche Vorsorgekasse,BUAK Betriebliche Vorsorgekasse GesmbH,Gesundheit,Vorsorgekasse,Kliebergasse 1a,1050,Wien,Bund,buak-bvk@buak.at,,+435795793000,+4357957993099,,20.08.2020
-Niederösterreichische Vorsorgekasse,Niederösterreichische Vorsorgekasse AG,Gesundheit,Vorsorgekasse,Neue Herrengasse 10,3100,St. Pölten,Bund,office@noevk.at,,+432742905557100,+432742905557120,,22.08.2020
-VBV – Vorsorgekasse,VBV – Vorsorgekasse AG,Gesundheit,Vorsorgekasse,Obere Donaustraße 49-53,1020,Wien,Bund,info@vorsorgekasse.at,,+431217018500,+4312170178260,,20.08.2020
-Valida Plus,Valida Plus AG,Gesundheit,Vorsorgekasse,Mooslackengasse 12,1190,Wien,Bund,office@valida.at,,+431316480,+431316486010,,20.08.2020
-fair-finance Vorsorgekasse,fair-finance Vorsorgekasse AG,Gesundheit,Vorsorgekasse,Alser Straße 21,1080,Wien,Bund,office@fair-finance.at,,+43140571710,+431405717171,,20.08.2020
-ASFINAG,Autobahnen- und Schnellstraßen Finanzierungs-Aktiengesellschaft,Infrastruktur,Dienstleister,"Rotenturmstraße 5-9, Postfach 983",1011,Wien Postfach,Bund,office@asfinag.at,,+435010810000,+435010810020,,21.08.2020
-BIG,Bundesimmobiliengesellschaft m.b.H.,Infrastruktur,Dienstleister,Trabrennstraße 2c,1020,Wien,Bund,office@big.at,,+43502440,+43502442211,,21.08.2020
-BRZ,Bundesrechenzentrum GmbH,Infrastruktur,Dienstleister,Hintere Zollamtsstraße 4,1030,Wien,Bund,kommunikation@brz.gv.at,,+431711230,,,21.08.2020
-Bundesbeschaffung,Bundesbeschaffung GmbH,Infrastruktur,Dienstleister,Lassallestraße 9b,1020,Wien,Bund,office@bbg.gv.at,,+431245700,+4312457099,,21.08.2020
-Bundesstelle für Sektenfragen,Bundesstelle für Sektenfragen,Infrastruktur,Dienstleister,Wollzeile 12/2/19,1010,Wien,Bund,bundesstelle@sektenfragen.at,,+4315130460,+431513046030,,21.08.2020
-GIS,GIS Gebühren Info Service GmbH,Infrastruktur,Dienstleister,"Faulmanngasse 4, Postfach 1000",1051,Wien Postfach,Bund,kundenservice@gis.at,,+4350200,+4350200300,,21.08.2020
-LFRZ,"Land-, forst- und wasserwirtschaftliches Rechenzentrum GmbH",Infrastruktur,Dienstleister,Hintere Zollamtsstraße 4,1030,Wien,Bund,office@lfrz.gv.at,,+431331760,,,20.08.2020
-OeSD,Österreichische Staatsdruckerei GmbH,Infrastruktur,Dienstleister,Tenschertstraße 7,1239,Wien,Bund,office@staatsdruckerei.at,,+431206660,+43120666100,,22.08.2020
-WSR,Wirtschafts- und Sozialwissenschaftliches Rechenzentrum,Infrastruktur,Dienstleister,Arsenal Objekt 20,1030,Wien,Bund,info@wsr.ac.at,,+4317981122,+431798112250,,20.08.2020
-ÖBAG,Österreichische Beteiligungs AG,Infrastruktur,Dienstleister,Kolingasse 14-16,1090,Wien,Bund,kontakt@oebag.gv.at,,+431711140,,,21.08.2020
-Österreichische Bundesforste,Österreichische Bundesforste AG,Infrastruktur,Dienstleister,Pummergasse 10-12,3002,Purkersdorf,Bund,bundesforste@bundesforste.at,,+4322316000,,,21.08.2020
-ORF,Österreichischer Rundfunk,Infrastruktur,Öffentliches Unternehmen,Würzburggasse 30,1136,Wien,Bund,kundendienst@orf.at,,+431878780,+4318787830,,21.08.2020
+Spanische Hofreitschule – Lipizzanergestüt Piber,Spanische Hofreitschule – Lipizzanergestüt Piber,Bundesbehörde,Öffentliches Unternehmen,Michaelerplatz 1,1010,Wien,Bund,office@srs.at,https://www.srs.at/,+4315339031,,Impressum,17.01.2021
+Dachverband der Sozialversicherungsträger,Dachverband der Sozialversicherungsträger,Gesundheit,Dienstleister,Kundmanngasse 21,1030,Wien,Bund,posteingang.allgemein@sozialversicherung.at,https://www.sozialversicherung.at/,+431711320,,Kontakt,17.01.2021
+ELGA,ELGA GmbH,Gesundheit,Dienstleister,Treustraße 35-43/ Stg. 4/ 1. Stock,1200,Wien,Bund,office@elga.gv.at,https://www.elga.gv.at/,+4312127050,,Impressum,17.01.2021
+IT-Services der Sozialversicherung,IT-Services der Sozialversicherung GmbH,Gesundheit,Dienstleister,Johann-Böhm-Platz 1,1020,Wien,Bund,office@itsv.at,https://www.itsv.at/,+43501248445600,+43501248445680,Impressum,17.01.2021
+Institut für Gesundheitsförderung und Prävention,Institut für Gesundheitsförderung und Prävention GmbH,Gesundheit,Dienstleister,Haideggerweg 40,8044,Graz-Mariatrost,Bund,office@ifgp.at,https://www.ifgp.at,+4350235037900,+4350235077900,Impressum,17.01.2021
+SVC,Sozialversicherungs-Chipkarten Betriebs- und Errichtungsgesellschaft m.b.H.,Gesundheit,Dienstleister,Ernst-Melchior-Gasse 22,1020,Wien,Bund,info@svc.co.at,https://www.svc.co.at,+43501247140,+43501247143776,Impressum,17.01.2021
+SVD,SVD Büromanagement GmbH,Gesundheit,Dienstleister,Dresdner Straße 45,1200,Wien,Bund,office@svdgmbh.at,https://www.svdgmbh.at/,+4317981414,+4317981414200,Impressum,17.01.2021
+AUVA,Allgemeine Unfallversicherungsanstalt,Gesundheit,Sozialversicherungsträger,Adalbert-Stifter-Straße 65,1200,Wien,Bund,kontakt@auva.at,https://www.auva.at,+435939320000,+435939320606,Startseite,17.01.2021
+BUAK,Bauarbeiter- Urlaubs- und Abfertigungskasse,Gesundheit,Sozialversicherungsträger,Kliebergasse 1A,1050,Wien,Bund,kommunikation@buak.at,https://www.buak.at/,+43579579,,Impressum,17.01.2021
+BVAEB,"Versicherungsanstalt öffentlich Bediensteter, Eisenbahnen und Bergbau",Gesundheit,Sozialversicherungsträger,Josefstätter Straße 80,1080,Wien,Bund,postoffice@bvaeb.at,https://www.bvaeb.at,+4350405,+435040522900,Impressum,17.01.2021
+PVA,Pensionsversicherungsanstalt,Gesundheit,Sozialversicherungsträger,Friedrich-Hillegeist-Straße 1,1021,Wien Postfach,Bund,pva@pv.at,https://www.pv.at/,+4350303,+435030328850,Startseite,17.01.2021
+SVS,Sozialversicherungsanstalt der Selbstständigen,Gesundheit,Sozialversicherungsträger,Wiedner Hauptstraße 84-86,1051,Wien Postfach,Bund,dsb@svs.at,https://www.svs.at,+4350808808,,Impressum + Datenschutzerklärung,17.01.2021
+VA des österreichischen Notariates,Versorgungsanstalt des österreichischen Notariates,Gesundheit,Sozialversicherungsträger,"Florianigasse 2, Postfach 15",1080,Wien,Bund,office@van.co.at,https://www.van.co.at/,+43140513810,+431405138120,Startseite,17.01.2021
+ÖGK,Österreichische Gesundheitskasse,Gesundheit,Sozialversicherungsträger,Haidingergasse 1,1030,Wien,Bund,office@oegk.at,https://www.gesundheitskasse.at,+43507660,,Impressum,17.01.2021
+APK Vorsorgekasse,APK Vorsorgekasse AG,Gesundheit,Vorsorgekasse,Thomas-Klestil-Platz 13,1030,Wien,Bund,office@apk-vk.at,https://www.apk-vk.at/,+435027550,+43502755609,Impressum,17.01.2021
+Allianz Vorsorgekasse,Allianz Vorsorgekasse AG,Gesundheit,Vorsorgekasse,Hietzinger Kai 101-105,1130,Wien,Bund,servicekasse@allianz.at,https://www.allianzvk.at/,+435900980181,+435900940128,Impressum,17.01.2021
+BONUS Vorsorgekasse,BONUS Vorsorgekasse AG,Gesundheit,Vorsorgekasse,Traungasse 14-16,1030,Wien,Bund,kundenservice@bonusvorsorge.at,https://www.bonusvorsorge.at,+4319949974,+43199499741999,Impressum,17.01.2021
+BUAK Betriebliche Vorsorgekasse,BUAK Betriebliche Vorsorgekasse GesmbH,Gesundheit,Vorsorgekasse,Kliebergasse 1a,1050,Wien,Bund,buak-bvk@buak.at,https://www.buak-bvk.at/,+435795793000,+4357957993099,Impressum,17.01.2021
+Niederösterreichische Vorsorgekasse,Niederösterreichische Vorsorgekasse AG,Gesundheit,Vorsorgekasse,Neue Herrengasse 10,3100,St. Pölten,Bund,office@noevk.at,https://www.noevk.at,+432742905557100,+432742905557120,Impressum,17.01.2021
+VBV – Vorsorgekasse,VBV – Vorsorgekasse AG,Gesundheit,Vorsorgekasse,Obere Donaustraße 49-53,1020,Wien,Bund,info@vorsorgekasse.at,https://www.vorsorgekasse.at/,+431217018500,+4312170178260,Impressum,17.01.2021
+Valida Vorsorgemanagement,Valida Holding AG,Gesundheit,Vorsorgekasse,Mooslackengasse 12,1190,Wien,Bund,office@valida.at,https://www.valida.at,+431316480,+431316486010,Impressum,17.01.2021
+fair-finance Vorsorgekasse,fair-finance Vorsorgekasse AG,Gesundheit,Vorsorgekasse,Alser Straße 21,1080,Wien,Bund,office@fair-finance.at,https://www.fair-finance.at,+43140571710,+431405717171,Impressum,17.01.2021
+ASFINAG,Autobahnen- und Schnellstraßen Finanzierungs-Aktiengesellschaft,Infrastruktur,Dienstleister,"Rotenturmstraße 5-9, Postfach 983",1011,Wien Postfach,Bund,office@asfinag.at,https://www.asfinag.at/,+435010810000,+435010810020,Impressum,17.01.2021
+BIG,Bundesimmobiliengesellschaft m.b.H.,Infrastruktur,Dienstleister,Trabrennstraße 2c,1020,Wien,Bund,office@big.at,https://www.big.at/,+43502440,+43502442211,Impressum,17.01.2021
+BRZ,Bundesrechenzentrum GmbH,Infrastruktur,Dienstleister,Hintere Zollamtsstraße 4,1030,Wien,Bund,kommunikation@brz.gv.at,https://www.brz.gv.at/,+431711230,,Impressum,17.01.2021
+Bundesbeschaffung,Bundesbeschaffung GmbH,Infrastruktur,Dienstleister,Lassallestraße 9b,1020,Wien,Bund,office@bbg.gv.at,https://www.bbg.gv.at/,+431245700,+4312457099,Impressum,17.01.2021
+Bundesstelle für Sektenfragen,Bundesstelle für Sektenfragen,Infrastruktur,Dienstleister,Wollzeile 12/2/19,1010,Wien,Bund,bundesstelle@sektenfragen.at,https://www.bundesstelle-sektenfragen.at/,+4315130460,+431513046030,Startseite,17.01.2021
+GIS,GIS Gebühren Info Service GmbH,Infrastruktur,Dienstleister,Operngasse 20B,1040,Wien,Bund,kundenservice@gis.at,https://www.gis.at/,+4350200,+4350200300,Impressum,17.01.2021
+LFRZ,"Land-, forst- und wasserwirtschaftliches Rechenzentrum GmbH",Infrastruktur,Dienstleister,Hintere Zollamtsstraße 4,1030,Wien,Bund,office@lfrz.gv.at,https://www.lfrz.gv.at/,+431331760,,Impressum,17.01.2021
+OeSD,Österreichische Staatsdruckerei GmbH,Infrastruktur,Dienstleister,Tenschertstraße 7,1239,Wien,Bund,office@staatsdruckerei.at,https://www.staatsdruckerei.at/,+431206660,+43120666100,Impressum,17.01.2021
+WSR,Wirtschafts- und Sozialwissenschaftliches Rechenzentrum,Infrastruktur,Dienstleister,Arsenal Objekt 20,1030,Wien,Bund,info@wsr.ac.at,https://www.wsr.ac.at/,+4317981122,+431798112250,Impressum,17.01.2021
+ÖBAG,Österreichische Beteiligungs AG,Infrastruktur,Dienstleister,Kolingasse 14-16,1090,Wien,Bund,kontakt@oebag.gv.at,https://www.oebag.gv.at/,+431711140,,Impressum,17.01.2021
+Österreichische Bundesforste,Österreichische Bundesforste AG,Infrastruktur,Dienstleister,Pummergasse 10-12,3002,Purkersdorf,Bund,bundesforste@bundesforste.at,https://www.bundesforste.at/,+4322316000,,Impressum,17.01.2021
+ORF,Österreichischer Rundfunk,Infrastruktur,Öffentliches Unternehmen,Würzburggasse 30,1136,Wien,Bund,kundendienst@orf.at,https://orf.at/,+431878780,+4318787830,Impressum,17.01.2021
 BUKO,Bundeskonferenz der Freien Berufe Österreichs,Interessensvertretung,Berufsverband,"c/o Bundeskammer der ZiviltechnikerInnen, Karlsgasse 9",1040,Wien,Bund,office@freie-berufe.at,https://www.freie-berufe.at/,+4315332286,,Impressum,13.01.2021
 Bauernbund,Österreichischer Bauernbund,Interessensvertretung,Berufsverband,Brucknerstraße 6/3,1040,Wien,Bund,bauernbund@bauernbund.at,https://www.bauernbund.at/,+43150581730,+431505817365,Impressum,13.01.2021
 BÖP,Berufsverband österreichischer Psychologinnen und Psychologen,Interessensvertretung,Berufsverband,Dietrichgasse 25,1030,Wien,Bund,boep@boep.or.at,https://www.boep.or.at/,+43140726710,+431407267130,Impressum,13.01.2021
@@ -128,7 +126,7 @@ VÖB,Vereinigung Österreichischer Bibliothekarinnen und Bibliothekare,Interesse
 ÖVGD,Österreichischer Verband der allgemein beeideten und gerichtlich zertifizierten Dolmetscher,Interessensvertretung,Berufsverband,Loidoldgasse 1/9,1080,Wien,Bund,office@gerichtsdolmetscher.at,https://www.gerichtsdolmetscher.at/,+4314796581,+4314783723,Kontakt,13.01.2021
 Österreichischer Apothekerverband ,Österreichischer Apothekerverband,Interessensvertretung,Berufsverband,Spitalgasse 31,1090,Wien,Bund,service@apothekerverband.at,https://www.apothekerverband.at/,+43140414300,+4314086280,Impressum,13.01.2021
 Österreichischer Drogistenverband,Österreichischer Drogistenverband,Interessensvertretung,Berufsverband,Währinger Straße 14,1090,Wien,Bund,drogistenverband@drogistenhaus.at,http://www.drogistenverband.at/,,,Startseite,13.01.2021
-Agentur für Passagier- und Fahrgastrechte,Österreichische Gesellschaft für Schienenmarktregulierung mit beschränkter Haftung,Interessensvertretung,Dienstleister,Linke Wienzeile 4/1/6,1060,Wien,Bund,office@schienencontrol.gv.at,,+4315050707,,,21.08.2020
+Agentur für Passagier- und Fahrgastrechte,Österreichische Gesellschaft für Schienenmarktregulierung mit beschränkter Haftung,Interessensvertretung,Dienstleister,Linke Wienzeile 4/1/6,1060,Wien,Bund,office@schienencontrol.gv.at,https://www.schienencontrol.gv.at/,+4315050707,,Impressum,17.01.2021
 GBH,Gewerkschaft Bau-Holz,Interessensvertretung,Gewerkschaft,Johann-Böhm-Platz 1,1020,Wien,Bund,,http://www.bau-holz.at/,+4315344459,,Impressum,13.01.2021
 GPA,Gewerkschaft GPA,Interessensvertretung,Gewerkschaft,Alfred-Dallinger-Platz 1,1030,Wien,Bund,service@gpa.at,https://www.gpa.at/,+4350301301,,Impressum,13.01.2021
 GPF,Gewerkschaft der Post- und Fernmeldebediensteten,Interessensvertretung,Gewerkschaft,Johann-Böhm-Platz 1,1020,Wien,Bund,gpf@gpf.at,https://www.gpf.at/,+4315344449440,,Kontakt,13.01.2021
@@ -137,31 +135,29 @@ PROGE,Produktionsgewerkschaft,Interessensvertretung,Gewerkschaft,Johann-Böhm-Pl
 vida,Gewerkschaft vida,Interessensvertretung,Gewerkschaft,Johann-Böhm-Platz 1,1020,Wien,Bund,info@vida.at,https://www.vida.at/,+4315344479,,Impressum,13.01.2021
 younion,younion _ Die Daseinsgewerkschaft,Interessensvertretung,Gewerkschaft,Maria-Theresien-Straße 11,1090,Wien,Bund,info@younion.at,https://www.younion.at/,+431313168300,+431313169983600,Impressum,13.01.2021
 ÖGB,Österreichischer Gewerkschaftsbund,Interessensvertretung,Gewerkschaft,Johann-Böhm-Platz 1,1020,Wien,Bund,oegb@oegb.at,https://www.oegb.at/,+431534440,,Impressum,13.01.2021
-Apothekerkammer,Österreichische Apothekerkammer,Interessensvertretung,Kammer,Spitalgasse 31,1090,Wien,Bund,info@apotheker.or.at,,+43140414100,+4314088440,,18.08.2020
-Arbeiterkammer,Kammer für Arbeiter und Angestellte für Wien als Büro der Bundesarbeitskammer,Interessensvertretung,Kammer,Prinz-Eugen-Straße 20-22,1040,Wien,Bund,akmailbox@akwien.at,,+431501650,,,18.08.2020
-Bundeskammer der ZiviltechnikerInnen,Bundeskammer der ZiviltechnikerInnen,Interessensvertretung,Kammer,Karlsgasse 9/2,1040,Wien,Bund,office@arching.at,,+4315055807,+4315053211,,18.08.2020
-Kammer der Steuerberater und Wirtschaftsprüfer,Kammer der Steuerberater und Wirtschaftsprüfer,Interessensvertretung,Kammer,Schönbrunner Straße 222-228,1120,Wien,Bund,office@ksw.or.at,,+431811730,+43181173100,,18.08.2020
-Notariatskammer,Österreichische Notariatskammer,Interessensvertretung,Kammer,Landesgerichtsstraße 20,1010,Wien,Bund,kammer@notar.or.at,,+43140245090,+4314063475,,18.08.2020
-Patentanwaltskammer,Österreichische Patentanwaltskammer,Interessensvertretung,Kammer,Linke Wienzeile 4/1/9,1060,Wien,Bund,info@oepak.at,,+4315234382,+438109554103327,,18.08.2020
-Pharmazeutische Gehaltskasse,Pharmazeutische Gehaltskasse für Österreich,Interessensvertretung,Kammer,Spitalgasse 31,1090,Wien,Bund,office@gk.or.at,,+43140414200,+43140414249,,18.08.2020
-Tierärztekammer,Österreichische Tierärztekammer,Interessensvertretung,Kammer,Hietzinger Kai 87,1130,Wien,Bund,oe@tieraerztekammer.at,,+4315121766,+4315121470,,18.08.2020
-Wirtschaftskammer,Wirtschaftskammer Österreich,Interessensvertretung,Kammer,Wiedner Hauptstraße 63,1045,Wien,Bund,office@wko.at,,+43590900,+43590900250,,18.08.2020
-Zahnärztekammer,Österreichische Zahnärztekammer,Interessensvertretung,Kammer,Kohlmarkt 11/6,1010,Wien,Bund,office@zahnaerztekammer.at,,+4350511,+43505111167,,18.08.2020
-Ärztekammer,Österreichische Ärztekammer,Interessensvertretung,Kammer,Weihburggasse 10-12,1010,Wien,Bund,post@aerztekammer.at,,+431514063000,+431514063042,,18.08.2020
-Österreichischer Landarbeiterkammertag,Österreichischer Landarbeiterkammertag,Interessensvertretung,Kammer,Marco d´Avianogasse 1/1,1015,Wien,Bund,oelakt@landarbeiterkammer.at,,+4315122331,+431512233170,,18.08.2020
-Österreichischer Rechtsanwaltskammertag,Österreichischer Rechtsanwaltskammertag,Interessensvertretung,Kammer,Wollzeile 1-3,1010,Wien,Bund,rechtsanwaelte@oerak.at,,+43153512750,+431535127513,,18.08.2020
-Die Grünen,Die Grünen - Die Grüne Alternative,Interessensvertretung,Partei,Würtzlerstraße 3/3,1030,Wien,Bund,bundesbuero@gruene.at,,+431401106698,,,19.09.2020
-FPÖ,Freiheitliche Partei Österreichs,Interessensvertretung,Partei,Friedrich-Schmidt-Platz 4/3a,1080,Wien,Bund,bgst@fpoe.at,,+43151235350,+43151235359,,19.09.2020
-NEOS,NEOS – Das Neue Österreich und Liberales Forum,Interessensvertretung,Partei,Neustiftgasse 73-75/7,1070,Wien,Bund,kontakt@neos.eu,,+4315225000,,,19.09.2020
-SPÖ,"Sozialdemokratische Partei Österreichs, Bundesorganisation",Interessensvertretung,Partei,Löwelstraße 18,1010,Wien,Bund,spoe@spoe.at,,+4313910200,,,19.09.2020
-ÖVP,ÖVP (Österreichische Volkspartei) – Bundespartei,Interessensvertretung,Partei,Lichtenfelsgasse 7,1010,Wien,Bund,email@oevp.at,,+431401260,+43140126109,,19.09.2020
-Bundestheater Holding,Bundestheater-Holding GmbH,Kultur,Museum / Theater / Bibliothek,Goethegasse 1,1010,Wien,Bund,office@bundestheater.at,,+431514440,,,21.08.2020
-Burgtheater,Burgtheater GmbH,Kultur,Museum / Theater / Bibliothek,Universitätsring 2,1010,Wien,Bund,info@burgtheater.at,,+431514444545,,,21.08.2020
-Staatsoper,Wiener Staatsoper GmbH,Kultur,Museum / Theater / Bibliothek,Opernring 2,1010,Wien,Bund,information@wiener-staatsoper.at,,+431514442250,+431514442259,,21.08.2020
-Volksoper,Volksoper Wien,Kultur,Museum / Theater / Bibliothek,Währinger Straße 78,1090,Wien,Bund,office@volksoper.at,,+431514440,+431514443215,,21.08.2020
-Nationalfonds der Republik Österreich für Opfer des Nationalsozialismus,Nationalfonds der Republik Österreich für Opfer des Nationalsozialismus,Sozialleistungen,Dienstleister,"Parlament, Dr.-Karl-Renner-Ring 3",1017,Wien-Parlament,Bund,nf-sekretariat@nationalfonds.org,,+4314081263,,,21.08.2020
-Austria Wirtschaftsservice,Austria Wirtschaftsservice Gesellschaft m.b.H.,Wirtschaftsförderung,Dienstleister,Walcherstraße 11A,1020,Wien,Bund,post@aws.at,,+431501750,+43150175900,,21.08.2020
-Dorotheum,Dorotheum GmbH & Co KG,Wirtschaftsförderung,Dienstleister,Dorotheergasse 17,1010,Wien,Bund,client.services@dorotheum.at,,+431515600,+43151560443,,22.08.2020
+Apothekerkammer,Österreichische Apothekerkammer,Interessensvertretung,Kammer,Spitalgasse 31,1090,Wien,Bund,info@apotheker.or.at,https://www.apotheker.or.at/,+43140414100,+4314088440,Impressum,17.01.2021
+Arbeiterkammer,Kammer für Arbeiter und Angestellte für Wien als Büro der Bundesarbeitskammer,Interessensvertretung,Kammer,Prinz-Eugen-Straße 20-22,1040,Wien,Bund,akmailbox@akwien.at,https://www.arbeiterkammer.at/,+431501650,,Impressum,17.01.2021
+Bundeskammer der ZiviltechnikerInnen,Bundeskammer der ZiviltechnikerInnen,Interessensvertretung,Kammer,Karlsgasse 9/2,1040,Wien,Bund,office@arching.at,https://www.arching.at/,+4315055807,+4315053211,Kontakt,17.01.2021
+Kammer der Steuerberater und Wirtschaftsprüfer,Kammer der Steuerberater und Wirtschaftsprüfer,Interessensvertretung,Kammer,Schönbrunner Straße 222-228,1120,Wien,Bund,office@ksw.or.at,https://www.ksw.or.at/,+431811730,+43181173100,Impressum,17.01.2021
+Notariatskammer,Österreichische Notariatskammer,Interessensvertretung,Kammer,Landesgerichtsstraße 20,1010,Wien,Bund,kammer@notar.or.at,https://www.notar.at/,+43140245090,+4314063475,Impressum,17.01.2021
+Patentanwaltskammer,Österreichische Patentanwaltskammer,Interessensvertretung,Kammer,Linke Wienzeile 4/1/9,1060,Wien,Bund,info@oepak.at,https://www.oepak.at/,+4315234382,+438109554103327,Impressum,17.01.2021
+Tierärztekammer,Österreichische Tierärztekammer,Interessensvertretung,Kammer,Hietzinger Kai 87,1130,Wien,Bund,oe@tieraerztekammer.at,https://www.tieraerztekammer.at/,+4315121766,+4315121470,Impressum,17.01.2021
+Wirtschaftskammer,Wirtschaftskammer Österreich,Interessensvertretung,Kammer,Wiedner Hauptstraße 63,1045,Wien,Bund,office@wko.at,https://www.wko.at/,+43590900,+43590900250,Kontakt,17.01.2021
+Zahnärztekammer,Österreichische Zahnärztekammer,Interessensvertretung,Kammer,Kohlmarkt 11/6,1010,Wien,Bund,office@zahnaerztekammer.at,https://www.zahnaerztekammer.at/,+4350511,+43505111167,Impressum,17.01.2021
+Ärztekammer,Österreichische Ärztekammer,Interessensvertretung,Kammer,Weihburggasse 10-12,1010,Wien,Bund,post@aerztekammer.at,https://www.aerztekammer.at/,+431514063000,+431514063042,Impressum,17.01.2021
+Österreichischer Landarbeiterkammertag,Österreichischer Landarbeiterkammertag,Interessensvertretung,Kammer,Marco d´Avianogasse 1/1,1015,Wien,Bund,oelakt@landarbeiterkammer.at,https://www.landarbeiterkammer.at/,+4315122331,+431512233170,Impressum,17.01.2021
+Österreichischer Rechtsanwaltskammertag,Österreichischer Rechtsanwaltskammertag,Interessensvertretung,Kammer,Wollzeile 1-3,1010,Wien,Bund,rechtsanwaelte@oerak.at,https://www.rechtsanwaelte.at/,+43153512750,+431535127513,Impressum,17.01.2021
+Die Grünen,Die Grünen - Die Grüne Alternative,Interessensvertretung,Partei,Würtzlerstraße 3/3,1030,Wien,Bund,bundesbuero@gruene.at,https://www.gruene.at/,,,Impressum,19.09.2020
+FPÖ,Freiheitliche Partei Österreichs,Interessensvertretung,Partei,Friedrich-Schmidt-Platz 4/3a,1080,Wien,Bund,bgst@fpoe.at,https://www.fpoe.at/,+43151235350,,Impressum,19.09.2020
+NEOS,NEOS – Das Neue Österreich und Liberales Forum,Interessensvertretung,Partei,Neustiftgasse 73-75/7,1070,Wien,Bund,kontakt@neos.eu,https://www.neos.eu/,+4315225000,,Kontakt,19.09.2020
+SPÖ,"Sozialdemokratische Partei Österreichs, Bundesorganisation",Interessensvertretung,Partei,Löwelstraße 18,1010,Wien,Bund,spoe@spoe.at,https://www.spoe.at,+43153427,,Impressum,19.09.2020
+ÖVP,ÖVP (Österreichische Volkspartei) – Bundespartei,Interessensvertretung,Partei,Lichtenfelsgasse 7,1010,Wien,Bund,email@oevp.at,https://www.dieneuevolkspartei.at/,+431401260,+43140126109,Impressum,19.09.2020
+Bundestheater Holding,Bundestheater-Holding GmbH,Kultur,Museum / Theater / Bibliothek,Goethegasse 1,1010,Wien,Bund,office@bundestheater.at,https://www.bundestheater.at/,+431514440,,Impressum,17.01.2021
+Burgtheater,Burgtheater GmbH,Kultur,Museum / Theater / Bibliothek,Universitätsring 2,1010,Wien,Bund,info@burgtheater.at,https://www.burgtheater.at/,+431514444545,,Impressum,17.01.2021
+Staatsoper,Wiener Staatsoper GmbH,Kultur,Museum / Theater / Bibliothek,Opernring 2,1010,Wien,Bund,information@wiener-staatsoper.at,https://www.wiener-staatsoper.at/,+431514442250,+431514442259,Impressum,17.01.2021
+Volksoper,Volksoper Wien GmbH,Kultur,Museum / Theater / Bibliothek,Währinger Straße 78,1090,Wien,Bund,office@volksoper.at,https://www.volksoper.at/,+431514440,+431514443215,Impressum,17.01.2021
+Nationalfonds der Republik Österreich für Opfer des Nationalsozialismus,Nationalfonds der Republik Österreich für Opfer des Nationalsozialismus,Sozialleistungen,Dienstleister,"Parlament, Dr.-Karl-Renner-Ring 3",1017,Wien-Parlament,Bund,office@nationalfonds.org,https://www.nationalfonds.org/,+4314081263,+4314081263500,Kontakt,17.01.2021
+Austria Wirtschaftsservice,Austria Wirtschaftsservice Gesellschaft m.b.H.,Wirtschaftsförderung,Dienstleister,Walcherstraße 11A,1020,Wien,Bund,post@aws.at,https://www.aws.at/,+431501750,+43150175900,Impressum,17.01.2021
 BH Eisenstadt-Umgebung,Bezirkshauptmannschaft Eisenstadt-Umgebung,Bezirksbehörde,Administration,Ing. Julius Raab-Straße 1,7000,Eisenstadt,Burgenland,bh.eisenstadt@bgld.gv.at,,+4357600,+435760074177,,25.08.2020
 BH Güssing,Bezirkshauptmannschaft Güssing,Bezirksbehörde,Administration,Hauptstraße 1,7540,Güssing,Burgenland,bh.guessing@bgld.gv.at,,+43576004691,+43576004670,,25.08.2020
 BH Jennersdorf,Bezirkshauptmannschaft Jennersdorf,Bezirksbehörde,Administration,Hauptplatz 15,8380,Jennersdorf,Burgenland,bh.jennersdorf@bgld.gv.at,,+43576004700,+43576004777,,25.08.2020
