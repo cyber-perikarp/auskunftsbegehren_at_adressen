@@ -7,10 +7,6 @@ set -e
 # We are in a subfolder
 cd $TRAVIS_BUILD_DIR
 
-find upload/js/ -type f \
-    -name "*.js" ! -name "*.min.*" ! -name "vfs_fonts*" \
-    -exec uglifyjs {} --comments -c -m -o {} \;
-
 find upload/css/ -type f \
     -name "*.css" ! -name "*.min.*" \
     -exec uglifycss {} --output {} \;
