@@ -4,9 +4,7 @@ os: linux
 
 install:
   - sudo add-apt-repository -y ppa:longsleep/golang-backports > /dev/null
-  - sudo apt-key adv --fetch-keys 'https://mariadb.org/mariadb_release_signing_key.asc' > /dev/null
-  - sudo add-apt-repository -y 'deb [arch=amd64,arm64,ppc64el] http://ams2.mirrors.digitalocean.com/mariadb/repo/10.5/ubuntu focal main' > /dev/null
-  - sudo apt-get install -y golang-go python3-mysqldb wget rsync minify npm > /dev/null
+  - sudo apt-get install -y golang-go wget rsync minify npm > /dev/null
   - export GOPATH=/tmp/go && go get github.com/Clever/csvlint/cmd/csvlint > /dev/null
   - pip install -r .exporter/requirements.txt > /dev/null
   - npm install --global uglify-js uglifycss > /dev/null
